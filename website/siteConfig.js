@@ -11,7 +11,7 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'User1',
+    caption: 'Habitica',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     image: '/img/docusaurus.svg',
@@ -21,8 +21,8 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
+  title: 'Habitica', // Title for your website.
+  tagline: 'Gamify Your Life',
   url: 'https://your-docusaurus-test-site.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
