@@ -17,10 +17,31 @@ This website was created with [Docusaurus](https://docusaurus.io/).
 $ yarn
 ```
 2. Run your dev server:
-
 ```sh
 # Start the site
+$ cd website
 $ yarn start
+```
+1. Build the website
+```sh
+$ cd website
+$ yarn run build
+```
+
+4. Commit to gh-pages
+```
+$ git checkout gh-pages
+```
+After building the app, add only the generated /website to gh-pages. In the root folder run:
+```   
+$ git add -f website/build/Wiki/ && git commit -m"Build and Deploy website"
+```
+-f is needed because /website is in the .gitignore
+
+5. Deploy to gh-pages
+Push only the created subtree with the generated static site
+```
+$ git subtree push --prefix website/build/Wiki/ origin gh-pages
 ```
 
 ## Directory Structure
