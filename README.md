@@ -32,16 +32,16 @@ $ yarn run build
 ```
 $ git checkout gh-pages
 ```
-After building the app, add only the generated /website to gh-pages. In the root folder run:
+After building the app, add only the generated /website to gh-pages. **In the root folder** run:
 ```   
-$ git add -f website/build/Wiki/ && git commit -m"Build and Deploy website"
+$ git add -f website/build/Habitica/ && git commit -m"Build and Deploy website"
 ```
 -f is needed because /website is in the .gitignore
 
 5. Deploy to gh-pages
 Push only the created subtree with the generated static site
 ```
-$ git subtree push --prefix website/build/Wiki/ origin gh-pages
+$ git subtree push --prefix website/build/Habitica/ origin gh-pages
 ```
 
 ## Directory Structure
