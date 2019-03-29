@@ -56,11 +56,11 @@ class HomeSplash extends React.Component {
         {/* <Logo img_src={`${baseUrl}img/docusaurus.svg`} /> */}
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
-          <PromoSection>
+          {/* <PromoSection>
             <Button href="#try">Try It Out</Button>
             <Button href={docUrl('doc1.html')}>Example Link</Button>
             <Button href={docUrl('doc2.html')}>Example Link 2</Button>
-          </PromoSection>
+          </PromoSection> */}
         </div>
       </SplashContainer>
     );
@@ -89,12 +89,12 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
+        <h2>Explicar o habitica</h2>
         <MarkdownBlock>These are features of this project</MarkdownBlock>
       </div>
-    );
+    ); 
 
-    const TryOut = () => (
+    /* const TryOut = () => (
       <Block id="try">
         {[
           {
@@ -105,9 +105,9 @@ class Index extends React.Component {
           },
         ]}
       </Block>
-    );
+    ); */
 
-    const Description = () => (
+    /* const Description = () => (
       <Block background="dark">
         {[
           {
@@ -119,41 +119,41 @@ class Index extends React.Component {
           },
         ]}
       </Block>
-    );
+    ); */
 
     const LearnHow = () => (
       <Block background="light">
         {[
           {
-            content: 'Talk about learning how to use this',
+            content: 'Bota os gits',
             //image: `${baseUrl}img/docusaurus.svg`,
             //imageAlign: 'right',
-            title: 'Learn How',
+            title: 'Nossos rostos lindos aqui',
           },
         ]}
       </Block>
     );
-
+ 
     const Features = () => (
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
+            content: 'o que o habitica faz 1',
             //image: `${baseUrl}img/docusaurus.svg`,
             //imageAlign: 'top',
-            title: 'Feature One',
+            title: 'o que o habitica faz 1',
           },
           {
-            content: 'The content of my second feature',
+            content: 'o que o habitica faz 2',
             //image: `${baseUrl}img/docusaurus.svg`,
             //imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'o que o habitica faz 2',
           },
         ]}
       </Block>
     );
 
-    const Showcase = () => {
+    /* const Showcase = () => {
       if ((siteConfig.users || []).length === 0) {
         return null;
       }
@@ -172,7 +172,7 @@ class Index extends React.Component {
         <div className="productShowcaseSection paddingBottom">
           <h2>Who is Using This?</h2>
           <p>This project is used by all these people</p>
-          {/* <div className="logos">{showcase}</div> */}
+           <div className="logos">{showcase}</div> 
           <div className="more-users">
             <a className="button" href={pageUrl('users.html')}>
               More {siteConfig.title} Users
@@ -180,7 +180,7 @@ class Index extends React.Component {
           </div>
         </div>
       );
-    };
+    }; */
 
     return (
       <div>
@@ -188,10 +188,10 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase />
+          <LearnHow /> 
+         {/*  <TryOut /> */}
+          {/* <Description /> */}
+         {/*  <Showcase /> */}
         </div>
       </div>
     );
