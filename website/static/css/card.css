@@ -3,28 +3,35 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  
   overflow: hidden;
   width: 26rem;
   height: 26rem;
   border-radius: 50%;
-  transition: .5s all;
+  background-color: white;
+  transition: var(--transition-fast);
   box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.35);
-  border: 3px solid var(--color-secondary);
 }
 
 .card__name {
   font-size: 2rem;
   font-weight: bold;
-  color: white;
+  color: var(--color-primary);
   position: absolute;
   opacity: 0;
-  transition: .5s all;
+  transition: var(--transition-fast);
+  z-index: 100;
 }
 
 /* ANIMATIONS */
 .card:hover {
-  transform: translateY(-1rem);
+  transform: translateY(-1.1rem);
   box-shadow: 0 12px 1.8rem rgba(0, 0, 0, 0.4);
+}
+
+.card:hover .card__img {
+  transition: var(--transition-fast);
+  opacity: .2;
 }
 
 .card:hover .card__name {
@@ -34,12 +41,13 @@
 .card__name::after {
   display: block;
   content: "";
-  background-color: white;
-  height: .15rem;
+  margin-left: 20%;
+  background-color: var(--color-primary);
+  height: .2rem;
   width: 0rem;
-  transition: all 1s;
+  transition: var(--transition-fast);
 }
 
 .card:hover .card__name::after {
-  width: 100%;
+  width: 60%;
 }

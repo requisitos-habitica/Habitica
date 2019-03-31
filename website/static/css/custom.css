@@ -22,6 +22,15 @@ html {
   box-sizing: inherit;
 }
 
+:root {
+  --color-primary: #4F0075;
+  --color-primary-light: #8107b9;
+  --color-secondary: #41005E;
+
+  --transition-fast: .5s all;
+  --transition-slow: .9s all;
+}
+
 .contributors-container {
   /* Telas menores, remover space-between */
   width: 80%;
@@ -31,10 +40,6 @@ html {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-}
-:root {
-  --color-primary: #4F0075;
-  --color-secondary: #41005E;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
