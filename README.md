@@ -1,10 +1,3 @@
-<svg width="659" height="659" viewBox="0 0 659 659" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<path fill-rule="evenodd" clip-rule="evenodd" d="M329.5 659C511.478 659 659 511.478 659 329.5C659 147.522 511.478 0 329.5 0C147.522 0 0 147.522 0 329.5C0 511.478 147.522 659 329.5 659Z" fill="url(#pattern0)"/>
-
-<p align="center"><img width="240" style="border-radius: 50%; height: 13em; width: 14rem" src="https://habitica.com/static/presskit/Promo/Promo.png"></p>
-
-<br>
-
 ## Equipe
 
 | Nome              |Matrícula   | GitHub          | E-mail                          |
