@@ -35,9 +35,9 @@ const contributors = [
     github: 'https://github.com/rogerioo' 
   },
   {
-    name: 'Kaique',
-    img: 'img/youssef.jpeg',
-    github: 'https://github.com/' 
+    name: 'Kaique Henrique',
+    img: 'img/kaique.jpeg',
+    github: 'https://github.com/kaiqueborges' 
   }
 ]
 

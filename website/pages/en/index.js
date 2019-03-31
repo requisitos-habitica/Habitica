@@ -52,28 +52,6 @@ class Index extends React.Component {
       </Container>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Explicar o habitica</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
-      </div>
-    ); 
-
-    const LearnHow = () => (
-      <Block background="light">
-        {[
-          {
-            content: 'Bota os gits',
-            //image: `${baseUrl}img/docusaurus.svg`,
-            //imageAlign: 'right',
-            title: 'Nossos rostos lindos aqui',
-          },
-        ]}
-      </Block>
-    );
- 
     const Features = () => (
       <Block layout="fourColumn">
         {[
@@ -93,13 +71,37 @@ class Index extends React.Component {
       </Block>
     );
 
+    const FeatureCallout = () => (
+      <div
+        className="productShowcaseSection paddingBottom"
+        style={{textAlign: 'center'}}>
+        <h2>Explicar o habitica</h2>
+        <MarkdownBlock>These are features of this project</MarkdownBlock>
+      </div>
+    ); 
+
+    const ContributorCard = ({name, img, github}) => (
+      <div>
+        <h1>{ name }</h1>
+        <img src={ img }/>
+        <p>{ github }</p>
+      </div>
+    )
+
+    const Contributors = () => (
+      <div>
+        {siteConfig.contributors.map(c => <ContributorCard  key={ c.name }  name={ c.name } 
+                                                            img={ c.img }   github={ c.github }/>)}
+      </div>
+    );
+
     return (
       <div>
         <HomeSplash siteConfig={siteConfig} language={language} />
         <div className="mainContainer">
           <Features />
           <FeatureCallout />
-          <LearnHow /> 
+          <Contributors /> 
         </div>
       </div>
     );
