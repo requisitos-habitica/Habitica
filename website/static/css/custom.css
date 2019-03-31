@@ -12,7 +12,7 @@ html {
 
 @media only screen and (min-width: 1800px) {
   html {
-    font-size: 68.5%; /* 1rem = 10px; 10px/16px = 62.5% */
+    font-size: 75.5%; /* 1rem = 10px; 10px/16px = 62.5% */
   }
 };
 
@@ -23,40 +23,18 @@ html {
 }
 
 .contributors-container {
+  /* Telas menores, remover space-between */
   width: 80%;
+  height: 80rem;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
-
-.card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: red;
-  width: 28rem;
-}
-
-.card__name {
-  font-size: 2rem;
-  font-weight: bold;
-  color: white;
-  position: absolute;
-}
-
-.card__name::after {
-  display: block;
-  content: "";
-  background-color: white;
-  height: .2rem;
-  width: 0rem;
-  transition: all .4s;
-}
-
-.card:hover .card__name::after {
-  width: 100%;
+:root {
+  --color-primary: #4F0075;
+  --color-secondary: #41005E;
 }
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {

@@ -1,0 +1,45 @@
+
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 26rem;
+  height: 26rem;
+  border-radius: 50%;
+  transition: .5s all;
+  box-shadow: 0 5px 1rem rgba(0, 0, 0, 0.35);
+  border: 3px solid var(--color-secondary);
+}
+
+.card__name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  opacity: 0;
+  transition: .5s all;
+}
+
+/* ANIMATIONS */
+.card:hover {
+  transform: translateY(-1rem);
+  box-shadow: 0 12px 1.8rem rgba(0, 0, 0, 0.4);
+}
+
+.card:hover .card__name {
+  opacity: 1;
+}
+
+.card__name::after {
+  display: block;
+  content: "";
+  background-color: white;
+  height: .15rem;
+  width: 0rem;
+  transition: all 1s;
+}
+
+.card:hover .card__name::after {
+  width: 100%;
+}
