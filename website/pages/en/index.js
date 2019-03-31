@@ -81,15 +81,14 @@ class Index extends React.Component {
     ); 
 
     const ContributorCard = ({name, img, github}) => (
-      <div>
-        <h1>{ name }</h1>
-        <img src={ img }/>
-        <p>{ github }</p>
+      <div className="card">
+        <p className="card__name">{ name }</p>
+        <a href={ github }><img src={ img }/></a>
       </div>
     )
 
     const Contributors = () => (
-      <div>
+      <div className="contributors-container">
         {siteConfig.contributors.map(c => <ContributorCard  key={ c.name }  name={ c.name } 
                                                             img={ c.img }   github={ c.github }/>)}
       </div>

@@ -32,10 +32,32 @@ html {
 }
 
 .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: red;
   width: 28rem;
 }
 
+.card__name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  position: absolute;
+}
+
+.card__name::after {
+  display: block;
+  content: "";
+  background-color: white;
+  height: .2rem;
+  width: 0rem;
+  transition: all .4s;
+}
+
+.card:hover .card__name::after {
+  width: 100%;
+}
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
