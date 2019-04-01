@@ -21,5 +21,19 @@ html {
 }
 
 h1, h2, h3, h4, h5 {
-  font-size: 3rem !important;
+  font-size: 3.2rem !important;
+}
+
+.headerTitleWithLogo { font-size: 2.2rem !important; }
+
+li a {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+::selection {
+  background: rgb(239, 210, 255);
+}
+::-moz-selection {
+  background: rgb(239, 210, 255);
 }

@@ -1,6 +1,5 @@
 const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
-const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 
 class Index extends React.Component {
   render() {
@@ -28,25 +27,26 @@ class Index extends React.Component {
       </section>
     );
 
-    const FeatureCallout = () => (
-      <div
-        className="productShowcaseSection paddingBottom"
-        style={{textAlign: 'center'}}>
-        <h2>Explicar o habitica</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+    const About = () => (
+      <div className="about">
+        <h1>O que é o Habitica ?</h1>
+        <p>
+          Habitica é uma aplicação gamificada para ajudar seus usuários a criar ou melhorar hábitos na vida real.
+          O app contém prêmios e punições para motivar o usuário e uma rede social para inspirá-lo.  
+        </p>
       </div>
     ); 
 
     const ContributorCard = ({ name, img, github }) => (
       <a href={ github } className="card">
-          <p className="card__name">{ name }</p>
-          <img src={ img } className="card__img"/>
+        <p className="card__name">{ name }</p>
+        <img src={ img } className="card__img"/>
       </a>
     )
 
     const Contributors = () => (
       <section className="contributors">
-        <h1 className="contributors__title">Contribuidores</h1>
+        <h1>Contribuidores</h1>
         <div className="cards-container">
           {siteConfig.contributors.map(c => <ContributorCard  key={ c.name }  name={ c.name } 
                                                               img={ c.img }   github={ c.github }/>)}
@@ -57,8 +57,8 @@ class Index extends React.Component {
     return (
       <div>
         <Hero siteConfig={siteConfig}/>
+        <About />
         <Features />
-        <FeatureCallout />
         <Contributors /> 
       </div>
     );
