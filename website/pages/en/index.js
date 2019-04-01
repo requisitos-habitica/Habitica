@@ -1,25 +1,10 @@
 const React = require('react');
 const CompLibrary = require('../../core/CompLibrary.js');
 const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
-const Container = CompLibrary.Container;
-const GridBlock = CompLibrary.GridBlock;
 
 class Index extends React.Component {
   render() {
     const {config: siteConfig } = this.props;
-
-    const Block = props => (
-      <Container
-        padding={['bottom', 'top']}
-        id={props.id}
-        background={props.background}>
-        <GridBlock
-          align="center"
-          contents={props.children}
-          layout={props.layout}
-        />
-      </Container>
-    );
 
     const Hero = () => (
       <section className="hero">
@@ -27,9 +12,18 @@ class Index extends React.Component {
       </section>
     );
 
+    const Feature = ({ title, img, text }) => (
+      <div>
+        <h1>{ title }</h1>
+        <img src={ img }/>
+        <p>{ text }</p>
+      </div>
+    )
+
     const Features = () => (
       <section className="features">
-        {siteConfig.features.map(f => <h1>{f.title}</h1>) }
+        {siteConfig.features.map(f => <Feature  key={ f.title } title={ f.title } 
+                                                img={ f.img }   text={ f.text }/>) }
       </section>
     );
 

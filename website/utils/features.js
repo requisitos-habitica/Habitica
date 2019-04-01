@@ -6,8 +6,8 @@ const features = [
   },
   {
     title: 'Evolua e desbrave o nosso Universo', 
-    img: 'img/inAppHabits.svg',
-    text: 'o que o habitica faz 2'
+    img: 'img/inAppGroupAndStore.svg',
+    text: 'Evolua e desbrave nosso universo com seus amigos'
   }
 ]
 
