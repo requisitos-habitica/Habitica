@@ -1,21 +1,11 @@
-/**
- * Copyright (c) 2017-present, Facebook, Inc.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
+const contributors = require('./utils/contributors');
+const features = require('./utils/features');
 
-// See https://docusaurus.io/docs/site-config for all the possible
-// site configuration options.
-
-// List of projects/orgs using your project for the users page.
 const users = [
   {
     caption: 'Habitica',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
-    
-    //image: '/img/docusaurus.svg',
     infoLink: 'https://habitica.com',
     pinned: true,
   },
@@ -26,18 +16,10 @@ const siteConfig = {
   tagline: 'Gamify Your Life',
   url: 'https://requisitos-habitica.github.io', // Your website URL
   baseUrl: '/Habitica/', // Base URL for your project */
-  // For github.io type URLs, you would set the url and baseUrl like:
-  //   url: 'https://facebook.github.io',
-  //   baseUrl: '/test-site/',
-
-  // Used for publishing and more
+ 
   projectName: 'Habitica',
   organizationName: 'requisitos-habitica',
-  // For top-level user or org sites, the organization is still the same.
-  // e.g., for the https://JoelMarcey.github.io site, it would be set like...
-  //   organizationName: 'JoelMarcey'
-
-  // For no header links in the top nav bar -> headerLinks: [],
+ 
   headerLinks: [
     {doc: 'preRastreabilidade', label: 'Pré-Rastreabilidade'},
     {doc: 'posRastreabilidade', label: 'Pós-Rastreabilidade'},
@@ -49,15 +31,15 @@ const siteConfig = {
   // If you have users set above, you add it here:
   users,
 
-  /* path to images for header/footer */
-  /* headerIcon: 'img/docusaurus.svg',
-  footerIcon: 'img/docusaurus.svg',
-  favicon: 'img/favicon.png', */
+  headerIcon: 'img/habitica-logo.svg',
+  heroLogo: 'img/hero-logo.png',
+  contributors: contributors,
+  features: features,
 
   /* Colors for website */
   colors: {
-    primaryColor: '#3B3266',
-    secondaryColor: '#443674',
+    primaryColor: '#4F0075',
+    secondaryColor: '#41005E',
   },
 
   /* Custom fonts for website */
@@ -75,7 +57,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Requisitos: Habitica`,
+  copyright: `Copyright © ${new Date().getFullYear()} Requisitos Habitica`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -92,7 +74,6 @@ const siteConfig = {
 
   // Open Graph and Twitter card images.
   //ogImage: 'img/docusaurus.png',
-  twitterImage: 'img/docusaurus.png',
 
   // Show documentation's last contributor's name.
   // enableUpdateBy: true,
