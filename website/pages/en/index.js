@@ -1,24 +1,25 @@
 const React = require('react');
-const CompLibrary = require('../../core/CompLibrary.js');
 
 class Index extends React.Component {
   render() {
     const {config: siteConfig } = this.props;
 
+    
     const Hero = () => (
-      <section className="hero">
+      <header className="hero">
         <img src={ siteConfig.heroLogo }/>
-      </section>
+      </header>
     );
 
     const Feature = ({ title, img, text }) => (
       <div className="feature">
+        <div>
         <h1 className="feature__title">{ title }</h1>
         <img src={ img } className="feature__img"/>
         <p className="feature__text">{ text }</p>
+        </div>
       </div>
     )
-    
 
     const Features = () => (
       <section className="features">

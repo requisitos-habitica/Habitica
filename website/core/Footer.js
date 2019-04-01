@@ -81,9 +81,10 @@ class Footer extends React.Component {
               Star
             </a>
           </div>*/}
-          <p style={{color: "white", margin: "0 auto", fontSize: "32px"}}>Um footer bonitao aqui</p>
+          <p style={{color: "white", margin: "0 auto", marginTop:"60px" , fontSize: "20px"}}>
+            {this.props.config.copyright}
+          </p>
         </section> 
-        <section className="copyright">{this.props.config.copyright}</section>
       </footer>
     );
   }
