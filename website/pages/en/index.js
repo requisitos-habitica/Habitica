@@ -1,43 +1,12 @@
 const React = require('react');
-
 const CompLibrary = require('../../core/CompLibrary.js');
-
 const MarkdownBlock = CompLibrary.MarkdownBlock; /* Used to read markdown */
 const Container = CompLibrary.Container;
 const GridBlock = CompLibrary.GridBlock;
 
-class HomeSplash extends React.Component {
-  render() {
-    const { siteConfig } = this.props;
-
-    const SplashContainer = props => (
-      <div className="homeContainer">
-        <div className="homeSplashFade">
-          <div className="wrapper homeWrapper">{props.children}</div>
-        </div>
-      </div>
-    );
-
-    const ProjectTitle = () => (
-      <h2 className="projectTitle">
-        {siteConfig.title}
-        <small>{siteConfig.tagline}</small>
-      </h2>
-    );
-
-    return (
-      <SplashContainer>
-        <div className="inner">
-          <ProjectTitle siteConfig={siteConfig} />
-        </div>
-      </SplashContainer>
-    );
-  }
-}
-
 class Index extends React.Component {
   render() {
-    const {config: siteConfig, language = ''} = this.props;
+    const {config: siteConfig } = this.props;
 
     const Block = props => (
       <Container
@@ -52,20 +21,26 @@ class Index extends React.Component {
       </Container>
     );
 
+    const Hero = () => (
+      <section className="hero">
+        <img src={ siteConfig.heroLogo }/>
+      </section>
+    );
+
     const Features = () => (
       <Block layout="fourColumn">
         {[
           {
-            content: 'o que o habitica faz 1',
+            title: 'Divirta-se organizando sua vida',
+            content: 'Nunca foi tão legal organizar suas tarefas e as do seus grupos',
             //image: `${baseUrl}img/docusaurus.svg`,
             //imageAlign: 'top',
-            title: 'o que o habitica faz 1',
           },
           {
+            title: 'Desbrave o nosso Universo',
             content: 'o que o habitica faz 2',
             //image: `${baseUrl}img/docusaurus.svg`,
             //imageAlign: 'top',
-            title: 'o que o habitica faz 2',
           },
         ]}
       </Block>
@@ -88,15 +63,18 @@ class Index extends React.Component {
     )
 
     const Contributors = () => (
-      <div className="contributors-container">
-        {siteConfig.contributors.map(c => <ContributorCard  key={ c.name }  name={ c.name } 
-                                                            img={ c.img }   github={ c.github }/>)}
-      </div>
+      <section className="contributors">
+        <h1 className="contributors__title">Contribuidores</h1>
+        <div className="cards-container">
+          {siteConfig.contributors.map(c => <ContributorCard  key={ c.name }  name={ c.name } 
+                                                              img={ c.img }   github={ c.github }/>)}
+        </div>
+      </section>
     );
 
     return (
       <div>
-        <HomeSplash siteConfig={siteConfig} language={language} />
+        <Hero siteConfig={siteConfig}/>
         <div className="mainContainer">
           <Features />
           <FeatureCallout />

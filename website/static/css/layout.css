@@ -1,0 +1,25 @@
+:root {
+  --color-primary: #4F0075;
+  --color-primary-light: #6B00A4;
+
+  --color-secondary: #500077
+  --color-secondary-dark: #41005E;
+
+  --transition-fast: .5s all;
+  --transition-slow: .9s all;
+}
+
+.hero {
+  background-image: linear-gradient(to right bottom, #6B00A4, #41005E);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 95vh;
+}
+
+.contributors {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+

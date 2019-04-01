@@ -41,6 +41,7 @@ const siteConfig = {
 
   /* path to images for header/footer */
   headerIcon: 'img/habitica-logo.svg',
+  heroLogo: 'img/hero-logo.png',
   /*footerIcon: 'img/docusaurus.svg',
   favicon: 'img/favicon.png', */
 
