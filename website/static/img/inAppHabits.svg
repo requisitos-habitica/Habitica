@@ -2,6 +2,7 @@
 <g clip-path="url(#clip0)">
 <rect width="1421" height="1433" fill="white"/>
 <rect y="-756" width="1421" height="2231" fill="url(#pattern0)"/>
+<rect x="5" y="5" width="1411" height="1423" stroke="#432576" stroke-width="10"/>
 </g>
 <defs>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">

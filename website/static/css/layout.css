@@ -10,11 +10,14 @@
 }
 
 .hero {
-  background-image: linear-gradient(to right bottom, #6B00A4, #41005E);
+  background-image: linear-gradient(to right bottom, #6B00A4, #500077);
   display: flex;
   justify-content: center;
   align-items: center;
   height: 95vh;
+}
+
+.hero img {
 }
 
 .contributors {

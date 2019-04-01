@@ -2,13 +2,15 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
+  margin: 15rem 0;
 }
 
 .feature {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
+  height: 70rem;
 }
 
 .feature__title {
@@ -17,18 +19,16 @@
   margin-bottom: 2rem
 }
 
-.feature__title::after {
-  display: inline-block;
-  content: "";
-  background-color: var(--color-primary);
-  width: 35%;
-  height: .3rem;
-  text-align: center;
-}
+
 
 .feature__img {
   width: 45rem;
   box-shadow: 0 0rem 2rem rgba(0, 0, 0, 0.4);
+  transition: all .5s;
+}
+
+.feature__img:hover {
+  box-shadow: 0 0rem 2.5rem rgba(0, 0, 0, 0.4);
 }
 
 .feature__text {

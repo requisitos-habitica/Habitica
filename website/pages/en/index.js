@@ -57,11 +57,9 @@ class Index extends React.Component {
     return (
       <div>
         <Hero siteConfig={siteConfig}/>
-        <div className="mainContainer">
-          <Features />
-          <FeatureCallout />
-          <Contributors /> 
-        </div>
+        <Features />
+        <FeatureCallout />
+        <Contributors /> 
       </div>
     );
   }
