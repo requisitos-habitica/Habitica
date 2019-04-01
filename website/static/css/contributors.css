@@ -1,8 +1,3 @@
-.contributors__title {
-  color: var(--color-primary);
-  margin-bottom: 5rem;
-}
-
 .cards-container {
   /* Telas menores, remover space-between */
   width: 80%;

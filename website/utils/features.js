@@ -7,7 +7,7 @@ const features = [
   {
     title: 'Evolua e desbrave o nosso Universo', 
     img: 'img/inAppGroupAndStore.svg',
-    text: 'Evolua e desbrave nosso universo com seus amigos'
+    text: 'Compre itens e crie grupos para lutar contra monstros'
   }
 ]
 

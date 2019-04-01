@@ -13,12 +13,13 @@ class Index extends React.Component {
     );
 
     const Feature = ({ title, img, text }) => (
-      <div>
-        <h1>{ title }</h1>
-        <img src={ img }/>
-        <p>{ text }</p>
+      <div className="feature">
+        <h1 className="feature__title">{ title }</h1>
+        <img src={ img } className="feature__img"/>
+        <p className="feature__text">{ text }</p>
       </div>
     )
+    
 
     const Features = () => (
       <section className="features">

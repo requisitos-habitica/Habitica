@@ -1,0 +1,37 @@
+.features {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature__title {
+  color: var(--color-primary);
+  text-align: center;
+  margin-bottom: 2rem
+}
+
+.feature__title::after {
+  display: inline-block;
+  content: "";
+  background-color: var(--color-primary);
+  width: 35%;
+  height: .3rem;
+  text-align: center;
+}
+
+.feature__img {
+  width: 45rem;
+  box-shadow: 0 0rem 2rem rgba(0, 0, 0, 0.4);
+}
+
+.feature__text {
+  font-size: 2rem;
+  margin-top: 2rem;
+}
