@@ -37,7 +37,7 @@ class Index extends React.Component {
       </div>
     ); 
 
-    const ContributorCard = ({name, img, github}) => (
+    const ContributorCard = ({ name, img, github }) => (
       <a href={ github } className="card">
           <p className="card__name">{ name }</p>
           <img src={ img } className="card__img"/>
