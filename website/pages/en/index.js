@@ -28,22 +28,9 @@ class Index extends React.Component {
     );
 
     const Features = () => (
-      <Block layout="fourColumn">
-        {[
-          {
-            title: 'Divirta-se organizando sua vida',
-            content: 'Nunca foi tão legal organizar suas tarefas e as do seus grupos',
-            //image: `${baseUrl}img/docusaurus.svg`,
-            //imageAlign: 'top',
-          },
-          {
-            title: 'Desbrave o nosso Universo',
-            content: 'o que o habitica faz 2',
-            //image: `${baseUrl}img/docusaurus.svg`,
-            //imageAlign: 'top',
-          },
-        ]}
-      </Block>
+      <section className="features">
+        {siteConfig.features.map(f => <h1>{f.title}</h1>) }
+      </section>
     );
 
     const FeatureCallout = () => (
