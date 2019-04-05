@@ -14,12 +14,12 @@
 | Kaique Borges     | 17/0014771 | kaiqueborges    |    rique.kaique@gmail.com       |
 | Lucas Dutra       | 17/0050939 | lucasdutraf     |       ldutra98@gmail.com        |
 | Pedro Féo         | 17/0020461 | phe0            |        pheofo@gmail.com         |
-| Rogério Júnior    | 17/0021751 | rogerioo        |      fhargreaves00@gmail.com    |
+| Rogério Júnior    | 17/0021751 | rogerioo        |      junior.rogerio8@gmail.com  |
 | Saleh Nazih       | 16/0144485 | devsalula       |    saleh.nazih.dev@gmail.com    |
 | Youssef Muhamad   | 17/0024334 | youssef-md      | emaildeyoussefmuhamad@gmail.com |
 
 <hr/>
-<p align="center"><b>Grupo 1</b></p>
+<p align="center"><b>Grupo 2</b></p>
 <p align="center">Requisitos de <i>Software</i><br /><br />
 <a href="https://fga.unb.br" target="_blank"><img width="230"src="https://4.bp.blogspot.com/-0aa6fAFnSnA/VzICtBQgciI/AAAAAAAARn4/SxVsQPFNeE0fxkCPVgMWbhd5qIEAYCMbwCLcB/s1600/unb-gama.png"></a>
 </p>
