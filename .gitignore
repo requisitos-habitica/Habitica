@@ -1,5 +1,5 @@
 .DS_Store
-
+/.vscode
 /node_modules
 /.pnp
 .pnp.js
