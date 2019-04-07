@@ -5,7 +5,7 @@
                       var(--color-purple-dark)
                     );
 
-  height: 95vh;
+  height: 100vh;
   clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
 
   display: flex;
@@ -13,4 +13,8 @@
   justify-content: center;
   align-items: center;
 
+  &__logo {
+    width: 32rem;
+    height: 28rem;
+  }
 }

@@ -24,6 +24,17 @@ html {
 
 h1 {
   font-family: 'Varela Round', sans-serif;
+  color: var(--color-purple-light);
+  font-size: 3rem;
+  margin: 4rem 0;
+
+  &::after {
+    content: '';
+    display: block;
+    margin-left: 47.5%;
+    width: 6rem;
+    border-bottom: 2px solid var(--color-purple);
+  }
 }
 
 body {

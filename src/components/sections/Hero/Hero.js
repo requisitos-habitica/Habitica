@@ -1,10 +1,10 @@
 import React from 'react'
 import './Hero.scss'
+import habiticaLogo from '../../../assets/hero-logo.png'
 
 const Hero = () => (
   <header className="hero">
-    <h1>habitica</h1>
-    <h2>Gamify Your Life</h2>
+    <img className="hero__logo" src={ habiticaLogo } alt="Logo do Habitica"/>
   </header>  
 )
 
