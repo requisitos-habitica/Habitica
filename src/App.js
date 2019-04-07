@@ -1,10 +1,11 @@
 import React from 'react'
 import './App.scss'
+import Hero from './components/sections/Hero/Hero';
 
 const App = () => {
 
   return (
-    <h1>Habitica</h1>
+    <Hero/>
   )
 }
 

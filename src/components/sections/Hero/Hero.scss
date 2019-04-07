@@ -1,0 +1,16 @@
+.hero {
+  background-image: linear-gradient(
+                      to right bottom, 
+                      var(--color-purple-light),
+                      var(--color-purple-dark)
+                    );
+
+  height: 95vh;
+  clip-path: polygon(0 0, 100% 0, 100% 92%, 0 100%);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
