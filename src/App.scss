@@ -19,25 +19,13 @@ html {
   box-sizing: border-box;
   font-size: 62.5%; // 1rem = 10px; 10px/16px = 62.5%
 
-  @media only screen and (min-width: $bp-large) {
-    font-size: 74%;
-    color: pink;
-  }
+  @media only screen and (min-width: $bp-large) { font-size: 85%; }
 
-  @media only screen and (max-width: $bp-large) {
-    font-size: 66%;
-    color: red;
-  }
+  @media only screen and (max-width: $bp-large) { font-size: 75%; }
 
-  @media only screen and (max-width: $bp-medium) {
-    font-size: 55%;
-    color: green;
-  }
+  @media only screen and (max-width: $bp-medium) { font-size: 68%; }
 
-  @media only screen and (max-width: $bp-smallest) {
-    font-size: 45%;
-    color: blue;
-  }
+  @media only screen and (max-width: $bp-smallest) { font-size: 55%; }
 }
 
 *,
@@ -55,6 +43,7 @@ h1 {
   &::after {
     content: '';
     display: block;
+    margin-top: .8rem;
     margin-left: 44.5%;
     width: 10%;
     border-bottom: 1.8px solid var(--color-purple);
@@ -72,4 +61,8 @@ body {
 .content {
   width: 60%;
   margin: 0 auto;
+
+  @media only screen and (max-width: $bp-medium) { width: 80%; }
+
+  @media only screen and (max-width: $bp-smallest) { width: 78%; }
 }
