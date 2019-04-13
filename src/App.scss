@@ -1,0 +1,75 @@
+:root {
+  --color-purple: #500077;
+  --color-purple-light: #7300B5;
+  --color-purple-dark: #41005E;
+
+  --shadow: 0 6px 2rem rgba(0 ,0, 0, .25);
+}
+
+$bp-large: 93.75em; // 1500px
+$bp-medium: 68.75em; // 1100px
+$bp-smallest: 31.25em; // 500px
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; // 1rem = 10px; 10px/16px = 62.5%
+
+  @media only screen and (min-width: $bp-large) {
+    font-size: 74%;
+    color: pink;
+  }
+
+  @media only screen and (max-width: $bp-large) {
+    font-size: 66%;
+    color: red;
+  }
+
+  @media only screen and (max-width: $bp-medium) {
+    font-size: 55%;
+    color: green;
+  }
+
+  @media only screen and (max-width: $bp-smallest) {
+    font-size: 45%;
+    color: blue;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+h1 {
+  font-family: 'Varela Round', sans-serif;
+  color: var(--color-purple-light);
+  font-size: 2.6rem;
+  margin: 4rem 0;
+
+  &::after {
+    content: '';
+    display: block;
+    margin-left: 44.5%;
+    width: 10%;
+    border-bottom: 1.8px solid var(--color-purple);
+  }
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.content {
+  width: 60%;
+  margin: 0 auto;
+}
