@@ -1,0 +1,23 @@
+.feature {
+  height: 40rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  h2 {
+    color: var(--color-purple-light);
+    font-size: 1.8rem;
+  }
+
+  img {
+    width: 31rem;
+    height: auto;
+    box-shadow: 0 0 1.5rem rgba(0,0,0,.5);
+  }
+
+  p {
+    font-size: 1.3rem;
+  }
+}

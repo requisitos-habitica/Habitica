@@ -4,7 +4,7 @@ import configFeatures from '../../../utils/configFeatures'
 import './Features.scss'
 
 const Features = () => (
-  <section className="features">
+  <section className="content features">
     <Feature { ...configFeatures.feat1 }/>
     <Feature { ...configFeatures.feat2 }/>
   </section>
