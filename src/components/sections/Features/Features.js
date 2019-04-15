@@ -1,12 +1,11 @@
 import React from 'react'
 import Feature from '../../UI/Feature/Feature'
-import configFeatures from '../../../utils/configFeatures'
+import features from '../../../utils/features'
 import './Features.scss'
 
 const Features = () => (
   <section className="content features">
-    <Feature { ...configFeatures.feat1 }/>
-    <Feature { ...configFeatures.feat2 }/>
+    { features.map(feature => <Feature {...feature}/>) }
   </section>
 )
 

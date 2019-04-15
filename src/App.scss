@@ -3,7 +3,7 @@
   --color-purple-light: #7300B5;
   --color-purple-dark: #41005E;
 
-  --shadow: 0 6px 2rem rgba(0 ,0, 0, .25);
+  --shadow: 0 6px 2rem rgba(0 ,0, 0, .35);
 }
 
 $bp-large: 93.75em; // 1500px
@@ -59,10 +59,11 @@ body {
 }
 
 .content {
-  width: 60%; //use max-width
+  //width: 60%; //use max-width
+  max-width: 80rem;
   margin: 0 auto;
 
-  @media only screen and (max-width: $bp-medium) { width: 80%; }
+  //@media only screen and (max-width: $bp-medium) { width: 80%; }
 
-  @media only screen and (max-width: $bp-smallest) { width: 78%; }
+  //@media only screen and (max-width: $bp-smallest) { width: 78%; }
 }

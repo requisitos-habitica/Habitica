@@ -8,16 +8,16 @@
 
   h2 {
     color: var(--color-purple-light);
-    font-size: 1.8rem;
+    font-size: 1.9rem;
   }
 
   img {
     width: 31rem;
     height: auto;
-    box-shadow: 0 0 1.5rem rgba(0,0,0,.5);
+    box-shadow: var(--shadow);
   }
 
   p {
-    font-size: 1.3rem;
+    font-size: 1.35rem;
   }
 }
