@@ -38,13 +38,14 @@ h1 {
   font-family: 'Varela Round', sans-serif;
   color: var(--color-purple-light);
   font-size: 2.6rem;
-  margin: 4rem 0;
+  margin: 8rem 0;
+  text-align: center;
 
   &::after {
     content: '';
     display: block;
     margin-top: .8rem;
-    margin-left: 44.5%;
+    margin-left: 44.8%;
     width: 10%;
     border-bottom: 1.8px solid var(--color-purple);
   }
