@@ -1,5 +1,15 @@
 .contributors {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
   margin-bottom: 6rem;
+  
+  &__container {
+    width: 100%;
+    height: 50rem;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
 }

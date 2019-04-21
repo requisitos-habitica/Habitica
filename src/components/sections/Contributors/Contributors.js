@@ -6,7 +6,9 @@ import './Contributors.scss'
 const Contributors = () => (
   <section className="content contributors">
     <h1>Contribuidores</h1>
-    { contributors.map(contributor => <Contributor { ...contributor }/>) }
+    <div className="contributors__container">
+      { contributors.map(contributor => <Contributor { ...contributor }/>) }
+    </div>
   </section>
 )
 

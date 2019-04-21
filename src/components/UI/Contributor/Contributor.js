@@ -1,4 +1,5 @@
 import React from 'react'
+import './Contributor.scss'
 
 const Contributor = ({ github, name, img }) => (
   <a href={ github } className="card">

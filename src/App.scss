@@ -4,6 +4,10 @@
   --color-purple-dark: #41005E;
 
   --shadow: 0 6px 2rem rgba(0 ,0, 0, .35);
+  --shadow-close: 0 5px 1rem rgba(0, 0, 0, 0.4);
+  --shadow-far: 0 12px 1.8rem rgba(0, 0, 0, 0.35);
+  --transition-fast: all .5s;
+  --transition-slow: all .8s;
 }
 
 $bp-large: 93.75em; // 1500px

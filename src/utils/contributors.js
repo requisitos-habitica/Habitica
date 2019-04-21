@@ -1,5 +1,5 @@
 import Esio from '../assets/esio.jpeg'
-import Lucas from '../assets/lucas.jpeg'
+import Lucas from '../assets/lucas.jpg'
 import Youssef from '../assets/youssef.jpeg'
 import Pedro from '../assets/pheo.jpeg'
 import Saleh from '../assets/saleh.jpeg'

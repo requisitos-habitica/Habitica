@@ -1,0 +1,56 @@
+.card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  overflow: hidden;
+  width: 17rem;
+  height: 17rem;
+  border-radius: 50%;
+  background-color: #333;
+  transition: var(--transition-fast);
+  box-shadow: var(--shadow-close);
+  
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  p {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: white;
+    position: absolute;
+    opacity: 0;
+    transition: var(--transition-fast);
+    z-index: 100;
+  }
+  
+
+  /* ANIMATIONS */
+  &:hover {
+    transform: translateY(-1.1rem);
+    box-shadow: var(--shadow-far);
+  }
+  
+  &:hover img {
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    transition: var(--transition-fast);
+    opacity: .45;
+  }
+  
+  &:hover p { opacity: 1; }
+  
+  p::after {
+    display: block;
+    content: "";
+    margin-left: 20%;
+    background-color: white;
+    height: .2rem;
+    width: 0rem;
+    transition: var(--transition-slow);
+  }
+  
+  &:hover p::after { width: 60%; }
+}

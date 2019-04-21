@@ -1,4 +1,0 @@
----
-id: modelagem
-title: Modelagem
----
