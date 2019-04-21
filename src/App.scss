@@ -3,9 +3,9 @@
   --color-purple-light: #7300B5;
   --color-purple-dark: #41005E;
 
-  --shadow: 0 6px 2rem rgba(0 ,0, 0, .35);
-  --shadow-close: 0 5px 1rem rgba(0, 0, 0, 0.4);
-  --shadow-far: 0 12px 1.8rem rgba(0, 0, 0, 0.35);
+  --shadow: 0 1rem 2rem rgba(0 ,0, 0, .35);
+  --shadow-close: 0 .6rem 1rem rgba(0, 0, 0, 0.4);
+  --shadow-far: 0 1.3rem 1.5rem rgba(0, 0, 0, 0.35);
   --transition-fast: all .5s;
   --transition-slow: all .8s;
 }
@@ -17,8 +17,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: 62.5%; // 1rem = 10px; 10px/16px = 62.5%
-  font-size: calc(.8vw + 1px);
+  font-size: calc(.75vw + 1px);
 }
 
 *,
