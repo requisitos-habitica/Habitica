@@ -5,7 +5,7 @@ import logo from '../../../assets/habitica-logo.svg'
 import { Link } from 'react-router-dom'
 
 const NavBar = props => (
-  <>
+  <div>
     <nav className="nav">
       <Link to="/"><img src={ logo } alt="Habitica"/></Link>
       <ul>
@@ -18,9 +18,10 @@ const NavBar = props => (
         <Link to="/Sobre">Sobre</Link>
       </ul>
     </nav>
-    
-    { props.children }
-  </>
+    <div className="content artefact">
+      { props.children }
+    </div>
+  </div>
 )
 
 export default NavBar
