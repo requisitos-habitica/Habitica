@@ -55,3 +55,15 @@ body {
   width: 80rem;
   margin: 0 auto;
 }
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-purple-light);
+}

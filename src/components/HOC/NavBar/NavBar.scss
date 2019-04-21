@@ -20,11 +20,22 @@
     justify-content: space-between;
     list-style: none;
     
-    font-family: 'Varela Round';
-    font-weight: bold;
-    font-size: 1.2rem;
-    letter-spacing: .6px;
-    color: white;
-  
+    & > * {
+      font-family: 'Varela Round';
+      font-weight: bold;
+      font-size: 1.2rem;
+      letter-spacing: .6px;
+      color: white;
+      text-decoration: none;
+
+      padding: .2rem .5rem;
+      border-radius: .5rem;
+      transition: all .25s;
+      
+      &:hover {
+        background-color: white;
+        color: var(--color-purple);
+      }
+    }
   }
 }
