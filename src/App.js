@@ -5,7 +5,7 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
 
 import NavBar from './components/HOC/NavBar/NavBar'
 import LandingPage from './components/LandingPage/LandingPage'
-import Disciplina from './components/docs/Disciplina'
+import Disciplina from './components/docs/Disciplina/Disciplina'
 
 const App = () => {
 
@@ -18,11 +18,10 @@ const App = () => {
           <Route exact path="/Disciplina" component={ Disciplina }/>
           <Route exact path="/Pre-Rastreabilidade"/> 
           <Route exact path="/Pos-Rastreabilidade"/> 
-          <Route exact path="/Elicitação"/> 
+          <Route exact path="/Elicitacao"/> 
           <Route exact path="/Modelagem"/> 
           <Route exact path="/Analise"/> 
           <Route exact path="/Sobre"/> 
-
           
         </Switch>
       </NavBar>

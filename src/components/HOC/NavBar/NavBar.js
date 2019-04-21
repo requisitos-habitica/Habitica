@@ -12,15 +12,14 @@ const NavBar = props => (
         <Link to="/Disciplina">Disciplina</Link>
         <Link to="/Pre-Rastreabilidade">Pré-Rastreabilidade</Link>
         <Link to="/Pos-Rastreabilidade">Pós-Rastreabilidade</Link>
-        <Link to="/Elicitação">Elicitação</Link>
+        <Link to="/Elicitacao">Elicitação</Link>
         <Link to="/Modelagem">Modelagem</Link>
         <Link to="/Analise">Análise</Link>
         <Link to="/Sobre">Sobre</Link>
       </ul>
     </nav>
-    <div className="content artefact">
-      { props.children }
-    </div>
+
+    { props.children }
   </div>
 )
 

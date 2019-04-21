@@ -30,7 +30,7 @@ h1 {
   font-family: 'Varela Round', sans-serif;
   color: var(--color-purple-light);
   font-size: 2.6rem;
-  //margin: 8rem 0;
+  margin: 8rem 0;
   text-align: center;
 
   &::after {
@@ -56,7 +56,10 @@ body {
   margin: 0 auto;
 }
 
-.artefact { padding-top: 12rem; }
+.artefact { 
+  padding-top: 12rem;
+  h1 { margin: 0; }
+}
 
 ::-webkit-scrollbar {
   width: 8px;
