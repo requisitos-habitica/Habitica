@@ -10,10 +10,6 @@
   --transition-slow: all .8s;
 }
 
-$bp-large: 93.75em; // 1500px
-$bp-medium: 68.75em; // 1100px
-$bp-smallest: 31.25em; // 500px
-
 * {
   margin: 0;
   padding: 0;
@@ -22,14 +18,7 @@ $bp-smallest: 31.25em; // 500px
 html {
   box-sizing: border-box;
   font-size: 62.5%; // 1rem = 10px; 10px/16px = 62.5%
-
-  @media only screen and (min-width: $bp-large) { font-size: 90%; }
-
-  @media only screen and (max-width: $bp-large) { font-size: 75%; }
-
-  @media only screen and (max-width: $bp-medium) { font-size: 68%; }
-
-  @media only screen and (max-width: $bp-smallest) { font-size: 55%; }
+  font-size: calc(.8vw + 1px);
 }
 
 *,
@@ -64,11 +53,6 @@ body {
 }
 
 .content {
-  //width: 60%; //use max-width
-  max-width: 80rem;
+  width: 80rem;
   margin: 0 auto;
-
-  //@media only screen and (max-width: $bp-medium) { width: 80%; }
-
-  //@media only screen and (max-width: $bp-smallest) { width: 78%; }
 }
