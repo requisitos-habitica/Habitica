@@ -7,6 +7,8 @@ import NavBar from './components/HOC/NavBar/NavBar'
 import LandingPage from './components/LandingPage/LandingPage'
 import Disciplina from './components/docs/Disciplina/Disciplina'
 
+import Modelagem from './components/docs/Modelagem/Modelagem'
+
 const App = () => {
 
   return (
@@ -19,7 +21,7 @@ const App = () => {
           <Route exact path="/Pre-Rastreabilidade"/> 
           <Route exact path="/Pos-Rastreabilidade"/> 
           <Route exact path="/Elicitacao"/> 
-          <Route exact path="/Modelagem"/> 
+          <Route exact path="/Modelagem" component={ Modelagem }/> 
           <Route exact path="/Analise"/> 
           <Route exact path="/Sobre"/> 
           
