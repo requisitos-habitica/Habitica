@@ -2,7 +2,7 @@ import React from 'react'
 import './NavBar.scss'
 import logo from '../../../assets/habitica-logo.svg'
 
-import { Route, Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 const NavBar = props => (
   <>
@@ -18,7 +18,7 @@ const NavBar = props => (
         <Link to="/Sobre">Sobre</Link>
       </ul>
     </nav>
-
+    
     { props.children }
   </>
 )

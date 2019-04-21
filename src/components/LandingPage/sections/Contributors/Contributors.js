@@ -1,6 +1,6 @@
 import React from 'react'
-import contributors from '../../../utils/contributors'
-import Contributor from '../../UI/Contributor/Contributor'
+import contributors from '../../../../utils/contributors'
+import Contributor from '../../../UI/Contributor/Contributor'
 import './Contributors.scss'
 
 const Contributors = () => (
