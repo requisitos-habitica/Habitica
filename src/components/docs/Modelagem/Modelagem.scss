@@ -1,0 +1,31 @@
+.modelagem {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-top: 10rem;
+  div {
+    color: var(--color-purple-light);
+    font-size: 1.3rem;
+  }
+}
+.cards {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8rem 9rem;
+  box-shadow: 0 0 1rem rgba(0,0,0,.35);
+  background-color: white;
+  border-bottom: .5rem solid var(--color-purple-light);
+  transition: all .3s;
+
+  & img {
+    width: 7rem;
+    height: 7rem;
+  }
+
+  &:hover {
+    box-shadow: 0 0 1.6rem rgba(0,0,0,.35);
+  }
+}
