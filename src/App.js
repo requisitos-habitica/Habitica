@@ -24,7 +24,12 @@ const App = () => {
           <Route exact path="/Modelagem" component={ Modelagem }/> 
           <Route exact path="/Analise"/> 
           <Route exact path="/Sobre"/> 
-          
+        
+          {/* Modelagem */}
+          <Route path="/Modelagem/Lexicos" component={ Disciplina }/>
+          <Route path="/Modelagem/Cenarios" component={ Disciplina }/>
+
+
         </Switch>
       </NavBar>
     </Router>
