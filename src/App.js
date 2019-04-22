@@ -35,7 +35,7 @@ const App = () => {
 
           {Object.keys(lexicos).map(group => 
             Object.keys(lexicos[group].lexic).map(term => <Route key={ term } exact 
-                                                                  path={`/Modelagem/${term}`}
+                                                                  path={`/Modelagem/${encodeURIComponent(term)}`}
                                                                   component={lexicos[group].lexic[term]}/>))}
 
 
