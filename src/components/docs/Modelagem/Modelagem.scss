@@ -22,7 +22,8 @@
   border-bottom: .5rem solid var(--color-purple-light);
   transition: all .3s;
   backface-visibility: hidden;
-  & img {
+  
+  img {
     width: 7rem;
     height: 7rem;
   }

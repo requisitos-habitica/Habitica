@@ -23,6 +23,8 @@ const lexicos = {
 
   "Grupos": [
     "Grupo",
+    "Chat",
+    "Membros"
   ],
 
   "Gameficação": [
