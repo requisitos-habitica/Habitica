@@ -6,7 +6,7 @@ import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 const DeclararVencedorDeUmDesafioPublicoV1 = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="Declarar o vencedor de algum desafio e dar o prêmio ao mesmo" author="Kaique Borges"/>
+                  title="Declarar o vencedor de um desafio" author="Kaique Borges"/>
     <Card>
       <h2>Objetivo</h2>
       <p>Comprar qualquer item na loja utilizando moedas ou gemas</p>
@@ -54,6 +54,7 @@ const DeclararVencedorDeUmDesafioPublicoV1 = () => (
     <Card>
       <h2>Restrições</h2>
       <ul>
+        Nenhuma
       </ul>
     </Card>
 

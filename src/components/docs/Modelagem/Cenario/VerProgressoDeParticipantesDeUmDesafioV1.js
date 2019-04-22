@@ -54,6 +54,7 @@ const VerProgressoDePArticipantesDeUmDesafioV1 = () => (
     <Card>
       <h2>Restrições</h2>
       <ul>
+        Nenhuma
       </ul>
     </Card>
 

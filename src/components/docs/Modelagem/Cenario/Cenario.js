@@ -10,7 +10,7 @@ const Cenario = (props) => {
 
   return (
     <div className="content artefact">
-      <h1>Cenario</h1>
+      <h1>Cenários</h1>
 
       {Object.keys(cenarios).map(group => (
           <div key={ group } style={ style.container }>

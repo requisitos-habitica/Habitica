@@ -4,7 +4,7 @@ import EntrarEmUmDesafioPublicoV1 from '../components/docs/Modelagem/Cenario/Ent
 import VerProgressoDeParticipantesDeUmDesafioV1 from '../components/docs/Modelagem/Cenario/VerProgressoDeParticipantesDeUmDesafioV1'
 
 const cenarios = {
-  "Fóruns": {
+  /* "Fóruns": {
     color: "pink",
     lexic: {
       "Guerreiro": null,
@@ -52,7 +52,7 @@ const cenarios = {
       "Ovo de Pet": null,
     }
   },
-
+ */
   "Desafios": {
     color: "DeepPink",
     lexic: {
