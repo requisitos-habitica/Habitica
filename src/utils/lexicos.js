@@ -1,130 +1,133 @@
+import Afazer from '../components/docs/Modelagem/Lexico/Afazer'
+
+
 const lexicos = {
   "Fóruns": {
     color: "pink",
-    lexic: [
-      "Guerreiro",
-      "Bônus de atributo",
-      "Mago",
-      "Curador",
-      "Ladino",
-      "Força",
-      "Inteligência",
-      "Constituição",
-      "Percepção",
-      "Gema",
-      "Moeda",
-    ]
+    lexic: {
+      "Guerreiro": null,
+      "Bônus de atributo": null,
+      "Mago": null,
+      "Curador": null,
+      "Ladino": null,
+      "Força": null,
+      "Inteligência": null,
+      "Constituição": null,
+      "Percepção": null,
+      "Gema": null,
+      "Moeda": null,
+    }
   },
   
   "Loja": {
     color: "aqua",
-    lexic: [
-      "Cartões",
-      "Loja Sazonal",
-      "Viajantes do Tempo",
-      "Ampulheta Mística",
-      "Loja",
-    ]
+    lexic: {
+      "Cartões": null,
+      "Loja Sazonal": null,
+      "Viajantes do Tempo": null,
+      "Ampulheta Mística": null,
+      "Loja": null,
+    }
   },
 
   "Grupos": {
     color: "SpringGreen",
-    lexic: [
-      "Grupo",
-      "Chat",
-      "Membros"
-    ]
+    lexic: {
+      "Grupo": null,
+      "Chat": null,
+      "Membros": null,
+    }
   },
 
   "Gameficação": {
     color: "Turquoise",
-    lexic: [
-      "Mana",
-      "Equipamento de Batalha",
-      "Fantasia",
-      "Guilda",
-      "Termos da Comunidade",
-      "Guilda Pública",
-      "Guilda Privada",
-      "Experiência",
-      "Chefão",
-      "Missão",
-      "Dar Dano",
-      "Convite de Missão",
-      "Tomo de Missão",
-      "Missão de Coleta",
-      "Missão de Mascote",
-      "Batalha de Chefão",
-      "Dono de missão",
-      "Alvo da Habilidade",
-    ]
+    lexic: {
+      "Mana": null,
+      "Equipamento de Batalha": null,
+      "Fantasia": null,
+      "Guilda": null,
+      "Termos da Comunidade": null,
+      "Guilda Pública": null,
+      "Guilda Privada": null,
+      "Experiência": null,
+      "Chefão": null,
+      "Missão": null,
+      "Dar Dano": null,
+      "Convite de Missão": null,
+      "Tomo de Missão": null,
+      "Missão de Coleta": null,
+      "Missão de Mascote": null,
+      "Batalha de Chefão": null,
+      "Dono de missão": null,
+      "Alvo da Habilidade": null,
+    }
   },
 
   "Guia de Contribuição": {
     color: "Orchid",
-    lexic: [
-      "Projeto de Código Aberto",
-      "Wiki",
-      "Contribuir para o Habitica",
-      "Ferreiros (Blacksmiths)",
-      "API do Habitica",
-      "Pixel Art",
-      "Traduzir o Habitica",
-      "Embaixadores",
-      "Escribas",
-      "Contadores de História",
-      "Desafiantes",
-      "Taverna",
-    ]
+    lexic: {
+      "Projeto de Código Aberto": null,
+      "Wiki": null,
+      "Contribuir para o Habitica": null,
+      "Ferreiros (Blacksmiths)": null,
+      "API do Habitica": null,
+      "Pixel Art": null,
+      "Traduzir o Habitica": null,
+      "Embaixadores": null,
+      "Escribas": null,
+      "Contadores de História": null,
+      "Desafiantes": null,
+      "Taverna": null,
+    }
   },
 
   "Tarefas": {
     color: "Gold",
-    lexic: [
-      "Tarefa",
-      "Tarefa Diária",
-      "Afazer",
-      "Hábito",
-      "Criar tarefa diária",
-      "Editar tarefa diária",
-      "Excluir tarefa diária",
-      "Completar tarefa diária",
-      "Resetar tarefa diária",
-      "Criar hábito",
-      "Editar hábito",
-      "Excluir hábito",
-      "Decrementar hábito",
-      "Incrementar hábito",
-      "Criar afazer",
-      "Editar afazer",
-      "Excluir o afazer",
-      "Concluir o afazer",
-      "Receber recompensa",
-    ]
+    lexic: {
+      "Tarefa": null,
+      "Tarefa Diária": null,
+      "Afazer": Afazer,
+      "Hábito": null,
+      "Criar tarefa diária": null,
+      "Editar tarefa diária": null,
+      "Excluir tarefa diária": null,
+      "Completar tarefa diária": null,
+      "Resetar tarefa diária": null,
+      "Criar hábito": null,
+      "Editar hábito": null,
+      "Excluir hábito": null,
+      "Decrementar hábito": null,
+      "Incrementar hábito": null,
+      "Criar afazer": null,
+      "Editar afazer": null,
+      "Excluir o afazer": null,
+      "Concluir o afazer": null,
+      "Receber recompensa": null,
+    }
   },
 
   "Inventário": {
     color: "LightCoral",
-    lexic: [
-      "Ovo de Pet",
-      "Chocar Ovo de Pet",
-      "Evoluir Pet",
-    ]
+    lexic: {
+      "Ovo de Pet": null,
+      "Chocar Ovo de Pet": null,
+      "Evoluir Pet": null,
+    }
   },
 
   "Desafios": {
     color: "DeepPink",
-    lexic: [
-      "Desafio",
-      "Categoria",
-      "Criar desafio",
-      "Prêmio",
-      "Se juntar ao desafio",
-      "Participante",
-      "Declarar vencedor do desafio",
-      "Deixar desafio",
-      "Adicionar tarefas de desafio",
-    ]
+    lexic: {
+      "Desafio": null,
+      "Categoria": null,
+      "Criar desafio": null,
+      "Prêmio": null,
+      "Se juntar ao desafio": null,
+      "Participante": null,
+      "Declarar vencedor do desafio": null,
+      "Deixar desafio": null,
+      "Adicionar tarefas de desafio": null,
+    }
   }
 }
 
