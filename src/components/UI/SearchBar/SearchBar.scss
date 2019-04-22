@@ -1,0 +1,34 @@
+.search-bar {
+
+  position: relative;
+  margin: 7rem 0;
+
+  img {
+    position: absolute;
+    width: 1.8rem;
+    height: 1.8rem;
+    top: 50%;
+    left: 91%;
+  }
+
+  input {
+    width: 100%;
+    padding: 2rem 5rem;
+    margin-top: 2rem;
+  
+    font-family: 'Varela Round';
+    font-weight: bold;
+    font-size: 1.6rem;
+
+    -webkit-appearance: none;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 0 1rem rgba(0,0,0,.32); 
+    transition: var(--transition-fast);
+  
+    &:focus {
+      outline: none;
+      box-shadow: 0 1px 1.4rem rgba(0,0,0,.32); 
+    }
+  }
+}
