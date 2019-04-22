@@ -12,8 +12,10 @@ const Lexico = () => {
 
       {Object.keys(lexicos).map(group => (
           <div key={ group } style={ style.container }>
-            <h2>{ group }</h2>
-            {lexicos[group].lexic.map(term => <Strip key={ term }title={ term } color={ lexicos[group].color }/>)}
+            <h2 style={ style.title }>{ group }</h2>
+            {lexicos[group].lexic.map(term => <Strip  key={ term }title={ term } 
+                                                      color={ lexicos[group].color }
+                                                      onClick={() => alert(term)}/>)}
           </div>  
         ))}
     </div>
@@ -27,7 +29,9 @@ const style = {
     marginTop: "8rem",
   },
   title: {
-
+    fontSize: "2rem",
+    letterSpacing: "1px",
+    marginBottom: "1.2rem"
   }
 }
 

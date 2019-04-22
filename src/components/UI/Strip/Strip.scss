@@ -14,12 +14,17 @@
                     );
 
   cursor: pointer;
-  transition: all .35s;
+  transition: all .3s;
   backface-visibility: hidden;
 
   &:hover {
     box-shadow: 0 .2rem 1.4rem rgba(0,0,0,.4);
     transform: translateY(-.2rem);
+  }
+
+  &:active {
+    box-shadow: 0 0rem .4rem rgba(0,0,0,.4);
+    transform: translateY(0rem);
   }
 
   div {
