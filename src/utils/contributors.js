@@ -29,7 +29,7 @@ const contributors = [
     github: 'https://github.com/phe0' 
   },
   {
-    name: 'Saleh Nazih',
+    name: 'Saleh Kader',
     img: Saleh,
     github: 'https://github.com/devsalula' 
   },
