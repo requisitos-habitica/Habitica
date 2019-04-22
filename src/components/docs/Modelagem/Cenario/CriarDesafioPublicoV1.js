@@ -5,7 +5,6 @@ import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
 const CriarDesafioPublicoV1 = () => (
   <div className="content artefact">
-    <h1>Oie</h1>
     <HeadArtefact versions={ null } rastreability={ null }
                   title="Criar desafio público" author="Kaique Borges"/>
     <Card>
