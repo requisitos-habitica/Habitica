@@ -10,17 +10,25 @@ const Lexico = () => {
     <div className="content artefact">
       <h1>Léxicos</h1>
 
-      <div style={ style }>
-        { lexicos.Fóruns.map(it => <Strip key={ it } title={ it } color="pink"/>) }
-      </div>
+      {Object.keys(lexicos).map(group => (
+          <div key={ group } style={ style.container }>
+            <h2>{ group }</h2>
+            {lexicos[group].lexic.map(term => <Strip key={ term }title={ term } color={ lexicos[group].color }/>)}
+          </div>  
+        ))}
     </div>
   )
 }
 
 const style = {
-  display: "flex",
-  flexDirection: "column",
-  marginTop: "8rem",
+  container: {
+    display: "flex",
+    flexDirection: "column",
+    marginTop: "8rem",
+  },
+  title: {
+
+  }
 }
 
 export default Lexico
