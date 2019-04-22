@@ -1,5 +1,5 @@
 import React from 'react'
-// import './Strip.scss'
+import './Strip.scss'
 
 const Strip = ({ title, color, onClick }) => (
   <div className="strip" style={{ backgroundColor: color}} onClick={ onClick }>

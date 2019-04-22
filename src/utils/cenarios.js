@@ -3,6 +3,9 @@ import DeclararVencedorDeUmDesafioV1 from '../components/docs/Modelagem/Cenario/
 import EntrarEmUmDesafioPublicoV1 from '../components/docs/Modelagem/Cenario/EntrarEmUmDesafioPublicoV1'
 import VerProgressoDeParticipantesDeUmDesafioV1 from '../components/docs/Modelagem/Cenario/VerProgressoDeParticipantesDeUmDesafioV1'
 
+import ComoContribuir from '../components/docs/Modelagem/Cenario/ComoContribuir'
+import ContribuirArtes from '../components/docs/Modelagem/Cenario/ContribuirArtes'
+
 const cenarios = {
   /* "Fóruns": {
     color: "pink",
@@ -30,15 +33,17 @@ const cenarios = {
     lexic: {
       "Mana": null,
     }
-  },
+  }, */
 
   "Guia de Contribuição": {
     color: "Orchid",
     lexic: {
-      "Projeto de Código Aberto": null,
+      "Como Contribuir": ComoContribuir,
+      "Contribuir Artes": ContribuirArtes
     }
   },
 
+  /* 
   "Tarefas": {
     color: "Gold",
     lexic: {
@@ -51,8 +56,8 @@ const cenarios = {
     lexic: {
       "Ovo de Pet": null,
     }
-  },
- */
+  }, */
+
   "Desafios": {
     color: "DeepPink",
     lexic: {
