@@ -15,7 +15,8 @@ const Lexico = (props) => {
       {Object.keys(lexicos).map(group => (
           <div key={ group } style={ style.container }>
             <h2 style={ style.title }>{ group }</h2>
-            {lexicos[group].lexic.map(term => <Strip  key={ term }title={ term } 
+            
+            {Object.keys(lexicos[group].lexic).map(term => <Strip  key={ term } title={ term } 
                                                       color={ lexicos[group].color }
                                                       onClick={ () => pushRoute(term) }/>)}
           </div>  

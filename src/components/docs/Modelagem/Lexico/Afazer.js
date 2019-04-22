@@ -2,7 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 const Afazer = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ null } rastreability={ null }
+    <h1>Afazer</h1>
+    {/* <HeadArtefact versions={ null } rastreability={ null }
                   title="Afazer" author="Gabriel Albino"/>
     <Card>
       <h2>Nome</h2>
@@ -36,7 +37,7 @@ const Afazer = () => (
     <Card>
       <h2>Classificação</h2>
       <p>Objeto</p>
-    </Card>
+    </Card> */}
 
   </div>
 )
