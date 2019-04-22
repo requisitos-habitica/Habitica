@@ -5,7 +5,7 @@ import './Features.scss'
 
 const Features = () => (
   <section className="content features">
-    { features.map(feature => <Feature {...feature}/>) }
+    { features.map(feature => <Feature key={ feature.title } {...feature}/>) }
   </section>
 )
 

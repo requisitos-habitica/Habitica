@@ -12,6 +12,7 @@ import Lexico from './components/docs/Modelagem/Lexico/Lexico'
 import Cenario from './components/docs/Modelagem/Cenario/Cenario'
 
 import lexicos from './utils/lexicos'
+import cenarios from './utils/cenarios'
 
 const App = () => {
 
@@ -33,10 +34,14 @@ const App = () => {
           <Route path="/Modelagem/Lexicos" component={ Lexico }/>
           <Route path="/Modelagem/Cenarios" component={ Cenario }/>
 
+          {Object.keys(cenarios).map(group => 
+            Object.keys(cenarios[group].lexic).map(term => <Route key={ term } exact 
+                                                                  path={`/ModelagemCenarios/${term}`}
+                                                                  component={LandingPage}/>))}
           {Object.keys(lexicos).map(group => 
             Object.keys(lexicos[group].lexic).map(term => <Route key={ term } exact 
-                                                                  path={`/Modelagem/${encodeURIComponent(term)}`}
-                                                                  component={lexicos[group].lexic[term]}/>))}
+                                                                  path={`/ModelagemLexicos/${term}`}
+                                                                  component={Disciplina}/>))}
 
 
         </Switch>

@@ -3,7 +3,8 @@ import { Link } from 'react-router-dom'
 
 const CriarDesafioPublicoV1 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ null } rastreability={ null }
+    <h1>Oie</h1>
+    {/* <HeadArtefact versions={ null } rastreability={ null }
                   title="Criar desafio público" author="Kaique Borges"/>
     <Card>
       <h2>Objetivo</h2>
@@ -59,7 +60,7 @@ const CriarDesafioPublicoV1 = () => (
       <ul>
         <li>Usuário não ter 1 (uma) ou mais Gemas para servirem de prêmio do desafio</li>
       </ul>
-    </Card>
+    </Card> */}
 
   </div>
 )
