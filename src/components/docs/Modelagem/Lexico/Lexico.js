@@ -1,10 +1,12 @@
 import React from 'react'
-import lexicosObj from '../../../../utils/lexicos'
+import lexicos from '../../../../utils/lexicos'
 import Strip from '../../../UI/Strip/Strip'
 
-const Lexico = () => {
+const Lexico = (props) => {
   
-  const [lexicos, setLexicos] = React.useState(lexicosObj)
+  const pushRoute = term => {
+    props.history.push(term)
+  }
 
   return (
     <div className="content artefact">
@@ -15,7 +17,7 @@ const Lexico = () => {
             <h2 style={ style.title }>{ group }</h2>
             {lexicos[group].lexic.map(term => <Strip  key={ term }title={ term } 
                                                       color={ lexicos[group].color }
-                                                      onClick={() => alert(term)}/>)}
+                                                      onClick={ () => pushRoute(term) }/>)}
           </div>  
         ))}
     </div>

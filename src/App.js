@@ -1,7 +1,7 @@
 import React from 'react'
 import './App.scss'
 
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom'
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import NavBar from './components/HOC/NavBar/NavBar'
 import LandingPage from './components/LandingPage/LandingPage'
@@ -11,6 +11,7 @@ import Modelagem from './components/docs/Modelagem/Modelagem'
 import Lexico from './components/docs/Modelagem/Lexico/Lexico'
 import Cenario from './components/docs/Modelagem/Cenario/Cenario'
 
+import lexicos from './utils/lexicos'
 
 const App = () => {
 
@@ -32,6 +33,10 @@ const App = () => {
           <Route path="/Modelagem/Lexicos" component={ Lexico }/>
           <Route path="/Modelagem/Cenarios" component={ Cenario }/>
 
+          <Route path="/Modelagem/Guerreiro" component={ Cenario }/>
+
+          {lexicos.Fóruns.lexic.map(term => <Route  key={term} exact path={`/Modelagem/${term}`} 
+                                                    component={ LandingPage }/>)}
 
         </Switch>
       </NavBar>
