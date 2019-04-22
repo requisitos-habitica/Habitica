@@ -1,6 +1,5 @@
 import Afazer from '../components/docs/Modelagem/Lexico/Afazer'
 
-
 const lexicos = {
   "Fóruns": {
     color: "pink",
