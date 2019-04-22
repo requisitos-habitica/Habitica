@@ -23,7 +23,7 @@ const ReceberRecompensa = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-            O usuário recebe recompensas como Ouro e XP ao completar uma <Link to="/TarefaDiaria">diária</Link>, <Link to="/Afazer">afazer</Link> ou <Link to="/Habito">hábito</Link> bom
+            O usuário recebe recompensas como Ouro e XP ao completar uma <Link to="/ModelagemLexicos/Tarefa Diária">diária</Link>, <Link to="/Afazer">afazer</Link> ou <Link to="/Habito">hábito</Link> bom
         </li>
       </ul>
     </Card>

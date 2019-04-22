@@ -26,7 +26,7 @@ const ListaDeTarefas = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-            Uma # é uma tela onde aparecem todas as <Link to="/Tarefa">tarefas</Link> de um determinado tipo que o usuário cadastrou
+            Uma Lista de Tarefas é uma tela onde aparecem todas as <Link to="/Tarefa">tarefas</Link> de um determinado tipo que o usuário cadastrou
         </li>
       </ul>
     </Card>
@@ -34,7 +34,7 @@ const ListaDeTarefas = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-            <li>O usuário pode <Link to="/EditarTarefaDiaria">editar as diárias</Link>, <Link to="/EditarAfazer">afazeres</Link> ou <Link to="/EditarHabito">hábitos</Link> a partir da tela de lista</li>
+            <li>O usuário pode <Link to="/ModelagemLexicos/EditarTarefaDiaria">editar as diárias</Link>, <Link to="/EditarAfazer">afazeres</Link> ou <Link to="/EditarHabito">hábitos</Link> a partir da tela de lista</li>
             <li>O usuário pode marcar uma <Link to="/CompletarTarefaDiaria">diária</Link>, <Link to="/ConcluirAfazer">afazer</Link> ou <Link to="/IncrementarHabito">hábito como concluído</Link></li>
             <li>O usuário pode <Link to="/ExcluirTarefaDiaria">excluir uma diária</Link>, <Link to="/ExcluirHabito">hábito</Link> ou <Link to="/ExcluirAfazer">afazer</Link> da lista</li>
       </ul>

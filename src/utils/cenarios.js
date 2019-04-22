@@ -38,8 +38,8 @@ const cenarios = {
   "Guia de Contribuição": {
     color: "Orchid",
     lexic: {
-      "Como Contribuir": ComoContribuir,
-      "Contribuir Artes": ContribuirArtes
+      "Contribuir para o Habitica": ComoContribuir,
+      "Contribuir para as Artes do Habitica": ContribuirArtes
     }
   },
 
@@ -61,10 +61,10 @@ const cenarios = {
   "Desafios": {
     color: "DeepPink",
     lexic: {
-      "Criar Desafio Publico": CriarDesafioPublicoV1,
-      "Declarar Vencedor de um Desafio": DeclararVencedorDeUmDesafioV1,
-      "Entrar em um Desafio Publico": EntrarEmUmDesafioPublicoV1,
-      "Ver Progresso de Participantes de um Desafio": VerProgressoDeParticipantesDeUmDesafioV1
+      "Criar desafio público": CriarDesafioPublicoV1,
+      "Declarar o vencedor de um desafio": DeclararVencedorDeUmDesafioV1,
+      "Entrar em um desafio público": EntrarEmUmDesafioPublicoV1,
+      "Ver o progresso de outros participantes de um desafio": VerProgressoDeParticipantesDeUmDesafioV1
     }
   }
 }

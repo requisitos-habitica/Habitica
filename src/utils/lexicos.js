@@ -1,4 +1,33 @@
 import Afazer from '../components/docs/Modelagem/Lexico/Afazer'
+import AdicionarTarefasDeDesafioV1 from '../components/docs/Modelagem/Lexico/AdicionarTarefasDeDesafioV1'
+import CategoriaV1 from '../components/docs/Modelagem/Lexico/CategoriaV1'
+import CompletarTarefaDiaria from '../components/docs/Modelagem/Lexico/CompletarTarefaDiaria'
+import ConcluirAfazer from '../components/docs/Modelagem/Lexico/ConcluirAfazer'
+import CriarAfazer from '../components/docs/Modelagem/Lexico/CriarAfazer'
+import CriarDesafioV1 from '../components/docs/Modelagem/Lexico/CriarDesafioV1'
+import CriarHabito from '../components/docs/Modelagem/Lexico/CriarHabito'
+import CriarTarefaDiaria from '../components/docs/Modelagem/Lexico/CriarTarefaDiaria'
+import DeclararVencedorDoDesafioV1 from '../components/docs/Modelagem/Lexico/DeclararVencedorDoDesafioV1'
+import DecrementarHabito from '../components/docs/Modelagem/Lexico/DecrementarHabito'
+import DeixarDesafioV1 from '../components/docs/Modelagem/Lexico/DeixarDesafioV1'
+import DesafioV1 from '../components/docs/Modelagem/Lexico/DesafioV1'
+import EditarAfazer from '../components/docs/Modelagem/Lexico/EditarAfazer'
+import EditarHabito from '../components/docs/Modelagem/Lexico/EditarHabito'
+import EditarTarefaDiaria from '../components/docs/Modelagem/Lexico/EditarTarefaDiaria'
+import ExcluirAfazer from '../components/docs/Modelagem/Lexico/ExcluirAfazer'
+import ExcluirHabito from '../components/docs/Modelagem/Lexico/ExcluirHabito'
+import ExcluirTarefaDiaria from '../components/docs/Modelagem/Lexico/ExcluirTarefaDiaria'
+import Habito from '../components/docs/Modelagem/Lexico/Habito'
+import IncrementarHabito from '../components/docs/Modelagem/Lexico/IncrementarHabito'
+import ListaDeTarefas from '../components/docs/Modelagem/Lexico/ListaDeTarefas'
+import ParticipanteV1 from '../components/docs/Modelagem/Lexico/ParticipanteV1'
+import PremioV1 from '../components/docs/Modelagem/Lexico/PremioV1'
+import ReceberRecompensa from '../components/docs/Modelagem/Lexico/ReceberRecompensa'
+import ResetarTarefaDiaria from '../components/docs/Modelagem/Lexico/ResetarTarefaDiaria'
+import SeJuntarAoDesafioV1 from '../components/docs/Modelagem/Lexico/SeJuntarAoDesafioV1'
+import Tarefa from '../components/docs/Modelagem/Lexico/Tarefa'
+import TarefaDiaria from '../components/docs/Modelagem/Lexico/TarefaDiaria'
+
 
 const lexicos = {
   "Fóruns": {
@@ -83,25 +112,26 @@ const lexicos = {
   "Tarefas": {
     color: "Gold",
     lexic: {
-      "Tarefa": null,
-      "Tarefa Diária": null,
+      "Tarefa": Tarefa,
+      "Tarefa Diária": TarefaDiaria,
       "Afazer": Afazer,
-      "Hábito": null,
-      "Criar tarefa diária": null,
-      "Editar tarefa diária": null,
-      "Excluir tarefa diária": null,
-      "Completar tarefa diária": null,
-      "Resetar tarefa diária": null,
-      "Criar hábito": null,
-      "Editar hábito": null,
-      "Excluir hábito": null,
-      "Decrementar hábito": null,
-      "Incrementar hábito": null,
-      "Criar afazer": null,
-      "Editar afazer": null,
-      "Excluir o afazer": null,
-      "Concluir o afazer": null,
-      "Receber recompensa": null,
+      "Hábito": Habito,
+      "Lista de Tarefas": ListaDeTarefas,
+      "Criar tarefa diária": CriarTarefaDiaria,
+      "Editar tarefa diária": EditarTarefaDiaria,
+      "Excluir tarefa diária": ExcluirTarefaDiaria,
+      "Completar tarefa diária": CompletarTarefaDiaria,
+      "Resetar tarefa diária": ResetarTarefaDiaria,
+      "Criar hábito": CriarHabito,
+      "Editar hábito": EditarHabito,
+      "Excluir hábito": ExcluirHabito,
+      "Decrementar hábito": DecrementarHabito,
+      "Incrementar hábito": IncrementarHabito,
+      "Criar afazer": CriarAfazer,
+      "Editar afazer": EditarAfazer,
+      "Excluir o afazer": ExcluirAfazer,
+      "Concluir o afazer": ConcluirAfazer,
+      "Receber recompensa": ReceberRecompensa,
     }
   },
 
@@ -117,15 +147,15 @@ const lexicos = {
   "Desafios": {
     color: "DeepPink",
     lexic: {
-      "Desafio": null,
-      "Categoria": null,
-      "Criar desafio": null,
-      "Prêmio": null,
-      "Se juntar ao desafio": null,
-      "Participante": null,
-      "Declarar vencedor do desafio": null,
-      "Deixar desafio": null,
-      "Adicionar tarefas de desafio": null,
+      "Desafio": DesafioV1,
+      "Categoria": CategoriaV1,
+      "Criar desafio": CriarDesafioV1,
+      "Prêmio": PremioV1,
+      "Se juntar ao desafio": SeJuntarAoDesafioV1,
+      "Participante": ParticipanteV1,
+      "Declarar vencedor do desafio": DeclararVencedorDoDesafioV1,
+      "Deixar desafio": DeixarDesafioV1,
+      "Adicionar tarefas de desafio": AdicionarTarefasDeDesafioV1,
     }
   }
 }

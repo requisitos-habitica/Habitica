@@ -33,7 +33,7 @@ const Tarefa = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Ao realizar tarefas o usuário <Link to="/ReceberRecompensa">ganha recompensas</Link></li>
+        <li>Ao realizar tarefas o usuário <Link to="/ModelagemLexicos/Editar tarefa diária">ganha recompensas</Link></li>
         <li>Ao não realizar as tarefas o avatar pode perder vida</li>
       </ul>
     </Card>
