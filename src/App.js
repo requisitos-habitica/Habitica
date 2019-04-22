@@ -8,6 +8,9 @@ import LandingPage from './components/LandingPage/LandingPage'
 import Disciplina from './components/docs/Disciplina/Disciplina'
 
 import Modelagem from './components/docs/Modelagem/Modelagem'
+import Lexico from './components/docs/Modelagem/Lexico/Lexico'
+import Cenario from './components/docs/Modelagem/Cenario/Cenario'
+
 
 const App = () => {
 
@@ -26,8 +29,8 @@ const App = () => {
           <Route exact path="/Sobre"/> 
         
           {/* Modelagem */}
-          <Route path="/Modelagem/Lexicos" component={ Disciplina }/>
-          <Route path="/Modelagem/Cenarios" component={ Disciplina }/>
+          <Route path="/Modelagem/Lexicos" component={ Lexico }/>
+          <Route path="/Modelagem/Cenarios" component={ Cenario }/>
 
 
         </Switch>

@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+
 const ConcluirAfazer = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
@@ -20,7 +21,7 @@ const ConcluirAfazer = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-            O usuário marca o <Link to="/Afazer">afazer</Link> como completo e ele some da <Link to="/ListaDeTarefas">lista</Link>.
+          O usuário marca o <Link to="/Afazer">afazer</Link> como completo e ele some da <Link to="/ListaDeTarefas">lista</Link>.
         </li>
       </ul>
     </Card>
@@ -29,7 +30,7 @@ const ConcluirAfazer = () => (
       <h2>Impacto</h2>
       <ul>
         <li>O afazer que for concluído não será mais listado na <Link to="/ListaDeTarefas">lista de tarefas</Link></li>
-         <li>Ao completar um afazer o usuário <Link to="/ReceberRecompensa">recebe as recompensas</Link></li>
+        <li>Ao completar um afazer o usuário <Link to="/ReceberRecompensa">recebe as recompensas</Link></li>
       </ul>
     </Card>
 
