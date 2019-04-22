@@ -34,15 +34,15 @@ const App = () => {
           <Route path="/Modelagem/Lexicos" component={ Lexico }/>
           <Route path="/Modelagem/Cenarios" component={ Cenario }/>
 
+          {Object.keys(lexicos).map(group => 
+            Object.keys(lexicos[group].lexic).map(term => <Route  key={ term } exact 
+                                                                  path={`/ModelagemLexicos/${term}`}
+                                                                  component={ lexicos[group].lexic[term] }/>))}
+
           {Object.keys(cenarios).map(group => 
             Object.keys(cenarios[group].lexic).map(term => <Route key={ term } exact 
                                                                   path={`/ModelagemCenarios/${term}`}
-                                                                  component={LandingPage}/>))}
-          {Object.keys(lexicos).map(group => 
-            Object.keys(lexicos[group].lexic).map(term => <Route key={ term } exact 
-                                                                  path={`/ModelagemLexicos/${term}`}
-                                                                  component={Disciplina}/>))}
-
+                                                                  component={ cenarios[group].lexic[term] }/>))}
 
         </Switch>
       </NavBar>

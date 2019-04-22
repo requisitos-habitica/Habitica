@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Card from '../../../UI/Card/Card'
+import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
+
 const ExcluirTarefaDiaria = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }

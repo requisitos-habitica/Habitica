@@ -1,9 +1,11 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Card from '../../../UI/Card/Card'
+import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
+
 const Afazer = () => (
   <div className="content artefact">
-    <h1>Afazer</h1>
-    {/* <HeadArtefact versions={ null } rastreability={ null }
+    <HeadArtefact versions={ null } rastreability={ null }
                   title="Afazer" author="Gabriel Albino"/>
     <Card>
       <h2>Nome</h2>
@@ -37,7 +39,7 @@ const Afazer = () => (
     <Card>
       <h2>Classificação</h2>
       <p>Objeto</p>
-    </Card> */}
+    </Card>
 
   </div>
 )

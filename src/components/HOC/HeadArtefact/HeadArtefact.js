@@ -1,7 +1,7 @@
 import React from 'react'
 import './HeadArtefact.scss'
 
-const HeadArtefact = () => {
+const HeadArtefact = ({ versions, rastreability, title, author }) => {
 
   return (
     <h1>Head</h1>
