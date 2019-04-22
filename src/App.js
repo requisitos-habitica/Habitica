@@ -33,10 +33,11 @@ const App = () => {
           <Route path="/Modelagem/Lexicos" component={ Lexico }/>
           <Route path="/Modelagem/Cenarios" component={ Cenario }/>
 
-          <Route path="/Modelagem/Guerreiro" component={ Cenario }/>
+          {Object.keys(lexicos).map(group => 
+            Object.keys(lexicos[group].lexic).map(term => <Route key={ term } exact 
+                                                                  path={`/Modelagem/${term}`}
+                                                                  component={lexicos[group].lexic[term]}/>))}
 
-          {lexicos.Fóruns.lexic.map(term => <Route  key={term} exact path={`/Modelagem/${term}`} 
-                                                    component={ LandingPage }/>)}
 
         </Switch>
       </NavBar>
