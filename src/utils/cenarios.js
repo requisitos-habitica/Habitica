@@ -5,6 +5,10 @@ import VerProgressoDeParticipantesDeUmDesafioV1 from '../components/docs/Modelag
 
 import ComoContribuir from '../components/docs/Modelagem/Cenario/ComoContribuir'
 import ContribuirArtes from '../components/docs/Modelagem/Cenario/ContribuirArtes'
+import ContribuirDesign from '../components/docs/Modelagem/Cenario/ContribuirDesign'
+import ContribuirHistoria from '../components/docs/Modelagem/Cenario/ContribuirHistoria'
+import ContribuirTraducao from '../components/docs/Modelagem/Cenario/ContribuirTraducao'
+import ContribuirWiki from '../components/docs/Modelagem/Cenario/ContribuirWiki'
 
 const cenarios = {
   /* "Fóruns": {
@@ -39,7 +43,11 @@ const cenarios = {
     color: "Orchid",
     lexic: {
       "Contribuir para o Habitica": ComoContribuir,
-      "Contribuir para as Artes do Habitica": ContribuirArtes
+      "Contribuir para as Artes do Habitica": ContribuirArtes,
+      "Contribuir no Design do Habitica": ContribuirDesign,
+      "Contribuir para as Histórias do Habitica": ContribuirHistoria,
+      "Contribuir para a tradução do Habitica": ContribuirTraducao,
+      "Contribuir para a Wiki Habitica": ContribuirWiki
     }
   },
 
