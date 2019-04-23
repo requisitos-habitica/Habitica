@@ -24,7 +24,7 @@ const TarefaDiaria = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-          <Link to="/Tarefa">Tarefa</Link> que o usuário pode completar de acordo com um intervalo definido por ele na <Link to="/CriarTarefaDiaria">criação da tarefa</Link>  
+          <Link to="/ModelagemLexicos/Tarefa">Tarefa</Link> que o usuário pode completar de acordo com um intervalo definido por ele na <Link to="/CriarTarefaDiaria">criação da tarefa</Link>  
         </li>
       </ul>
     </Card>

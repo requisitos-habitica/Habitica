@@ -17,7 +17,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: calc(.68vw + 1px);
+  font-size: calc(.71vw + 1px);
 } 
 
 *,
@@ -60,6 +60,11 @@ body {
 .artefact { 
   padding-top: 11rem;
   h1 { margin: 0; }
+  a {
+    color: var(--color-purple);
+    font-weight: bold;
+    
+  }
 }
 
 ::-webkit-scrollbar {

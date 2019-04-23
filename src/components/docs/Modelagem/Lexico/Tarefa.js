@@ -25,7 +25,7 @@ const Tarefa = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-            Tarefa é o conceito chave do habitica, o usuário pode ter 3 tipos de tarefas, e cada uma pertence a uma #: <Link to="/TarefaDiaria">diárias</Link>, <Link to="/Afazer">afazeres</Link> e <Link to="/Habito">hábitos</Link>. Cada tarefa tem um modo de recompensar o usuário.
+            Tarefa é o conceito chave do habitica, o usuário pode ter 3 tipos de tarefas, e cada uma pertence a uma <Link to="/ModelagemLexicos/Tarefa Diária">diárias</Link>, <Link to="/ModelagemLexicos/Afazer">afazeres</Link> e <Link to="/ModelagemLexicos/Hábito">hábitos</Link>. Cada tarefa tem um modo de recompensar o usuário.
         </li>
       </ul>
     </Card>
