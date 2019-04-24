@@ -1,43 +1,45 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Base = () => (
+const MissaoDeMascote = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="Artefato Nome" author="Quem fez"/>
+                  title="Missao de Mascote" author="Pedro Féo"/>
     <Card>
       <h2>Nome</h2>
-      <p>Irure pariatur Lorem ea commodo tempor magna.</p>
+      <p>Missao de Mascote</p>
     </Card>
 
     <Card>
       <h2>Sinônimos</h2>
       <ul>
-        <li>Esse sint <Link to="/Lexico04v2">Léxico04</Link></li>
+        <li>Missão para conseguir Mascote</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Reprehenderit sit adipisicing sunt tempor fugiat dolore eiusmod ea ad dolor.</li>
+        <li>É um tipo de <Link to="/MissaoDeColeta">Missão de Coleta</Link></li>
+        <li>Ao <Link to="/Cenarios/FazMissao">Fazer Missão</Link>, tem como recompensa um <Link to="/OvoDeMascote">Ovo de Mascote</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li><Link to="/Contextos/Contexto02v2">Léxico02</Link> aliqua</li>
-        <li>Aute incididunt pariatur ex dolore dolore culpa aliqua id ex minim velit.</li>
+        <li>Missão de Mascote pode ser iniciada</li>
+        <li>Missão de Mascote pode ser cancelada</li>
+        <li>Missão de Mascote pode ser completa</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Classificação</h2>
-      <p>Et veniam pariatur qui duis adipisicing.</p>
+      <p>Estado</p>
     </Card>
 
   </div>
 )
 
-export default Base
+export default MissaoDeMascote

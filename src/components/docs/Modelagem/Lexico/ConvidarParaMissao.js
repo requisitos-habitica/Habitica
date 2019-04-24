@@ -1,43 +1,46 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Base = () => (
+const ConvidarParaMissao = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="Artefato Nome" author="Quem fez"/>
+                  title="Convidar Para Missão" author="Pedro Féo"/>
     <Card>
       <h2>Nome</h2>
-      <p>Irure pariatur Lorem ea commodo tempor magna.</p>
+      <p>Convidar Para Missão</p>
     </Card>
 
     <Card>
       <h2>Sinônimos</h2>
       <ul>
-        <li>Esse sint <Link to="/Lexico04v2">Léxico04</Link></li>
+        <li>Chamar Para Missão</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Reprehenderit sit adipisicing sunt tempor fugiat dolore eiusmod ea ad dolor.</li>
+        <li>Realizado pelo <Link to="/DonoDeMissao">Dono de Missão</Link></li>
+        <li>Acontece quando Usuário usa <Link to="/TomoDeMissao">Tomo de Missão</Link></li>
+        <li><Link to="/DonoDeMissao">Dono de Missão</Link> convida <Link to="/Grupo">Grupo</Link> a <Link to="/Cenarios/FazMissao">Fazer Missão</Link></li>
       </ul>
     </Card>
 
     <Card>
-      <h2>Impacto</h2>
-      <ul>
-        <li><Link to="/Contextos/Contexto02v2">Léxico02</Link> aliqua</li>
-        <li>Aute incididunt pariatur ex dolore dolore culpa aliqua id ex minim velit.</li>
+    <h2>Impacto</h2>
+    <ul>
+      <li><Link to="/Membros">Membros do Grupo</Link> estão convidados</li>
+        <li>Se o <Link to="/Membros">Membros do Grupo</Link> está convidado, pode aceitar convite</li>
+        <li>Se <Link to="/Membros">Membros do Grupo</Link> está convidado, pode recusar convite</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Classificação</h2>
-      <p>Et veniam pariatur qui duis adipisicing.</p>
+      <p>Verbo</p>
     </Card>
 
   </div>
 )
 
-export default Base
+export default ConvidarParaMissao

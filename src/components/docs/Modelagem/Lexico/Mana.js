@@ -1,43 +1,47 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Base = () => (
+const Mana = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="Artefato Nome" author="Quem fez"/>
+                  title="Mana" author="Pedro Féo"/>
     <Card>
       <h2>Nome</h2>
-      <p>Irure pariatur Lorem ea commodo tempor magna.</p>
+      <p>Mana</p>
     </Card>
 
     <Card>
       <h2>Sinônimos</h2>
       <ul>
-        <li>Esse sint <Link to="/Lexico04v2">Léxico04</Link></li>
+        <li>Pontos de Mana</li>
+        <li>MP</li>
+        <li>Energia Mágica</li>
+        <li>Barra de Mana</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Reprehenderit sit adipisicing sunt tempor fugiat dolore eiusmod ea ad dolor.</li>
+        <li>É o que permite que o Usuário use Habilidade</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li><Link to="/Contextos/Contexto02v2">Léxico02</Link> aliqua</li>
-        <li>Aute incididunt pariatur ex dolore dolore culpa aliqua id ex minim velit.</li>
+        <li>Mana é perdida se usuário Usa Habilidade</li>
+        <li>Mana é recuperada se Usuário <Link to="/Contextos/CompletaTarefa">Completa Tarefa</Link></li>
+        <li>Mana é recuperada diariamente</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Classificação</h2>
-      <p>Et veniam pariatur qui duis adipisicing.</p>
+      <p>Objeto</p>
     </Card>
 
   </div>
 )
 
-export default Base
+export default Mana

@@ -1,43 +1,51 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Base = () => (
+const Experiencia = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="Artefato Nome" author="Quem fez"/>
+                  title="Experiência" author="Pedro Féo"/>
     <Card>
       <h2>Nome</h2>
-      <p>Irure pariatur Lorem ea commodo tempor magna.</p>
+      <p>Experiência</p>
     </Card>
 
     <Card>
       <h2>Sinônimos</h2>
       <ul>
-        <li>Esse sint <Link to="/Lexico04v2">Léxico04</Link></li>
+        <li>Pontos de Experiência</li>
+        <li>EXP</li>
+        <li>XP</li>
+        <li>Barra de Experiência</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Reprehenderit sit adipisicing sunt tempor fugiat dolore eiusmod ea ad dolor.</li>
+        <li>Acompanham o progresso de um Usuário</li>
+        <li>Representa o progresso até <Link to="/Cenarios/SubirDeNivel">Subir de Nível</Link></li>
+        <li>A Experiência pertence ao Usuário</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li><Link to="/Contextos/Contexto02v2">Léxico02</Link> aliqua</li>
-        <li>Aute incididunt pariatur ex dolore dolore culpa aliqua id ex minim velit.</li>
+        <li>Usuários ganham Experiência ao <Link to="/Cenarios/CompletarTarefa">Completar Tarefa</Link></li>
+        <li>Usuários ganham Experiência através de Habilidades</li>
+        <li>Usuários ganham Experiência ao <Link to="/Cenarios/CompletaMissao">Completar uma Missão</Link></li>
+        <li>Usuários <Link to="/Cenarios/SobirDeNivel">Sobem um Nível</Link> ao se completar a Barra de Experiência</li>
+        <li>A Experiência do Usuário se torna zero ao <Link to="/Cenarios/SobirDeNivel">Subir de Nível</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Classificação</h2>
-      <p>Et veniam pariatur qui duis adipisicing.</p>
+      <p>Objeto</p>
     </Card>
 
   </div>
 )
 
-export default Base
+export default Experiencia

@@ -1,43 +1,46 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Base = () => (
+const TomoDeMissao = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="Artefato Nome" author="Quem fez"/>
+                  title="Tomo de Missão" author="Pedro Féo"/>
     <Card>
       <h2>Nome</h2>
-      <p>Irure pariatur Lorem ea commodo tempor magna.</p>
+      <p>Tomo de Missão.</p>
     </Card>
 
     <Card>
       <h2>Sinônimos</h2>
       <ul>
-        <li>Esse sint <Link to="/Lexico04v2">Léxico04</Link></li>
+        <li>Pergaminho</li>
+        <li>Pergaminho de Missão</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Reprehenderit sit adipisicing sunt tempor fugiat dolore eiusmod ea ad dolor.</li>
+        <li>Permite que <Link to="/Grupo">Grupo</Link> <Link to="/Cenarios/FazMissao">Faça Missão</Link></li>
+        <li>Pertence a um Usuário</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li><Link to="/Contextos/Contexto02v2">Léxico02</Link> aliqua</li>
-        <li>Aute incididunt pariatur ex dolore dolore culpa aliqua id ex minim velit.</li>
+        <li>Torna o Usuário que usou o Tomo de Missão no <Link to="/DonoDeMissao">Dono de Missão</Link></li>
+        <li>Ao usar Tomo de Missão, <Link to="/Grupo">Grupo</Link> é convidado para <Link to="/Missao">Missão</Link></li>
+        <li>Ao usar Tomo de Missão, <Link to="/Missao">Missão</Link> começa</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Classificação</h2>
-      <p>Et veniam pariatur qui duis adipisicing.</p>
+      <p>Objeto</p>
     </Card>
 
   </div>
 )
 
-export default Base
+export default TomoDeMissao

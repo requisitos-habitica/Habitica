@@ -1,43 +1,44 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const Base = () => (
+const GuildaPrivada = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="Artefato Nome" author="Quem fez"/>
+                  title="Guilda Privada" author="Pedro Féo"/>
     <Card>
       <h2>Nome</h2>
-      <p>Irure pariatur Lorem ea commodo tempor magna.</p>
+      <p>Guilda Privada</p>
     </Card>
 
     <Card>
       <h2>Sinônimos</h2>
       <ul>
-        <li>Esse sint <Link to="/Lexico04v2">Léxico04</Link></li>
+        <li>Guilda Fechada</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Reprehenderit sit adipisicing sunt tempor fugiat dolore eiusmod ea ad dolor.</li>
+        <li>Só pode ser acessada através de Convites</li>
+        <li>É um tipo de <Link to="/Guilda">Guilda</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li><Link to="/Contextos/Contexto02v2">Léxico02</Link> aliqua</li>
-        <li>Aute incididunt pariatur ex dolore dolore culpa aliqua id ex minim velit.</li>
+        <li>A Guilda Privada pode ser alterada para <Link to="/GuildaPublica">Guilda Pública</Link></li>
+        <li>Um Usuário pode ser convidado a se juntar a uma Guilda Privada</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Classificação</h2>
-      <p>Et veniam pariatur qui duis adipisicing.</p>
+      <p>Estado</p>
     </Card>
 
   </div>
 )
 
-export default Base
+export default GuildaPrivada
