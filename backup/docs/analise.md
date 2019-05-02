@@ -1,4 +1,0 @@
----
-id: analise
-title: Análise 
----
