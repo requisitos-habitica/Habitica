@@ -11,7 +11,7 @@ import ContribuirTraducao from '../components/docs/Modelagem/Cenario/ContribuirT
 import ContribuirWiki from '../components/docs/Modelagem/Cenario/ContribuirWiki'
 
 const cenarios = {
-  /* "Fóruns": {
+  "Fóruns": {
     color: "pink",
     lexic: {
       "Guerreiro": null,
@@ -37,7 +37,7 @@ const cenarios = {
     lexic: {
       "Mana": null,
     }
-  }, */
+  },
 
   "Guia de Contribuição": {
     color: "Orchid",
@@ -51,7 +51,7 @@ const cenarios = {
     }
   },
 
-  /* 
+  
   "Tarefas": {
     color: "Gold",
     lexic: {
@@ -64,7 +64,7 @@ const cenarios = {
     lexic: {
       "Ovo de Pet": null,
     }
-  }, */
+  },
 
   "Desafios": {
     color: "DeepPink",
