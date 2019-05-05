@@ -8,6 +8,8 @@
   --shadow-far: 0 1.2rem 1.2rem rgba(0, 0, 0, 0.45);
   --transition-fast: all .5s;
   --transition-slow: all .8s;
+
+  --font-size-base-text: 1.3rem;
 }
 
 * {
@@ -50,6 +52,10 @@ body {
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+p, li {
+  font-size: var(--font-size-base-text);
 }
 
 .content {
