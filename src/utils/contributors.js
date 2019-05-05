@@ -39,7 +39,7 @@ const contributors = [
     github: 'https://github.com/gabrielalbino' 
   },
   {
-    name: 'Rogério Silva',
+    name: 'Rogério Júnior',
     img: Rogerio,
     github: 'https://github.com/rogerioo' 
   },

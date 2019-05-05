@@ -9,6 +9,18 @@ import ContribuirDesign from '../components/docs/Modelagem/Cenario/ContribuirDes
 import ContribuirHistoria from '../components/docs/Modelagem/Cenario/ContribuirHistoria'
 import ContribuirTraducao from '../components/docs/Modelagem/Cenario/ContribuirTraducao'
 import ContribuirWiki from '../components/docs/Modelagem/Cenario/ContribuirWiki'
+import ChocarOvoDeMascote from '../components/docs/Modelagem/Cenario/ChocarOvoDeMascote';
+import AlimentarMascote from '../components/docs/Modelagem/Cenario/AlimentarMascote';
+import ProporMissoes from '../components/docs/Modelagem/Cenario/ProporMissoes';
+import EquiparAvatarComItemDeMao from '../components/docs/Modelagem/Cenario/EquiparAvatarComItemDeMao';
+import EquiparAvatarComCapacete from '../components/docs/Modelagem/Cenario/EquiparAvatarComCapacete';
+import EquiparAvatarComArmadura from '../components/docs/Modelagem/Cenario/EquiparAvatarComArmadura';
+import EquiparAvatarComAcessorioDeCabeca from '../components/docs/Modelagem/Cenario/EquiparAvatarComAcessorioDeCabeca';
+import EquiparAvatarComOculos from '../components/docs/Modelagem/Cenario/EquiparAvatarComOculos';
+import EquiparAvatarComFundo from '../components/docs/Modelagem/Cenario/EquiparAvatarComFundo';
+import EquiparAvatarComMascote from '../components/docs/Modelagem/Cenario/EquiparAvatarComMascote';
+import EquiparAvatarComMontaria from '../components/docs/Modelagem/Cenario/EquiparAvatarComMontaria';
+import EquiparAvatarComItemDeCorpo from '../components/docs/Modelagem/Cenario/EquiparAvatarComItemDeCorpo';
 
 const cenarios = {
   /* "Fóruns": {
@@ -58,13 +70,26 @@ const cenarios = {
       "Tarefa": null,
     }
   },
+  */
 
   "Inventário": {
     color: "LightCoral",
     lexic: {
-      "Ovo de Pet": null,
+      "Chocar Ovo de Mascote": ChocarOvoDeMascote,
+      "Alimentar Mascote": AlimentarMascote,
+      "Propor Missões": ProporMissoes,
+      "Equipar Avatar com Item de Mão": EquiparAvatarComItemDeMao,
+      "Equipar Avatar com Capacete": EquiparAvatarComCapacete,
+      "Equipar Avatar com Armadura": EquiparAvatarComArmadura,
+      "Equipar Avatar com Acessório de Cabeça": EquiparAvatarComAcessorioDeCabeca,
+      "Equipar Avatar com Óculos": EquiparAvatarComOculos,
+      "Equipar Avatar com Item de Corpo": EquiparAvatarComItemDeCorpo,
+      "Equipar Avatar com Fundo": EquiparAvatarComFundo,
+      "Equipar Avatar com Mascote": EquiparAvatarComMascote,
+      "Equipar Avatar com Montaria": EquiparAvatarComMontaria,
+
     }
-  }, */
+  },
 
   "Desafios": {
     color: "DeepPink",
