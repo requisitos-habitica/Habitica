@@ -28,7 +28,7 @@ const CriarDesafioV1 = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li><Link to="/DesafioV1">Desafio</Link> criado</li>
+        <li><Link target="_blank" to="/DesafioV1">Desafio</Link> criado</li>
       </ul>
     </Card>
 

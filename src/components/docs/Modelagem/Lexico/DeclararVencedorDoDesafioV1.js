@@ -21,15 +21,15 @@ const DeclararVencedorDoDesafioV1 = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>O criador do <Link to="/DesafioV1">desafio</Link> pode encerrar o mesmo, e selecionar o vencedor, o usuário que receberá o <Link to="/PremioV1">prêmio</Link></li>
+        <li>O criador do <Link target="_blank" to="/DesafioV1">desafio</Link> pode encerrar o mesmo, e selecionar o vencedor, o usuário que receberá o <Link target="_blank" to="/PremioV1">prêmio</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>O <Link to="/DesafioV1">desafio</Link> é encerrado</li>
-        <li>Um <Link to="/ParticipanteV1">participante</Link> se torna o vencedor do <Link to="/DesafioV1">desafio</Link></li>
+        <li>O <Link target="_blank" to="/DesafioV1">desafio</Link> é encerrado</li>
+        <li>Um <Link target="_blank" to="/ParticipanteV1">participante</Link> se torna o vencedor do <Link target="_blank" to="/DesafioV1">desafio</Link></li>
       </ul>
     </Card>
 

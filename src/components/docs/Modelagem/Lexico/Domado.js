@@ -24,7 +24,7 @@ const Domado = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Estado no qual um animal vira uma <Link to='/ModelagemLexicos/Montaria'>montaria</Link></li>
+        <li>Estado no qual um animal vira uma <Link target="_blank" to='/ModelagemLexicos/Montaria'>montaria</Link></li>
         <li>Decorre de uma certa quantia de comida que o animal recebe</li>
       </ul>
     </Card>

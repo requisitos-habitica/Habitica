@@ -22,14 +22,14 @@ const CategoriaV1 = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Conjunto de <Link to="/DesafioV1">desafios</Link>, agrupados por um classe genérica que os define</li>
+        <li>Conjunto de <Link target="_blank" to="/DesafioV1">desafios</Link>, agrupados por um classe genérica que os define</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Adicionar categoria ao <Link to="/DesafioV1">desafio</Link></li>
+        <li>Adicionar categoria ao <Link target="_blank" to="/DesafioV1">desafio</Link></li>
       </ul>
     </Card>
 

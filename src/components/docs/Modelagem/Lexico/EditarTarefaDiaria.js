@@ -23,7 +23,7 @@ const EditarTarefaDiaria = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-            Usuário edita as informações de uma tarefa diária que já se encontra na <Link to="/ListaDeTarefas">lista de diárias</Link>.
+            Usuário edita as informações de uma tarefa diária que já se encontra na <Link target="_blank" to="/ListaDeTarefas">lista de diárias</Link>.
         </li>
       </ul>
     </Card>
@@ -31,7 +31,7 @@ const EditarTarefaDiaria = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Após a edição a tarefa aparece com as propriedades atualizadas na <Link to="/ListaDeTarefas">lista de tarefas</Link></li>
+        <li>Após a edição a tarefa aparece com as propriedades atualizadas na <Link target="_blank" to="/ListaDeTarefas">lista de tarefas</Link></li>
       </ul>
     </Card>
 

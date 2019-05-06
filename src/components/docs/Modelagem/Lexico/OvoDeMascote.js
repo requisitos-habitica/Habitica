@@ -9,13 +9,13 @@ const OvoDeMascote = () => (
                   title="Ovo de Mascote" author="Rogério Júnior"/>
     <Card>
       <h2>Nome</h2>
-      <p>Ovo de <Link to='/ModelagemLexicos/Mascote'>Mascote</Link></p>
+      <p>Ovo de <Link target="_blank" to='/ModelagemLexicos/Mascote'>Mascote</Link></p>
     </Card>
 
     <Card>
       <h2>Sinônimos</h2>
       <ul>
-        <li>Ovos de <Link to='/ModelagemLexicos/Mascote'>Mascote</Link></li>
+        <li>Ovos de <Link target="_blank" to='/ModelagemLexicos/Mascote'>Mascote</Link></li>
         <li>Ovo</li>
         <li>Ovos</li>
       </ul>
@@ -24,16 +24,16 @@ const OvoDeMascote = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Recipiente que guarda um <Link to='/ModelagemLexicos/Mascote'>mascote</Link> até que ele seja <Link to='/ModelagemLexicos/Chocar Ovo'>chocado</Link> e possa nascer</li>
+        <li>Recipiente que guarda um <Link target="_blank" to='/ModelagemLexicos/Mascote'>mascote</Link> até que ele seja <Link target="_blank" to='/ModelagemLexicos/Chocar Ovo'>chocado</Link> e possa nascer</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Ovo de <Link to='/ModelagemLexicos/Mascote'>mascote</Link> recebem <Link to='/ModelagemLexicos/Poção de Eclosão'>poção de eclosão</Link></li>
-        <li>Ovo de <Link to='/ModelagemLexicos/Mascote'>mascote</Link> <Link to='/ModelagemLexicos/Chocar Ovo'>choca</Link></li>
-        <li>Ovo de <Link to='/ModelagemLexicos/Mascote'>mascote</Link> vira novo <Link to='/ModelagemLexicos/Mascote'>mascote</Link></li>
+        <li>Ovo de <Link target="_blank" to='/ModelagemLexicos/Mascote'>mascote</Link> recebem <Link target="_blank" to='/ModelagemLexicos/Poção de Eclosão'>poção de eclosão</Link></li>
+        <li>Ovo de <Link target="_blank" to='/ModelagemLexicos/Mascote'>mascote</Link> <Link target="_blank" to='/ModelagemLexicos/Chocar Ovo'>choca</Link></li>
+        <li>Ovo de <Link target="_blank" to='/ModelagemLexicos/Mascote'>mascote</Link> vira novo <Link target="_blank" to='/ModelagemLexicos/Mascote'>mascote</Link></li>
       </ul>
     </Card>
 

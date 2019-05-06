@@ -21,14 +21,14 @@ const AdicionarTarefasDeDesafioV1 = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Usuário que cria <Link to="/DesafioV1">desafio</Link> deseja adicionar as tarefas do mesmo</li>
+        <li>Usuário que cria <Link target="_blank" to="/DesafioV1">desafio</Link> deseja adicionar as tarefas do mesmo</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>O <Link to="/DesafioV1">desafio</Link> passa a ter tarefas, com as quais os <Link to="/ParticipanteV1">participantes</Link> podem interagir</li>
+        <li>O <Link target="_blank" to="/DesafioV1">desafio</Link> passa a ter tarefas, com as quais os <Link target="_blank" to="/ParticipanteV1">participantes</Link> podem interagir</li>
       </ul>
     </Card>
 

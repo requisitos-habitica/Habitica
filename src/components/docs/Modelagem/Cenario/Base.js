@@ -15,7 +15,7 @@ const Base = () => (
     <Card>
       <h2>Contexto</h2>
       <ul>
-        <li>Esse sint enim minim <Link to="/Cenario08v2">Cenário08</Link> sit occaecat.</li>
+        <li>Esse sint enim minim <Link target="_blank" to="/Cenario08v2">Cenário08</Link> sit occaecat.</li>
         <li>Adipisicing Lorem non mollit in nisi.</li>
       </ul>
     </Card>
@@ -23,14 +23,14 @@ const Base = () => (
     <Card>
       <h2>Atores</h2>
       <ul>
-        <li><Link to="/Lexicos/Lexico04v2">Léxico04</Link> pariatur exercitation.</li>
+        <li><Link target="_blank" to="/Lexicos/Lexico04v2">Léxico04</Link> pariatur exercitation.</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Recursos</h2>
       <ul>
-        <li><Link to="/Lexicos/Lexico02v2">Léxico02</Link> aliqua</li>
+        <li><Link target="_blank" to="/Lexicos/Lexico02v2">Léxico02</Link> aliqua</li>
         <li>Fugiat aliqua</li>
       </ul>
     </Card>

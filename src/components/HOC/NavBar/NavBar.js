@@ -7,15 +7,15 @@ import { Link } from 'react-router-dom'
 const NavBar = props => (
   <div>
     <nav className="nav">
-      <Link to="/"><img src={ logo } alt="Habitica"/></Link>
+      <Link target="_blank" to="/"><img src={ logo } alt="Habitica"/></Link>
       <ul>
-        <Link to="/Disciplina">Disciplina</Link>
-        <Link to="/Pre-Rastreabilidade">Pré-Rastreabilidade</Link>
-        <Link to="/Pos-Rastreabilidade">Pós-Rastreabilidade</Link>
-        <Link to="/Elicitacao">Elicitação</Link>
-        <Link to="/Modelagem">Modelagem</Link>
-        <Link to="/Analise">Análise</Link>
-        <Link to="/Sobre">Sobre</Link>
+        <Link target="_blank" to="/Disciplina">Disciplina</Link>
+        <Link target="_blank" to="/Pre-Rastreabilidade">Pré-Rastreabilidade</Link>
+        <Link target="_blank" to="/Pos-Rastreabilidade">Pós-Rastreabilidade</Link>
+        <Link target="_blank" to="/Elicitacao">Elicitação</Link>
+        <Link target="_blank" to="/Modelagem">Modelagem</Link>
+        <Link target="_blank" to="/Analise">Análise</Link>
+        <Link target="_blank" to="/Sobre">Sobre</Link>
       </ul>
     </nav>
 

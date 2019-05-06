@@ -23,7 +23,7 @@ const EditarAfazer = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-            Usuário edita as informações de um <Link to="/Afazer">afazer</Link> que já se encontra na lista.
+            Usuário edita as informações de um <Link target="_blank" to="/Afazer">afazer</Link> que já se encontra na lista.
         </li>
       </ul>
     </Card>
@@ -31,7 +31,7 @@ const EditarAfazer = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Ao editar um afazer, as informações atualizadas são exibidas na <Link to="/ListaDeTarefas">lista de tarefas</Link></li>
+        <li>Ao editar um afazer, as informações atualizadas são exibidas na <Link target="_blank" to="/ListaDeTarefas">lista de tarefas</Link></li>
       </ul>
     </Card>
 

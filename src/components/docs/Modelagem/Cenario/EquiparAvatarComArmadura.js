@@ -16,7 +16,7 @@ const EquiparAvatarComArmadura = () => (
       <h2>Contexto</h2>
       <ul>
         <li>Pré-condição: O usuário deve estar logado, possuir celular ou computador, deve possuir armadura</li>
-        <li>Local: Inventário na aba <Link to='/ModelagemLexicos/Equipamento'>equipamentos</Link> (rp_inventory_v2.png)</li>
+        <li>Local: Inventário na aba <Link target="_blank" to='/ModelagemLexicos/Equipamento'>equipamentos</Link> (rp_inventory_v2.png)</li>
         <li>Tempo: Enquanto estiver usando o Habitica</li>
       </ul>
     </Card>
@@ -39,8 +39,8 @@ const EquiparAvatarComArmadura = () => (
       <h2>Episódios</h2>
       <ul>
         <li>Usuário compra armadura na loja</li>
-        <li>Usuário ganha armadura realizando <Link to='/ModelagemLexicos/Tarefa'>tarefas</Link></li>
-        <li>Usuário compra <Link to='/ModelagemLexicos/Armário Encantado'>armário encantado</Link> e pode ganhar armadura</li>
+        <li>Usuário ganha armadura realizando <Link target="_blank" to='/ModelagemLexicos/Tarefa'>tarefas</Link></li>
+        <li>Usuário compra <Link target="_blank" to='/ModelagemLexicos/Armário Encantado'>armário encantado</Link> e pode ganhar armadura</li>
         <li>Avatar customizado</li> 
       </ul>
     </Card>

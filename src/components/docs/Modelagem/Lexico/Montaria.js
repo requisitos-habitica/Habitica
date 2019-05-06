@@ -22,7 +22,7 @@ const Montaria = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Segundo estágio de um animal que saiu do <Link to='/ModelagemLexicos/Ovo de Mascote'>ovo de mascote</Link></li>
+        <li>Segundo estágio de um animal que saiu do <Link target="_blank" to='/ModelagemLexicos/Ovo de Mascote'>ovo de mascote</Link></li>
         <li>Permite que o usuário monte o animal</li>
       </ul>
     </Card>

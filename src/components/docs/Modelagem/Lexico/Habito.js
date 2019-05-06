@@ -23,7 +23,7 @@ const Habito = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-            <Link to="/ModelagemLexicos/Tarefa">Tarefa</Link> que o usuário pode <Link to="/ModelagemLexicos/Incrementar hábito">incrementar caso tenha feito um hábito bom</Link> ou <Link to="Incrementar hábito/Decrementar hábito">decrementar caso tenha feito um hábito ruim</Link>.
+            <Link target="_blank" to="/ModelagemLexicos/Tarefa">Tarefa</Link> que o usuário pode <Link target="_blank" to="/ModelagemLexicos/Incrementar hábito">incrementar caso tenha feito um hábito bom</Link> ou <Link target="_blank" to="Incrementar hábito/Decrementar hábito">decrementar caso tenha feito um hábito ruim</Link>.
         </li>
       </ul>
     </Card>
@@ -31,8 +31,8 @@ const Habito = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>O usuário pode <Link to="/ModelagemLexicos/Criar hábito">criar</Link> e <Link to="/EditarHabito">editar hábitos</Link></li>
-        <li>O usuário pode <Link to="/ModelagemLexicos/Incrementar hábito">incrementar</Link> ou <Link to="/ModelagemLexicos/Decrementar hábito">decrementar</Link> o hábito</li>           
+        <li>O usuário pode <Link target="_blank" to="/ModelagemLexicos/Criar hábito">criar</Link> e <Link target="_blank" to="/EditarHabito">editar hábitos</Link></li>
+        <li>O usuário pode <Link target="_blank" to="/ModelagemLexicos/Incrementar hábito">incrementar</Link> ou <Link target="_blank" to="/ModelagemLexicos/Decrementar hábito">decrementar</Link> o hábito</li>           
       </ul>
     </Card>
 
