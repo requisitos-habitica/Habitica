@@ -3,41 +3,45 @@ import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
-const CriarDesafioV1 = () => (
+const Domado = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="Criar desafio" author="Kaique"/>
+                  title="Domado" author="Rogério Júnior"/>
     <Card>
       <h2>Nome</h2>
-      <p>Criar desafio</p>
+      <p>Domado</p>
     </Card>
 
     <Card>
       <h2>Sinônimos</h2>
       <ul>
+        <li>Domados</li>
+        <li>Crescer</li>
+        <li>Crescimento</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Usuário quer motivar outros através de competitividade e recompensa</li>
+        <li>Estado no qual um animal vira uma <Link target="_blank" to='/ModelagemLexicos/Montaria'>montaria</Link></li>
+        <li>Decorre de uma certa quantia de comida que o animal recebe</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li><Link target="_blank" to="/DesafioV1">Desafio</Link> criado</li>
+        <li>Estado final de um animal</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Classificação</h2>
-      <p>Verbo</p>
+      <p>Estado</p>
     </Card>
 
   </div>
 )
 
-export default CriarDesafioV1
+export default Domado

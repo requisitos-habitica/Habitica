@@ -23,7 +23,7 @@ const ExcluirAfazer = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-            Usuário apaga da lista um <Link to="/Afazer">afazer</Link>.
+            Usuário apaga da lista um <Link target="_blank" to="/Afazer">afazer</Link>.
         </li>
       </ul>
     </Card>
@@ -31,8 +31,8 @@ const ExcluirAfazer = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>O afazer sai da <Link to="/ListaDeTarefas">lista de afazeres</Link></li>
-         <li>Não é mais possível o usuário <Link to="/ConcluirAfazer">Concluir o afazer</Link></li>
+        <li>O afazer sai da <Link target="_blank" to="/ListaDeTarefas">lista de afazeres</Link></li>
+         <li>Não é mais possível o usuário <Link target="_blank" to="/ConcluirAfazer">Concluir o afazer</Link></li>
       </ul>
     </Card>
 

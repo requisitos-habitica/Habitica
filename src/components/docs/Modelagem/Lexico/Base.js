@@ -15,7 +15,7 @@ const Base = () => (
     <Card>
       <h2>Sinônimos</h2>
       <ul>
-        <li>Esse sint <Link to="/Lexico04v2">Léxico04</Link></li>
+        <li>Esse sint <Link target="_blank" to="/Lexico04v2">Léxico04</Link></li>
       </ul>
     </Card>
 
@@ -29,7 +29,7 @@ const Base = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li><Link to="/Contextos/Contexto02v2">Léxico02</Link> aliqua</li>
+        <li><Link target="_blank" to="/Contextos/Contexto02v2">Léxico02</Link> aliqua</li>
         <li>Aute incididunt pariatur ex dolore dolore culpa aliqua id ex minim velit.</li>
       </ul>
     </Card>

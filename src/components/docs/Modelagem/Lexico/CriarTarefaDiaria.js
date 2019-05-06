@@ -23,7 +23,7 @@ const CriarTarefaDiaria = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-            Usuário cadastra uma nova <Link to="/TarefaDiaria">tarefa diária</Link> na <Link to="/ListaDeTarefas">lista de diárias</Link>.
+            Usuário cadastra uma nova <Link target="_blank" to="/TarefaDiaria">tarefa diária</Link> na <Link target="_blank" to="/ListaDeTarefas">lista de diárias</Link>.
         </li>
       </ul>
     </Card>
@@ -31,7 +31,7 @@ const CriarTarefaDiaria = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Após a tarefa ser criada, o usuário pode <Link to="/CompletarTarefaDiaria">Completar a tarefa diária</Link></li>
+        <li>Após a tarefa ser criada, o usuário pode <Link target="_blank" to="/CompletarTarefaDiaria">Completar a tarefa diária</Link></li>
       </ul>
     </Card>
 

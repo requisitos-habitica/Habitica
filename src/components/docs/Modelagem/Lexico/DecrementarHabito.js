@@ -23,7 +23,7 @@ const DecrementarHabito = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-            O usuário quando realizou um <Link to="/Habito">hábito</Link> ruim realiza o decremento do contador que marca as vezes que ele realizou o hábito e perde vida
+            O usuário quando realizou um <Link target="_blank" to="/Habito">hábito</Link> ruim realiza o decremento do contador que marca as vezes que ele realizou o hábito e perde vida
         </li>
       </ul>
     </Card>

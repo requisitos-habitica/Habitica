@@ -3,36 +3,34 @@ import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
-const Afazer = () => (
+const PergaminhoDeMissao = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="Afazer" author="Gabriel Albino"/>
+                  title="Pergaminho de Missão" author="Rogério Júnior"/>
     <Card>
       <h2>Nome</h2>
-      <p>Afazer</p>
+      <p>Pergaminho de Missão</p>
     </Card>
 
     <Card>
       <h2>Sinônimos</h2>
       <ul>
-        <li>To-do</li>
+        <li>Pergaminhos de Missão</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>
-            <Link target="_blank" to="/Tarefa">Tarefa</Link> que o usuário pode completar uma única vez
-        </li>
+        <li>Item que tem descrito missões a serem cumpridas</li>
+        <li>Item que mostra as recompensas a serem adquiridas</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-            <li>O usuário pode <Link target="_blank" to="/ConcluirAfazer">completar o afazer</Link></li>
-            <li>O usuário pode <Link target="_blank" to="/CriarAfazer">criar</Link>, <Link target="_blank" to="/EditarAfazer">editar</Link> ou <Link target="_blank" to="/ExcluirAfazer">excluir afazeres</Link></li>          
+        <li>Pode ser proposto às equipes que o usuário faz parte</li>
       </ul>
     </Card>
 
@@ -43,4 +41,5 @@ const Afazer = () => (
 
   </div>
 )
-export default Afazer
+
+export default PergaminhoDeMissao

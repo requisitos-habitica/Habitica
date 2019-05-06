@@ -3,36 +3,35 @@ import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
-const Afazer = () => (
+const ItemDeMao = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="Afazer" author="Gabriel Albino"/>
+                  title="Item de Mão" author="Quem fez"/>
     <Card>
       <h2>Nome</h2>
-      <p>Afazer</p>
+      <p>Item de Mão</p>
     </Card>
 
     <Card>
       <h2>Sinônimos</h2>
       <ul>
-        <li>To-do</li>
+        <li>Itens de Mão</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>
-            <Link target="_blank" to="/Tarefa">Tarefa</Link> que o usuário pode completar uma única vez
-        </li>
+        <li>Objetos que são usados na mão esquerda ou direita</li>
+        <li>Normalmente são escudos, armas, espadas, dentre outros</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-            <li>O usuário pode <Link target="_blank" to="/ConcluirAfazer">completar o afazer</Link></li>
-            <li>O usuário pode <Link target="_blank" to="/CriarAfazer">criar</Link>, <Link target="_blank" to="/EditarAfazer">editar</Link> ou <Link target="_blank" to="/ExcluirAfazer">excluir afazeres</Link></li>          
+        <li>Aumenta as habilidades do usuário</li>
+        <li>Deixa o avatar mais bonito</li>
       </ul>
     </Card>
 
@@ -43,4 +42,5 @@ const Afazer = () => (
 
   </div>
 )
-export default Afazer
+
+export default ItemDeMao

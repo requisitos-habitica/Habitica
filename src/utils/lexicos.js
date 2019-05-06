@@ -27,6 +27,18 @@ import ResetarTarefaDiaria from '../components/docs/Modelagem/Lexico/ResetarTare
 import SeJuntarAoDesafioV1 from '../components/docs/Modelagem/Lexico/SeJuntarAoDesafioV1'
 import Tarefa from '../components/docs/Modelagem/Lexico/Tarefa'
 import TarefaDiaria from '../components/docs/Modelagem/Lexico/TarefaDiaria'
+import ChocarOvo from '../components/docs/Modelagem/Lexico/ChocarOvo';
+import OvoDeMascote from '../components/docs/Modelagem/Lexico/OvoDeMascote';
+import PocaoDeEclosao from '../components/docs/Modelagem/Lexico/PocaoDeEclosao';
+import Mascote from '../components/docs/Modelagem/Lexico/Mascote';
+import Montaria from '../components/docs/Modelagem/Lexico/Montaria';
+import ArmarioEncantado from '../components/docs/Modelagem/Lexico/ArmarioEncantado';
+import Domado from '../components/docs/Modelagem/Lexico/Domado';
+import Comida from '../components/docs/Modelagem/Lexico/Comida';
+import PergaminhoDeMissao from '../components/docs/Modelagem/Lexico/PergaminhoDeMissao';
+import ItemDeMao from '../components/docs/Modelagem/Lexico/ItemDeMao';
+import Equipamento from '../components/docs/Modelagem/Lexico/Equipamento';
+import Estabulo from '../components/docs/Modelagem/Lexico/Estabulo';
 
 
 const lexicos = {
@@ -138,9 +150,18 @@ const lexicos = {
   "Inventário": {
     color: "LightCoral",
     lexic: {
-      "Ovo de Pet": null,
-      "Chocar Ovo de Pet": null,
-      "Evoluir Pet": null,
+      "Chocar Ovo": ChocarOvo,
+      "Ovo de Mascote": OvoDeMascote,
+      "Poção de Eclosão": PocaoDeEclosao,
+      "Mascote": Mascote,
+      "Montaria": Montaria,
+      "Armário Encantado": ArmarioEncantado,
+      "Domado": Domado,
+      "Comida": Comida,
+      "Pergaminho de Missão": PergaminhoDeMissao,
+      "Item de Mão": ItemDeMao,
+      "Equipamento": Equipamento,
+      "Estábulo": Estabulo,
     }
   },
 

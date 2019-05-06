@@ -23,7 +23,7 @@ const EditarHabito = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-            Usuário edita as informações de um <Link to="/Habito">hábito</Link> que já se encontra na lista.
+            Usuário edita as informações de um <Link target="_blank" to="/Habito">hábito</Link> que já se encontra na lista.
         </li>
       </ul>
     </Card>
@@ -31,7 +31,7 @@ const EditarHabito = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Ao ser editado, o <Link to="/Habito">hábito</Link> aparece com as informações atualizadas na <Link to="/ListaDeTarefas">lista de tarefas</Link></li>
+        <li>Ao ser editado, o <Link target="_blank" to="/Habito">hábito</Link> aparece com as informações atualizadas na <Link target="_blank" to="/ListaDeTarefas">lista de tarefas</Link></li>
       </ul>
     </Card>
 
