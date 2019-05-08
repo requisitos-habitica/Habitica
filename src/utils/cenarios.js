@@ -70,7 +70,7 @@ const cenarios = {
       "Tarefa": null,
     }
   },
-  */
+  
 
   "Inventário": {
     color: "LightCoral",

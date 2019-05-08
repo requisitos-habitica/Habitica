@@ -17,7 +17,7 @@ import cenarios from './utils/cenarios'
 const App = () => {
 
   return (
-    <Router>
+    <Router basename="/Habitica">
       <NavBar>
         <Switch>
           
