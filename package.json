@@ -2,7 +2,7 @@
   "name": "wiki",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://requisitos-habitica.github.io/",
+  "homepage": "https://requisitos-habitica.github.io/Habitica/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "node-sass": "^4.11.0",

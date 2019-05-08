@@ -15,9 +15,9 @@ import lexicos from './utils/lexicos'
 import cenarios from './utils/cenarios'
 
 const App = () => {
-
+  console.log(process.env.PUBLIC_URL)
   return (
-    <Router basename="/Habitica">
+    <Router basename={process.env.PUBLIC_URL}>
       <NavBar>
         <Switch>
           
