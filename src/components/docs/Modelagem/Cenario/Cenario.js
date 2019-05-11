@@ -6,7 +6,7 @@ const Cenario = (props) => {
 
   const [cenarios, setCenarios] = React.useState(cenariosObj)
 
-  const pushRoute = term => props.history.push("/ModelagemCenarios/" + term)
+  const pushRoute = term => props.history.push("/" + term)
 
   return (
     <div className="content artefact">

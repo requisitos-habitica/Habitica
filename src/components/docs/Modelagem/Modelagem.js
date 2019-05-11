@@ -8,14 +8,14 @@ const Modelagem = (props) => (
   <div className="content artefact">
     <h1>Modelagem</h1>
     <div className="modelagem">
-      <Link target="_blank" to="Modelagem/Lexicos" style={{ textDecoration: 'none' }}>
+      <Link to="/Lexicos" style={{ textDecoration: 'none' }}>
         <div className="cards">
           <img src={ dictionary } alt="Léxico"/>
           <h2>Léxicos</h2>
         </div>
       </Link>
 
-      <Link target="_blank" to="Modelagem/Cenarios" style={{ textDecoration: 'none' }}>
+      <Link to="/Cenarios" style={{ textDecoration: 'none' }}>
         <div className="cards">
           <img src={ route } alt="Cenário"/>
           <h2>Cenários</h2> 

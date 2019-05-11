@@ -7,7 +7,7 @@ const Lexico = (props) => {
 
   const [lexicos, setLexicos] = React.useState(lexicosObj)
 
-  const pushRoute = term => props.history.push("/ModelagemLexicos/" + term)
+  const pushRoute = term => props.history.push("/" + term)
 
   return (
     <div className="content artefact">
