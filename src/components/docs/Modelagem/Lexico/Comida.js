@@ -22,15 +22,15 @@ const Comida = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Representação virtual de comida que são dadas à <Link target="_blank" to='/ModelagemLexicos/Mascote'>mascotes</Link></li>
-        <li>Promove o crescimento de <Link target="_blank" to='/ModelagemLexicos/Mascote'>mascotes</Link></li>
+        <li>Representação virtual de comida que são dadas à <Link to='/Mascote'>mascotes</Link></li>
+        <li>Promove o crescimento de <Link to='/Mascote'>mascotes</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Alimentar <Link target="_blank" to='/ModelagemLexicos/Mascote'>mascotes</Link></li>
+        <li>Alimentar <Link to='/Mascote'>mascotes</Link></li>
       </ul>
     </Card>
 

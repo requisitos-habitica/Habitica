@@ -9,14 +9,14 @@ const EquiparAvatarComMontaria = () => (
                   title="Equipar Avatar com Montaria" author="Rogério Júnior"/>
     <Card>
       <h2>Objetivo</h2>
-      <p>Personalizar avatar com <Link target="_blank" to='/ModelagemLexicos/Montaria'>montaria</Link>.</p>
+      <p>Personalizar avatar com <Link to='/Montaria'>montaria</Link>.</p>
     </Card>
 
     <Card>
       <h2>Contexto</h2>
       <ul>
-        <li>Pré-condição: O usuário deve estar logado, possuir celular ou computador, deve possuir <Link target="_blank" to='/ModelagemLexicos/Montaria'>montaria</Link></li>
-        <li>Local: Inventário na aba <Link target="_blank" to='/ModelagemLexicos/Equipamento'>equipamentos</Link> (rp_inventory_v2.png)</li>
+        <li>Pré-condição: O usuário deve estar logado, possuir celular ou computador, deve possuir <Link to='/Montaria'>montaria</Link></li>
+        <li>Local: Inventário na aba <Link to='/Equipamento'>equipamentos</Link> (rp_inventory_v2.png)</li>
         <li>Tempo: Enquanto estiver usando o Habitica</li>
       </ul>
     </Card>
@@ -31,16 +31,16 @@ const EquiparAvatarComMontaria = () => (
     <Card>
       <h2>Recursos</h2>
       <ul>
-        <li><Link target="_blank" to='/ModelagemLexicos/Montaria'>Montaria</Link></li>
+        <li><Link to='/Montaria'>Montaria</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Episódios</h2>
       <ul>
-        <li>Usuário compra <Link target="_blank" to='/ModelagemLexicos/Montaria'>montaria</Link> na loja</li>
-        <li>Usuário ganha <Link target="_blank" to='/ModelagemLexicos/Montaria'>montaria</Link> realizando <Link target="_blank" to='/ModelagemLexicos/Tarefa'>tarefas</Link></li>
-        <li>Usuário compra <Link target="_blank" to='/ModelagemLexicos/Armário Encantado'>armário encantado</Link> e pode ganhar <Link target="_blank" to='/ModelagemLexicos/Montaria'>montaria</Link></li>
+        <li>Usuário compra <Link to='/Montaria'>montaria</Link> na loja</li>
+        <li>Usuário ganha <Link to='/Montaria'>montaria</Link> realizando <Link to='/Tarefa'>tarefas</Link></li>
+        <li>Usuário compra <Link to='/Armário Encantado'>armário encantado</Link> e pode ganhar <Link to='/Montaria'>montaria</Link></li>
         <li>Avatar customizado</li> 
       </ul>
     </Card>

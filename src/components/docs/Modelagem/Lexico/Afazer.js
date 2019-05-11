@@ -23,7 +23,7 @@ const Afazer = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-            <Link target="_blank" to="/Tarefa">Tarefa</Link> que o usuário pode completar uma única vez
+            <Link to="/Tarefa">Tarefa</Link> que o usuário pode completar uma única vez
         </li>
       </ul>
     </Card>
@@ -31,8 +31,8 @@ const Afazer = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-            <li>O usuário pode <Link target="_blank" to="/ConcluirAfazer">completar o afazer</Link></li>
-            <li>O usuário pode <Link target="_blank" to="/CriarAfazer">criar</Link>, <Link target="_blank" to="/EditarAfazer">editar</Link> ou <Link target="_blank" to="/ExcluirAfazer">excluir afazeres</Link></li>          
+            <li>O usuário pode <Link to="/ConcluirAfazer">completar o afazer</Link></li>
+            <li>O usuário pode <Link to="/CriarAfazer">criar</Link>, <Link to="/EditarAfazer">editar</Link> ou <Link to="/ExcluirAfazer">excluir afazeres</Link></li>          
       </ul>
     </Card>
 

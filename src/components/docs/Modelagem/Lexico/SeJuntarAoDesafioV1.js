@@ -22,14 +22,14 @@ const SeJuntarAoDesafioV1 = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Usuário se interessa por <Link target="_blank" to="/DesafioV1">desafio</Link> e deseja participar</li>
+        <li>Usuário se interessa por <Link to="/DesafioV1">desafio</Link> e deseja participar</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Ao se juntar ao <Link target="_blank" to="/DesafioV1">desafio</Link>, o usuário se torna <Link target="_blank" to="/ParticipanteV1">participante</Link> do desafio</li>
+        <li>Ao se juntar ao <Link to="/DesafioV1">desafio</Link>, o usuário se torna <Link to="/ParticipanteV1">participante</Link> do desafio</li>
       </ul>
     </Card>
 

@@ -24,7 +24,7 @@ const TarefaDiaria = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-          <Link target="_blank" to="/ModelagemLexicos/Tarefa">Tarefa</Link> que o usuário pode completar de acordo com um intervalo definido por ele na <Link target="_blank" to="/CriarTarefaDiaria">criação da tarefa</Link>  
+          <Link to="/Tarefa">Tarefa</Link> que o usuário pode completar de acordo com um intervalo definido por ele na <Link to="/CriarTarefaDiaria">criação da tarefa</Link>  
         </li>
       </ul>
     </Card>
@@ -32,8 +32,8 @@ const TarefaDiaria = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>O usuário pode <Link target="_blank" to="/CompletarTarefaDiaria">completar a tarefa diária</Link></li>
-        <li>O usuário pode <Link target="_blank" to="/CriarTarefaDiaria">criar</Link>, <Link target="_blank" to="/EditarTarefaDiaria">editar</Link> ou <Link target="_blank" to="/ExcluirTarefaDiaria">excluir tarefas diárias</Link></li>        
+        <li>O usuário pode <Link to="/CompletarTarefaDiaria">completar a tarefa diária</Link></li>
+        <li>O usuário pode <Link to="/CriarTarefaDiaria">criar</Link>, <Link to="/EditarTarefaDiaria">editar</Link> ou <Link to="/ExcluirTarefaDiaria">excluir tarefas diárias</Link></li>        
       </ul>
     </Card>
 

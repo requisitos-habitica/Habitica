@@ -21,14 +21,14 @@ const DeixarDesafioV1 = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Usuário que é <Link target="_blank" to="/ParticipanteV1">participante</Link> do <Link target="_blank" to="/DesafioV1">desafio</Link> sai do mesmo</li>
+        <li>Usuário que é <Link to="/ParticipanteV1">participante</Link> do <Link to="/DesafioV1">desafio</Link> sai do mesmo</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>O <Link target="_blank" to="/ParticipanteV1">participante</Link> que deixou o <Link target="_blank" to="/DesafioV1">desafio</Link> pode optar por apagar as tarefas ou não</li>
+        <li>O <Link to="/ParticipanteV1">participante</Link> que deixou o <Link to="/DesafioV1">desafio</Link> pode optar por apagar as tarefas ou não</li>
       </ul>
     </Card>
 

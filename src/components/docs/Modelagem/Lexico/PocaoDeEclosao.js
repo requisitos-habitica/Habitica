@@ -22,15 +22,15 @@ const PocaoDeEclosao = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Item que choca o ovo de um <Link target="_blank" to='/ModelagemLexicos/Mascote'>mascote</Link></li>
-        <li>Item que define a cor e o tipo do <Link target="_blank" to='/ModelagemLexicos/Mascote'>mascote</Link></li>
+        <li>Item que choca o ovo de um <Link to='/Mascote'>mascote</Link></li>
+        <li>Item que define a cor e o tipo do <Link to='/Mascote'>mascote</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Poções de eclosão são aplicados à <Link target="_blank" to='/ModelagemLexicos/Ovo de Mascote'>ovos de mascotes</Link></li>
+        <li>Poções de eclosão são aplicados à <Link to='/Ovo de Mascote'>ovos de mascotes</Link></li>
       </ul>
     </Card>
 

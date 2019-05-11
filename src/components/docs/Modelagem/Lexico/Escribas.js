@@ -21,7 +21,7 @@ const Escribas = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-            Escribas são pessoas responsáveis por estarem contribuindo para a <Link target="_blank" to="/Wiki">Wiki</Link> do Habitica
+            Escribas são pessoas responsáveis por estarem contribuindo para a <Link to="/Wiki">Wiki</Link> do Habitica
         </li>
       </ul>
     </Card>

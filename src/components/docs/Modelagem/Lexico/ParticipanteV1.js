@@ -22,15 +22,15 @@ const ParticipanteV1 = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Usuário é um competidor em um <Link target="_blank" to="/DesafioV1">desafio</Link>, podendo vencê-lo</li>
+        <li>Usuário é um competidor em um <Link to="/DesafioV1">desafio</Link>, podendo vencê-lo</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Um participante pode ser <Link target="_blank" to="/DeclararVencedorDoDesafioV1">declarado vencedor do desafio</Link></li>
-        <li>Um participante pode <Link target="_blank" to="/DeixarDesafioV1">deixar o desafio</Link></li>
+        <li>Um participante pode ser <Link to="/DeclararVencedorDoDesafioV1">declarado vencedor do desafio</Link></li>
+        <li>Um participante pode <Link to="/DeixarDesafioV1">deixar o desafio</Link></li>
       </ul>
     </Card>
 

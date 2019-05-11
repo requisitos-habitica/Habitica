@@ -24,18 +24,18 @@ const DesafioV1 = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Eventos da comunidade na qual usuários competem e ganham <Link target="_blank" to="/PremioV1">prêmios</Link> por completar um grupo de tarefas relacionada</li>
+        <li>Eventos da comunidade na qual usuários competem e ganham <Link to="/PremioV1">prêmios</Link> por completar um grupo de tarefas relacionada</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li><Link target="_blank" to="/CriarDesafioV1">Criar desafio</Link></li>
-        <li><Link target="_blank" to="/SeJuntarAoDesafioV1">Se juntar ao desafio</Link></li>
-        <li><Link target="_blank" to="/DeclararVencedorDoDesafioV1">Declarar vencedor do desafio</Link></li>
+        <li><Link to="/CriarDesafioV1">Criar desafio</Link></li>
+        <li><Link to="/SeJuntarAoDesafioV1">Se juntar ao desafio</Link></li>
+        <li><Link to="/DeclararVencedorDoDesafioV1">Declarar vencedor do desafio</Link></li>
         <li>Vencer um desafio</li>
-        <li><Link target="_blank" to="/AdicionarTarefasDeDesafioV1">Adicionar tarefas de desafio</Link></li>
+        <li><Link to="/AdicionarTarefasDeDesafioV1">Adicionar tarefas de desafio</Link></li>
       </ul>
     </Card>
 

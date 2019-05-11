@@ -23,7 +23,7 @@ const CriarAfazer = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-            Usuário cadastra um novo <Link target="_blank" to="/Afazer">afazer</Link> na lista, que ficará na <Link target="_blank" to="/ListaDeTarefas">lista de afazeres</Link> até ele ser completado
+            Usuário cadastra um novo <Link to="/Afazer">afazer</Link> na lista, que ficará na <Link to="/ListaDeTarefas">lista de afazeres</Link> até ele ser completado
         </li>
       </ul>
     </Card>
@@ -31,7 +31,7 @@ const CriarAfazer = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Ao criar um afazer, o afazer aparece na lista de tarefas para ser <Link target="_blank" to="/ConcluirAfazer">completado</Link></li>
+        <li>Ao criar um afazer, o afazer aparece na lista de tarefas para ser <Link to="/ConcluirAfazer">completado</Link></li>
       </ul>
     </Card>
 

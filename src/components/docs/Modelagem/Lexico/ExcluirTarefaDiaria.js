@@ -23,7 +23,7 @@ const ExcluirTarefaDiaria = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-            Usuário apaga da lista uma <Link target="_blank" to="/TarefaDiaria">tarefa diária</Link>.
+            Usuário apaga da lista uma <Link to="/TarefaDiaria">tarefa diária</Link>.
         </li>
       </ul>
     </Card>
@@ -31,8 +31,8 @@ const ExcluirTarefaDiaria = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>A tarefa diária some da <Link target="_blank" to="/ListaDeTarefas">lista de tarefas</Link></li>
-         <li>O usuário não pode mais <Link target="_blank" to="/CompletarTarefaDiaria">completar a tarefa diária</Link> apagada</li>            
+        <li>A tarefa diária some da <Link to="/ListaDeTarefas">lista de tarefas</Link></li>
+         <li>O usuário não pode mais <Link to="/CompletarTarefaDiaria">completar a tarefa diária</Link> apagada</li>            
       </ul>
     </Card>
 

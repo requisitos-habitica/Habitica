@@ -15,7 +15,7 @@ const ProporMissoes = () => (
     <Card>
       <h2>Contexto</h2>
       <ul>
-        <li>Pré-condição: O usuário deve estar logado, possuir celular ou computador, deve possuir <Link target="_blank" to='/ModelagemLexicos/Pergaminho de Missão'>pergaminho de missão</Link></li>
+        <li>Pré-condição: O usuário deve estar logado, possuir celular ou computador, deve possuir <Link to='/Pergaminho de Missão'>pergaminho de missão</Link></li>
         <li>Local: Inventário na aba items (rp_inventory_v2.png)</li>
         <li>Tempo: Enquanto estiver usando o Habitica</li>  
       </ul>
@@ -31,17 +31,17 @@ const ProporMissoes = () => (
     <Card>
       <h2>Recursos</h2>
       <ul>
-        <li><Link target="_blank" to='/ModelagemLexicos/Pergaminho de Missão'>Pergaminho de Missão</Link></li>
+        <li><Link to='/Pergaminho de Missão'>Pergaminho de Missão</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Episódios</h2>
       <ul>
-        <li>Usuário compra <Link target="_blank" to='/ModelagemLexicos/Pergaminho de Missão'>pergaminho de desafio</Link> na loja com gemas</li>
-        <li>Usuário ganha <Link target="_blank" to='/ModelagemLexicos/Pergaminho de Missão'>pergaminho de desafio</Link> realizando <Link target="_blank" to='/ModelagemLexicos/Tarefa'>tarefas</Link></li>
-        <li>Usuário ganha <Link target="_blank" to='/ModelagemLexicos/Pergaminho de Missão'>pergaminho de desafio</Link> completando missões em grupo</li>
-        <li>Usuário compra <Link target="_blank" to='/ModelagemLexicos/Armário Encantado'>armário encantado</Link> e pode ganhar <Link target="_blank" to='/ModelagemLexicos/Pergaminho de Missão'>pergaminhos de missão</Link></li>
+        <li>Usuário compra <Link to='/Pergaminho de Missão'>pergaminho de desafio</Link> na loja com gemas</li>
+        <li>Usuário ganha <Link to='/Pergaminho de Missão'>pergaminho de desafio</Link> realizando <Link to='/Tarefa'>tarefas</Link></li>
+        <li>Usuário ganha <Link to='/Pergaminho de Missão'>pergaminho de desafio</Link> completando missões em grupo</li>
+        <li>Usuário compra <Link to='/Armário Encantado'>armário encantado</Link> e pode ganhar <Link to='/Pergaminho de Missão'>pergaminhos de missão</Link></li>
         <li>Usuário propõe missão ao grupo</li>
         <li>Grupo conclui a missão</li>
         <li>Grupo ganha recompensas</li>

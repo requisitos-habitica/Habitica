@@ -16,7 +16,7 @@ const EquiparAvatarComCapacete = () => (
       <h2>Contexto</h2>
       <ul>
         <li>Pré-condição: O usuário deve estar logado, possuir celular ou computador,  deve possuir capacete</li>
-        <li>Local: Inventário na aba <Link target="_blank" to='/ModelagemLexicos/Equipamento'>equipamentos</Link> (rp_inventory_v2.png)</li>
+        <li>Local: Inventário na aba <Link to='/Equipamento'>equipamentos</Link> (rp_inventory_v2.png)</li>
         <li>Tempo: Enquanto estiver usando o Habitica</li>
       </ul>
     </Card>
@@ -39,8 +39,8 @@ const EquiparAvatarComCapacete = () => (
       <h2>Episódios</h2>
       <ul>
         <li>Usuário compra capacete na loja</li>
-        <li>Usuário ganha capacete realizando <Link target="_blank" to='/ModelagemLexicos/Tarefa'>tarefas</Link></li>
-        <li>Usuário compra <Link target="_blank" to='/ModelagemLexicos/Armário Encantado'>armário encantado</Link> e pode ganhar capacete</li>
+        <li>Usuário ganha capacete realizando <Link to='/Tarefa'>tarefas</Link></li>
+        <li>Usuário compra <Link to='/Armário Encantado'>armário encantado</Link> e pode ganhar capacete</li>
         <li>Avatar customizado</li> 
       </ul>
     </Card>

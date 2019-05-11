@@ -22,14 +22,14 @@ const Estabulo = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Local que ficam guardados os <Link target="_blank" to='/ModelagemLexicos/Mascote'>mascotes</Link> e as <Link target="_blank" to='/ModelagemLexicos/Montaria'>montarias</Link></li>
+        <li>Local que ficam guardados os <Link to='/Mascote'>mascotes</Link> e as <Link to='/Montaria'>montarias</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Os <Link target="_blank" to='/ModelagemLexicos/Mascote'>mascotes</Link> e as <Link target="_blank" to='/ModelagemLexicos/Montaria'>montarias</Link> podem ser cuidadas através do estábulo</li>
+        <li>Os <Link to='/Mascote'>mascotes</Link> e as <Link to='/Montaria'>montarias</Link> podem ser cuidadas através do estábulo</li>
       </ul>
     </Card>
 

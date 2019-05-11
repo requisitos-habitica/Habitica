@@ -23,7 +23,7 @@ const ResetarTarefaDiaria = () => (
       <h2>Noção</h2>
       <ul>
         <li>
-            O sistema, seguindo o intervalo de tempo cadastrado na tarefa diária, que pode ser dias, semanas ou meses, deixa a <Link target="_blank" to="/TarefaDiaria">tarefa diária</Link> disponível para ser completada novamente.
+            O sistema, seguindo o intervalo de tempo cadastrado na tarefa diária, que pode ser dias, semanas ou meses, deixa a <Link to="/TarefaDiaria">tarefa diária</Link> disponível para ser completada novamente.
         </li>
       </ul>
     </Card>
@@ -31,7 +31,7 @@ const ResetarTarefaDiaria = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Quando a tarefa é resetada o usuário pode <Link target="_blank" to="/CompletarTarefaDiaria">completar a tarefa diária</Link> novamente.</li>
+        <li>Quando a tarefa é resetada o usuário pode <Link to="/CompletarTarefaDiaria">completar a tarefa diária</Link> novamente.</li>
       </ul>
     </Card>
 
