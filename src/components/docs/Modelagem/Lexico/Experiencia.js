@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Card from '../../../UI/Card/Card'
+import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
 const Experiencia = () => (
   <div className="content artefact">
@@ -24,7 +26,7 @@ const Experiencia = () => (
       <h2>Noção</h2>
       <ul>
         <li>Acompanham o progresso de um Usuário</li>
-        <li>Representa o progresso até <Link to="/Cenarios/SubirDeNivel">Subir de Nível</Link></li>
+        <li>Representa o progresso até <Link to="/Subir de Nível">Subir de Nível</Link></li>
         <li>A Experiência pertence ao Usuário</li>
       </ul>
     </Card>
@@ -32,11 +34,11 @@ const Experiencia = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Usuários ganham Experiência ao <Link to="/Cenarios/CompletarTarefa">Completar Tarefa</Link></li>
+        <li>Usuários ganham Experiência ao <Link to="/Completar Tarefa">Completar Tarefa</Link></li>
         <li>Usuários ganham Experiência através de Habilidades</li>
-        <li>Usuários ganham Experiência ao <Link to="/Cenarios/CompletaMissao">Completar uma Missão</Link></li>
-        <li>Usuários <Link to="/Cenarios/SobirDeNivel">Sobem um Nível</Link> ao se completar a Barra de Experiência</li>
-        <li>A Experiência do Usuário se torna zero ao <Link to="/Cenarios/SobirDeNivel">Subir de Nível</Link></li>
+        <li>Usuários ganham Experiência ao <Link to="/Completa Missão">Completar uma Missão</Link></li>
+        <li>Usuários <Link to="/Subir de Nível">Sobem um Nível</Link> ao se completar a Barra de Experiência</li>
+        <li>A Experiência do Usuário se torna zero ao <Link to="/Subir de Nível">Subir de Nível</Link></li>
       </ul>
     </Card>
 

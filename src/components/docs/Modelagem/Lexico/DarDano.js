@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Card from '../../../UI/Card/Card'
+import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
 const DarDano = () => (
   <div className="content artefact">
@@ -22,16 +24,16 @@ const DarDano = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Ao <Link to="/Cenarios/RealizarTarefa">Realizar Tarefa</Link>, o Avatar perde Vida</li>
-        <li>Se o Usuário não realizar uma <Link to="/TarefaDiaria">Tarefa Diária</Link>, o <Link to="/Chefao">Chefão</Link> Dá Dano</li>
+        <li>Ao <Link to="/Realizar Tarefa">Realizar Tarefa</Link>, o Avatar perde Vida</li>
+        <li>Se o Usuário não realizar uma <Link to="/Tarefa Diária">Tarefa Diária</Link>, o <Link to="/Chefão">Chefão</Link> Dá Dano</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Se <Link to="/Cenarios/RealizarTarefa">Chefão</Link> Dá Dano, o Avatar perde Vida</li>
-        <li>Se Avatar Dá Dano, o <Link to="/Cenarios/RealizarTarefa">Chefão</Link> perde Vida</li>
+        <li>Se <Link to="/Realizar Tarefa">Chefão</Link> Dá Dano, o Avatar perde Vida</li>
+        <li>Se Avatar Dá Dano, o <Link to="/Realizar Tarefa">Chefão</Link> perde Vida</li>
       </ul>
     </Card>
 

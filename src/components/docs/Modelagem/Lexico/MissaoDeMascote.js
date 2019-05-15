@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Card from '../../../UI/Card/Card'
+import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
 const MissaoDeMascote = () => (
   <div className="content artefact">
@@ -13,24 +15,24 @@ const MissaoDeMascote = () => (
     <Card>
       <h2>Sinônimos</h2>
       <ul>
-        <li>Missão para conseguir Mascote</li>
+        <li><Link to="/Missão">Missão</Link> para conseguir Mascote</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>É um tipo de <Link to="/MissaoDeColeta">Missão de Coleta</Link></li>
-        <li>Ao <Link to="/Cenarios/FazMissao">Fazer Missão</Link>, tem como recompensa um <Link to="/OvoDeMascote">Ovo de Mascote</Link></li>
+        <li>É um tipo de <Link to="/Missão de Coleta">Missão de Coleta</Link></li>
+        <li>Ao <Link to="/Faz Missão">Fazer Missão</Link>, tem como recompensa um <Link to="/Ovo de Mascote">Ovo de Mascote</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Missão de Mascote pode ser iniciada</li>
-        <li>Missão de Mascote pode ser cancelada</li>
-        <li>Missão de Mascote pode ser completa</li>
+        <li><Link to="/Missão">Missão</Link> de Mascote pode ser iniciada</li>
+        <li><Link to="/Missão">Missão</Link> de Mascote pode ser cancelada</li>
+        <li><Link to="/Missão">Missão</Link> de Mascote pode ser completa</li>
       </ul>
     </Card>
 

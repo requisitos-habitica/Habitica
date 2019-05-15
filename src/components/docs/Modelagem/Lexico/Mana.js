@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Card from '../../../UI/Card/Card'
+import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
 const Mana = () => (
   <div className="content artefact">
@@ -31,7 +33,7 @@ const Mana = () => (
       <h2>Impacto</h2>
       <ul>
         <li>Mana é perdida se usuário Usa Habilidade</li>
-        <li>Mana é recuperada se Usuário <Link to="/Contextos/CompletaTarefa">Completa Tarefa</Link></li>
+        <li>Mana é recuperada se Usuário <Link to="/Completa Tarefa">Completa Tarefa</Link></li>
         <li>Mana é recuperada diariamente</li>
       </ul>
     </Card>

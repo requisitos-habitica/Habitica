@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Card from '../../../UI/Card/Card'
+import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
 const GuildaPrivada = () => (
   <div className="content artefact">
@@ -28,7 +30,7 @@ const GuildaPrivada = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>A Guilda Privada pode ser alterada para <Link to="/GuildaPublica">Guilda Pública</Link></li>
+        <li>A Guilda Privada pode ser alterada para <Link to="/Guilda Pública">Guilda Pública</Link></li>
         <li>Um Usuário pode ser convidado a se juntar a uma Guilda Privada</li>
       </ul>
     </Card>

@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Card from '../../../UI/Card/Card'
+import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
 const BatalhaDeChefao = () => (
   <div className="content artefact">
@@ -13,17 +15,17 @@ const BatalhaDeChefao = () => (
     <Card>
       <h2>Sinônimos</h2>
       <ul>
-        <li>Missão de Chefão</li>
-        <li>Missão de Batalha</li>
+        <li><Link to="/Missão">Missão</Link> de Chefão</li>
+        <li><Link to="/Missão">Missão</Link> de Batalha</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>É um tipo de <Link to="/Missao">Missão</Link></li>
-        <li>Ao começar um <Link to="/Chefao">Chefão</Link> irá aparecer</li>
-        <li>Grupo <Link to="/Cenarios/BatalhaChefao">Batalha Chefão</Link></li>
+        <li>É um tipo de <Link to="/Missão">Missão</Link></li>
+        <li>Ao começar um <Link to="/Chefão">Chefão</Link> irá aparecer</li>
+        <li>Grupo <Link to="/Batalha Chefão">Batalha Chefão</Link></li>
       </ul>
     </Card>
 

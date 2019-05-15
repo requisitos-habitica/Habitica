@@ -39,7 +39,23 @@ import PergaminhoDeMissao from '../components/docs/Modelagem/Lexico/PergaminhoDe
 import ItemDeMao from '../components/docs/Modelagem/Lexico/ItemDeMao';
 import Equipamento from '../components/docs/Modelagem/Lexico/Equipamento';
 import Estabulo from '../components/docs/Modelagem/Lexico/Estabulo';
-
+import AlvoDeHabilidade from '../components/docs/Modelagem/Lexico/AlvoDeHabilidade'
+import BatalhaDeChefao from '../components/docs/Modelagem/Lexico/BatalhaDeChefao'
+import Chefao from '../components/docs/Modelagem/Lexico/Chefao'
+import ConvidarParaMissao from '../components/docs/Modelagem/Lexico/ConvidarParaMissao'
+import DarDano from '../components/docs/Modelagem/Lexico/DarDano'
+import DiretrizDaComunidade from '../components/docs/Modelagem/Lexico/DiretrizDaComunidade'
+import DonoDeMissao from '../components/docs/Modelagem/Lexico/DonoDeMissao'
+import EquipamentoDeBatalha from '../components/docs/Modelagem/Lexico/EquipamentoDeBatalha'
+import Experiencia from '../components/docs/Modelagem/Lexico/Experiencia'
+import Fantasia from '../components/docs/Modelagem/Lexico/Fantasia'
+import Guilda from '../components/docs/Modelagem/Lexico/Guilda'
+import GuildaPrivada from '../components/docs/Modelagem/Lexico/GuildaPrivada'
+import GuildaPublica from '../components/docs/Modelagem/Lexico/GuildaPublica'
+import Mana from '../components/docs/Modelagem/Lexico/Mana'
+import MissaoDeColeta from '../components/docs/Modelagem/Lexico/MissaoDeColeta'
+import MissaoDeMascote from '../components/docs/Modelagem/Lexico/MissaoDeMascote'
+import TomoDeMissao from '../components/docs/Modelagem/Lexico/TomoDeMissao'
 
 const lexicos = {
   "Fóruns": {
@@ -79,27 +95,26 @@ const lexicos = {
     }
   },
 
-  "Gameficação": {
+  "Gamificação": {
     color: "Turquoise",
     lexic: {
-      "Mana": null,
-      "Equipamento de Batalha": null,
-      "Fantasia": null,
-      "Guilda": null,
-      "Termos da Comunidade": null,
-      "Guilda Pública": null,
-      "Guilda Privada": null,
-      "Experiência": null,
-      "Chefão": null,
-      "Missão": null,
-      "Dar Dano": null,
-      "Convite de Missão": null,
-      "Tomo de Missão": null,
-      "Missão de Coleta": null,
-      "Missão de Mascote": null,
-      "Batalha de Chefão": null,
-      "Dono de missão": null,
-      "Alvo da Habilidade": null,
+      "Mana": Mana,
+      "Equipamento de Batalha": EquipamentoDeBatalha,
+      "Fantasia": Fantasia,
+      "Guilda": Guilda,
+      "Diretriz da Comunidade": DiretrizDaComunidade,
+      "Guilda Pública": GuildaPublica,
+      "Guilda Privada": GuildaPrivada,
+      "Experiência": Experiencia,
+      "Chefão": Chefao,
+      "Dar Dano": DarDano,
+      "Convidar para Missão": ConvidarParaMissao,
+      "Tomo de Missão": TomoDeMissao,
+      "Missão de Coleta": MissaoDeColeta,
+      "Missão de Mascote": MissaoDeMascote,
+      "Batalha de Chefão": BatalhaDeChefao,
+      "Dono de missão": DonoDeMissao,
+      "Alvo da Habilidade": AlvoDeHabilidade,
     }
   },
 

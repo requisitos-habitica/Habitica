@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Card from '../../../UI/Card/Card'
+import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
 const SocializaNaGuilda = () => (
   <div className="content artefact">
@@ -7,7 +9,7 @@ const SocializaNaGuilda = () => (
                   title="Socializa na Guilda" author="Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>
-      <p>Discutir interesses semelhantes e participar em <Link to="/Lexicos/Grupo">Grupos</Link> de <Link to="/Lexicos/Desafio">Desafios</Link></p>
+      <p>Discutir interesses semelhantes e participar em <Link to="/Grupo">Grupos</Link> de <Link to="/Desafio">Desafios</Link></p>
     </Card>
 
     <Card>
@@ -30,38 +32,38 @@ const SocializaNaGuilda = () => (
     <Card>
       <h2>Recursos</h2>
       <ul>
-        <li>Lista de <Link to="/Lexicos/Guilda">Guildas</Link></li>
-        <li><Link to="/Lexicos/Guilda">Guildas</Link></li>
+        <li>Lista de <Link to="/Guilda">Guildas</Link></li>
+        <li><Link to="/Guilda">Guildas</Link></li>
         <li>Palavras-Chave</li>
-        <li><Link to="/Lexicos/Chat">Chat</Link></li>
-        <li><Link to="/Lexicos/DiretrizDaComunidade">Diretriz da Comunidade</Link></li>
+        <li><Link to="/Chat">Chat</Link></li>
+        <li><Link to="/Diretriz da Comunidade">Diretriz da Comunidade</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Episódios</h2>
       <ul>
-        <li>Usuário percorre Lista de <Link to="/Lexicos/Guilda">Guildas</Link></li>
+        <li>Usuário percorre Lista de <Link to="/Guilda">Guildas</Link></li>
         <li>Usuário pesquisa Palavra-Chave</li>
-        <li>Usuário escolhe participar de <Link to="/Lexicos/Guilda">Guilda</Link></li>
-        <li>Usuário é adicionada à <Link to="/Lexicos/Guilda">Guilda</Link></li>
-        <li>Usuário aceita <Link to="/Lexicos/DiretrizDaComunidade">Diretriz da Comunidade</Link></li>
-        <li>Usuário recebe notificação ao receber mensagem do <Link to="/Lexicos/Chat">Chat</Link></li>
-        <li>Usuário escreve no <Link to="/Lexicos/Chat">Chat</Link></li>
+        <li>Usuário escolhe participar de <Link to="/Guilda">Guilda</Link></li>
+        <li>Usuário é adicionada à <Link to="/Guilda">Guilda</Link></li>
+        <li>Usuário aceita <Link to="/Diretriz da Comunidade">Diretriz da Comunidade</Link></li>
+        <li>Usuário recebe notificação ao receber mensagem do <Link to="/Chat">Chat</Link></li>
+        <li>Usuário escreve no <Link to="/Chat">Chat</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Restrições</h2>
       <ul>
-        <li>O Usuário só consegue visualizar <Link to="/Lexicos/GuildaPublica">Guildas Públicas</Link></li>
+        <li>O Usuário só consegue visualizar <Link to="/Guilda Pública">Guildas Públicas</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Exceções</h2>
       <ul>
-        <li>O Usuário é adicionado à uma Guilda por um <Link to="/Lexicos/Membro">Membro</Link> da <Link to="/Lexicos/Guilda">Guilda</Link></li>
+        <li>O Usuário é adicionado à uma Guilda por um <Link to="/Membro">Membro</Link> da <Link to="/Guilda">Guilda</Link></li>
       </ul>
     </Card>
 

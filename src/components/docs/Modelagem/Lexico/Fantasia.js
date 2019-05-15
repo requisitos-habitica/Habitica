@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Card from '../../../UI/Card/Card'
+import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
 const Fantasia = () => (
   <div className="content artefact">
@@ -22,7 +24,7 @@ const Fantasia = () => (
       <ul>
         <li>São os itens que o Avatar veste</li>
         <li>A Fantasia não altera os Stats do Usuário</li>
-        <li>A Fantasia substitui o visual do <Link to="/EquipamentoDeBatalha">Equipamento de Batalha</Link></li>
+        <li>A Fantasia substitui o visual do <Link to="/Equipamento de Batalha">Equipamento de Batalha</Link></li>
       </ul>
     </Card>
 

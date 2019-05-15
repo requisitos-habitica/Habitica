@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Card from '../../../UI/Card/Card'
+import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
 const PersonalizaEquipamentoDoAvatar = () => (
   <div className="content artefact">
@@ -31,17 +33,17 @@ const PersonalizaEquipamentoDoAvatar = () => (
       <h2>Recursos</h2>
       <ul>
         <li>Avatar</li>
-        <li><Link to="/Lexicos/EquipamentoDeBatalha">Equipamento de Batalha</Link></li>
-        <li><Link to="/Lexicos/Fantasia">Fantasia</Link></li>
+        <li><Link to="/Equipamento de Batalha">Equipamento de Batalha</Link></li>
+        <li><Link to="/Fantasia">Fantasia</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Episódios</h2>
       <ul>
-        <li>Usuário escolhe seu <Link to="/Lexicos/EquipamentoDeBatalha">Equipamento de Batalha</Link></li>
-        <li>Usuário habilita <Link to="/Lexicos/Fantasia">Fantasia</Link></li>
-        <li>Usuário escolhe <Link to="/Lexicos/Fantasia">Fantasia</Link></li>
+        <li>Usuário escolhe seu <Link to="/Equipamento de Batalha">Equipamento de Batalha</Link></li>
+        <li>Usuário habilita <Link to="/Fantasia">Fantasia</Link></li>
+        <li>Usuário escolhe <Link to="/Fantasia">Fantasia</Link></li>
       </ul>
     </Card>
 

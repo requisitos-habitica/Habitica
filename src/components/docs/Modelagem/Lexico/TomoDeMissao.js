@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Card from '../../../UI/Card/Card'
+import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
 const TomoDeMissao = () => (
   <div className="content artefact">
@@ -7,21 +9,21 @@ const TomoDeMissao = () => (
                   title="Tomo de Missão" author="Pedro Féo"/>
     <Card>
       <h2>Nome</h2>
-      <p>Tomo de Missão.</p>
+      <p>Tomo de <Link to="/Missão">Missão</Link></p>
     </Card>
 
     <Card>
       <h2>Sinônimos</h2>
       <ul>
         <li>Pergaminho</li>
-        <li>Pergaminho de Missão</li>
+        <li>Pergaminho de <Link to="/Missão">Missão</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Permite que <Link to="/Grupo">Grupo</Link> <Link to="/Cenarios/FazMissao">Faça Missão</Link></li>
+        <li>Permite que <Link to="/Grupo">Grupo</Link> <Link to="/Faz Missão">Faça Missão</Link></li>
         <li>Pertence a um Usuário</li>
       </ul>
     </Card>
@@ -29,9 +31,9 @@ const TomoDeMissao = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Torna o Usuário que usou o Tomo de Missão no <Link to="/DonoDeMissao">Dono de Missão</Link></li>
-        <li>Ao usar Tomo de Missão, <Link to="/Grupo">Grupo</Link> é convidado para <Link to="/Missao">Missão</Link></li>
-        <li>Ao usar Tomo de Missão, <Link to="/Missao">Missão</Link> começa</li>
+        <li>Torna o Usuário que usou o Tomo de <Link to="/Missão">Missão</Link> no <Link to="/Dono de Missão">Dono de Missão</Link></li>
+        <li>Ao usar Tomo de <Link to="/Missão">Missão</Link>, <Link to="/Grupo">Grupo</Link> é convidado para <Link to="/Missão">Missão</Link></li>
+        <li>Ao usar Tomo de <Link to="/Missão">Missão</Link>, <Link to="/Missão">Missão</Link> começa</li>
       </ul>
     </Card>
 

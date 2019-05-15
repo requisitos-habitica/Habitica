@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Card from '../../../UI/Card/Card'
+import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
 const UsaHabilidade = () => (
   <div className="content artefact">
@@ -24,7 +26,7 @@ const UsaHabilidade = () => (
       <ul>
         <li>Usuário</li>
         <li>Sistema</li>
-        <li><Link to="/Lexicos/AlvoDaHabilidade">Alvo da Habilidade</Link></li>
+        <li><Link to="/Alvo da Habilidade">Alvo da Habilidade</Link></li>
       </ul>
     </Card>
 
@@ -32,7 +34,7 @@ const UsaHabilidade = () => (
       <h2>Recursos</h2>
       <ul>
         <li>Habilidades</li>
-        <li><Link to="/Lexicos/Mana">Mana</Link></li>
+        <li><Link to="/Mana">Mana</Link></li>
       </ul>
     </Card>
 
@@ -41,8 +43,8 @@ const UsaHabilidade = () => (
       <ul>
         <li>Usuário escolhe Habilidade da lista de Habilidades</li>
         <li>Usuário seleciona Habilidade</li>
-        <li>Usuário perde <Link to="/Lexicos/Mana">Mana</Link></li>
-        <li><Link to="/Lexicos/AlvoDaHabilidade">Alvo da Habilidade</Link> sofre efeito da Habilidade</li>
+        <li>Usuário perde <Link to="/Mana">Mana</Link></li>
+        <li><Link to="/Alvo da Habilidade">Alvo da Habilidade</Link> sofre efeito da Habilidade</li>
         <li>O Sistema avisa que a Habilidade foi utilizada</li>
       </ul>
     </Card>
@@ -50,14 +52,14 @@ const UsaHabilidade = () => (
     <Card>
       <h2>Restrições</h2>
       <ul>
-        <li>Usuário não possuir <Link to="/Lexicos/Mana">Mana</Link> suficiente</li>
+        <li>Usuário não possuir <Link to="/Mana">Mana</Link> suficiente</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Exceções</h2>
       <ul>
-        <li>Em Habilidades que possuírem como alvo <Link to="/Lexicos/Tarefa">Tarefas</Link>, o Usuário deverá selecionar uma <Link to="/Lexicos/Tarefa">Tarefas</Link></li>
+        <li>Em Habilidades que possuírem como alvo <Link to="/Tarefa">Tarefas</Link>, o Usuário deverá selecionar uma <Link to="/Tarefa">Tarefas</Link></li>
       </ul>
     </Card>
 

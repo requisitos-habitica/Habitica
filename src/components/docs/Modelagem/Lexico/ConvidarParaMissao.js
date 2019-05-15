@@ -1,5 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Card from '../../../UI/Card/Card'
+import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
 const ConvidarParaMissao = () => (
   <div className="content artefact">
@@ -7,22 +9,22 @@ const ConvidarParaMissao = () => (
                   title="Convidar Para Missão" author="Pedro Féo"/>
     <Card>
       <h2>Nome</h2>
-      <p>Convidar Para Missão</p>
+      <p>Convidar Para <Link to="/Missão">Missão</Link></p>
     </Card>
 
     <Card>
       <h2>Sinônimos</h2>
       <ul>
-        <li>Chamar Para Missão</li>
+        <li>Chamar Para <Link to="/Missão">Missão</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>Realizado pelo <Link to="/DonoDeMissao">Dono de Missão</Link></li>
-        <li>Acontece quando Usuário usa <Link to="/TomoDeMissao">Tomo de Missão</Link></li>
-        <li><Link to="/DonoDeMissao">Dono de Missão</Link> convida <Link to="/Grupo">Grupo</Link> a <Link to="/Cenarios/FazMissao">Fazer Missão</Link></li>
+        <li>Realizado pelo <Link to="/Dono de Missão">Dono de Missão</Link></li>
+        <li>Acontece quando Usuário usa <Link to="/Tomo de Missão">Tomo de Missão</Link></li>
+        <li><Link to="/Dono de Missão">Dono de Missão</Link> convida <Link to="/Grupo">Grupo</Link> a <Link to="/Faz Missão">Fazer Missão</Link></li>
       </ul>
     </Card>
 
