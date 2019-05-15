@@ -8,11 +8,13 @@
   justify-content: space-between;
   align-items: center;
   z-index: 100;
-  background-color: var(--color-purple);
+  background-color: rgba(80, 0, 119, .95);
+  box-shadow: .5rem 0 1rem rgba(0,0,0,.4);
 
   img {
-    width: 4rem;
-    height: 4rem;
+    width: 3.4rem;
+    height: 3.4rem;
+    margin-bottom: -.3rem;
   }
 
   ul {

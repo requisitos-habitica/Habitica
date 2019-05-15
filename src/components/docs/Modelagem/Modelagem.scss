@@ -6,7 +6,6 @@
   margin-top: 10rem;
   div {
     color: var(--color-purple-light);
-    font-size: 1.3rem;
   }
 }
 .cards {
@@ -17,17 +16,19 @@
   height: 26rem;
 
   padding: 5rem 10rem;
-  box-shadow: 0 0 1rem rgba(0,0,0,.35);
+  box-shadow: 0 0 1rem rgba(0,0,0,.42);
   background-color: white;
   border-bottom: .5rem solid var(--color-purple-light);
   transition: all .3s;
-
-  & img {
+  backface-visibility: hidden;
+  
+  img {
     width: 7rem;
     height: 7rem;
   }
 
   &:hover {
-    box-shadow: 0 0 1.8rem rgba(0,0,0,.35);
+    box-shadow: 0 .3rem 1.8rem rgba(0,0,0,.42);
+    transform: translateY(-.5rem);
   }
 }

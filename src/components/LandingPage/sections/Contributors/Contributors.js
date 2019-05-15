@@ -7,7 +7,7 @@ const Contributors = () => (
   <section className="content contributors">
     <h1>Contribuidores</h1>
     <div className="contributors__container">
-      { contributors.map(contributor => <Contributor { ...contributor }/>) }
+      { contributors.map(contributor => <Contributor key={ contributor.name } { ...contributor }/>) }
     </div>
   </section>
 )

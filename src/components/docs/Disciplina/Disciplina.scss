@@ -1,0 +1,53 @@
+.disciplina {
+
+    h2 {
+        color: var(--color-purple-light);
+        font-size: 1.8rem;
+        margin: 5rem 0 2.5rem 0;
+
+        &::after {
+            content: "";
+            display: block;
+            width: 2rem;
+            height: .1rem;
+            background-color: var(--color-purple-light);
+        }
+    }
+
+    ul {
+        margin: 2rem 0 2rem 2.6rem;
+        list-style-type: disc;
+        
+        .nested--1 {
+            margin: .8rem 0 .8rem 2rem;
+            list-style-type: square;
+        }
+
+        .nested--2 {
+            margin: .8rem 0 .8rem 4rem;
+            list-style-type: circle;
+        }
+    }
+
+    table {
+        margin: 2.5rem 0;
+        width: 100%;
+        font-family: 'Varella';
+        font-size: 1.1rem;
+        tr:first-child {
+            border: none;
+            th {
+                background-color: var(--color-purple-light);
+                color: white;
+            }
+        }
+        
+        th, td {
+            box-shadow: 0 0 .5rem rgba(0,0,0,.3);
+            border-radius: .3rem;
+            padding: 1.2rem;
+        }
+        
+    }
+    
+}

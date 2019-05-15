@@ -4,10 +4,12 @@
   --color-purple-dark: #41005E;
 
   --shadow: 0 1rem 2rem rgba(0 ,0, 0, .35);
-  --shadow-close: 0 .6rem 1rem rgba(0, 0, 0, 0.4);
-  --shadow-far: 0 1.3rem 1.5rem rgba(0, 0, 0, 0.35);
+  --shadow-close: 0 .5rem 1rem rgba(0, 0, 0, 0.45);
+  --shadow-far: 0 1.2rem 1.2rem rgba(0, 0, 0, 0.45);
   --transition-fast: all .5s;
   --transition-slow: all .8s;
+
+  --font-size-base-text: 1.3rem;
 }
 
 * {
@@ -17,8 +19,8 @@
 
 html {
   box-sizing: border-box;
-  font-size: calc(.75vw + 1px);
-}
+  font-size: calc(.71vw + 1px);
+} 
 
 *,
 *::before,
@@ -32,14 +34,15 @@ h1 {
   font-size: 2.6rem;
   margin: 8rem 0;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
   &::after {
     content: '';
-    display: block;
-    margin-top: .8rem;
-    margin-left: 44.8%;
-    width: 10%;
-    border-bottom: 1.8px solid var(--color-purple);
+    width: 6rem;
+    border-bottom: .18rem solid var(--color-purple);
   }
 }
 
@@ -51,14 +54,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+p, li {
+  font-size: var(--font-size-base-text);
+}
+
 .content {
   width: 80rem;
   margin: 0 auto;
 }
 
 .artefact { 
-  padding-top: 12rem;
+  padding-top: 11rem;
   h1 { margin: 0; }
+  a {
+    color: var(--color-purple);
+    font-weight: bold;
+    
+  }
 }
 
 ::-webkit-scrollbar {
