@@ -3,45 +3,44 @@ import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
-const Embaixadores = () => (
+const GuildaPrivada = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="Embaixadores" author="Saleh Kader"/>
+                  title="Guilda Privada" author="Pedro Féo"/>
     <Card>
       <h2>Nome</h2>
-      <p>Embaixadores</p>
+      <p>Guilda Privada</p>
     </Card>
 
     <Card>
       <h2>Sinônimos</h2>
       <ul>
-        <li>Escritores</li>
-	    <li>Divulgadores</li>
+        <li>Guilda Fechada</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>
-        Embaixadores são pessoas responsáveis por estarem divulgando o Habitica em seus blogues, redes sociais ou fanpages
-        </li>
+        <li>Só pode ser acessada através de Convites</li>
+        <li>É um tipo de <Link to="/Guilda">Guilda</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Habitica se torna acessível a uma quantidade maior de usuário</li>
-        <li>São responsáveis por influenciar no tráfego de usuários do Habitica</li> 
+        <li>A Guilda Privada pode ser alterada para <Link to="/Guilda Pública">Guilda Pública</Link></li>
+        <li>Um Usuário pode ser convidado a se juntar a uma Guilda Privada</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Classificação</h2>
-      <p>Objeto</p>
+      <p>Estado</p>
     </Card>
 
   </div>
 )
-export default Embaixadores
+
+export default GuildaPrivada

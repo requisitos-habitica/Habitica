@@ -21,6 +21,18 @@ import EquiparAvatarComFundo from '../components/docs/Modelagem/Cenario/EquiparA
 import EquiparAvatarComMascote from '../components/docs/Modelagem/Cenario/EquiparAvatarComMascote';
 import EquiparAvatarComMontaria from '../components/docs/Modelagem/Cenario/EquiparAvatarComMontaria';
 import EquiparAvatarComItemDeCorpo from '../components/docs/Modelagem/Cenario/EquiparAvatarComItemDeCorpo';
+import BatalhaChefao from '../components/docs/Modelagem/Cenario/BatalhaChefao'
+import CancelaMissao from '../components/docs/Modelagem/Cenario/CancelaMissao'
+import ColetaItens from '../components/docs/Modelagem/Cenario/ColetaItens'
+import CompletaMissao from '../components/docs/Modelagem/Cenario/CompletaMissao'
+import ConsegueTomoDeMissao from '../components/docs/Modelagem/Cenario/ConsegueTomoeDeMissao'
+import CriaAvatar from '../components/docs/Modelagem/Cenario/CriaAvatar'
+import EntraNaMissao from '../components/docs/Modelagem/Cenario/EntraNaMissao'
+import FazMissao from '../components/docs/Modelagem/Cenario/FazMissao'
+import PersonalizaAparenciaFisicaDoAvatar from '../components/docs/Modelagem/Cenario/PersonalizaAparenciaFisicaDoAvatar'
+import PersonalizaEquipamentoDoAvatar from '../components/docs/Modelagem/Cenario/PersonalizaEquipamentoDoAvatar'
+import SocializaNasGuildas from '../components/docs/Modelagem/Cenario/SocializaNasGuildas'
+import UsaHabilidade from '../components/docs/Modelagem/Cenario/UsaHabilidade'
 
 const cenarios = {
   "Fóruns": {
@@ -44,10 +56,21 @@ const cenarios = {
     }
   },
 
-  "Gameficação": {
+  "Gamificação": {
     color: "Turquoise",
     lexic: {
-      "Mana": null,
+      "Batalha Chefão": BatalhaChefao,
+      "Cancela Missão": CancelaMissao,
+      "Coleta Itens": ColetaItens,
+      "Completa Missão": CompletaMissao,
+      "Consegue Tomo de Missão": ConsegueTomoDeMissao,
+      "Cria Avatar": CriaAvatar,
+      "Entra na Missão": EntraNaMissao,
+      "Faz Missão": FazMissao,
+      "Personaliza Aparência Física do Avatar": PersonalizaAparenciaFisicaDoAvatar,
+      "Personaliza Equipamento do Avatar": PersonalizaEquipamentoDoAvatar,
+      "Socializa nas Guildas": SocializaNasGuildas,
+      "Usa Habilidade": UsaHabilidade,
     }
   },
 

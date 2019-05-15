@@ -3,37 +3,35 @@ import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 
-const Embaixadores = () => (
+const Chefao = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="Embaixadores" author="Saleh Kader"/>
+                  title="Chefão" author="Pedro Féo"/>
     <Card>
       <h2>Nome</h2>
-      <p>Embaixadores</p>
+      <p>Chefão</p>
     </Card>
 
     <Card>
       <h2>Sinônimos</h2>
       <ul>
-        <li>Escritores</li>
-	    <li>Divulgadores</li>
+        <li>Chefe</li>
+        <li>Boss</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>
-        Embaixadores são pessoas responsáveis por estarem divulgando o Habitica em seus blogues, redes sociais ou fanpages
-        </li>
+        <li>Pertencem ao sistema de <Link to="/Missão">Missão</Link></li>
+        <li><Link to="/Grupo">Grupo</Link> enfrenta Chefão</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Habitica se torna acessível a uma quantidade maior de usuário</li>
-        <li>São responsáveis por influenciar no tráfego de usuários do Habitica</li> 
+        <li>Usuário <Link to="/Batalha Chefão">Batalha Chefão</Link></li>
       </ul>
     </Card>
 
@@ -44,4 +42,5 @@ const Embaixadores = () => (
 
   </div>
 )
-export default Embaixadores
+
+export default Chefao
