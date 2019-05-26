@@ -28,8 +28,11 @@ html {
   box-sizing: inherit;
 }
 
-h1 {
+h1, h2 {
   font-family: 'Varela Round', sans-serif;
+}
+
+h1 {
   color: var(--color-purple-light);
   font-size: 2.6rem;
   margin: 8rem 0;
