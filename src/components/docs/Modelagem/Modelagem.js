@@ -1,27 +1,25 @@
 import React from 'react'
-import './Modelagem.scss'
-import { Link } from 'react-router-dom'
+import NCardsLayout from '../../UI/NCardsLayout/NCardsLayout'
 import dictionary from '../../../assets/dictionary.svg'
 import route from '../../../assets/destination.svg'
+
+const items = [
+  {
+    link: '/Lexicos',
+    img: dictionary,
+    title: 'Léxicos'
+  },
+  {
+    link: '/Cenarios',
+    img: route,
+    title: 'Cenários'
+  }
+]
 
 const Modelagem = (props) => (
   <div className="content artefact">
     <h1>Modelagem</h1>
-    <div className="modelagem">
-      <Link to="/Lexicos" style={{ textDecoration: 'none' }}>
-        <div className="cards">
-          <img src={ dictionary } alt="Léxico"/>
-          <h2>Léxicos</h2>
-        </div>
-      </Link>
-
-      <Link to="/Cenarios" style={{ textDecoration: 'none' }}>
-        <div className="cards">
-          <img src={ route } alt="Cenário"/>
-          <h2>Cenários</h2> 
-        </div>
-      </Link>
-    </div>
+    <NCardsLayout items={ items }/>
   </div>
 )
 
