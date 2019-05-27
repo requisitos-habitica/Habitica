@@ -10,6 +10,8 @@ import Disciplina from './components/docs/Disciplina/Disciplina'
 import Modelagem from './components/docs/Modelagem/Modelagem'
 import Lexico from './components/docs/Modelagem/Lexico/Lexico'
 import Cenario from './components/docs/Modelagem/Cenario/Cenario'
+import PreRastreabilidade from './components/docs/PreRastreabilidade/PreRastreabilidade'
+import RichPicture from './components/docs/RichPicture/RichPicture'
 
 import lexicos from './utils/lexicos'
 import cenarios from './utils/cenarios'
@@ -26,7 +28,7 @@ const App = () => {
             
             <Route exact path="/" component={ LandingPage } onUpdate={() => window.scrollTo(0, 0)} />
             <Route exact path="/Disciplina" component={ Disciplina } onUpdate={() => window.scrollTo(0, 0)} />
-            <Route exact path="/Pre-Rastreabilidade" onUpdate={() => window.scrollTo(0, 0)} /> 
+            <Route exact path="/Pre-Rastreabilidade" component={ PreRastreabilidade }onUpdate={() => window.scrollTo(0, 0)} /> 
             <Route exact path="/Pos-Rastreabilidade" onUpdate={() => window.scrollTo(0, 0)} /> 
             <Route exact path="/Elicitacao" onUpdate={() => window.scrollTo(0, 0)} /> 
             <Route exact path="/Modelagem" component={ Modelagem } onUpdate={() => window.scrollTo(0, 0)} /> 
@@ -48,7 +50,6 @@ const App = () => {
                                                                     path={`/${term}`}
                                                                     component={ cenarios[group].lexic[term] }
                                                                     onUpdate={() => window.scrollTo(0, 0)}/>))}
-
           </Switch>
         </NavBar>
       </ScrollToTop>
