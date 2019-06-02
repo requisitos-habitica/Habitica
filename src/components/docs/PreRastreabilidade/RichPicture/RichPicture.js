@@ -1,7 +1,9 @@
 import React from 'react'
 
 const RichPicture = () => (
-  <h1>Rich Pictures</h1>
+  <div className="content artefact">
+    <h1>Rich Pictures</h1>
+  </div>
 )
 
 export default RichPicture
