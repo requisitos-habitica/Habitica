@@ -11,7 +11,6 @@ import Modelagem from './components/docs/Modelagem/Modelagem'
 import Lexico from './components/docs/Modelagem/Lexico/Lexico'
 import Cenario from './components/docs/Modelagem/Cenario/Cenario'
 import PreRastreabilidade from './components/docs/PreRastreabilidade/PreRastreabilidade'
-import RichPicture from './components/docs/RichPicture/RichPicture'
 
 import lexicos from './utils/lexicos'
 import cenarios from './utils/cenarios'

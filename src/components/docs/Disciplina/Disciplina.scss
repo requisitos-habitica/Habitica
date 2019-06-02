@@ -15,16 +15,16 @@
     }
 
     ul {
-        margin: 2rem 0 2rem 2.6rem;
+        margin: 1.4rem 0 1.4rem 2.6rem;
         list-style-type: disc;
         
         .nested--1 {
-            margin: .8rem 0 .8rem 2rem;
+            margin: -.4rem 0 0rem 1rem;
             list-style-type: square;
         }
 
         .nested--2 {
-            margin: .8rem 0 .8rem 4rem;
+            margin: -.4rem 0 0rem 2rem;
             list-style-type: circle;
         }
     }
