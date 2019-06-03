@@ -4,10 +4,16 @@ import CardsGridLayout from '../../../UI/CardsGridLayout/CardsGridLayout'
 
 const RichPicture = () => {
 
+  const [fullSizeImg, setFullSizeImg] = React.useState(null)
+
+  const openArtefactFullSize = (img) => setFullSizeImg(img)
+  const closeArtefactFullSize = () => setFullSizeImg(null)
+
   return (
     <div className="content artefact">
       <h1>Rich Pictures</h1>
-      <CardsGridLayout obj={ richpictures }/>
+      <img style={{position: "fixed", zIndex: "100", margin:"auto"}} src={fullSizeImg}/>
+      <CardsGridLayout obj={ richpictures } onClick={ openArtefactFullSize }/>
     </div>
   )
 }

@@ -1,11 +1,11 @@
 import React from 'react'
 import './CardsGridLayout.scss'
 
-const CardsGridLayout = ({ obj }) => {
+const CardsGridLayout = ({ obj, onClick }) => {
 
   const getArtefactsFromTheSameContributor = (group, contributor) => {
     return obj[group][contributor].map((rp, i) => (
-      <div className="rp-card-container" key={ contributor + i }>
+      <div className="rp-card-container" key={ contributor + i } onClick={ () => onClick(obj[group][contributor][i]) }>
         <p>{ rp.match(/RP[^\.]+/) }</p>
         <img src={ obj[group][contributor][i] }/>
       </div>
