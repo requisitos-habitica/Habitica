@@ -1,3 +1,25 @@
+.cards-grid-container {
+    margin: 5rem 0 4rem 0;
+}
 .cards-grid {
-    
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+	img {
+		width: 22rem;
+		height: 22rem;
+		margin-top: 5rem;
+		border-radius: .5rem;
+		box-shadow: var(--shadow-close);
+		
+		transition: all .2s;
+		user-select: none;
+		cursor: pointer;
+
+		&:hover {
+			transform: translateY(-.5rem);
+			box-shadow: var(--shadow-far);
+		}
+	}
 }
