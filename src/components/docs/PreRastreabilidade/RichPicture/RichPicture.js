@@ -17,10 +17,10 @@ const RichPicture = () => {
               <div className="cards-grid">
                 { Object.keys(richpictures[group]).map(contributor => (
                   <React.Fragment key={contributor + Math.random()}>
-                    {richpictures[group][contributor].map((rp, i) => (
-                      <div>
-                        <p>{ `RP${ contributor.split(' ')[0] }V${ i + 1 }` }</p>
-                        <img src={ richpictures[group][contributor][i] } key={ contributor + i }/>)
+                    { richpictures[group][contributor].map((rp, i) => (
+                      <div className="rp-card-container" key={ contributor + i }>
+                        <p>{ rp.match(/RP[^\.]+/) }</p>
+                        <img src={ richpictures[group][contributor][i] }/>
                       </div>
                     ))}
                   </React.Fragment>
