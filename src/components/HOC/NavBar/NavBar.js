@@ -11,10 +11,10 @@ const NavBar = props => (
       <ul>
         <Link to="/Disciplina">Disciplina</Link>
         <Link to="/Pre-Rastreabilidade">Pré-Rastreabilidade</Link>
-        <Link to="/Pos-Rastreabilidade">Pós-Rastreabilidade</Link>
         <Link to="/Elicitacao">Elicitação</Link>
         <Link to="/Modelagem">Modelagem</Link>
         <Link to="/Analise">Análise</Link>
+        <Link to="/Pos-Rastreabilidade">Pós-Rastreabilidade</Link>
         <Link to="/Sobre">Sobre</Link>
       </ul>
     </nav>
