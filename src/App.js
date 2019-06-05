@@ -31,6 +31,7 @@ const App = () => {
             <RouteRollUp exact path="/" component={ LandingPage } />
             <RouteRollUp exact path="/Disciplina" component={ Disciplina } />
             <RouteRollUp exact path="/Pre-Rastreabilidade" component={ PreRastreabilidade } />
+            <RouteRollUp exact path="/RichPictures" component={ RichPicture } />
             <RouteRollUp exact path="/Pos-Rastreabilidade" />
             <RouteRollUp exact path="/Elicitacao" />
             <RouteRollUp exact path="/Modelagem" component={ Modelagem } />
