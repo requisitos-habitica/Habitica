@@ -17,6 +17,8 @@ import cenarios from './utils/cenarios'
 
 import ScrollToTop from './components/HOC/ScrollToTop/ScrollToTop'
 
+const RouteRollUp = props => <Route {...props} onUpdate={() => window.scrollTo(0, 0)}/>
+
 const App = () => {
   console.log(process.env.PUBLIC_URL)
   return (
@@ -25,18 +27,18 @@ const App = () => {
         <NavBar>
           <Switch>
             
-            <Route exact path="/" component={ LandingPage } onUpdate={() => window.scrollTo(0, 0)} />
-            <Route exact path="/Disciplina" component={ Disciplina } onUpdate={() => window.scrollTo(0, 0)} />
-            <Route exact path="/Pre-Rastreabilidade" component={ PreRastreabilidade }onUpdate={() => window.scrollTo(0, 0)} /> 
-            <Route exact path="/Pos-Rastreabilidade" onUpdate={() => window.scrollTo(0, 0)} /> 
-            <Route exact path="/Elicitacao" onUpdate={() => window.scrollTo(0, 0)} /> 
-            <Route exact path="/Modelagem" component={ Modelagem } onUpdate={() => window.scrollTo(0, 0)} /> 
-            <Route exact path="/Analise" onUpdate={() => window.scrollTo(0, 0)} /> 
-            <Route exact path="/Sobre" onUpdate={() => window.scrollTo(0, 0)} /> 
+            <RouteRollUp exact path="/" component={ LandingPage } />
+            <RouteRollUp exact path="/Disciplina" component={ Disciplina } />
+            <RouteRollUp exact path="/Pre-Rastreabilidade" component={ PreRastreabilidade } />
+            <RouteRollUp exact path="/Pos-Rastreabilidade" />
+            <RouteRollUp exact path="/Elicitacao" />
+            <RouteRollUp exact path="/Modelagem" component={ Modelagem } />
+            <RouteRollUp exact path="/Analise" />
+            <RouteRollUp exact path="/Sobre" />
           
             {/* Modelagem */}
-            <Route path="/Lexicos" component={ Lexico }/>
-            <Route path="/Cenarios" component={ Cenario }/>
+            <RouteRollUp path="/Lexicos" component={ Lexico }/>
+            <RouteRollUp path="/Cenarios" component={ Cenario }/>
 
             {Object.keys(lexicos).map(group => 
               Object.keys(lexicos[group].lexic).map(term => <Route  key={ term } exact 
