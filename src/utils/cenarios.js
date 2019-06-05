@@ -35,7 +35,7 @@ import SocializaNasGuildas from '../components/docs/Modelagem/Cenario/SocializaN
 import UsaHabilidade from '../components/docs/Modelagem/Cenario/UsaHabilidade'
 
 const cenarios = {
-  "Fóruns": {
+  "Configurações": {
     color: "pink",
     lexic: {
       "Guerreiro": null,
