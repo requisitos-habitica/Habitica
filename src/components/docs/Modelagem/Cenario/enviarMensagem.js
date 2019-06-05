@@ -6,7 +6,7 @@ import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 const Base = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="Subir de Nível" author="Ésio Freitas"/>
+                  title="Artefato Nome" author="Quem fez"/>
     <Card>
       <h2>Objetivo</h2>
       <p>Ganhar experiência para adquirir um novo nível.</p>
