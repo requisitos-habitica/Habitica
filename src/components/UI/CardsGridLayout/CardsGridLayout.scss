@@ -1,57 +1,60 @@
-.cards-grid-container {
-	margin: 5rem 0 4rem 0;
-}
+.cards-grid-container { margin-top: 8rem; }
 
 .cards-grid {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: space-between;
 }
 
 .rp-card-container {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 22rem;
-	height: 22rem;
-	margin-top: 5.5rem;
-	box-shadow: var(--shadow-close);
-	border-radius: .5rem;
-	background-color: black;
-
-	transition: all .3s;
-	cursor: pointer;
+	justify-content: space-between;
+	background-color: white;
+	height: 26rem;
+	margin: 3rem 0 3rem 0;
+	border-radius: .4rem;
+	box-shadow: var(--shadow);
+	
 	user-select: none;
 	
+	.rp-about {
+		width: 100%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 5rem;
+
+		ul {
+			list-style: none;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-around;
+			height: 65%;
+
+			li {
+				font-size: 1.5rem;
+			}
+		}
+	}
+
 	p {
-		position: absolute;
 		font-size: 1.6rem;
 		font-weight: bold;
 		color: white;
 		z-index: 100;
 		transition: var(--transition-fast);
-		opacity: 0;
 	}
 
 	img {
-		width: 100%;
+		width: 32rem;
 		height: 100%;
 		border-radius: .5rem;
 		transition: var(--transition-fast);
-	}
 
-	/* ANIMATIONS */
-	&:hover {
-		transform: translateY(-.6rem);
-		box-shadow: var(--shadow-far);
-	}
+			&:hover {
+				transform: scale(1.02);
+			}
 
-	&:hover img {
-		opacity: .45;
-		-webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-	}
-
-	&:hover p { opacity: 1; }
+		}
 
 }
