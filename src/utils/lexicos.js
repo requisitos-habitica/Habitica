@@ -56,6 +56,11 @@ import Mana from '../components/docs/Modelagem/Lexico/Mana'
 import MissaoDeColeta from '../components/docs/Modelagem/Lexico/MissaoDeColeta'
 import MissaoDeMascote from '../components/docs/Modelagem/Lexico/MissaoDeMascote'
 import TomoDeMissao from '../components/docs/Modelagem/Lexico/TomoDeMissao'
+import Guerreiro from '../components/docs/Modelagem/Lexico/Guerreiro';
+import Bonus from '../components/docs/Modelagem/Lexico/Bonus';
+import Mago from '../components/docs/Modelagem/Lexico/Mago';
+import Mago from '../components/docs/Modelagem/Lexico/';
+
 
 const lexicos = {
   "Fóruns": {
