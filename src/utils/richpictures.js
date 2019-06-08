@@ -25,184 +25,184 @@ const richpictures = {
         {
             id: 'RPEsioV1',
             img: RPEsioV1,
-            author: 'Ésio Gustavo',
-            version: 1,
-            description: 'Eu exercitation pariatur nisi duis enim id nisi ipsum.',
+            autor: 'Ésio Gustavo',
+            versao: 1,
+            descricao: 'Eu exercitation pariatur nisi duis enim id nisi ipsum.',
             data: '10/10/2019',
-            fontes: ['www.google.com']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPDutraV1',
             img: RPDutraV1,
-            author: 'Lucas Dutra',
-            version: 1,
-            description: 'Irure laborum labore veniam minim excepteur cupidatat laborum nulla laboris commodo amet id duis.',
+            autor: 'Lucas Dutra',
+            versao: 1,
+            descricao: 'Irure laborum labore veniam minim excepteur cupidatat laborum nulla laboris commodo amet id duis.',
             data: '10/10/2019',
-            fontes: ['www.google.com', 'www.youtube.com']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPYoussefV1',
             img: RPYoussefV1,
-            author: 'Youssef Muhamad',
-            version: 1,
-            description: 'Ea occaecat duis voluptate id in proident.',
+            autor: 'Youssef Muhamad',
+            versao: 1,
+            descricao: 'Ea occaecat duis voluptate id in proident.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão', 'www.google.com']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPYoussefV2',
             img: RPYoussefV2,
-            author: 'Youssef Muhamad',
-            version: 2,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: 'Youssef Muhamad',
+            versao: 2,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPPheoV1',
             img: RPPheoV1,
-            author: 'Pedro Féo',
-            version: 1,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: 'Pedro Féo',
+            versao: 1,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPAlbinoV1',
             img: RPAlbinoV1,
-            author: 'Gabriel Albino',
-            version: 1,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: 'Gabriel Albino',
+            versao: 1,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPAlbinoV2',
             img: RPAlbinoV2,
-            author: 'Gabriel Albino',
-            version: 2,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: 'Gabriel Albino',
+            versao: 2,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPSalehV1',
             img: RPSalehV1,
-            author: 'Saleh Kader',
-            version: 1,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: 'Saleh Kader',
+            versao: 1,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPRogerV1',
             img: RPRogerV1,
-            author: 'Rogério Júnior',
-            version: 1,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: 'Rogério Júnior',
+            versao: 1,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
     ],
     'Grupo': [
         {
             id: 'RPGeral1_de_2V1',
             img: RPGeral1_2V1,
-            author: 'Grupo',
-            version: 1,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: 'Grupo',
+            versao: 1,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPGeral2_de_2V1',
             img: RPGeral2_2V1,
-            author: 'Grupo',
-            version: 1,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: 'Grupo',
+            versao: 1,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPGeralV2',
             img: RPGeralV2,
-            author: 'Pedro Féo',
-            version: 2,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: 'Pedro Féo',
+            versao: 2,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPInventarioV1',
             img: RPInventarioV1,
-            author: 'Rogério Júnior',
-            version: 1,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: 'Rogério Júnior',
+            versao: 1,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPInventarioV2',
             img: RPInventarioV2,
-            author: 'Pedro Féo',
-            version: 2,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: 'Pedro Féo',
+            versao: 2,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPGruposV1',
             img: RPGruposV1,
-            author: 'Saleh Kader',
-            version: 1,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: 'Saleh Kader',
+            versao: 1,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPLojasV1',
             img: RPLojasV1,
-            author: 'Lucas Dutra',
-            version: 1,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: 'Lucas Dutra',
+            versao: 1,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPDesafiosV1',
             img: RPDesafiosV1,
-            author: 'Kaique Borges',
-            version: 1,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: 'Kaique Borges',
+            versao: 1,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPTarefasV1',
             img: RPTarefasV1,
-            author: 'Gabriel Albino',
-            version: 1,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: 'Gabriel Albino',
+            versao: 1,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPContribuicaoV1',
             img: RPContribuicaoV1,
-            author: '??',
-            version: 1,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: '??',
+            versao: 1,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
         {
             id: 'RPGamificacaoV1',
             img: RPGamificacaoV1,
-            author: 'Saleh Kader',
-            version: 1,
-            description: 'Ipsum id ut anim in amet magna commodo elit.',
+            autor: 'Saleh Kader',
+            versao: 1,
+            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
-            fontes: ['/Batalha Chefão']
+            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
     ]
 }
