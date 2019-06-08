@@ -27,7 +27,7 @@ const richpictures = {
             img: RPEsioV1,
             autor: 'Ésio Gustavo',
             versao: 1,
-            descricao: 'Eu exercitation pariatur nisi duis enim id nisi ipsum.',
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
             fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
@@ -36,7 +36,7 @@ const richpictures = {
             img: RPDutraV1,
             autor: 'Lucas Dutra',
             versao: 1,
-            descricao: 'Irure laborum labore veniam minim excepteur cupidatat laborum nulla laboris commodo amet id duis.',
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
             fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
@@ -45,7 +45,7 @@ const richpictures = {
             img: RPYoussefV1,
             autor: 'Youssef Muhamad',
             versao: 1,
-            descricao: 'Ea occaecat duis voluptate id in proident.',
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
             fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
@@ -54,7 +54,7 @@ const richpictures = {
             img: RPYoussefV2,
             autor: 'Youssef Muhamad',
             versao: 2,
-            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
             fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
@@ -63,7 +63,7 @@ const richpictures = {
             img: RPPheoV1,
             autor: 'Pedro Féo',
             versao: 1,
-            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
             fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
@@ -72,7 +72,7 @@ const richpictures = {
             img: RPAlbinoV1,
             autor: 'Gabriel Albino',
             versao: 1,
-            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
             fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
@@ -90,7 +90,7 @@ const richpictures = {
             img: RPSalehV1,
             autor: 'Saleh Kader',
             versao: 1,
-            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
             fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },
@@ -99,7 +99,7 @@ const richpictures = {
             img: RPRogerV1,
             autor: 'Rogério Júnior',
             versao: 1,
-            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
             fontes: [{nome: 'Google', link:'https://www.google.com/'}]
         },

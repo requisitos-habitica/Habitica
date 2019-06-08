@@ -5,33 +5,31 @@ const CardsGridLayout = ({ obj, onClick }) => {
 
   const getDocsFromEachGroup = group => {
     return obj[group].map(doc => (
-      <div className="rp-card-container" onClick={ () => onClick(doc.img) }>
-        <img src={ doc.img }/>
-        <div className="rp-about">
+      <div className="card-container">
+        <img className="card-img" src={ doc.img } onClick={ () => onClick(doc.img) }/>
+        <div className="card-about">
           <ul>
             <h2>{ doc.id }</h2>
-            <li>Autor: { doc.autor }</li>
-            <li>Versão: { doc.versao }</li>
-            <li>Descrição: { doc.descricao }</li>
-            <li>Data: { doc.data }</li>
-            <li>Fontes: <a href={ doc.fontes[0].link }>{ doc.fontes[0].nome }</a></li>
+            <li><strong>Autor:</strong> { doc.autor }</li>
+            <li><strong>Versão:</strong> { doc.versao }</li>
+            <li><strong>Descrição:</strong> { doc.descricao }</li>
+            <li><strong>Data:</strong> { doc.data }</li>
+            <li><strong>Fontes:</strong> <a href={ doc.fontes[0].link }>{ doc.fontes[0].nome }</a></li>
           </ul>
         </div>
       </div>
     ))
   }
 
-  console.log(Object.keys(obj))
   return (
     Object.keys(obj).map(group => (
-        <div className="cards-grid-container" key={ group }>
-          <h2>{ group }</h2>
-          <div className="cards-grid">
-            { getDocsFromEachGroup(group) }
-          </div>
+      <div className="cards-grid-container" key={ group }>
+        <h2>{ group }</h2>
+        <div className="cards-grid">
+          { getDocsFromEachGroup(group) }
         </div>
-      )
-    )
+      </div>
+    ))
   )
 }
 

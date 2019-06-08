@@ -1,4 +1,4 @@
-.cards-grid-container { margin-top: 8rem; }
+.cards-grid-container { margin-top: 10rem; }
 
 .cards-grid {
 	display: flex;
@@ -6,7 +6,7 @@
 	justify-content: space-between;
 }
 
-.rp-card-container {
+.card-container {
 	display: flex;
 	justify-content: space-between;
 	background-color: white;
@@ -15,10 +15,20 @@
 	border-radius: .4rem;
 	box-shadow: var(--shadow);
 	
-	user-select: none;
-	
-	.rp-about {
+
+	.card-img {
+		width: 30rem;
+		height: 100%;
+		border-radius: .5rem;
+		transition: var(--transition-fast);
+		
+		&:hover { transform: scale(1.02); }
+	}
+
+	.card-about {
 		width: 100%;
+		height: 100%;
+		padding-right: 1rem;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -28,8 +38,8 @@
 			list-style: none;
 			display: flex;
 			flex-direction: column;
-			justify-content: space-around;
-			height: 65%;
+			justify-content: space-between;
+			height: 82%;
 
 			li {
 				font-size: 1.5rem;
@@ -44,17 +54,4 @@
 		z-index: 100;
 		transition: var(--transition-fast);
 	}
-
-	img {
-		width: 32rem;
-		height: 100%;
-		border-radius: .5rem;
-		transition: var(--transition-fast);
-
-			&:hover {
-				transform: scale(1.02);
-			}
-
-		}
-
 }
