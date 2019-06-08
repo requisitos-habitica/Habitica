@@ -3,42 +3,35 @@ import './CardsGridLayout.scss'
 
 const CardsGridLayout = ({ obj, onClick }) => {
 
-  const getArtefactsFromTheSameContributor = (group, contributor) => {
-    return obj[group][contributor].map((rp, i) => (
-      <div className="rp-card-container" key={ contributor + i } onClick={ () => onClick(obj[group][contributor][i]) }>
-        <img src={ obj[group][contributor][i] }/>
+  const getDocsFromEachGroup = group => {
+    return obj[group].map(doc => (
+      <div className="rp-card-container" onClick={ () => onClick(doc.img) }>
+        <img src={ doc.img }/>
         <div className="rp-about">
           <ul>
-            <h2>{ rp.match(/RP[^\.]+/) }</h2>
-            <li>Autor: </li>
-            <li>Versão: </li>
-            <li>Descrição: </li>
-            <li>Data: </li>
-            <li>Fontes: </li>
+            <h2>{ doc.id }</h2>
+            <li>Autor: { doc.autor }</li>
+            <li>Versão: { doc.versao }</li>
+            <li>Descrição: { doc.descricao }</li>
+            <li>Data: { doc.data }</li>
+            <li>Fontes: <a href={ doc.fontes[0].link }>{ doc.fontes[0].nome }</a></li>
           </ul>
         </div>
       </div>
     ))
   }
 
-  const getArtefactsForEachContributor = (group) => {
-    return Object.keys(obj[group]).map(contributor => (
-      <React.Fragment key={ contributor + Math.random() }>
-        { getArtefactsFromTheSameContributor(group, contributor) }
-      </React.Fragment>
-    ))
-  }
-
+  console.log(Object.keys(obj))
   return (
     Object.keys(obj).map(group => (
-      <div className="cards-grid-container" key={ group }>
-  
-        <h2>{ group }</h2>
-        <div className="cards-grid">
-          { getArtefactsForEachContributor(group) }
+        <div className="cards-grid-container" key={ group }>
+          <h2>{ group }</h2>
+          <div className="cards-grid">
+            { getDocsFromEachGroup(group) }
+          </div>
         </div>
-      </div>
-    )) 
+      )
+    )
   )
 }
 
