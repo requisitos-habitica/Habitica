@@ -5,10 +5,10 @@ import VerProgressoDeParticipantesDeUmDesafioV2 from '../components/docs/Modelag
 
 import ComoContribuir from '../components/docs/Modelagem/Cenario/ComoContribuir'
 import ContribuirArtes from '../components/docs/Modelagem/Cenario/ContribuirArtesV2'
-import ContribuirDesign from '../components/docs/Modelagem/Cenario/ContribuirDesign'
-import ContribuirHistoria from '../components/docs/Modelagem/Cenario/ContribuirHistoria'
-import ContribuirTraducao from '../components/docs/Modelagem/Cenario/ContribuirTraducao'
-import ContribuirWiki from '../components/docs/Modelagem/Cenario/ContribuirWiki'
+import ContribuirDesign from '../components/docs/Modelagem/Cenario/ContribuirDesignV2'
+import ContribuirHistoria from '../components/docs/Modelagem/Cenario/ContribuirHistoriaV2'
+import ContribuirTraducao from '../components/docs/Modelagem/Cenario/ContribuirTraducaoV2'
+import ContribuirWiki from '../components/docs/Modelagem/Cenario/ContribuirWikiV2'
 import ChocarOvoDeMascote from '../components/docs/Modelagem/Cenario/ChocarOvoDeMascote';
 import AlimentarMascote from '../components/docs/Modelagem/Cenario/AlimentarMascote';
 import ProporMissoes from '../components/docs/Modelagem/Cenario/ProporMissoes';
