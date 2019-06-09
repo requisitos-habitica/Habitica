@@ -11,4 +11,32 @@
   align-items: center;
 
   z-index: 500;
+
+  &-close {
+    width: 3.5rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 95.7rem;
+    left: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    
+    transition: all .2s;
+    user-select: none;
+    background-color: var(--color-purple-light);
+    cursor: pointer;
+    box-shadow: 0 .2rem .5rem black;
+
+    &:hover {
+      transform: scale(1.05);
+      box-shadow: 0 .4rem .8rem black;
+    }
+  }
 }

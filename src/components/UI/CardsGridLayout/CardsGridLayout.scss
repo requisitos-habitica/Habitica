@@ -13,16 +13,20 @@
 	height: 26rem;
 	margin: 3rem 0 3rem 0;
 	border-radius: .4rem;
-	box-shadow: var(--shadow);
+	box-shadow: var(--shadow-close);
+	transition: var(--transition-fast);
+	user-select: none;
+	cursor: pointer;
 	
+	&:hover {
+		transform: translateY(-.2rem);
+		box-shadow: var(--shadow-far);
+	}
 
 	.card-img {
 		width: 30rem;
 		height: 100%;
-		border-radius: .5rem;
-		transition: var(--transition-fast);
-		
-		&:hover { transform: scale(1.02); }
+		border-right: .4rem solid var(--color-purple-light);
 	}
 
 	.card-about {

@@ -5,8 +5,8 @@ const CardsGridLayout = ({ obj, onClick }) => {
 
   const getDocsFromEachGroup = group => {
     return obj[group].map(doc => (
-      <div className="card-container">
-        <img className="card-img" src={ doc.img } onClick={ () => onClick(doc.img) }/>
+      <div className="card-container" onClick={ () => onClick(doc.img) } key={ doc.id }>
+        <img className="card-img" src={ doc.img }/>
         <div className="card-about">
           <ul>
             <h2>{ doc.id }</h2>

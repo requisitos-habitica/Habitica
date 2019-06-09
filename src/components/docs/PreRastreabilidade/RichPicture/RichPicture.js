@@ -13,7 +13,7 @@ const RichPicture = () => {
   return (
     <div className="content artefact">
       <h1>Rich Pictures</h1>
-      { fullSizeImg ? <Modal onClose={closeArtefactFullSize}> <img src={fullSizeImg} style={{width: "75vw", height: "85vh"}}/> </Modal> : null }
+      { fullSizeImg ? <Modal onClose={closeArtefactFullSize}> <img src={fullSizeImg} style={{width: "auto", height: "85vh", border:".4rem solid #7300B5"}}/> </Modal> : null }
       <CardsGridLayout obj={ richpictures } onClick={ openArtefactFullSize }/>
     </div>
   )
