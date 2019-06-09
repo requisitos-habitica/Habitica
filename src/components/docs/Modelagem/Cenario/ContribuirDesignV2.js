@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
+import ContribuirDesign from '../Cenario/ContribuirDesign'
 
-const ContribuirDesign = () => (
+const ContribuirDesignV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ null } rastreability={ null }
-                  title="Contribuir no Design do Habitica V1" author="Saleh Kader"/>
+    <HeadArtefact versions={ [ContribuirDesign] } rastreability={ null }
+                  title="Contribuir no Design do Habitica V2" author="Saleh Kader e Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>
       <p>Contribuir para modificar o visual do Habitica</p>
@@ -24,8 +25,7 @@ const ContribuirDesign = () => (
     <Card>
       <h2>Atores</h2>
       <ul>
-        <li>Desenvolvedores</li>
-        <li>WebDesigners</li>
+        <li>Contribuidor</li>
       </ul>
     </Card>
 
@@ -33,15 +33,18 @@ const ContribuirDesign = () => (
       <h2>Recursos</h2>
       <ul>
         <li>Computador</li>
+        <li><Link to = '/Contribuir para o Habitica'>Guia de Contribuição</Link></li>
+        <li>Pull Request</li>
+        <li>Código do Habitica</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Episódios</h2>
       <ul>
-        <li>Contribuidor lê o guia de contribuição</li>
+        <li>Contribuidor lê o <Link to = '/Contribuir para o Habitica'>Guia de Contribuição</Link></li>
         <li>Contribuidor verifica se já existem issues sobre design</li>
-        <li>Caso não exista, o contribuidor informa guilda</li>
+        <li>Caso não exista, o contribuidor informa <Link to = "/Guilda">Guilda</Link></li>
         <li>Contribuidor edita o código do Habitica</li>
         <li>Contribuidor abre um pull request</li>
         <li>Caso aceito, contribuição feita</li>
@@ -66,4 +69,4 @@ const ContribuirDesign = () => (
   </div>
 )
 
-export default ContribuirDesign
+export default ContribuirDesignV2

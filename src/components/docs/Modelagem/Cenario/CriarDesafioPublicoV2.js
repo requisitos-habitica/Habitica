@@ -2,14 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
+import CriarDesafioPublicoV1 from '../Cenario/CriarDesafioPublicoV1'
 
-const CriarDesafioPublicoV1 = () => (
+const CriarDesafioPublicoV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ null } rastreability={ null }
-                  title="Criar desafio público V1" author="Kaique Borges"/>
+    <HeadArtefact versions={ [CriarDesafioPublicoV1] } rastreability={ null }
+                  title="Criar desafio público V2" author="Kaique Borges e Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>
-      <p>Comprar qualquer item na loja utilizando moedas ou gemas</p>
+      <p>Criar um <Link to = '/Desafio'>Desafio</Link> que seja público para qualquer usuário visualizar ou participar</p>
     </Card>
 
     <Card>
@@ -24,7 +25,7 @@ const CriarDesafioPublicoV1 = () => (
     <Card>
       <h2>Atores</h2>
       <ul>
-        <li>Usuários que queiram criar uma competição em cima de algum objetivo</li>
+        <li>Usuários</li>
       </ul>
     </Card>
 
@@ -40,12 +41,10 @@ const CriarDesafioPublicoV1 = () => (
     <Card>
       <h2>Episódios</h2>
       <ul>
-        <li>Usuário abre o app</li>
-        <li>Usuário clica em "desafios"</li>
         <li>Usuário clica em "criar desafio"</li>
         <li>Usuário digita informações do desafio</li>
-        <li>Usuário salva o afazer</li>
-        <li>Usuário adiciona tarefas do desafio</li>
+        <li>Usuário salva o <Link to = '/Afazer' >afazer</Link></li>
+        <li>Usuário adiciona <Link to = '/Tarefa' >tarefas</Link> do <Link to = '/Desafio' >desafio</Link></li>
       </ul>
     </Card>
 
@@ -65,4 +64,4 @@ const CriarDesafioPublicoV1 = () => (
   </div>
 )
 
-export default CriarDesafioPublicoV1
+export default CriarDesafioPublicoV2

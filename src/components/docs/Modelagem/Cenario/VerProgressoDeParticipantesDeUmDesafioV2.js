@@ -2,14 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
+import VerProgressoDeParticipantesDeUmDesafioV1 from '../Cenario/VerProgressoDeParticipantesDeUmDesafioV1'
 
-const VerProgressoDePArticipantesDeUmDesafioV1 = () => (
+const VerProgressoDePArticipantesDeUmDesafioV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ null } rastreability={ null }
-                  title="Ver o progresso de outros participantes de algum desafio V1" author="Kaique Borges"/>
+    <HeadArtefact versions={ [VerProgressoDeParticipantesDeUmDesafioV1] } rastreability={ null }
+                  title="Ver o progresso de outros participantes de algum desafio" author="Kaique Borges e Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>
-      <p>Participar de um desafio público</p>
+      <p>Usuário deverá ver o progresso de outros participantes de um <Link to = '/Desafio'>Desafio</Link></p>
     </Card>
 
     <Card>
@@ -32,18 +33,17 @@ const VerProgressoDePArticipantesDeUmDesafioV1 = () => (
     <Card>
       <h2>Recursos</h2>
       <ul>
-        <li>Conexão com a internet</li>
+        <li><Link to = '/Desafio'>Desafios</Link></li>
+        <li><Link to = '/Categoria'>Categorias</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Episódios</h2>
       <ul>
-        <li>Usuário abre o app</li>
-        <li>Usuário clica em desafios</li>
         <li>Usuário clica em "encontre desafio"</li>
         <li>Usuário o faz uma busca por texto (opcional)"</li>
-        <li>Usuário filtra os desafios por categoria (opcional)</li>
+        <li>Usuário filtra os <Link to = '/Desafio'>Desafios</Link> por <Link to = '/Categoria'>Categoria</Link> (opcional)</li>
         <li>Usuário clica no título do desafio</li>
         <li>Usuário clica em "selecione um participante"</li>
         <li>Usuário pesquisa nome do participante (opcional)</li>
@@ -54,7 +54,7 @@ const VerProgressoDePArticipantesDeUmDesafioV1 = () => (
     <Card>
       <h2>Restrições</h2>
       <ul>
-        Nenhuma
+      <Link to = '/Desafio'>Desafios</Link> existir
       </ul>
     </Card>
 
@@ -62,11 +62,11 @@ const VerProgressoDePArticipantesDeUmDesafioV1 = () => (
       <h2>Exceções</h2>
       <ul>
         <li>Usuário não ter uma conta</li>
-        <li>O desafio não ter participantes</li>
+        <li>O <Link to = '/Desafio'>Desafio</Link> não ter participantes</li>
       </ul>
     </Card>
 
   </div>
 )
 
-export default VerProgressoDePArticipantesDeUmDesafioV1
+export default VerProgressoDePArticipantesDeUmDesafioV2

@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
+import AlimentarMascote from '../Cenario/AlimentarMascote'
 
-const AlimentarMascote = () => (
+const AlimentarMascoteV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ null } rastreability={ null }
-                  title="Alimentar Mascote V1" author="Rogério Júnior"/>
+    <HeadArtefact versions={ [AlimentarMascote] } rastreability={ null }
+                  title="Alimentar Mascote V2" author="Rogério Júnior e Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>
       <p>Alimentar um <Link to='/Mascote'>mascote</Link> para que ele possa ser <Link to='/Domado'>domado</Link>.</p>
@@ -24,7 +25,8 @@ const AlimentarMascote = () => (
     <Card>
       <h2>Atores</h2>
       <ul>
-        <li>Usuário.</li>
+        <li>Usuário</li>
+        <li><Link to='/Mascote'>Mascote</Link></li>
       </ul>
     </Card>
 
@@ -63,4 +65,4 @@ const AlimentarMascote = () => (
   </div>
 )
 
-export default AlimentarMascote
+export default AlimentarMascoteV2

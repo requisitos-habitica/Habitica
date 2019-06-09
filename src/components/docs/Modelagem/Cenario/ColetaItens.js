@@ -6,7 +6,7 @@ import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 const ColetaItens = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="Coleta Itens de Missão" author="Pedro Féo"/>
+                  title="Coleta Itens de Missão V1" author="Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>
       <p><Link to="/Grupo">Grupo</Link> coletar todos os itens de <Link to="/Missão">Missão</Link> pedidos por uma <Link to="/Missão">Missão</Link></p>

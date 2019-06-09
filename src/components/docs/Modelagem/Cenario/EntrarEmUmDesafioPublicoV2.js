@@ -2,14 +2,15 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
+import EntrarEmUmDesafioPublicoV1 from '../Cenario/EntrarEmUmDesafioPublicoV1'
 
-const EntrarEmUmDesafioPublicoV1 = () => (
+const EntrarEmUmDesafioPublicoV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ null } rastreability={ null }
-                  title="Entrar em um desafio público V1" author="Kaique Borges"/>
+    <HeadArtefact versions={ [EntrarEmUmDesafioPublicoV1] } rastreability={ null }
+                  title="Entrar em um desafio público V2" author="Kaique Borges e Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>
-      <p>Participar de um desafio público</p>
+      <p>Participar de um <Link to='/Desafio'>Desafio</Link> público</p>
     </Card>
 
     <Card>
@@ -24,7 +25,7 @@ const EntrarEmUmDesafioPublicoV1 = () => (
     <Card>
       <h2>Atores</h2>
       <ul>
-        <li>Usuários que queiram participar uma competição em cima de algum objetivo</li>
+        <li>Usuários</li>
       </ul>
     </Card>
 
@@ -34,26 +35,25 @@ const EntrarEmUmDesafioPublicoV1 = () => (
         <li>Gemas - prêmio do desafio</li>
         <li>Moedas - indiretamente, através das tarefas do desafio</li>
         <li>Saúde - indiretamente, através das tarefas do desafio</li>
+        <li><Link to='/Categoria'>Categorias</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Episódios</h2>
       <ul>
-        <li>Usuário abre o app</li>
-        <li>Usuário clica em "desafios"</li>
-        <li>Usuário clica em "encontre desafio"</li>
+        <li>Usuário clica em "encontre <Link to='/Desafio'>Desafio</Link>"</li>
         <li>Usuário o faz uma busca por texto (opcional)"</li>
-        <li>Usuário filtra os desafios por categoria (opcional)</li>
-        <li>Usuário clica no título do desafio</li>
-        <li>Usuário clica em "se juntar ao desafio"</li>
+        <li>Usuário filtra os <Link to='/Desafio'>Desafios</Link> por <Link to='/Categoria'>Categoria</Link> (opcional)</li>
+        <li>Usuário clica no título do <Link to='/Desafio'>Desafio</Link></li>
+        <li>Usuário clica em "se juntar ao <Link to='/Desafio'>Desafio</Link>"</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Restrições</h2>
       <ul>
-        <li>Usuário escolher um desafio que não consegue cumprir</li>
+        <li>Usuário escolher um <Link to='/Desafio'>Desafio</Link> que não consegue cumprir</li>
       </ul>
     </Card>
 
@@ -67,4 +67,4 @@ const EntrarEmUmDesafioPublicoV1 = () => (
   </div>
 )
 
-export default EntrarEmUmDesafioPublicoV1
+export default EntrarEmUmDesafioPublicoV2

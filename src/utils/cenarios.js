@@ -1,17 +1,17 @@
-import CriarDesafioPublicoV1 from '../components/docs/Modelagem/Cenario/CriarDesafioPublicoV1'
-import DeclararVencedorDeUmDesafioV1 from '../components/docs/Modelagem/Cenario/DeclararVencedorDeUmDesafioV1'
-import EntrarEmUmDesafioPublicoV1 from '../components/docs/Modelagem/Cenario/EntrarEmUmDesafioPublicoV1'
-import VerProgressoDeParticipantesDeUmDesafioV1 from '../components/docs/Modelagem/Cenario/VerProgressoDeParticipantesDeUmDesafioV1'
+import CriarDesafioPublicoV2 from '../components/docs/Modelagem/Cenario/CriarDesafioPublicoV2'
+import DeclararVencedorDeUmDesafioV2 from '../components/docs/Modelagem/Cenario/DeclararVencedorDeUmDesafioV2'
+import EntrarEmUmDesafioPublicoV2 from '../components/docs/Modelagem/Cenario/EntrarEmUmDesafioPublicoV2'
+import VerProgressoDeParticipantesDeUmDesafioV2 from '../components/docs/Modelagem/Cenario/VerProgressoDeParticipantesDeUmDesafioV2'
 
 import ComoContribuir from '../components/docs/Modelagem/Cenario/ComoContribuir'
-import ContribuirArtes from '../components/docs/Modelagem/Cenario/ContribuirArtes'
-import ContribuirDesign from '../components/docs/Modelagem/Cenario/ContribuirDesign'
-import ContribuirHistoria from '../components/docs/Modelagem/Cenario/ContribuirHistoria'
-import ContribuirTraducao from '../components/docs/Modelagem/Cenario/ContribuirTraducao'
-import ContribuirWiki from '../components/docs/Modelagem/Cenario/ContribuirWiki'
-import ChocarOvoDeMascote from '../components/docs/Modelagem/Cenario/ChocarOvoDeMascote';
-import AlimentarMascote from '../components/docs/Modelagem/Cenario/AlimentarMascote';
-import ProporMissoes from '../components/docs/Modelagem/Cenario/ProporMissoes';
+import ContribuirArtes from '../components/docs/Modelagem/Cenario/ContribuirArtesV2'
+import ContribuirDesign from '../components/docs/Modelagem/Cenario/ContribuirDesignV2'
+import ContribuirHistoria from '../components/docs/Modelagem/Cenario/ContribuirHistoriaV2'
+import ContribuirTraducao from '../components/docs/Modelagem/Cenario/ContribuirTraducaoV2'
+import ContribuirWiki from '../components/docs/Modelagem/Cenario/ContribuirWikiV2'
+import ChocarOvoDeMascote from '../components/docs/Modelagem/Cenario/ChocarOvoDeMascoteV2';
+import AlimentarMascote from '../components/docs/Modelagem/Cenario/AlimentarMascoteV2';
+import ProporMissoes from '../components/docs/Modelagem/Cenario/ProporMissoesV2';
 import EquiparAvatarComItemDeMao from '../components/docs/Modelagem/Cenario/EquiparAvatarComItemDeMao';
 import EquiparAvatarComCapacete from '../components/docs/Modelagem/Cenario/EquiparAvatarComCapacete';
 import EquiparAvatarComArmadura from '../components/docs/Modelagem/Cenario/EquiparAvatarComArmadura';
@@ -25,13 +25,13 @@ import BatalhaChefao from '../components/docs/Modelagem/Cenario/BatalhaChefao'
 import CancelaMissao from '../components/docs/Modelagem/Cenario/CancelaMissao'
 import ColetaItens from '../components/docs/Modelagem/Cenario/ColetaItens'
 import CompletaMissao from '../components/docs/Modelagem/Cenario/CompletaMissao'
-import ConsegueTomoDeMissao from '../components/docs/Modelagem/Cenario/ConsegueTomoeDeMissao'
-import CriaAvatar from '../components/docs/Modelagem/Cenario/CriaAvatar'
+import ConsegueTomoDeMissao from '../components/docs/Modelagem/Cenario/ConsegueTomoeDeMissaoV2'
+import CriaAvatar from '../components/docs/Modelagem/Cenario/CriaAvatarV2'
 import EntraNaMissao from '../components/docs/Modelagem/Cenario/EntraNaMissao'
 import FazMissao from '../components/docs/Modelagem/Cenario/FazMissao'
-import PersonalizaAparenciaFisicaDoAvatar from '../components/docs/Modelagem/Cenario/PersonalizaAparenciaFisicaDoAvatar'
+import PersonalizaAparenciaFisicaDoAvatar from '../components/docs/Modelagem/Cenario/PersonalizaAparenciaFisicaDoAvatarV2'
 import PersonalizaEquipamentoDoAvatar from '../components/docs/Modelagem/Cenario/PersonalizaEquipamentoDoAvatar'
-import SocializaNasGuildas from '../components/docs/Modelagem/Cenario/SocializaNasGuildas'
+import SocializaNasGuildas from '../components/docs/Modelagem/Cenario/SocializaNasGuildasV2'
 import UsaHabilidade from '../components/docs/Modelagem/Cenario/UsaHabilidade';
 import SubirNivel from '../components/docs/Modelagem/Cenario/subirNivel';
 import EnviarMens from '../components/docs/Modelagem/Cenario/enviarMensagem';
@@ -138,10 +138,10 @@ const cenarios = {
   "Desafios": {
     color: "DeepPink",
     lexic: {
-      "Criar desafio público": CriarDesafioPublicoV1,
-      "Declarar o vencedor de um desafio": DeclararVencedorDeUmDesafioV1,
-      "Entrar em um desafio público": EntrarEmUmDesafioPublicoV1,
-      "Ver o progresso de outros participantes de um desafio": VerProgressoDeParticipantesDeUmDesafioV1
+      "Criar desafio público": CriarDesafioPublicoV2,
+      "Declarar o vencedor de um desafio": DeclararVencedorDeUmDesafioV2,
+      "Entrar em um desafio público": EntrarEmUmDesafioPublicoV2,
+      "Ver o progresso de outros participantes de um desafio": VerProgressoDeParticipantesDeUmDesafioV2
     }
   }
 }

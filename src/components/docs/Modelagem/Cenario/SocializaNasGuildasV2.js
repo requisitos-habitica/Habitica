@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
+import SocializaNaGuilda from '../Cenario/SocializaNasGuildas'
 
-const SocializaNaGuilda = () => (
+const SocializaNaGuildaV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ null } rastreability={ null }
-                  title="Socializa na Guilda V1" author="Pedro Féo"/>
+    <HeadArtefact versions={ [SocializaNaGuilda] } rastreability={ null }
+                  title="Socializa na Guilda V2" author="Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>
       <p>Discutir interesses semelhantes e participar em <Link to="/Grupo">Grupos</Link> de <Link to="/Desafio">Desafios</Link></p>
@@ -25,7 +26,6 @@ const SocializaNaGuilda = () => (
       <h2>Atores</h2>
       <ul>
         <li>Usuário</li>
-        <li>Sistema</li>
       </ul>
     </Card>
 
@@ -70,4 +70,4 @@ const SocializaNaGuilda = () => (
   </div>
 )
 
-export default SocializaNaGuilda
+export default SocializaNaGuildaV2
