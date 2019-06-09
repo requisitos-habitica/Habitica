@@ -63,7 +63,7 @@ const richpictures = {
         {
             id: 'RPPheoV1',
             img: RPPheoV1,
-            autor: members.Saleh,
+            autor: members.Pheo,
             versao: 1,
             descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
