@@ -7,44 +7,46 @@ import Gabriel from '../assets/gabriel.jpeg'
 import Rogerio from '../assets/rogerio.jpeg'
 import Kaique from '../assets/kaique.jpeg'
 
+import members from './members'
+
 const contributors = [
   {
-    name: 'Ésio Gustavo',
+    name:members.Esio,
     img: Esio,
     github: 'https://github.com/EsioFreitas' 
   },
   {
-    name: 'Lucas Dutra',
+    name:members.Lucas,
     img: Lucas,
     github: 'https://github.com/lucasdutraf' 
   },
   {
-    name: 'Youssef Muhamad',
+    name:members.Youssef,
     img: Youssef,
     github: 'https://github.com/youssef-md' 
   },
   {
-    name: 'Pedro Féo',
+    name:members.Pheo,
     img: Pedro,
     github: 'https://github.com/phe0' 
   },
   {
-    name: 'Saleh Kader',
+    name:members.Saleh,
     img: Saleh,
     github: 'https://github.com/devsalula' 
   },
   {
-    name: 'Gabriel Albino',
+    name:members.Gabriel,
     img: Gabriel,
     github: 'https://github.com/gabrielalbino' 
   },
   {
-    name: 'Rogério Júnior',
+    name:members.Rogerio,
     img: Rogerio,
     github: 'https://github.com/rogerioo' 
   },
   {
-    name: 'Kaique Henrique',
+    name:members.Kaique,
     img: Kaique,
     github: 'https://github.com/kaiqueborges' 
   }

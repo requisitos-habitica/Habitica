@@ -1,57 +1,61 @@
-.cards-grid-container {
-	margin: 5rem 0 4rem 0;
-}
+.cards-grid-container { margin-top: 10rem; }
 
 .cards-grid {
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
 	justify-content: space-between;
 }
 
-.rp-card-container {
+.card-container {
 	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 22rem;
-	height: 22rem;
-	margin-top: 5.5rem;
+	justify-content: space-between;
+	background-color: white;
+	height: 26rem;
+	margin: 3rem 0 3rem 0;
+	border-radius: .4rem;
 	box-shadow: var(--shadow-close);
-	border-radius: .5rem;
-	background-color: black;
-
-	transition: all .3s;
-	cursor: pointer;
+	transition: var(--transition-fast);
 	user-select: none;
+	cursor: pointer;
 	
+	&:hover {
+		transform: translateY(-.2rem);
+		box-shadow: var(--shadow-far);
+	}
+
+	.card-img {
+		width: 30rem;
+		//height: 100%; fixes bug: using the setted width only when hovering
+		border-right: .4rem solid var(--color-purple-light);
+	}
+
+	.card-about {
+		width: 100%;
+		height: 100%;
+		padding-right: 1rem;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-left: 5rem;
+
+		ul {
+			list-style: none;
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+			height: 82%;
+
+			li {
+				font-size: 1.5rem;
+			}
+		}
+	}
+
 	p {
-		position: absolute;
 		font-size: 1.6rem;
 		font-weight: bold;
 		color: white;
 		z-index: 100;
 		transition: var(--transition-fast);
-		opacity: 0;
 	}
-
-	img {
-		width: 100%;
-		height: 100%;
-		border-radius: .5rem;
-		transition: var(--transition-fast);
-	}
-
-	/* ANIMATIONS */
-	&:hover {
-		transform: translateY(-.6rem);
-		box-shadow: var(--shadow-far);
-	}
-
-	&:hover img {
-		opacity: .45;
-		-webkit-backface-visibility: hidden;
-    backface-visibility: hidden;
-	}
-
-	&:hover p { opacity: 1; }
-
 }

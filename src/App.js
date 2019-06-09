@@ -11,7 +11,8 @@ import Modelagem from './components/docs/Modelagem/Modelagem'
 import Lexico from './components/docs/Modelagem/Lexico/Lexico'
 import Cenario from './components/docs/Modelagem/Cenario/Cenario'
 import PreRastreabilidade from './components/docs/PreRastreabilidade/PreRastreabilidade'
-import RichPicture from './components/docs/PreRastreabilidade/RichPicture/RichPicture'
+import RichPicture from './components/docs/PreRastreabilidade/RichPicture'
+import Argumentacao from './components/docs/PreRastreabilidade/Argumentacao'
 
 import lexicos from './utils/lexicos'
 import cenarios from './utils/cenarios'
@@ -32,6 +33,7 @@ const App = () => {
             <RouteRollUp exact path="/Disciplina" component={ Disciplina } />
             <RouteRollUp exact path="/Pre-Rastreabilidade" component={ PreRastreabilidade } />
             <RouteRollUp exact path="/RichPictures" component={ RichPicture } />
+            <RouteRollUp exact path="/Argumentacoes" component={ Argumentacao } />
             <RouteRollUp exact path="/Pos-Rastreabilidade" />
             <RouteRollUp exact path="/Elicitacao" />
             <RouteRollUp exact path="/Modelagem" component={ Modelagem } />
