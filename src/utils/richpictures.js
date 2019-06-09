@@ -10,7 +10,7 @@ import RPYoussefV2 from '../components/docs/assets/RP/RPYoussefV2.png'
 
 import RPContribuicaoV1 from '../components/docs/assets/RP/RPContribuicaoV1.jpg'
 import RPDesafiosV1 from '../components/docs/assets/RP/RPDesafiosV1.jpeg'
-import RPGamificacaoV1 from '../components/docs/assets/RP/RPGamificacaoV1.jpg'
+import RPGamificacaoV1 from '../components/docs/assets/RP/RPGamificacaoV1.png'
 import RPGeral1_2V1 from '../components/docs/assets/RP/RPGeral1-2V1.jpg'
 import RPGeral2_2V1 from '../components/docs/assets/RP/RPGeral2-2V1.jpg'
 import RPGeralV2 from '../components/docs/assets/RP/RPGeralV2.png'
