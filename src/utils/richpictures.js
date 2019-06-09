@@ -20,12 +20,14 @@ import RPInventarioV2 from '../components/docs/assets/RP/RPInventarioV2.png'
 import RPLojasV1 from '../components/docs/assets/RP/RPLojasV1.jpg'
 import RPTarefasV1 from '../components/docs/assets/RP/RPTarefasV1.png'
 
+import members from './members'
+
 const richpictures = {
     'Individuais': [
         {
             id: 'RPEsioV1',
             img: RPEsioV1,
-            autor: 'Ésio Gustavo',
+            autor: members.Esio,
             versao: 1,
             descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
@@ -34,7 +36,7 @@ const richpictures = {
         {
             id: 'RPDutraV1',
             img: RPDutraV1,
-            autor: 'Lucas Dutra',
+            autor: members.Lucas,
             versao: 1,
             descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
@@ -43,7 +45,7 @@ const richpictures = {
         {
             id: 'RPYoussefV1',
             img: RPYoussefV1,
-            autor: 'Youssef Muhamad',
+            autor: members.Youssef,
             versao: 1,
             descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
@@ -52,7 +54,7 @@ const richpictures = {
         {
             id: 'RPYoussefV2',
             img: RPYoussefV2,
-            autor: 'Youssef Muhamad',
+            autor: members.Youssef,
             versao: 2,
             descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
@@ -61,7 +63,7 @@ const richpictures = {
         {
             id: 'RPPheoV1',
             img: RPPheoV1,
-            autor: 'Pedro Féo',
+            autor: members.Saleh,
             versao: 1,
             descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
@@ -70,7 +72,7 @@ const richpictures = {
         {
             id: 'RPAlbinoV1',
             img: RPAlbinoV1,
-            autor: 'Gabriel Albino',
+            autor: members.Gabriel,
             versao: 1,
             descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
@@ -79,7 +81,7 @@ const richpictures = {
         {
             id: 'RPAlbinoV2',
             img: RPAlbinoV2,
-            autor: 'Gabriel Albino',
+            autor: members.Gabriel,
             versao: 2,
             descricao: 'Ipsum id ut anim in amet magna commodo elit.',
             data: '10/10/2019',
@@ -88,7 +90,7 @@ const richpictures = {
         {
             id: 'RPSalehV1',
             img: RPSalehV1,
-            autor: 'Saleh Kader',
+            autor: members.Saleh,
             versao: 1,
             descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
@@ -97,7 +99,7 @@ const richpictures = {
         {
             id: 'RPRogerV1',
             img: RPRogerV1,
-            autor: 'Rogério Júnior',
+            autor: members.Rogerio,
             versao: 1,
             descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
             data: '10/10/2019',
