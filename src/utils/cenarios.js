@@ -9,9 +9,9 @@ import ContribuirDesign from '../components/docs/Modelagem/Cenario/ContribuirDes
 import ContribuirHistoria from '../components/docs/Modelagem/Cenario/ContribuirHistoriaV2'
 import ContribuirTraducao from '../components/docs/Modelagem/Cenario/ContribuirTraducaoV2'
 import ContribuirWiki from '../components/docs/Modelagem/Cenario/ContribuirWikiV2'
-import ChocarOvoDeMascote from '../components/docs/Modelagem/Cenario/ChocarOvoDeMascote';
-import AlimentarMascote from '../components/docs/Modelagem/Cenario/AlimentarMascote';
-import ProporMissoes from '../components/docs/Modelagem/Cenario/ProporMissoes';
+import ChocarOvoDeMascote from '../components/docs/Modelagem/Cenario/ChocarOvoDeMascoteV2';
+import AlimentarMascote from '../components/docs/Modelagem/Cenario/AlimentarMascoteV2';
+import ProporMissoes from '../components/docs/Modelagem/Cenario/ProporMissoesV2';
 import EquiparAvatarComItemDeMao from '../components/docs/Modelagem/Cenario/EquiparAvatarComItemDeMao';
 import EquiparAvatarComCapacete from '../components/docs/Modelagem/Cenario/EquiparAvatarComCapacete';
 import EquiparAvatarComArmadura from '../components/docs/Modelagem/Cenario/EquiparAvatarComArmadura';

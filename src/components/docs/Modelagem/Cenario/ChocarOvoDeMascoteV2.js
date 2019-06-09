@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
+import ChocarOvoDeMascote from '../Cenario/ChocarOvoDeMascote'
 
-const ChocarOvoDeMascote = () => (
+const ChocarOvoDeMascoteV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ null } rastreability={ null }
-                  title="Chocar Ovo de Mascote V1" author="Rogério Júnior"/>
+    <HeadArtefact versions={ [ChocarOvoDeMascote] } rastreability={ null }
+                  title="Chocar Ovo de Mascote V2" author="Rogério Júnior e Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>
       <p><Link to='/Chocar Ovo'>Chocar o ovo</Link> para que o usuário possua um novo <Link to='/Mascote'>mascote</Link>.</p>
@@ -25,6 +26,7 @@ const ChocarOvoDeMascote = () => (
       <h2>Atores</h2>
       <ul>
         <li>Usuário.</li>
+        <li>Mascote</li>
       </ul>
     </Card>
 
@@ -68,4 +70,4 @@ const ChocarOvoDeMascote = () => (
   </div>
 )
 
-export default ChocarOvoDeMascote
+export default ChocarOvoDeMascoteV2

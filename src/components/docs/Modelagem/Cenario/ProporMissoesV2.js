@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
+import ProporMissoes from '../Cenario/ProporMissoes'
 
-const ProporMissoes = () => (
+const ProporMissoesV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ null } rastreability={ null }
-                  title="Propor Missões V1" author="Rogério Júnior"/>
+    <HeadArtefact versions={ [ProporMissoes] } rastreability={ null }
+                  title="Propor Missões V2" author="Rogério Júnior"/>
     <Card>
       <h2>Objetivo</h2>
       <p>Usuário convidar um grupo à uma missão para ganhar recompensas.</p>
@@ -25,6 +26,7 @@ const ProporMissoes = () => (
       <h2>Atores</h2>
       <ul>
         <li>Usuário.</li>
+        <li>Grupo</li>
       </ul>
     </Card>
 
@@ -65,4 +67,4 @@ const ProporMissoes = () => (
   </div>
 )
 
-export default ProporMissoes 
+export default ProporMissoesV2
