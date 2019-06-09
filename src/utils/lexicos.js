@@ -68,6 +68,18 @@ import Perc from '../components/docs/Modelagem/Lexico/Percepcao';
 import Gema from '../components/docs/Modelagem/Lexico/Gema';
 import Moeda from '../components/docs/Modelagem/Lexico/Moeda';
 
+import ProjetoCodigoAberto from '../components/docs/Modelagem/Lexico/ProjetoCodigoAberto'
+import Wiki from '../components/docs/Modelagem/Lexico/Wiki'
+import ContribuirHabitica from '../components/docs/Modelagem/Lexico/ContribuirHabitica'
+import Ferreiro from '../components/docs/Modelagem/Lexico/Ferreiro'
+import APIHabitica from '../components/docs/Modelagem/Lexico/APIHabitica'
+import PixelArt from '../components/docs/Modelagem/Lexico/PixelArt'
+import TraduzirHabitica from '../components/docs/Modelagem/Lexico/TraduzirHabitica'
+import Embaixadores from '../components/docs/Modelagem/Lexico/Embaixadores'
+import Escribas from '../components/docs/Modelagem/Lexico/Escribas'
+import ContadorHistoria from '../components/docs/Modelagem/Lexico/ContadorHistoria'
+import Desafiantes from '../components/docs/Modelagem/Lexico/Desafiantes'
+import Taverna from '../components/docs/Modelagem/Lexico/Taverna'
 
 const lexicos = {
   "Configurações": {
@@ -133,18 +145,18 @@ const lexicos = {
   "Guia de Contribuição": {
     color: "Orchid",
     lexic: {
-      "Projeto de Código Aberto": null,
-      "Wiki": null,
-      "Contribuir para o Habitica": null,
-      "Ferreiros (Blacksmiths)": null,
-      "API do Habitica": null,
-      "Pixel Art": null,
-      "Traduzir o Habitica": null,
-      "Embaixadores": null,
-      "Escribas": null,
-      "Contadores de História": null,
-      "Desafiantes": null,
-      "Taverna": null,
+      "Projeto de Código Aberto": ProjetoCodigoAberto,
+      "Wiki": Wiki,
+      "Contribuir para o Habitica": ContribuirHabitica,
+      "Ferreiros (Blacksmiths)": Ferreiro,
+      "API do Habitica": APIHabitica,
+      "Pixel Art": PixelArt,
+      "Traduzir o Habitica": TraduzirHabitica,
+      "Embaixadores": Embaixadores,
+      "Escribas": Escribas,
+      "Contadores de História": ContadorHistoria,
+      "Desafiantes": Desafiantes,
+      "Taverna": Taverna,
     }
   },
 

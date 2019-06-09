@@ -6,7 +6,7 @@ import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 const ContribuirArtes = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="Contribuir para as Artes do Habitica" author="Saleh Kader"/>
+                  title="Contribuir para as Artes do Habitica V1" author="Saleh Kader"/>
     <Card>
       <h2>Objetivo</h2>
       <p>Construir pixel arts para o Habitica</p>

@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
+import ContribuirHistoria from '../Cenario/ContribuirHistoria'
 
-const ContribuirHistoria = () => (
+const ContribuirHistoriaV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ null } rastreability={ null }
-                  title="Contribuir para as Histórias do Habitica V1" author="Saleh Kader"/>
+    <HeadArtefact versions={ [ContribuirHistoria] } rastreability={ null }
+                  title="Contribuir para as Histórias do Habitica V1" author="Saleh Kader e Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>
       <p>Elaborar novas narrativas para serem usadas no Habitica</p>
@@ -66,4 +67,4 @@ const ContribuirHistoria = () => (
   </div>
 )
 
-export default ContribuirHistoria
+export default ContribuirHistoriaV2

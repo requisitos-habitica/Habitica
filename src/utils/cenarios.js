@@ -4,7 +4,7 @@ import EntrarEmUmDesafioPublicoV2 from '../components/docs/Modelagem/Cenario/Ent
 import VerProgressoDeParticipantesDeUmDesafioV2 from '../components/docs/Modelagem/Cenario/VerProgressoDeParticipantesDeUmDesafioV2'
 
 import ComoContribuir from '../components/docs/Modelagem/Cenario/ComoContribuir'
-import ContribuirArtes from '../components/docs/Modelagem/Cenario/ContribuirArtes'
+import ContribuirArtes from '../components/docs/Modelagem/Cenario/ContribuirArtesV2'
 import ContribuirDesign from '../components/docs/Modelagem/Cenario/ContribuirDesign'
 import ContribuirHistoria from '../components/docs/Modelagem/Cenario/ContribuirHistoria'
 import ContribuirTraducao from '../components/docs/Modelagem/Cenario/ContribuirTraducao'
