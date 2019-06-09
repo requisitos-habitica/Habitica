@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
+import ConsegueTomoDeMissao from '../Cenario/ConsegueTomoeDeMissao'
 
-const ConsegueTomoDeMissao = () => (
+const ConsegueTomoDeMissaoV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ null } rastreability={ null }
-                  title="Consegue Tomo de Missao V1" author="Pedro Féo"/>
+    <HeadArtefact versions={ [ConsegueTomoDeMissao] } rastreability={ null }
+                  title="Consegue Tomo de Missao V2" author="Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>
       <p>Obter um Item do tipo <Link to="/Tomo de Missão">Tomo de Missão</Link> para que possa realizar Missões</p>
@@ -25,7 +26,6 @@ const ConsegueTomoDeMissao = () => (
       <h2>Atores</h2>
       <ul>
         <li>Usuário</li>
-        <li>Sistema</li>
       </ul>
     </Card>
 
@@ -61,4 +61,4 @@ const ConsegueTomoDeMissao = () => (
   </div>
 )
 
-export default ConsegueTomoDeMissao
+export default ConsegueTomoDeMissaoV2

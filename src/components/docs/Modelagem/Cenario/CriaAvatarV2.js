@@ -2,11 +2,12 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
+import CriaAvatar from '../Cenario/CriaAvatar'
 
-const CriaAvatar = () => (
+const CriaAvatarV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ null } rastreability={ null }
-                  title="Cria Avatar V1" author="Pedro Féo"/>
+    <HeadArtefact versions={ [CriaAvatar] } rastreability={ null }
+                  title="Cria Avatar V2" author="Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>
       <p>Criar uma representação virtual do Usuário</p>
@@ -25,7 +26,6 @@ const CriaAvatar = () => (
       <h2>Atores</h2>
       <ul>
         <li>Usuários</li>
-        <li>Sistema</li>
       </ul>
     </Card>
 
@@ -47,11 +47,11 @@ const CriaAvatar = () => (
       <ul>
         <li>Usuário escolhe Nome</li>
         <li>Usuário escolhe Tipo de Corpo</li>
-        <li>Usuário escolhe Camisa</li>
+        <li>Usuário escolhe <Link to = '/Equipar Avatar com Item de Corpo'>Camisa</Link></li>
         <li>Usuário escolhe Tom de Pele</li>
         <li>Usuário escolhe Cor do Cabelo</li>
         <li>Usuário escolhe Estilo do Cabelo</li>
-        <li>Usuário escolhe Flor</li>
+        <li>Usuário escolhe <Link to = '/Equipar Avatar com Acessório de Cabeça'>Flor</Link></li>
         <li>Usuário informa seus objetivos com o Sistema</li>
       </ul>
     </Card>
@@ -66,11 +66,11 @@ const CriaAvatar = () => (
     <Card>
       <h2>Exceções</h2>
       <ul>
-        <li>-</li>
+        <li>Usuário não estar conectado à internet</li>
       </ul>
     </Card>
 
   </div>
 )
 
-export default CriaAvatar
+export default CriaAvatarV2
