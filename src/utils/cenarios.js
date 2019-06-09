@@ -32,16 +32,37 @@ import FazMissao from '../components/docs/Modelagem/Cenario/FazMissao'
 import PersonalizaAparenciaFisicaDoAvatar from '../components/docs/Modelagem/Cenario/PersonalizaAparenciaFisicaDoAvatar'
 import PersonalizaEquipamentoDoAvatar from '../components/docs/Modelagem/Cenario/PersonalizaEquipamentoDoAvatar'
 import SocializaNasGuildas from '../components/docs/Modelagem/Cenario/SocializaNasGuildas'
-import UsaHabilidade from '../components/docs/Modelagem/Cenario/UsaHabilidade'
+import UsaHabilidade from '../components/docs/Modelagem/Cenario/UsaHabilidade';
+import SubirNivel from '../components/docs/Modelagem/Cenario/subirNivel';
+import EnviarMens from '../components/docs/Modelagem/Cenario/enviarMensagem';
+import EnviarGemas from '../components/docs/Modelagem/Cenario/enviarGemas';
+import AumentarAtrib from '../components/docs/Modelagem/Cenario/aumentarAtributo';
+import fazerAssin from '../components/docs/Modelagem/Cenario/fazerAssinatura';
+import mudarConfg from '../components/docs/Modelagem/Cenario/mudarConfSite';
+import compGema from '../components/docs/Modelagem/Cenario/comprarGemas';
+import AdquirirClass from '../components/docs/Modelagem/Cenario/adquirirClasse';
+import morrer from '../components/docs/Modelagem/Cenario/morrer';
+import DelCont from '../components/docs/Modelagem/Cenario/deletarConta';
+import FazerCont from '../components/docs/Modelagem/Cenario/fazerConta';
 
 const cenarios = {
-  "Fóruns": {
+  "Configurações": {
     color: "pink",
     lexic: {
-      "Guerreiro": null,
+      "Subir de nível": SubirNivel,
+      "Enviar gemas": EnviarGemas,
+      "Enviar mensagem": EnviarMens,
+      "Aumentar atributo": AumentarAtrib,
+      "Fazer assinatura": fazerAssin,
+      "Mudar configurações do site": mudarConfg,
+      "Comprar gema": compGema,
+      "Adquirir uma classe": AdquirirClass,
+      "Morrer": morrer,
+      "Deletar conta": DelCont,
+      "Fazer uma conta": FazerCont
     }
   },
-  
+
   "Loja": {
     color: "aqua",
     lexic: {
@@ -86,14 +107,14 @@ const cenarios = {
     }
   },
 
-  
+
   "Tarefas": {
     color: "Gold",
     lexic: {
       "Tarefa": null,
     }
   },
-  
+
 
   "Inventário": {
     color: "LightCoral",

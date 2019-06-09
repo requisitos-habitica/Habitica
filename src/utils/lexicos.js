@@ -56,22 +56,34 @@ import Mana from '../components/docs/Modelagem/Lexico/Mana'
 import MissaoDeColeta from '../components/docs/Modelagem/Lexico/MissaoDeColeta'
 import MissaoDeMascote from '../components/docs/Modelagem/Lexico/MissaoDeMascote'
 import TomoDeMissao from '../components/docs/Modelagem/Lexico/TomoDeMissao'
+import Guerreiro from '../components/docs/Modelagem/Lexico/Guerreiro';
+import Bonus from '../components/docs/Modelagem/Lexico/Bonus';
+import Mago from '../components/docs/Modelagem/Lexico/Mago';
+import Curador from '../components/docs/Modelagem/Lexico/Curador';
+import Ladino from '../components/docs/Modelagem/Lexico/Ladino';
+import Forca from '../components/docs/Modelagem/Lexico/Forca';
+import Int from '../components/docs/Modelagem/Lexico/Inteligencia';
+import Cons from '../components/docs/Modelagem/Lexico/Constituicao';
+import Perc from '../components/docs/Modelagem/Lexico/Percepcao';
+import Gema from '../components/docs/Modelagem/Lexico/Gema';
+import Moeda from '../components/docs/Modelagem/Lexico/Moeda';
+
 
 const lexicos = {
-  "Fóruns": {
+  "Configurações": {
     color: "pink",
     lexic: {
-      "Guerreiro": null,
-      "Bônus de atributo": null,
-      "Mago": null,
-      "Curador": null,
-      "Ladino": null,
-      "Força": null,
-      "Inteligência": null,
-      "Constituição": null,
-      "Percepção": null,
-      "Gema": null,
-      "Moeda": null,
+      "Guerreiro": Guerreiro,
+      "Bônus de atributo": Bonus,
+      "Mago": Mago,
+      "Curador": Curador,
+      "Ladino": Ladino,
+      "Força": Forca,
+      "Inteligência": Int,
+      "Constituição": Cons,
+      "Percepção": Perc,
+      "Gema": Gema,
+      "Moeda": Moeda,
     }
   },
   

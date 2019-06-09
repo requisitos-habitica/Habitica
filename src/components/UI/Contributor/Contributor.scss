@@ -14,6 +14,7 @@
   img {
     width: 100%;
     height: auto;
+    transition: var(--transition-fast);
   }
 
   p {
@@ -24,6 +25,7 @@
     opacity: 0;
     transition: var(--transition-fast);
     z-index: 100;
+    user-select: none;
   }
   
 
@@ -36,7 +38,6 @@
   &:hover img {
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
-    transition: var(--transition-fast);
     opacity: .45;
   }
   
