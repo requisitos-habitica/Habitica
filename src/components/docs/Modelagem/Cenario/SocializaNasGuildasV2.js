@@ -7,6 +7,11 @@ const SocializaNaGuildaV2 = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
                   title="Socializa na Guilda V2" author="Pedro Féo"/>
+
+    <Card>
+      <h2>Versionamento</h2>
+      <p><Link to='/Socializa nas Guildas V1'>V1</Link></p>
+    </Card>
     <Card>
       <h2>Objetivo</h2>
       <p>Discutir interesses semelhantes e participar em <Link to="/Grupo">Grupos</Link> de <Link to="/Desafio">Desafios</Link></p>

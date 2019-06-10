@@ -7,6 +7,12 @@ const CriarDesafioPublicoV2 = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
                   title="Criar desafio público V2" author="Kaique Borges e Pedro Féo"/>
+
+    <Card>
+      <h2>Versionamento</h2>
+      <p><Link to='/Criar desafio público V1'>V1</Link></p>
+    </Card>
+                
     <Card>
       <h2>Objetivo</h2>
       <p>Criar um <Link to = '/Desafio'>Desafio</Link> que seja público para qualquer usuário visualizar ou participar</p>

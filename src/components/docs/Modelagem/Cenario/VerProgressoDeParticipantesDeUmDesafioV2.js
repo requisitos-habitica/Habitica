@@ -7,6 +7,12 @@ const VerProgressoDePArticipantesDeUmDesafioV2 = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
                   title="Ver o progresso de outros participantes de algum desafio" author="Kaique Borges e Pedro Féo"/>
+
+    <Card>
+      <h2>Versionamento</h2>
+      <p><Link to='/Ver o progresso de outros participantes de um desafio V1'>V1</Link></p>
+    </Card>
+
     <Card>
       <h2>Objetivo</h2>
       <p>Usuário deverá ver o progresso de outros participantes de um <Link to = '/Desafio'>Desafio</Link></p>

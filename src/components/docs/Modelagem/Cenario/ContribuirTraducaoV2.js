@@ -7,6 +7,12 @@ const ContribuirTraducaoV2 = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
                   title="Contribuir para a tradução do Habitica V2" author="Saleh Kader e Pedro Féo"/>
+
+    <Card>
+      <h2>Versionamento</h2>
+      <p><Link to='/Contribuir para a tradução do Habitica V1'>V1</Link></p>
+    </Card>
+
     <Card>
       <h2>Objetivo</h2>
       <p>Traduzir as funcionalidades do Habitica para um idioma específico</p>

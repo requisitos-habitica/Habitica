@@ -7,6 +7,12 @@ const ConsegueTomoDeMissaoV2 = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
                   title="Consegue Tomo de Missao V2" author="Pedro Féo"/>
+
+    <Card>
+      <h2>Versionamento</h2>
+      <p><Link to='/Consegue Tomo de Missão V1'>V1</Link></p>
+    </Card>
+
     <Card>
       <h2>Objetivo</h2>
       <p>Obter um Item do tipo <Link to="/Tomo de Missão">Tomo de Missão</Link> para que possa realizar Missões</p>

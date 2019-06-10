@@ -7,6 +7,11 @@ const DeclararVencedorDeUmDesafioPublicoV2 = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
                   title="Declarar o vencedor de um desafio V2" author="Kaique Borges e Pedro Féo"/>
+
+    <Card>
+      <h2>Versionamento</h2>
+      <p><Link to='/Declarar o vencedor de um desafio V1'>V1</Link></p>
+    </Card>
     <Card>
       <h2>Objetivo</h2>
       <p>Criador de um <Link to = '/Desafio'>Desafio</Link> declara o vencedor do <Link to = '/Desafio'>Desafio</Link></p>

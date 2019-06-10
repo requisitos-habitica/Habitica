@@ -7,6 +7,12 @@ const AlimentarMascoteV2 = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
                   title="Alimentar Mascote V2" author="Rogério Júnior e Pedro Féo"/>
+
+    <Card>
+      <h2>Versionamento</h2>
+      <p><Link to='/Alimentar Mascote V1'>V1</Link></p>
+    </Card>
+
     <Card>
       <h2>Objetivo</h2>
       <p>Alimentar um <Link to='/Mascote'>mascote</Link> para que ele possa ser <Link to='/Domado'>domado</Link>.</p>
