@@ -2,11 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
-import VerProgressoDeParticipantesDeUmDesafioV1 from '../Cenario/VerProgressoDeParticipantesDeUmDesafioV1'
 
 const VerProgressoDePArticipantesDeUmDesafioV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ [VerProgressoDeParticipantesDeUmDesafioV1] } rastreability={ null }
+    <HeadArtefact versions={ null } rastreability={ null }
                   title="Ver o progresso de outros participantes de algum desafio" author="Kaique Borges e Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>

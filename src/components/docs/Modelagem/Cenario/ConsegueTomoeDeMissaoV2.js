@@ -2,11 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
-import ConsegueTomoDeMissao from '../Cenario/ConsegueTomoeDeMissao'
 
 const ConsegueTomoDeMissaoV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ [ConsegueTomoDeMissao] } rastreability={ null }
+    <HeadArtefact versions={ null } rastreability={ null }
                   title="Consegue Tomo de Missao V2" author="Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>

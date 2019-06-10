@@ -1,65 +1,80 @@
+import CriarDesafioPublicoV1 from '../components/docs/Modelagem/Cenario/CriarDesafioPublicoV1'
 import CriarDesafioPublicoV2 from '../components/docs/Modelagem/Cenario/CriarDesafioPublicoV2'
+import DeclararVencedorDeUmDesafioV1 from '../components/docs/Modelagem/Cenario/DeclararVencedorDeUmDesafioV1'
 import DeclararVencedorDeUmDesafioV2 from '../components/docs/Modelagem/Cenario/DeclararVencedorDeUmDesafioV2'
+import EntrarEmUmDesafioPublicoV1 from '../components/docs/Modelagem/Cenario/EntrarEmUmDesafioPublicoV1'
 import EntrarEmUmDesafioPublicoV2 from '../components/docs/Modelagem/Cenario/EntrarEmUmDesafioPublicoV2'
+import VerProgressoDeParticipantesDeUmDesafioV1 from '../components/docs/Modelagem/Cenario/VerProgressoDeParticipantesDeUmDesafioV1'
 import VerProgressoDeParticipantesDeUmDesafioV2 from '../components/docs/Modelagem/Cenario/VerProgressoDeParticipantesDeUmDesafioV2'
 
-import ComoContribuir from '../components/docs/Modelagem/Cenario/ComoContribuir'
-import ContribuirArtes from '../components/docs/Modelagem/Cenario/ContribuirArtesV2'
-import ContribuirDesign from '../components/docs/Modelagem/Cenario/ContribuirDesignV2'
-import ContribuirHistoria from '../components/docs/Modelagem/Cenario/ContribuirHistoriaV2'
-import ContribuirTraducao from '../components/docs/Modelagem/Cenario/ContribuirTraducaoV2'
-import ContribuirWiki from '../components/docs/Modelagem/Cenario/ContribuirWikiV2'
-import ChocarOvoDeMascote from '../components/docs/Modelagem/Cenario/ChocarOvoDeMascoteV2';
-import AlimentarMascote from '../components/docs/Modelagem/Cenario/AlimentarMascoteV2';
-import ProporMissoes from '../components/docs/Modelagem/Cenario/ProporMissoesV2';
-import EquiparAvatarComItemDeMao from '../components/docs/Modelagem/Cenario/EquiparAvatarComItemDeMao';
-import EquiparAvatarComCapacete from '../components/docs/Modelagem/Cenario/EquiparAvatarComCapacete';
-import EquiparAvatarComArmadura from '../components/docs/Modelagem/Cenario/EquiparAvatarComArmadura';
-import EquiparAvatarComAcessorioDeCabeca from '../components/docs/Modelagem/Cenario/EquiparAvatarComAcessorioDeCabeca';
-import EquiparAvatarComOculos from '../components/docs/Modelagem/Cenario/EquiparAvatarComOculos';
-import EquiparAvatarComFundo from '../components/docs/Modelagem/Cenario/EquiparAvatarComFundo';
-import EquiparAvatarComMascote from '../components/docs/Modelagem/Cenario/EquiparAvatarComMascote';
-import EquiparAvatarComMontaria from '../components/docs/Modelagem/Cenario/EquiparAvatarComMontaria';
-import EquiparAvatarComItemDeCorpo from '../components/docs/Modelagem/Cenario/EquiparAvatarComItemDeCorpo';
-import BatalhaChefao from '../components/docs/Modelagem/Cenario/BatalhaChefao'
-import CancelaMissao from '../components/docs/Modelagem/Cenario/CancelaMissao'
-import ColetaItens from '../components/docs/Modelagem/Cenario/ColetaItens'
-import CompletaMissao from '../components/docs/Modelagem/Cenario/CompletaMissao'
-import ConsegueTomoDeMissao from '../components/docs/Modelagem/Cenario/ConsegueTomoeDeMissaoV2'
-import CriaAvatar from '../components/docs/Modelagem/Cenario/CriaAvatarV2'
-import EntraNaMissao from '../components/docs/Modelagem/Cenario/EntraNaMissao'
-import FazMissao from '../components/docs/Modelagem/Cenario/FazMissao'
-import PersonalizaAparenciaFisicaDoAvatar from '../components/docs/Modelagem/Cenario/PersonalizaAparenciaFisicaDoAvatarV2'
-import PersonalizaEquipamentoDoAvatar from '../components/docs/Modelagem/Cenario/PersonalizaEquipamentoDoAvatar'
-import SocializaNasGuildas from '../components/docs/Modelagem/Cenario/SocializaNasGuildasV2'
-import UsaHabilidade from '../components/docs/Modelagem/Cenario/UsaHabilidade';
-import SubirNivel from '../components/docs/Modelagem/Cenario/subirNivel';
-import EnviarMens from '../components/docs/Modelagem/Cenario/enviarMensagem';
-import EnviarGemas from '../components/docs/Modelagem/Cenario/enviarGemas';
-import AumentarAtrib from '../components/docs/Modelagem/Cenario/aumentarAtributo';
-import fazerAssin from '../components/docs/Modelagem/Cenario/fazerAssinatura';
-import mudarConfg from '../components/docs/Modelagem/Cenario/mudarConfSite';
-import compGema from '../components/docs/Modelagem/Cenario/comprarGemas';
-import AdquirirClass from '../components/docs/Modelagem/Cenario/adquirirClasse';
-import morrer from '../components/docs/Modelagem/Cenario/morrer';
-import DelCont from '../components/docs/Modelagem/Cenario/deletarConta';
-import FazerCont from '../components/docs/Modelagem/Cenario/fazerConta';
+import ComoContribuirV1 from '../components/docs/Modelagem/Cenario/ComoContribuirV1'
+import ContribuirArtesV1 from '../components/docs/Modelagem/Cenario/ContribuirArtesV1'
+import ContribuirArtesV2 from '../components/docs/Modelagem/Cenario/ContribuirArtesV2'
+import ContribuirDesignV1 from '../components/docs/Modelagem/Cenario/ContribuirDesignV2'
+import ContribuirHistoriaV1 from '../components/docs/Modelagem/Cenario/ContribuirHistoriaV1'
+import ContribuirHistoriaV2 from '../components/docs/Modelagem/Cenario/ContribuirHistoriaV2'
+import ContribuirTraducaoV1 from '../components/docs/Modelagem/Cenario/ContribuirTraducaoV1'
+import ContribuirTraducaoV2 from '../components/docs/Modelagem/Cenario/ContribuirTraducaoV2'
+import ContribuirWikiV1 from '../components/docs/Modelagem/Cenario/ContribuirWikiV1'
+import ContribuirWikiV2 from '../components/docs/Modelagem/Cenario/ContribuirWikiV2'
+import ChocarOvoDeMascoteV1 from '../components/docs/Modelagem/Cenario/ChocarOvoDeMascoteV1';
+import ChocarOvoDeMascoteV2 from '../components/docs/Modelagem/Cenario/ChocarOvoDeMascoteV2';
+import AlimentarMascoteV1 from '../components/docs/Modelagem/Cenario/AlimentarMascoteV1';
+import AlimentarMascoteV2 from '../components/docs/Modelagem/Cenario/AlimentarMascoteV2';
+import ProporMissoesV1 from '../components/docs/Modelagem/Cenario/ProporMissoesV1';
+import ProporMissoesV2 from '../components/docs/Modelagem/Cenario/ProporMissoesV2';
+import EquiparAvatarComItemDeMaoV1 from '../components/docs/Modelagem/Cenario/EquiparAvatarComItemDeMaoV1';
+import EquiparAvatarComCapaceteV1 from '../components/docs/Modelagem/Cenario/EquiparAvatarComCapaceteV1';
+import EquiparAvatarComArmaduraV1 from '../components/docs/Modelagem/Cenario/EquiparAvatarComArmaduraV1';
+import EquiparAvatarComAcessorioDeCabecaV1 from '../components/docs/Modelagem/Cenario/EquiparAvatarComAcessorioDeCabecaV1';
+import EquiparAvatarComOculosV1 from '../components/docs/Modelagem/Cenario/EquiparAvatarComOculosV1';
+import EquiparAvatarComFundoV1 from '../components/docs/Modelagem/Cenario/EquiparAvatarComFundoV1';
+import EquiparAvatarComMascoteV1 from '../components/docs/Modelagem/Cenario/EquiparAvatarComMascoteV1';
+import EquiparAvatarComMontariaV1 from '../components/docs/Modelagem/Cenario/EquiparAvatarComMontariaV1';
+import EquiparAvatarComItemDeCorpoV1 from '../components/docs/Modelagem/Cenario/EquiparAvatarComItemDeCorpoV1';
+import BatalhaChefaoV1 from '../components/docs/Modelagem/Cenario/BatalhaChefaoV1'
+import CancelaMissaoV1 from '../components/docs/Modelagem/Cenario/CancelaMissaoV1'
+import ColetaItensV1 from '../components/docs/Modelagem/Cenario/ColetaItensV1'
+import CompletaMissaoV1 from '../components/docs/Modelagem/Cenario/CompletaMissaoV1'
+import ConsegueTomoDeMissaoV1 from '../components/docs/Modelagem/Cenario/ConsegueTomoeDeMissaoV1'
+import ConsegueTomoDeMissaoV2 from '../components/docs/Modelagem/Cenario/ConsegueTomoeDeMissaoV2'
+import CriaAvatarV1 from '../components/docs/Modelagem/Cenario/CriaAvatarV1'
+import CriaAvatarV2 from '../components/docs/Modelagem/Cenario/CriaAvatarV2'
+import EntraNaMissaoV1 from '../components/docs/Modelagem/Cenario/EntraNaMissaoV1'
+import FazMissaoV1 from '../components/docs/Modelagem/Cenario/FazMissaoV1'
+import PersonalizaAparenciaFisicaDoAvatarV1 from '../components/docs/Modelagem/Cenario/PersonalizaAparenciaFisicaDoAvatarV1'
+import PersonalizaAparenciaFisicaDoAvatarV2 from '../components/docs/Modelagem/Cenario/PersonalizaAparenciaFisicaDoAvatarV2'
+import PersonalizaEquipamentoDoAvatarV1 from '../components/docs/Modelagem/Cenario/PersonalizaEquipamentoDoAvatarV1'
+import SocializaNasGuildasV1 from '../components/docs/Modelagem/Cenario/SocializaNasGuildasV1'
+import SocializaNasGuildasV2 from '../components/docs/Modelagem/Cenario/SocializaNasGuildasV2'
+import UsaHabilidadeV1 from '../components/docs/Modelagem/Cenario/UsaHabilidadeV1';
+import SubirNivelV1 from '../components/docs/Modelagem/Cenario/subirNivelV1';
+import EnviarMensV1 from '../components/docs/Modelagem/Cenario/enviarMensagemV1';
+import EnviarGemasV1 from '../components/docs/Modelagem/Cenario/enviarGemasV1';
+import AumentarAtribV1 from '../components/docs/Modelagem/Cenario/aumentarAtributoV1';
+import fazerAssinV1 from '../components/docs/Modelagem/Cenario/fazerAssinaturaV1';
+import mudarConfgV1 from '../components/docs/Modelagem/Cenario/mudarConfSiteV1';
+import compGemaV1 from '../components/docs/Modelagem/Cenario/comprarGemasV1';
+import AdquirirClassV1 from '../components/docs/Modelagem/Cenario/adquirirClasseV1';
+import morrerV1 from '../components/docs/Modelagem/Cenario/morrerV1';
+import DelContV1 from '../components/docs/Modelagem/Cenario/deletarContaV1';
+import FazerContV1 from '../components/docs/Modelagem/Cenario/fazerContaV1';
 
 const cenarios = {
   "Configurações": {
     color: "pink",
     lexic: {
-      "Subir de nível": SubirNivel,
-      "Enviar gemas": EnviarGemas,
-      "Enviar mensagem": EnviarMens,
-      "Aumentar atributo": AumentarAtrib,
-      "Fazer assinatura": fazerAssin,
-      "Mudar configurações do site": mudarConfg,
-      "Comprar gema": compGema,
-      "Adquirir uma classe": AdquirirClass,
-      "Morrer": morrer,
-      "Deletar conta": DelCont,
-      "Fazer uma conta": FazerCont
+      "Subir de nível V1": SubirNivelV1,
+      "Enviar gemas V1": EnviarGemasV1,
+      "Enviar mensagem V1": EnviarMensV1,
+      "Aumentar atributo V1": AumentarAtribV1,
+      "Fazer assinatura V1": fazerAssinV1,
+      "Mudar configurações do site V1": mudarConfgV1,
+      "Comprar gema V1": compGemaV1,
+      "Adquirir uma classe V1": AdquirirClassV1,
+      "Morrer V1": morrerV1,
+      "Deletar conta V1": DelContV1,
+      "Fazer uma conta V1": FazerContV1
     }
   },
 
@@ -80,30 +95,38 @@ const cenarios = {
   "Gamificação": {
     color: "Turquoise",
     lexic: {
-      "Batalha Chefão": BatalhaChefao,
-      "Cancela Missão": CancelaMissao,
-      "Coleta Itens": ColetaItens,
-      "Completa Missão": CompletaMissao,
-      "Consegue Tomo de Missão": ConsegueTomoDeMissao,
-      "Cria Avatar": CriaAvatar,
-      "Entra na Missão": EntraNaMissao,
-      "Faz Missão": FazMissao,
-      "Personaliza Aparência Física do Avatar": PersonalizaAparenciaFisicaDoAvatar,
-      "Personaliza Equipamento do Avatar": PersonalizaEquipamentoDoAvatar,
-      "Socializa nas Guildas": SocializaNasGuildas,
-      "Usa Habilidade": UsaHabilidade,
+      "Batalha Chefão V1": BatalhaChefaoV1,
+      "Cancela Missão V1": CancelaMissaoV1,
+      "Coleta Itens V1": ColetaItensV1,
+      "Completa Missão V1": CompletaMissaoV1,
+      "Consegue Tomo de Missão V1": ConsegueTomoDeMissaoV1,
+      "Consegue Tomo de Missão V2": ConsegueTomoDeMissaoV2,
+      "Cria Avatar V1": CriaAvatarV1,
+      "Cria Avatar V2": CriaAvatarV2,
+      "Entra na Missão V1": EntraNaMissaoV1,
+      "Faz Missão V1": FazMissaoV1,
+      "Personaliza Aparência Física do Avatar V1": PersonalizaAparenciaFisicaDoAvatarV1,
+      "Personaliza Aparência Física do Avatar V2": PersonalizaAparenciaFisicaDoAvatarV2,
+      "Personaliza Equipamento do Avatar V1": PersonalizaEquipamentoDoAvatarV1,
+      "Socializa nas Guildas V1": SocializaNasGuildasV1,
+      "Socializa nas Guildas V2": SocializaNasGuildasV2,
+      "Usa Habilidade V1": UsaHabilidadeV1,
     }
   },
 
   "Guia de Contribuição": {
     color: "Orchid",
     lexic: {
-      "Contribuir para o Habitica": ComoContribuir,
-      "Contribuir para as Artes do Habitica": ContribuirArtes,
-      "Contribuir no Design do Habitica": ContribuirDesign,
-      "Contribuir para as Histórias do Habitica": ContribuirHistoria,
-      "Contribuir para a tradução do Habitica": ContribuirTraducao,
-      "Contribuir para a Wiki Habitica": ContribuirWiki
+      "Contribuir para o Habitica V1": ComoContribuirV1,
+      "Contribuir para as Artes do Habitica V1": ContribuirArtesV1,
+      "Contribuir para as Artes do Habitica V2": ContribuirArtesV2,
+      "Contribuir no Design do Habitica V1": ContribuirDesignV1,
+      "Contribuir para as Histórias do Habitica V1": ContribuirHistoriaV1,
+      "Contribuir para as Histórias do Habitica V2": ContribuirHistoriaV2,
+      "Contribuir para a tradução do Habitica V1": ContribuirTraducaoV1,
+      "Contribuir para a tradução do Habitica V2": ContribuirTraducaoV2,
+      "Contribuir para a Wiki Habitica V1": ContribuirWikiV1,
+      "Contribuir para a Wiki Habitica V2": ContribuirWikiV2
     }
   },
 
@@ -119,18 +142,21 @@ const cenarios = {
   "Inventário": {
     color: "LightCoral",
     lexic: {
-      "Chocar Ovo de Mascote": ChocarOvoDeMascote,
-      "Alimentar Mascote": AlimentarMascote,
-      "Propor Missões": ProporMissoes,
-      "Equipar Avatar com Item de Mão": EquiparAvatarComItemDeMao,
-      "Equipar Avatar com Capacete": EquiparAvatarComCapacete,
-      "Equipar Avatar com Armadura": EquiparAvatarComArmadura,
-      "Equipar Avatar com Acessório de Cabeça": EquiparAvatarComAcessorioDeCabeca,
-      "Equipar Avatar com Óculos": EquiparAvatarComOculos,
-      "Equipar Avatar com Item de Corpo": EquiparAvatarComItemDeCorpo,
-      "Equipar Avatar com Fundo": EquiparAvatarComFundo,
-      "Equipar Avatar com Mascote": EquiparAvatarComMascote,
-      "Equipar Avatar com Montaria": EquiparAvatarComMontaria,
+      "Chocar Ovo de Mascote V1": ChocarOvoDeMascoteV1,
+      "Chocar Ovo de Mascote V2": ChocarOvoDeMascoteV2,
+      "Alimentar Mascote V1": AlimentarMascoteV1,
+      "Alimentar Mascote V2": AlimentarMascoteV2,
+      "Propor Missões V1": ProporMissoesV1,
+      "Propor Missões V2": ProporMissoesV2,
+      "Equipar Avatar com Item de Mão V1": EquiparAvatarComItemDeMaoV1,
+      "Equipar Avatar com Capacete V1": EquiparAvatarComCapaceteV1,
+      "Equipar Avatar com Armadura V1": EquiparAvatarComArmaduraV1,
+      "Equipar Avatar com Acessório de Cabeça V1": EquiparAvatarComAcessorioDeCabecaV1,
+      "Equipar Avatar com Óculos V1": EquiparAvatarComOculosV1,
+      "Equipar Avatar com Item de Corpo V1": EquiparAvatarComItemDeCorpoV1,
+      "Equipar Avatar com Fundo V1": EquiparAvatarComFundoV1,
+      "Equipar Avatar com Mascote V1": EquiparAvatarComMascoteV1,
+      "Equipar Avatar com Montaria V1": EquiparAvatarComMontariaV1,
 
     }
   },
@@ -138,10 +164,14 @@ const cenarios = {
   "Desafios": {
     color: "DeepPink",
     lexic: {
-      "Criar desafio público": CriarDesafioPublicoV2,
-      "Declarar o vencedor de um desafio": DeclararVencedorDeUmDesafioV2,
-      "Entrar em um desafio público": EntrarEmUmDesafioPublicoV2,
-      "Ver o progresso de outros participantes de um desafio": VerProgressoDeParticipantesDeUmDesafioV2
+      "Criar desafio público V1": CriarDesafioPublicoV1,
+      "Criar desafio público V2": CriarDesafioPublicoV2,
+      "Declarar o vencedor de um desafio V1": DeclararVencedorDeUmDesafioV1,
+      "Declarar o vencedor de um desafio V2": DeclararVencedorDeUmDesafioV2,
+      "Entrar em um desafio público V2": EntrarEmUmDesafioPublicoV2,
+      "Entrar em um desafio público V1": EntrarEmUmDesafioPublicoV1,
+      "Ver o progresso de outros participantes de um desafio V1": VerProgressoDeParticipantesDeUmDesafioV1,
+      "Ver o progresso de outros participantes de um desafio V2": VerProgressoDeParticipantesDeUmDesafioV2,
     }
   }
 }

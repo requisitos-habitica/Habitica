@@ -2,11 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
-import PersonzalizaAparenciaFisicaDoAvatar from '../Cenario/PersonalizaAparenciaFisicaDoAvatar'
 
 const PersonzalizaAparenciaFisicaDoAvatarV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ [PersonzalizaAparenciaFisicaDoAvatar] } rastreability={ null }
+    <HeadArtefact versions={ null } rastreability={ null }
                   title="Personzaliza Aparência Física do Avatar V2" author="Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>

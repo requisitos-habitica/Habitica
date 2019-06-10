@@ -2,11 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
-import ProporMissoes from '../Cenario/ProporMissoes'
 
 const ProporMissoesV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ [ProporMissoes] } rastreability={ null }
+    <HeadArtefact versions={ null } rastreability={ null }
                   title="Propor Missões V2" author="Rogério Júnior"/>
     <Card>
       <h2>Objetivo</h2>

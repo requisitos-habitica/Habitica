@@ -2,11 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
-import ContribuirDesign from '../Cenario/ContribuirDesign'
 
 const ContribuirDesignV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ [ContribuirDesign] } rastreability={ null }
+    <HeadArtefact versions={ null } rastreability={ null }
                   title="Contribuir no Design do Habitica V2" author="Saleh Kader e Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>

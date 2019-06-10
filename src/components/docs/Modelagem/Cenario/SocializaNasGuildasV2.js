@@ -2,11 +2,10 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
-import SocializaNaGuilda from '../Cenario/SocializaNasGuildas'
 
 const SocializaNaGuildaV2 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ [SocializaNaGuilda] } rastreability={ null }
+    <HeadArtefact versions={ null } rastreability={ null }
                   title="Socializa na Guilda V2" author="Pedro Féo"/>
     <Card>
       <h2>Objetivo</h2>
