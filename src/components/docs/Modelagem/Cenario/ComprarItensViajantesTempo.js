@@ -15,13 +15,13 @@ const ComprarItensViajantesTempo = () => (
 
     <Card>
       <h2>Objetivo</h2>
-      <p>Comprar qualquer item na loja viajantes do tempo</p>
+      <p>Comprar qualquer item na <Link to='Viajantes do Tempo'>loja viajantes do tempo</Link></p>
     </Card>
 
     <Card>
       <h2>Contexto</h2>
       <ul>
-        <li>Pré-condição: O usuário deve estar logado, o usuário deve ser assinante, o usuário deve possuir ampulhetas místicas</li>
+        <li>Pré-condição: O usuário deve estar logado, o usuário deve ser assinante, o usuário deve possuir <Link to='/Ampulheta Mística'>ampulhetas místicas</Link></li>
         <li>Local: Loja do habitica, aba mercado</li>
         <li>Tempo: Qualquer momento que o usuário desejar</li>
       </ul>
@@ -37,7 +37,7 @@ const ComprarItensViajantesTempo = () => (
     <Card>
       <h2>Recursos</h2>
       <ul>
-        <li>Ampulhetas místicas</li>
+        <li><Link to='/Ampulheta Mística'>ampulhetas místicas</Link></li>
         <li>Conexão com a internet</li>
       </ul>
     </Card>
@@ -45,8 +45,8 @@ const ComprarItensViajantesTempo = () => (
     <Card>
       <h2>Episódios</h2>
       <ul>
-        <li>O usuário ganha ampulhetas místicas</li>
-        <li>O usuário acessa a loja viajantes do tempo</li>
+        <li>O usuário <Link to='/Adquirir Ampulhetas Místicas'>ganha ampulhetas místicas</Link></li>
+        <li>O usuário acessa a <Link to='Viajantes do Tempo'>loja viajantes do tempo</Link></li>
         <li>O usuário avalia o preço do item</li>
         <li>O usuário compara o preço do item com seu saldo</li>
         <li>O usuário compra o item</li>
@@ -63,7 +63,7 @@ const ComprarItensViajantesTempo = () => (
     <Card>
         <h2>Exceções</h2>
         <ul>
-            <li>O usuário não possui Ampulhetas místicas suficientes para comprar o item desejado</li>
+            <li>O usuário não possui <Link to='/Ampulheta Mística'>ampulhetas místicas</Link> suficientes para comprar o item desejado</li>
         </ul>
     </Card>
 

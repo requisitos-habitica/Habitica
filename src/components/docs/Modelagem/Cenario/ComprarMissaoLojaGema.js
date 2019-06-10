@@ -15,13 +15,13 @@ const ComprarMissaoLojaGema = () => (
 
     <Card>
       <h2>Objetivo</h2>
-      <p>Comprar missões na loja utilizando gemas</p>
+      <p>Comprar missões na <Link to='/Loja'>loja</Link>  utilizando <Link to='/Gema'>Gemas</Link></p>
     </Card>
 
     <Card>
       <h2>Contexto</h2>
       <ul>
-        <li>Pré-condição: O usuário deve estar logado, o usuário deve possuir gemas, o usuário deve estar no nível requerido pela missão</li>
+        <li>Pré-condição: O usuário deve estar logado, o usuário deve possuir <Link to='/Gema'>Gemas</Link>, o usuário deve estar no nível requerido pela missão</li>
         <li>Local: Loja do habitica, aba missões</li>
         <li>Tempo: Qualquer momento que o usuário desejar</li>
       </ul>
@@ -37,7 +37,7 @@ const ComprarMissaoLojaGema = () => (
     <Card>
       <h2>Recursos</h2>
       <ul>
-        <li>Gemas</li>
+        <li><Link to='/Gema'>Gemas</Link></li>
         <li>Conexão com a internet</li>
       </ul>
     </Card>
@@ -45,8 +45,8 @@ const ComprarMissaoLojaGema = () => (
     <Card>
       <h2>Episódios</h2>
       <ul>
-        <li>O usuário compra gemas</li>
-        <li>O usuário acessa a loja</li>
+        <li>O usuário <Link to='/Comprar gema V1'>compra Gemas</Link></li>
+        <li>O usuário acessa a <Link to='/Loja'>loja</Link></li>
         <li>O usuário avalia o preço da missão</li>
         <li>O usuário compara o preço da missão com seu saldo</li>
         <li>O usuário lê qual o objetivo da missão</li>
@@ -66,7 +66,7 @@ const ComprarMissaoLojaGema = () => (
     <Card>
       <h2>Exceções</h2>
       <ul>
-        <li>O usuário não possui gemas suficientes para comprar o equipamento desejado</li>
+        <li>O usuário não possui <Link to='/Gema'>Gemas</Link> suficientes para comprar o equipamento desejado</li>
         <li>O usuário não está no nível requerido pela missão</li>
       </ul>
     </Card>

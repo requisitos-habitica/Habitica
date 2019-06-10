@@ -15,13 +15,13 @@ const ComprarItensMoedasLoja = () => (
 
     <Card>
       <h2>Objetivo</h2>
-      <p>Comprar qualquer item na loja utilizando moedas</p>
+      <p>Comprar qualquer item na <Link to='/Loja'>Loja</Link> utilizando <Link to='/Moeda'>Moedas</Link></p>
     </Card>
 
     <Card>
       <h2>Contexto</h2>
       <ul>
-        <li>Pré-condição: O usuário deve estar logado, o usuário deve possuir moedas</li>
+        <li>Pré-condição: O usuário deve estar logado, o usuário deve possuir <Link to='/Moeda'>Moedas</Link></li>
         <li>Local: Loja do habitica, aba mercado</li>
         <li>Tempo: Qualquer momento que o usuário desejar</li>
       </ul>
@@ -37,7 +37,7 @@ const ComprarItensMoedasLoja = () => (
     <Card>
       <h2>Recursos</h2>
       <ul>
-        <li>Moedas</li>
+        <li><Link to='/Moeda'>Moedas</Link></li>
         <li>Conexão com a internet</li>
       </ul>
     </Card>
@@ -45,8 +45,8 @@ const ComprarItensMoedasLoja = () => (
     <Card>
       <h2>Episódios</h2>
       <ul>
-        <li>O usuário ganha moedas</li>
-        <li>O usuário acessa a loja</li>
+        <li>O usuário <Link to='/Adquirir Moedas'>ganha moedas</Link></li>
+        <li>O usuário acessa a <Link to='/Loja'>Loja</Link></li>
         <li>O usuário avalia o preço do item</li>
         <li>O usuário compara o preço do item com seu saldo</li>
         <li>O usuário compra o item</li>    
@@ -63,7 +63,7 @@ const ComprarItensMoedasLoja = () => (
     <Card>
       <h2>Exceções</h2>
       <ul>
-        <li>O usuário não possui moedas suficientes para comprar o item desejado</li>
+        <li>O usuário não possui <Link to='/Moeda'>Moedas</Link> suficientes para comprar o item desejado</li>
       </ul>
     </Card>
 

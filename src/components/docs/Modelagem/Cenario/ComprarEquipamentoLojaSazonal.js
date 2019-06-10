@@ -15,13 +15,13 @@ const ComprarEquipamentoLojaSazonal = () => (
 
     <Card>
       <h2>Objetivo</h2>
-      <p>Comprar qualquer equipamento na loja sazonal </p>
+      <p>Comprar qualquer <Link to='/Equipamento'>equipamento</Link> na <Link to = '/Loja Sazonal'>loja sazonal</Link> </p>
     </Card>
 
     <Card>
       <h2>Contexto</h2>
       <ul>
-        <li>Pré-condição: O usuário deve estar logado, o usuário deve possuir moedas ou gemas</li>
+        <li>Pré-condição: O usuário deve estar logado, o usuário deve possuir <Link to='/Moeda'>Moedas</Link> ou <Link to='/Gema'>Gemas</Link></li>
         <li>Local: Loja do habitica, aba loja sazonal</li>
         <li>Tempo: Qualquer momento que o usuário desejar</li>
       </ul>
@@ -37,8 +37,8 @@ const ComprarEquipamentoLojaSazonal = () => (
     <Card>
       <h2>Recursos</h2>
       <ul>
-        <li>Moedas</li>
-        <li>Gemas</li>
+        <li><Link to='/Moeda'>Moedas</Link></li>
+        <li><Link to='/Gema'>Gemas</Link></li>
         <li>Conexão com a internet</li>
       </ul>
     </Card>
@@ -46,28 +46,28 @@ const ComprarEquipamentoLojaSazonal = () => (
     <Card>
       <h2>Episódios</h2>
       <ul>
-        <li>O usuário ganha moedas ou compra gemas</li>
-        <li>O usuário acessa a loja </li>
-        <li>O usuário navega a aba loja sazonal</li>
-        <li>O usuário avalia o preço do equipamento</li>
-        <li>O usuário compara o preço do equipamento com seu saldo</li>
-        <li>O usuário compra o equipamento</li>   
+        <li>O usuário <Link to='/Adquirir Moedas'>ganha moedas</Link> ou compra <Link to='/Gema'>Gemas</Link></li>
+        <li>O usuário acessa a <Link to = '/Loja Sazonal'>loja sazonal</Link></li>
+        <li>O usuário navega a aba <Link to = '/Loja Sazonal'>loja sazonal</Link></li>
+        <li>O usuário avalia o preço do <Link to='/Equipamento'>equipamento</Link></li>
+        <li>O usuário compara o preço do <Link to='/Equipamento'>equipamento</Link> com seu saldo</li>
+        <li>O usuário compra o <Link to='/Equipamento'>equipamento</Link></li>   
       </ul>
     </Card>
 
     <Card>
       <h2>Restrições</h2>
       <ul>
-        <li>O equipamento a ser comprado é inferior ao que o usuário já pertence</li>
+        <li>O <Link to='/Equipamento'>equipamento</Link> a ser comprado é inferior ao que o usuário já pertence</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Exceções</h2>
       <ul>
-        <li>O usuário não possui moedas ou gemas suficientes para comprar o equipamento desejado</li>
-        <li>O equipamento está bloqueado por algum equipamento inferior</li>
-        <li>O equipamento a ser comprado não pertencer a classe do usuário</li>
+        <li>O usuário não possui <Link to='/Moeda'>Moedas</Link> ou <Link to='/Gema'>Gemas</Link> suficientes para comprar o <Link to='/Equipamento'>equipamento</Link> desejado</li>
+        <li>O <Link to='/Equipamento'>equipamento</Link> está bloqueado por algum <Link to='/Equipamento'>equipamento</Link> inferior</li>
+        <li>O <Link to='/Equipamento'>equipamento</Link> a ser comprado não pertencer a classe do usuário</li>
       </ul>
     </Card>
 

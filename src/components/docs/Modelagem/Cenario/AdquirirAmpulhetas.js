@@ -10,7 +10,7 @@ const AdquirirAmpulhetas = () => (
 
     <Card>
       <h2>Objetivo</h2>
-      <p>Adquirir ampulhetas mísitcas</p>
+      <p>Adquirir <Link to='/Ampulheta Mística'>ampulhetas mísitcas</Link></p>
     </Card>
 
     <Card>
@@ -48,7 +48,7 @@ const AdquirirAmpulhetas = () => (
         <li>Usuário confirma a compra</li>
         <li>Usuário faz a assinatura.</li>
         <li>Usuário mantém o pagamento por três meses.</li>
-        <li>Usuário recebe uma ampulheta mísitica. </li>  
+        <li>Usuário recebe uma <Link to='/Ampulheta Mística'>ampulhetas mísitcas</Link> </li>  
       </ul>
     </Card>
 

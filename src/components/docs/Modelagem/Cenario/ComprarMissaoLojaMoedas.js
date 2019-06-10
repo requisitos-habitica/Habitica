@@ -15,13 +15,13 @@ const ComprarMissaoLojaMoedas = () => (
 
     <Card>
       <h2>Objetivo</h2>
-      <p>Comprar missões na loja utilizando moedas</p>
+      <p>Comprar missões na <Link to='/Loja'>loja</Link> utilizando <Link to='/Moeda'>Moedas</Link></p>
     </Card>
 
     <Card>
       <h2>Contexto</h2>
       <ul>
-        <li>Pré-condição: O usuário deve estar logado, o usuário deve possuir moedas, o usuário deve estar no nível requerido pela missão</li>
+        <li>Pré-condição: O usuário deve estar logado, o usuário deve possuir <Link to='/Moeda'>Moedas</Link>, o usuário deve estar no nível requerido pela missão</li>
         <li>Local: Loja do habitica, aba missões</li>
         <li>Tempo: Qualquer momento que o usuário desejar</li>
       </ul>
@@ -37,7 +37,7 @@ const ComprarMissaoLojaMoedas = () => (
     <Card>
       <h2>Recursos</h2>
       <ul>
-        <li>Moedas</li>
+        <li><Link to='/Moeda'>Moedas</Link></li>
         <li>Conexão com a internet</li>
       </ul>
     </Card>
@@ -45,8 +45,8 @@ const ComprarMissaoLojaMoedas = () => (
     <Card>
       <h2>Episódios</h2>
       <ul>
-        <li>O usuário ganha moedas</li>
-        <li>O usuário acessa a loja</li>
+        <li>O usuário <Link to='/Adquirir Moedas'>ganha moedas</Link></li>
+        <li>O usuário acessa a <Link to='/Loja'>loja</Link></li>
         <li>O usuário avalia o preço da missão</li>
         <li>O usuário compara o preço da missão com seu saldo</li>
         <li>O usuário lê qual o objetivo da missão</li>
@@ -66,7 +66,7 @@ const ComprarMissaoLojaMoedas = () => (
     <Card>
       <h2>Exceções</h2>
       <ul>
-        <li>O usuário não possui moedas suficientes para comprar o equipamento desejado</li>
+        <li>O usuário não possui <Link to='/Moeda'>Moedas</Link> suficientes para comprar o equipamento desejado</li>
         <li>O usuário não está no nível requerido pela missão</li>
       </ul>
     </Card>

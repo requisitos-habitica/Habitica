@@ -10,7 +10,7 @@ const AdquirirMoedas = () => (
 
     <Card>
       <h2>Objetivo</h2>
-      <p>Adquirir moedas</p>
+      <p>Adquirir <Link to='/Moeda'>Moedas</Link></p>
     </Card>
 
     <Card>
@@ -33,7 +33,7 @@ const AdquirirMoedas = () => (
     <Card>
       <h2>Recursos</h2>
       <ul>
-        <li>Tarefas</li>
+        <li><Link to='/Tarefa'>Tarefas</Link></li>
       </ul>
     </Card>
 
@@ -41,22 +41,22 @@ const AdquirirMoedas = () => (
       <h2>Episódios</h2>
       <ul>
         <li>O usuário entra no sistema</li>
-        <li>O usuário completa uma tarefa</li>
-        <li>O usuário é recompensado com moedas  </li>    
+        <li>O usuário completa uma <Link to='/Tarefa'>Tarefa</Link></li>
+        <li>O usuário é recompensado com <Link to='/Moeda'>Moedas</Link></li>    
       </ul>
     </Card>
 
     <Card>
         <h2>Restrições</h2>
         <ul>
-            <li>Usuário não preenche as informações da tarefa corretamente</li>
+            <li>Usuário não preenche as informações da <Link to='/Tarefa'>Tarefa</Link> corretamente</li>
         </ul>
     </Card>
 
     <Card>
         <h2>Exceções</h2>
         <ul>
-            <li>O usuário não possui uma tarefa cadastrada</li>
+            <li>O usuário não possui uma <Link to='/Tarefa'>Tarefa</Link> cadastrada</li>
         </ul>
     </Card>
 

@@ -15,13 +15,13 @@ const ComprarEquipamentoLoja = () => (
 
     <Card>
       <h2>Objetivo</h2>
-      <p>Comprar qualquer equipamento na loja utilizando moedas</p>
+      <p>Comprar qualquer <Link to = '/Equipamento'>equipamento</Link> na <Link to ='/Loja'>loja</Link> utilizando <Link to='/Moeda'>Moedas</Link></p>
     </Card>
 
     <Card>
       <h2>Contexto</h2>
       <ul>
-        <li>Pré-condição: O usuário deve estar logado, o usuário deve possuir moedas</li>
+        <li>Pré-condição: O usuário deve estar logado, o usuário deve possuir <Link to='/Moeda'>Moedas</Link></li>
         <li>Local: Loja do habitica, aba mercado</li>
         <li>Tempo: Qualquer momento que o usuário desejar</li>
       </ul>
@@ -37,7 +37,7 @@ const ComprarEquipamentoLoja = () => (
     <Card>
       <h2>Recursos</h2>
       <ul>
-        <li>Moedas</li>
+        <li><Link to='/Moeda'>Moedas</Link></li>
         <li>Conexão com a internet</li>
       </ul>
     </Card>
@@ -45,27 +45,27 @@ const ComprarEquipamentoLoja = () => (
     <Card>
       <h2>Episódios</h2>
       <ul>
-        <li>O usuário ganha moedas</li>
-        <li>O usuário acessa a loja</li>
-        <li>O usuário avalia o preço do equipamento</li>
-        <li>O usuário compara o preço do equipamento com seu saldo</li>
-        <li>O usuário compra o equipamento</li>
+        <li>O usuário <Link to='/Adquirir Moedas'>ganha moedas</Link></li>
+        <li>O usuário acessa a <Link to ='/Loja'>loja</Link></li>
+        <li>O usuário avalia o preço do <Link to = '/Equipamento'>equipamento</Link></li>
+        <li>O usuário compara o preço do <Link to = '/Equipamento'>equipamento</Link> com seu saldo</li>
+        <li>O usuário compra o <Link to = '/Equipamento'>equipamento</Link></li>
       </ul>
     </Card>
 
     <Card>
       <h2>Restrições</h2>
       <ul>
-        <li>O equipamento a ser comprado é inferior ao que o usuário já pertence</li>
+        <li>O <Link to = '/Equipamento'>equipamento</Link> a ser comprado é inferior ao que o usuário já pertence</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Exceções</h2>
       <ul>
-        <li>O usuário não possui moedas suficientes para comprar o equipamento desejado</li>
-        <li>O equipamento está bloqueado por algum equipamento inferior</li>
-        <li>O equipamento a ser comprado não pertencer a classe do usuário</li>
+        <li>O usuário não possui moedas suficientes para comprar o <Link to = '/Equipamento'>equipamento</Link> desejado</li>
+        <li>O <Link to = '/Equipamento'>equipamento</Link> está bloqueado por algum <Link to = '/Equipamento'>equipamento</Link> inferior</li>
+        <li>O <Link to = '/Equipamento'>equipamento</Link> a ser comprado não pertencer a classe do usuário</li>
       </ul>
     </Card>
 
