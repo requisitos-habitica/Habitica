@@ -81,7 +81,20 @@ const cenarios = {
   "Loja": {
     color: "aqua",
     lexic: {
-      "Cartões": null,
+      "Comprar Itens na Loja": null,
+      "Comprar Itens com Moedas na Loja": null,
+      "Comprar Itens com Gemas na Loja": null,
+      "Comprar Cartões na Loja": null,
+      "Comprar Equipamentos na Loja": null,
+      "Comprar Missões na Loja": null,
+      "Comprar Missões na Loja Utilizando Moedas": null,
+      "Comprar Missões na Loja Utilizando Gemas": null,
+      "Comprar Equipamentos na Loja Sazonal": null,
+      "Comprar Itens na Loja Sazonal": null,
+      "Comprar Missões na Loja Sazonal": null,
+      "Comprar Itens na Loja Viajantes do tempo": null,
+      "Adquirir Moedas": null,
+      "Adquirir Ampulhetas Místicas": null
     }
   },
 
