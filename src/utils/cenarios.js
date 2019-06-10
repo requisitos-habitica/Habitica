@@ -61,6 +61,27 @@ import morrerV1 from '../components/docs/Modelagem/Cenario/morrerV1';
 import DelContV1 from '../components/docs/Modelagem/Cenario/deletarContaV1';
 import FazerContV1 from '../components/docs/Modelagem/Cenario/fazerContaV1';
 
+import UtilizarLojaViajantesTempoV1 from '../components/docs/Modelagem/Cenario/UtilizarLojaViajantesTempoV1'
+import UtilizarLojaItensV1 from '../components/docs/Modelagem/Cenario/UtilizarLojaItensV1'
+import UtilizarLojaMissaoV1 from '../components/docs/Modelagem/Cenario/UtilizarLojaMissaoV1'
+import UtilizarLojaSazonalV1 from '../components/docs/Modelagem/Cenario/UtilizarLojaSazonalV1'
+import ComprarItensNaLoja from '../components/docs/Modelagem/Cenario/ComprarItensNaLoja'
+import ComprarItensMoedasLoja from '../components/docs/Modelagem/Cenario/ComprarItensMoedasLoja'
+import ComprarItensGemasLoja from '../components/docs/Modelagem/Cenario/ComprarItensGemasLoja'
+import ComprarCartoesLoja from '../components/docs/Modelagem/Cenario/ComprarCartoesLoja'
+import ComprarEquipamentoLoja from '../components/docs/Modelagem/Cenario/ComprarEquipamentoLoja'
+import ComprarMissaoLoja from '../components/docs/Modelagem/Cenario/ComprarMissaoLoja'
+import ComprarMissaoLojaMoedas from '../components/docs/Modelagem/Cenario/ComprarMissaoLojaMoedas'
+import ComprarMissaoLojaGema from '../components/docs/Modelagem/Cenario/ComprarMissaoLojaGema'
+import ComprarEquipamentoLojaSazonal from '../components/docs/Modelagem/Cenario/ComprarEquipamentoLojaSazonal'
+import ComprarItensLojaSazonal from '../components/docs/Modelagem/Cenario/ComprarItensLojaSazonal'
+import ComprarMissaoLojaSazonal from '../components/docs/Modelagem/Cenario/ComprarMissaoLojaSazonal'
+import ComprarItensViajantesTempo from '../components/docs/Modelagem/Cenario/ComprarItensViajantesTempo'
+import AdquirirMoedas from '../components/docs/Modelagem/Cenario/AdquirirMoedas'
+import AdquirirAmpulhetas from '../components/docs/Modelagem/Cenario/AdquirirAmpulhetas'
+
+
+
 const cenarios = {
   "Configurações": {
     color: "pink",
@@ -82,20 +103,24 @@ const cenarios = {
   "Loja": {
     color: "aqua",
     lexic: {
-      "Comprar Itens na Loja": null,
-      "Comprar Itens com Moedas na Loja": null,
-      "Comprar Itens com Gemas na Loja": null,
-      "Comprar Cartões na Loja": null,
-      "Comprar Equipamentos na Loja": null,
-      "Comprar Missões na Loja": null,
-      "Comprar Missões na Loja Utilizando Moedas": null,
-      "Comprar Missões na Loja Utilizando Gemas": null,
-      "Comprar Equipamentos na Loja Sazonal": null,
-      "Comprar Itens na Loja Sazonal": null,
-      "Comprar Missões na Loja Sazonal": null,
-      "Comprar Itens na Loja Viajantes do tempo": null,
-      "Adquirir Moedas": null,
-      "Adquirir Ampulhetas Místicas": null
+      "Comprar Itens na Loja": ComprarItensNaLoja,
+      "Comprar Itens com Moedas na Loja": ComprarItensMoedasLoja,
+      "Comprar Itens com Gemas na Loja": ComprarItensGemasLoja,
+      "Comprar Cartões na Loja": ComprarCartoesLoja,
+      "Comprar Equipamentos na Loja": ComprarEquipamentoLoja,
+      "Comprar Missões na Loja": ComprarMissaoLoja,
+      "Comprar Missões na Loja Utilizando Moedas": ComprarMissaoLojaMoedas,
+      "Comprar Missões na Loja Utilizando Gemas": ComprarMissaoLojaGema,
+      "Comprar Equipamentos na Loja Sazonal": ComprarEquipamentoLojaSazonal,
+      "Comprar Itens na Loja Sazonal": ComprarItensLojaSazonal,
+      "Comprar Missões na Loja Sazonal": ComprarMissaoLojaSazonal,
+      "Comprar Itens na Loja Viajantes do tempo": ComprarItensViajantesTempo,
+      "Adquirir Moedas": AdquirirMoedas,
+      "Adquirir Ampulhetas Místicas": AdquirirAmpulhetas,
+      "Utilizar a loja do Habitica - Viajantes do tempo": UtilizarLojaViajantesTempoV1,
+      "Utilizar a loja do Habitica Itens": UtilizarLojaItensV1,
+      "Utilizar a loja do Habitica - Loja Sazonal": UtilizarLojaSazonalV1,
+      "Utilizar a loja do Habitica Missão": UtilizarLojaMissaoV1
     }
   },
 
