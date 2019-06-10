@@ -22,7 +22,7 @@ const CartaoV1 = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>É utilizado dentro do Habitica para enviar mensagens pré-definidas pelo sistema para um membro de seu grupo. Gastando ouro para comprá-los</li>
+        <li>É utilizado dentro do Habitica para enviar mensagens pré-definidas pelo sistema para um <Link to = '/Membros'>membro</Link> de seu <Link to='/Grupo' >grupo</Link>. Gastando <Link to = '/Moeda'>ouro</Link> para comprá-los</li>
       </ul>
     </Card>
 

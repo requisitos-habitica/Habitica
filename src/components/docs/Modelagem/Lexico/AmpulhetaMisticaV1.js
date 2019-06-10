@@ -22,14 +22,14 @@ const AmpulhetaMisticaV1 = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>É utilizado dentro do Habitica para comprar mascotes, montarias e equipamentos exclusivos para assinantes.</li>
+        <li>É utilizado dentro do Habitica para comprar <Link to='/Mascote'>mascotes</Link>, <Link to = '/Montaria'>montarias</Link> e <Link to = '/Equipamento'>equipamentos</Link> exclusivos para assinantes.</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Possibilita a compra de mascotes, montarias e equipamentos que somente assinantes têm acesso.</li>
+        <li>Possibilita a compra de <Link to='/Mascote'>mascotes</Link>, <Link to = '/Montaria'>montarias</Link> e <Link to = '/Equipamento'>equipamentos</Link> que somente assinantes têm acesso.</li>
       </ul>
     </Card>
 

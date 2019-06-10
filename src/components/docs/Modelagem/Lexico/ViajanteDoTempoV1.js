@@ -22,14 +22,14 @@ const ViajanteDoTempoV1 = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>É uma das ramificações de lojas dentro do Habitica.</li>
+        <li>É uma das ramificações de <Link to = '/Loja'>Loja</Link> dentro do Habitica.</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Possibilita a compra de montarias, mascotes e equipamentos que somente os assinantes de habitica serão capazes de comprar.</li>
+        <li>Possibilita a compra de <Link to='/Montaria'>montarias</Link>, <Link to='/Mascote'>mascotes</Link> e <Link to='/Equipamento'>equipamentos</Link> que somente os assinantes de habitica serão capazes de comprar.</li>
       </ul>
     </Card>
 

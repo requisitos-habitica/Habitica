@@ -29,7 +29,7 @@ const LojaV1 = () => (
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Possibilita a compra de ovos, equipamentos, cartões, poções, etc.</li>
+        <li>Possibilita a compra de <Link to='/Ovo de Mascote'>ovos</Link>, <Link to='/Equipamento'>equipamentos</Link>, <Link to='/Cartões'>cartões</Link>, <Link to='/Poção de Eclosão'>poções</Link>, etc.</li>
       </ul>
     </Card>
 

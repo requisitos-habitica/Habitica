@@ -22,14 +22,14 @@ const LojaSazonalV1 = () => (
     <Card>
       <h2>Noção</h2>
       <ul>
-        <li>É uma das ramificações de lojas dentro do Habitica.</li>
+        <li>É uma das ramificações de <Link to = '/Loja'>Loja</Link> dentro do Habitica.</li>
       </ul>
     </Card>
 
     <Card>
       <h2>Impacto</h2>
       <ul>
-        <li>Possibilita a compra de ovos, poções e equipamentos que variam de acordo com as estações do ano.</li>
+        <li>Possibilita a compra de <Link to = '/Ovo de Mascote'>ovos</Link>, <Link to = '/Poção de Eclosão'>poções</Link> e <Link to = '/Equipamento'>equipamentos</Link> que variam de acordo com as estações do ano.</li>
       </ul>
     </Card>
 
