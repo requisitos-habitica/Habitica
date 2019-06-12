@@ -15,7 +15,7 @@ import RichPicture from './components/docs/PreRastreabilidade/RichPicture'
 import Argumentacao from './components/docs/PreRastreabilidade/Argumentacao'
 import Elicitacao from './components/docs/Elicitacao/Elicitacao'
 import lexicos from './utils/lexicos'
-import cenarios from './utils/cenarios'
+import RoutesCenarios from './utils/RoutesCenarios'
 
 import ScrollToTop from './components/HOC/ScrollToTop/ScrollToTop'
 
@@ -50,11 +50,11 @@ const App = () => {
                                                                     component={ lexicos[group].lexic[term] }
                                                                     onUpdate={() => window.scrollTo(0, 0)}/>))}
 
-            {Object.keys(cenarios).map(group => 
-              Object.keys(cenarios[group].lexic).map(term => <Route key={ term } exact 
-                                                                    path={`/${term}`}
-                                                                    component={ cenarios[group].lexic[term] }
-                                                                    onUpdate={() => window.scrollTo(0, 0)}/>))}
+            {Object.keys(RoutesCenarios).map(group => 
+              Object.keys(RoutesCenarios[group].lexic).map(term => <Route key={ term } exact 
+                                                                          path={`/${term}`}
+                                                                          component={ RoutesCenarios[group].lexic[term] }
+                                                                          onUpdate={() => window.scrollTo(0, 0)}/>))}
           </Switch>
         </NavBar>
       </ScrollToTop>

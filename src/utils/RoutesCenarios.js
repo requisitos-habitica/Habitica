@@ -1,15 +1,28 @@
+import CriarDesafioPublicoV1 from '../components/docs/Modelagem/Cenario/CriarDesafioPublicoV1'
 import CriarDesafioPublicoV2 from '../components/docs/Modelagem/Cenario/CriarDesafioPublicoV2'
+import DeclararVencedorDeUmDesafioV1 from '../components/docs/Modelagem/Cenario/DeclararVencedorDeUmDesafioV1'
 import DeclararVencedorDeUmDesafioV2 from '../components/docs/Modelagem/Cenario/DeclararVencedorDeUmDesafioV2'
+import EntrarEmUmDesafioPublicoV1 from '../components/docs/Modelagem/Cenario/EntrarEmUmDesafioPublicoV1'
 import EntrarEmUmDesafioPublicoV2 from '../components/docs/Modelagem/Cenario/EntrarEmUmDesafioPublicoV2'
+import VerProgressoDeParticipantesDeUmDesafioV1 from '../components/docs/Modelagem/Cenario/VerProgressoDeParticipantesDeUmDesafioV1'
 import VerProgressoDeParticipantesDeUmDesafioV2 from '../components/docs/Modelagem/Cenario/VerProgressoDeParticipantesDeUmDesafioV2'
+
 import ComoContribuirV1 from '../components/docs/Modelagem/Cenario/ComoContribuirV1'
+import ContribuirArtesV1 from '../components/docs/Modelagem/Cenario/ContribuirArtesV1'
 import ContribuirArtesV2 from '../components/docs/Modelagem/Cenario/ContribuirArtesV2'
+import ContribuirDesignV1 from '../components/docs/Modelagem/Cenario/ContribuirDesignV1'
 import ContribuirDesignV2 from '../components/docs/Modelagem/Cenario/ContribuirDesignV2'
+import ContribuirHistoriaV1 from '../components/docs/Modelagem/Cenario/ContribuirHistoriaV1'
 import ContribuirHistoriaV2 from '../components/docs/Modelagem/Cenario/ContribuirHistoriaV2'
+import ContribuirTraducaoV1 from '../components/docs/Modelagem/Cenario/ContribuirTraducaoV1'
 import ContribuirTraducaoV2 from '../components/docs/Modelagem/Cenario/ContribuirTraducaoV2'
+import ContribuirWikiV1 from '../components/docs/Modelagem/Cenario/ContribuirWikiV1'
 import ContribuirWikiV2 from '../components/docs/Modelagem/Cenario/ContribuirWikiV2'
+import ChocarOvoDeMascoteV1 from '../components/docs/Modelagem/Cenario/ChocarOvoDeMascoteV1';
 import ChocarOvoDeMascoteV2 from '../components/docs/Modelagem/Cenario/ChocarOvoDeMascoteV2';
+import AlimentarMascoteV1 from '../components/docs/Modelagem/Cenario/AlimentarMascoteV1';
 import AlimentarMascoteV2 from '../components/docs/Modelagem/Cenario/AlimentarMascoteV2';
+import ProporMissoesV1 from '../components/docs/Modelagem/Cenario/ProporMissoesV1';
 import ProporMissoesV2 from '../components/docs/Modelagem/Cenario/ProporMissoesV2';
 import EquiparAvatarComItemDeMaoV1 from '../components/docs/Modelagem/Cenario/EquiparAvatarComItemDeMaoV1';
 import EquiparAvatarComCapaceteV1 from '../components/docs/Modelagem/Cenario/EquiparAvatarComCapaceteV1';
@@ -24,12 +37,16 @@ import BatalhaChefaoV1 from '../components/docs/Modelagem/Cenario/BatalhaChefaoV
 import CancelaMissaoV1 from '../components/docs/Modelagem/Cenario/CancelaMissaoV1'
 import ColetaItensV1 from '../components/docs/Modelagem/Cenario/ColetaItensV1'
 import CompletaMissaoV1 from '../components/docs/Modelagem/Cenario/CompletaMissaoV1'
+import ConsegueTomoDeMissaoV1 from '../components/docs/Modelagem/Cenario/ConsegueTomoeDeMissaoV1'
 import ConsegueTomoDeMissaoV2 from '../components/docs/Modelagem/Cenario/ConsegueTomoeDeMissaoV2'
+import CriaAvatarV1 from '../components/docs/Modelagem/Cenario/CriaAvatarV1'
 import CriaAvatarV2 from '../components/docs/Modelagem/Cenario/CriaAvatarV2'
 import EntraNaMissaoV1 from '../components/docs/Modelagem/Cenario/EntraNaMissaoV1'
 import FazMissaoV1 from '../components/docs/Modelagem/Cenario/FazMissaoV1'
+import PersonalizaAparenciaFisicaDoAvatarV1 from '../components/docs/Modelagem/Cenario/PersonalizaAparenciaFisicaDoAvatarV1'
 import PersonalizaAparenciaFisicaDoAvatarV2 from '../components/docs/Modelagem/Cenario/PersonalizaAparenciaFisicaDoAvatarV2'
 import PersonalizaEquipamentoDoAvatarV1 from '../components/docs/Modelagem/Cenario/PersonalizaEquipamentoDoAvatarV1'
+import SocializaNasGuildasV1 from '../components/docs/Modelagem/Cenario/SocializaNasGuildasV1'
 import SocializaNasGuildasV2 from '../components/docs/Modelagem/Cenario/SocializaNasGuildasV2'
 import UsaHabilidadeV1 from '../components/docs/Modelagem/Cenario/UsaHabilidadeV1';
 import SubirNivelV1 from '../components/docs/Modelagem/Cenario/subirNivelV1';
@@ -43,6 +60,7 @@ import AdquirirClassV1 from '../components/docs/Modelagem/Cenario/adquirirClasse
 import morrerV1 from '../components/docs/Modelagem/Cenario/morrerV1';
 import DelContV1 from '../components/docs/Modelagem/Cenario/deletarContaV1';
 import FazerContV1 from '../components/docs/Modelagem/Cenario/fazerContaV1';
+
 import UtilizarLojaViajantesTempoV1 from '../components/docs/Modelagem/Cenario/UtilizarLojaViajantesTempoV1'
 import UtilizarLojaItensV1 from '../components/docs/Modelagem/Cenario/UtilizarLojaItensV1'
 import UtilizarLojaMissaoV1 from '../components/docs/Modelagem/Cenario/UtilizarLojaMissaoV1'
@@ -118,12 +136,16 @@ const cenarios = {
       "Cancela Missão": CancelaMissaoV1,
       "Coleta Itens": ColetaItensV1,
       "Completa Missão": CompletaMissaoV1,
+      "Consegue Tomo de Missão V1": ConsegueTomoDeMissaoV1,
       "Consegue Tomo de Missão": ConsegueTomoDeMissaoV2,
+      "Cria Avatar V1": CriaAvatarV1,
       "Cria Avatar": CriaAvatarV2,
       "Entra na Missão": EntraNaMissaoV1,
       "Faz Missão": FazMissaoV1,
+      "Personaliza Aparência Física do Avatar V1": PersonalizaAparenciaFisicaDoAvatarV1,
       "Personaliza Aparência Física do Avatar": PersonalizaAparenciaFisicaDoAvatarV2,
-      "Personaliza Equipamento do Avatar": PersonalizaEquipamentoDoAvatarV1,
+      "Personaliza Equipamento do Avatar V1": PersonalizaEquipamentoDoAvatarV1,
+      "Socializa nas Guildas V1": SocializaNasGuildasV1,
       "Socializa nas Guildas": SocializaNasGuildasV2,
       "Usa Habilidade": UsaHabilidadeV1,
     }
@@ -133,10 +155,15 @@ const cenarios = {
     color: "Orchid",
     lexic: {
       "Contribuir para o Habitica": ComoContribuirV1,
+      "Contribuir para as Artes do Habitica V1": ContribuirArtesV1,
       "Contribuir para as Artes do Habitica": ContribuirArtesV2,
+      "Contribuir no Design do Habitica V1": ContribuirDesignV1,
       "Contribuir no Design do Habitica": ContribuirDesignV2,
+      "Contribuir para as Histórias do Habitica V1": ContribuirHistoriaV1,
       "Contribuir para as Histórias do Habitica": ContribuirHistoriaV2,
+      "Contribuir para a tradução do Habitica V1": ContribuirTraducaoV1,
       "Contribuir para a tradução do Habitica": ContribuirTraducaoV2,
+      "Contribuir para a Wiki Habitica V1": ContribuirWikiV1,
       "Contribuir para a Wiki Habitica": ContribuirWikiV2
     }
   },
@@ -153,8 +180,11 @@ const cenarios = {
   "Inventário": {
     color: "LightCoral",
     lexic: {
+      "Chocar Ovo de Mascote V1": ChocarOvoDeMascoteV1,
       "Chocar Ovo de Mascote": ChocarOvoDeMascoteV2,
+      "Alimentar Mascote V1": AlimentarMascoteV1,
       "Alimentar Mascote": AlimentarMascoteV2,
+      "Propor Missões V1": ProporMissoesV1,
       "Propor Missões": ProporMissoesV2,
       "Equipar Avatar com Item de Mão": EquiparAvatarComItemDeMaoV1,
       "Equipar Avatar com Capacete": EquiparAvatarComCapaceteV1,
@@ -172,9 +202,13 @@ const cenarios = {
   "Desafios": {
     color: "DeepPink",
     lexic: {
+      "Criar desafio público V1": CriarDesafioPublicoV1,
       "Criar desafio público": CriarDesafioPublicoV2,
+      "Declarar o vencedor de um desafio V1": DeclararVencedorDeUmDesafioV1,
       "Declarar o vencedor de um desafio": DeclararVencedorDeUmDesafioV2,
       "Entrar em um desafio público": EntrarEmUmDesafioPublicoV2,
+      "Entrar em um desafio público V1": EntrarEmUmDesafioPublicoV1,
+      "Ver o progresso de outros participantes de um desafio V1": VerProgressoDeParticipantesDeUmDesafioV1,
       "Ver o progresso de outros participantes de um desafio": VerProgressoDeParticipantesDeUmDesafioV2,
     }
   }
