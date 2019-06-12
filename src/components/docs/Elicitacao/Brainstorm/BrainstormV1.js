@@ -3,17 +3,10 @@ import ReactMarkdown from 'react-markdown'
 
 const BrainstormV1 = () => {
 
-  const input = `
-  # Braintorm V1\n
-  Neste Brainstorm foi feito lalalalaal\n
-  ooooiiii
-  ## HEEEEEEEELooow
-  `
+  const input = '# Braintorm V1\n'
 
   return (
-    <div className="artefact content">
-      <ReactMarkdown source={ input }/>
-    </div>
+    <ReactMarkdown source={ input }/>
   )
 }
 
