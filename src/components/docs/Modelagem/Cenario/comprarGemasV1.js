@@ -26,7 +26,7 @@ const Base = () => (
       <ul>
         <li>Usuário.</li>
         <li>PayPal.</li>
-        <li> Amazon Pay.</li>
+        <li>Amazon Pay.</li>
         <li>Corretora de crédito.</li>
       </ul>
     </Card>

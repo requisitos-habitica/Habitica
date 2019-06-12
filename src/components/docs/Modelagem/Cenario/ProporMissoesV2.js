@@ -7,6 +7,12 @@ const ProporMissoesV2 = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
                   title="Propor Missões V2" author="Rogério Júnior"/>
+
+    <Card>
+      <h2>Versionamento</h2>
+      <p><Link to='/Propor Missões V1'>V1</Link></p>
+    </Card>
+
     <Card>
       <h2>Objetivo</h2>
       <p>Usuário convidar um grupo à uma missão para ganhar recompensas.</p>

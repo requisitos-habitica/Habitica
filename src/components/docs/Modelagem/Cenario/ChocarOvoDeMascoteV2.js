@@ -7,6 +7,12 @@ const ChocarOvoDeMascoteV2 = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
                   title="Chocar Ovo de Mascote V2" author="Rogério Júnior e Pedro Féo"/>
+
+    <Card>
+      <h2>Versionamento</h2>
+      <p><Link to='/Chocar Ovo de Mascote V1'>V1</Link></p>
+    </Card>
+
     <Card>
       <h2>Objetivo</h2>
       <p><Link to='/Chocar Ovo'>Chocar o ovo</Link> para que o usuário possua um novo <Link to='/Mascote'>mascote</Link>.</p>

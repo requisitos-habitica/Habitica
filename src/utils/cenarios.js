@@ -10,7 +10,8 @@ import VerProgressoDeParticipantesDeUmDesafioV2 from '../components/docs/Modelag
 import ComoContribuirV1 from '../components/docs/Modelagem/Cenario/ComoContribuirV1'
 import ContribuirArtesV1 from '../components/docs/Modelagem/Cenario/ContribuirArtesV1'
 import ContribuirArtesV2 from '../components/docs/Modelagem/Cenario/ContribuirArtesV2'
-import ContribuirDesignV1 from '../components/docs/Modelagem/Cenario/ContribuirDesignV2'
+import ContribuirDesignV1 from '../components/docs/Modelagem/Cenario/ContribuirDesignV1'
+import ContribuirDesignV2 from '../components/docs/Modelagem/Cenario/ContribuirDesignV2'
 import ContribuirHistoriaV1 from '../components/docs/Modelagem/Cenario/ContribuirHistoriaV1'
 import ContribuirHistoriaV2 from '../components/docs/Modelagem/Cenario/ContribuirHistoriaV2'
 import ContribuirTraducaoV1 from '../components/docs/Modelagem/Cenario/ContribuirTraducaoV1'
@@ -60,6 +61,27 @@ import morrerV1 from '../components/docs/Modelagem/Cenario/morrerV1';
 import DelContV1 from '../components/docs/Modelagem/Cenario/deletarContaV1';
 import FazerContV1 from '../components/docs/Modelagem/Cenario/fazerContaV1';
 
+import UtilizarLojaViajantesTempoV1 from '../components/docs/Modelagem/Cenario/UtilizarLojaViajantesTempoV1'
+import UtilizarLojaItensV1 from '../components/docs/Modelagem/Cenario/UtilizarLojaItensV1'
+import UtilizarLojaMissaoV1 from '../components/docs/Modelagem/Cenario/UtilizarLojaMissaoV1'
+import UtilizarLojaSazonalV1 from '../components/docs/Modelagem/Cenario/UtilizarLojaSazonalV1'
+import ComprarItensNaLoja from '../components/docs/Modelagem/Cenario/ComprarItensNaLoja'
+import ComprarItensMoedasLoja from '../components/docs/Modelagem/Cenario/ComprarItensMoedasLoja'
+import ComprarItensGemasLoja from '../components/docs/Modelagem/Cenario/ComprarItensGemasLoja'
+import ComprarCartoesLoja from '../components/docs/Modelagem/Cenario/ComprarCartoesLoja'
+import ComprarEquipamentoLoja from '../components/docs/Modelagem/Cenario/ComprarEquipamentoLoja'
+import ComprarMissaoLoja from '../components/docs/Modelagem/Cenario/ComprarMissaoLoja'
+import ComprarMissaoLojaMoedas from '../components/docs/Modelagem/Cenario/ComprarMissaoLojaMoedas'
+import ComprarMissaoLojaGema from '../components/docs/Modelagem/Cenario/ComprarMissaoLojaGema'
+import ComprarEquipamentoLojaSazonal from '../components/docs/Modelagem/Cenario/ComprarEquipamentoLojaSazonal'
+import ComprarItensLojaSazonal from '../components/docs/Modelagem/Cenario/ComprarItensLojaSazonal'
+import ComprarMissaoLojaSazonal from '../components/docs/Modelagem/Cenario/ComprarMissaoLojaSazonal'
+import ComprarItensViajantesTempo from '../components/docs/Modelagem/Cenario/ComprarItensViajantesTempo'
+import AdquirirMoedas from '../components/docs/Modelagem/Cenario/AdquirirMoedas'
+import AdquirirAmpulhetas from '../components/docs/Modelagem/Cenario/AdquirirAmpulhetas'
+
+
+
 const cenarios = {
   "Configurações": {
     color: "pink",
@@ -81,7 +103,24 @@ const cenarios = {
   "Loja": {
     color: "aqua",
     lexic: {
-      "Cartões": null,
+      "Comprar Itens na Loja": ComprarItensNaLoja,
+      "Comprar Itens com Moedas na Loja": ComprarItensMoedasLoja,
+      "Comprar Itens com Gemas na Loja": ComprarItensGemasLoja,
+      "Comprar Cartões na Loja": ComprarCartoesLoja,
+      "Comprar Equipamentos na Loja": ComprarEquipamentoLoja,
+      "Comprar Missões na Loja": ComprarMissaoLoja,
+      "Comprar Missões na Loja Utilizando Moedas": ComprarMissaoLojaMoedas,
+      "Comprar Missões na Loja Utilizando Gemas": ComprarMissaoLojaGema,
+      "Comprar Equipamentos na Loja Sazonal": ComprarEquipamentoLojaSazonal,
+      "Comprar Itens na Loja Sazonal": ComprarItensLojaSazonal,
+      "Comprar Missões na Loja Sazonal": ComprarMissaoLojaSazonal,
+      "Comprar Itens na Loja Viajantes do tempo": ComprarItensViajantesTempo,
+      "Adquirir Moedas": AdquirirMoedas,
+      "Adquirir Ampulhetas Místicas": AdquirirAmpulhetas,
+      "Utilizar a loja do Habitica - Viajantes do tempo": UtilizarLojaViajantesTempoV1,
+      "Utilizar a loja do Habitica Itens": UtilizarLojaItensV1,
+      "Utilizar a loja do Habitica - Loja Sazonal": UtilizarLojaSazonalV1,
+      "Utilizar a loja do Habitica Missão": UtilizarLojaMissaoV1
     }
   },
 
@@ -121,6 +160,7 @@ const cenarios = {
       "Contribuir para as Artes do Habitica V1": ContribuirArtesV1,
       "Contribuir para as Artes do Habitica V2": ContribuirArtesV2,
       "Contribuir no Design do Habitica V1": ContribuirDesignV1,
+      "Contribuir no Design do Habitica V2": ContribuirDesignV2,
       "Contribuir para as Histórias do Habitica V1": ContribuirHistoriaV1,
       "Contribuir para as Histórias do Habitica V2": ContribuirHistoriaV2,
       "Contribuir para a tradução do Habitica V1": ContribuirTraducaoV1,

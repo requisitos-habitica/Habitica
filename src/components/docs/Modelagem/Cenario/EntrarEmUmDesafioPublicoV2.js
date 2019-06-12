@@ -7,6 +7,12 @@ const EntrarEmUmDesafioPublicoV2 = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
                   title="Entrar em um desafio público V2" author="Kaique Borges e Pedro Féo"/>
+
+    <Card>
+      <h2>Versionamento</h2>
+      <p><Link to='/Entrar em um desafio público V1'>V1</Link></p>
+    </Card>
+
     <Card>
       <h2>Objetivo</h2>
       <p>Participar de um <Link to='/Desafio'>Desafio</Link> público</p>

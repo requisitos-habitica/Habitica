@@ -81,6 +81,13 @@ import ContadorHistoria from '../components/docs/Modelagem/Lexico/ContadorHistor
 import Desafiantes from '../components/docs/Modelagem/Lexico/Desafiantes'
 import Taverna from '../components/docs/Modelagem/Lexico/Taverna'
 
+import CartaoV1 from '../components/docs/Modelagem/Lexico/CartaoV1'
+import AmpulhetaMisticaV1 from '../components/docs/Modelagem/Lexico/AmpulhetaMisticaV1'
+import LojaSazonalV1 from '../components/docs/Modelagem/Lexico/LojaSazonalV1'
+import ViajanteDoTempoV1 from '../components/docs/Modelagem/Lexico/ViajanteDoTempoV1'
+import LojaV1 from '../components/docs/Modelagem/Lexico/LojaV1'
+
+
 const lexicos = {
   "Configurações": {
     color: "pink",
@@ -102,11 +109,11 @@ const lexicos = {
   "Loja": {
     color: "aqua",
     lexic: {
-      "Cartões": null,
-      "Loja Sazonal": null,
-      "Viajantes do Tempo": null,
-      "Ampulheta Mística": null,
-      "Loja": null,
+      "Cartões": CartaoV1,
+      "Loja Sazonal": LojaSazonalV1,
+      "Viajantes do Tempo": ViajanteDoTempoV1,
+      "Ampulheta Mística": AmpulhetaMisticaV1,
+      "Loja": LojaV1,
     }
   },
 

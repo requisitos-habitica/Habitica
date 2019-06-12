@@ -7,6 +7,12 @@ const ContribuirWikiV2 = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
                   title="Contribuir para a Wiki Habitica V2" author="Saleh Kader e Pedro Féo"/>
+
+    <Card>
+      <h2>Versionamento</h2>
+      <p><Link to='/Contribuir para a Wiki Habitica V1'>V1</Link></p>
+    </Card>
+
     <Card>
       <h2>Objetivo</h2>
       <p>Contribuir para a documentação da Wiki do Habitica</p>

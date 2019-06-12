@@ -7,6 +7,12 @@ const ContribuirHistoriaV2 = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
                   title="Contribuir para as Histórias do Habitica V2" author="Saleh Kader e Pedro Féo"/>
+
+    <Card>
+      <h2>Versionamento</h2>
+      <p><Link to='/Contribuir para as Histórias do Habitica V1'>V1</Link></p>
+    </Card>
+
     <Card>
       <h2>Objetivo</h2>
       <p>Elaborar novas narrativas para serem usadas no Habitica</p>
