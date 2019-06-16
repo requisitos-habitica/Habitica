@@ -1,0 +1,9 @@
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &_image {
+        margin-top: 5rem;
+    }
+}

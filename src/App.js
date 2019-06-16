@@ -19,6 +19,8 @@ import RoutesCenarios from './utils/RoutesCenarios'
 
 import ScrollToTop from './components/HOC/ScrollToTop/ScrollToTop'
 
+import GIFS from './components/docs/PosRastreabilidade/GIFS'
+
 const RouteRollUp = props => <Route {...props} onUpdate={() => window.scrollTo(0, 0)}/>
 
 const App = () => {
@@ -39,6 +41,7 @@ const App = () => {
             <RouteRollUp exact path="/Modelagem" component={ Modelagem } />
             <RouteRollUp exact path="/Analise" />
             <RouteRollUp exact path="/Sobre" />
+            <RouteRollUp exact path="/GIFS" component={ GIFS } />
           
             {/* Modelagem */}
             <RouteRollUp path="/Lexicos" component={ Lexico }/>
