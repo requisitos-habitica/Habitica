@@ -1,0 +1,142 @@
+[
+    {
+        "id": "US01",
+        "description": "Eu, como usuário do sistema, desejo poder separar minhas atividades por hábitos, diárias e afazeres para poder me organizar melhor."
+    },
+    {
+        "id": "US02",
+        "description": "Eu, como usuário do sistema, desejo adicionar uma nova tarefa para poder fazê-la."
+    },
+    {
+        "id": "US03",
+        "description": "Eu, como usuário do sistema, desejo deletar tarefa para não ter atividades que não fazem mais sentido fazer."
+    },
+    {
+        "id": "US04",
+        "description": "Eu, como usuário do sistema, desejo editar uma tarefa para arrumar dados que estão incorretos ou que mudaram."
+    },
+    {
+        "id": "US05",
+        "description": "Eu, como usuário do sistema, desejo finalizar uma tarefa para poder salvar que eu a terminei."
+    },
+    {
+        "id": "US08",
+        "description": "Eu, como usuário do sistema, desejo adicionar uma data da tarefa para me lembrar no dia dela."
+    },
+    {
+        "id": "US09",
+        "description": "Eu, como usuário do sistema, desejo determinar uma dificuldade na atividade para que eu possa determinar prioridades."
+    },
+    {
+        "id": "US10",
+        "description": "Eu, como usuário do sistema, desejo adicionar uma etiqueta na atividade para poder agrupá-las como eu quiser."
+    },
+    {
+        "id": "US11",
+        "description": "Eu, como usuário do sistema, desejo determinar que a tarefa repita para não precisar adicioná-la sempre."
+    },
+    {
+        "id": "US14",
+        "description": "Eu, como usuário do sistema, desejo criar uma etiqueta para que eu possa organizar atividades."
+    },
+    {
+        "id": "US15",
+        "description": "Eu, como usuário do sistema, desejo deletar uma etiqueta para não bagunçar minha organização."
+    },
+    {
+        "id": "US16",
+        "description": "Eu, como usuário do sistema, desejo atualizar uma etiqueta para arrumar dados incorretos ou desatualizados."
+    },
+    {
+        "id": "US17",
+        "description": "Eu, como usuário do sistema, desejo reorganizar a ordem das etiquetas para eu poder organizar da forma que eu quiser."
+    },
+    {
+        "id": "US20_US22",
+        "description": "Eu, como usuário do sistema, gostaria que meus itens fossem categorizados na aba equipamentos, que podem personalizar o avatar, aba estábulo, para ficar os mascotes e montarias, e aba itens em geral. / Eu, como usuário do sistema, gostaria de ter a seguinte divisão na aba de categoria para os equipamentos: cabeça, tiaras, óculos, armaduras, costas, corpo, arma e escudo"
+    },
+    {
+        "id": "US21_US23",
+        "description": "Eu, como usuário do sistema, gostaria de ter a seguinte divisão na aba de categoria para os itens: ovos, poções, comidas e selas, especial e missões / Eu, como usuário do sistema, gostaria de ter a seguinte divisão na abas de categoria para o estábulo: montaria e mascotes"
+    },
+    {
+        "id": "US24",
+        "description": "Eu, como usuário do sistema, gostaria de poder filtrar meus itens para acessa-los de maneira mais rápida"
+    },
+    {
+        "id": "US27",
+        "description": "Eu, como usuário do sistema, gostaria de poder alimentar os meus mascotes."
+    },
+    {
+        "id": "US28",
+        "description": "Eu, como usuário do sistema, gostaria que os mascotes pudessem evoluir para algo que o avatar pudesse montar."
+    },
+    {
+        "id": "US30_US51",
+        "description": "Eu, como usuário do sistema, gostaria de poder equipar meu avatar com os equipamentos que tenho disponíveis ou desequipá-lo. / Eu, como usuário do sistema, desejo vizualizar o perfil de outros usuários do grupo para conhecê-los."
+    },
+    {
+        "id": "US31",
+        "description": "Eu, como usuário do sistema, gostaria de ser capaz de colocar e retirar os mascotes junto ao meu avatar."
+    },
+    {
+        "id": "US32",
+        "description": "Eu, como usuário do sistema, gostaria de adicionar uma montaria ao meu avatar, de forma que o avatar esteja montado nele, ou retirá-la."
+    },
+    {
+        "id": "US33",
+        "description": "Eu, como usuário do sistema, desejo comprar equipamento com gemas ou moedas para meu avatar para que eu possa customizar meu avatar"
+    },
+    {
+        "id": "US34",
+        "description": "Eu, como usuário do sistema, desejo ver o valor dos itens da loja para que eu possa avaliar se posso comprar e decidir qual item comprar"
+    },
+    {
+        "id": "US35",
+        "description": "Eu, como usuário do sistema, desejo adquirir moedas para que eu possa comprar itens da loja"
+    },
+    {
+        "id": "US36",
+        "description": "Eu, como usuário do sistema, desejo comprar itens com gemas ou moedas para que eu possa usá-los e melhorar meu rendimento em missões"
+    },
+    {
+        "id": "US38",
+        "description": "Eu, como usuário do sistema, desejo comprar itens limitados com gemas ou moedas para que eu customizar meu avatar"
+    },
+    {
+        "id": "US42",
+        "description": "Eu, como usuário do sistema, desejo ver o progresso de outros participantes de um desafio para que eu possa comparar meu desempenho com o deles"
+    },
+    {
+        "id": "US45",
+        "description": "Eu, como usuário do sistema, desejo buscar desafios por nome para que eu encontre mais rapidamente desafios com aquela característica"
+    },
+    {
+        "id": "US48",
+        "description": "Eu, como usuário do sistema, desejo ser capaz de me retirar do grupo para poder participar de outros grupos."
+    },
+    {
+        "id": "US49",
+        "description": "Eu, como usuário do sistema, desejo ser capaz de acessar o chat para poder interagir com outros usuários."
+    },
+    {
+        "id": "US50",
+        "description": "Eu, como usuário do sistema, desejo ser capaz de convidar o grupo para uma missão para trabalharmos em equipe."
+    },
+    {
+        "id": "US52_US53",
+        "description": "Eu, como usuário do sistema, desejo acessar o perfil individual dos outros usuários do grupo para identificar os seus atributos. / Eu, como usuário do sistema, desejo cancelar uma missão para poder participar de outras missões."
+    },
+    {
+        "id": "US54",
+        "description": "Eu, como usuário do sistema, desejo criar um grupo para chamar meus amigos"
+    },
+    {
+        "id": "US55",
+        "description": "Eu, como usuário do sistema, desejo chamar meus amigos para o meu grupo"
+    },
+    {
+        "id": "US56",
+        "description": "Eu, como usuário do sistema, desejo, ao completar tarefas, ganhar recompensas"
+    }
+]
