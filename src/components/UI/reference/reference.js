@@ -16,7 +16,7 @@ const reference = props => {
 
     return (
         <div className="references-conteiner">
-            <h2>Referências</h2>
+            <h1>Referências</h1>
             <ul>
                 {
                     re.map(ref => (
