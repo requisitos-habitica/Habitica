@@ -38,10 +38,10 @@ import Verificacao from './components/docs/Analise/Verificacao'
 const RouteRollUp = props => <Route {...props} onUpdate={() => window.scrollTo(0, 0)}/>
 
 const App = () => {
+
   console.log(process.env.PUBLIC_URL)
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <ScrollToTop>
         <NavBar>
           <Switch>
             
@@ -111,11 +111,10 @@ const App = () => {
                                                                           onUpdate={() => window.scrollTo(0, 0)}/>))}
 
             {GIFS.map( gif => <Route path = {`/gif/${gif.id}`}
-                                     render={() => <GIFSComponent id={gif.id} description={gif.description} />}/>)}
+                                    render={() => <GIFSComponent id={gif.id} description={gif.description} />}/>)}
 
           </Switch>
         </NavBar>
-      </ScrollToTop>
     </Router>
   )
 }
