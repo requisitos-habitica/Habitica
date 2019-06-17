@@ -2,7 +2,6 @@
   "name": "wiki",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://requisitos-habitica.github.io/Habitica",
   "dependencies": {
     "firebase": "^6.2.0",
     "node-sass": "^4.11.0",
