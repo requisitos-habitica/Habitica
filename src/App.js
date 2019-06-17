@@ -19,7 +19,8 @@ import RoutesCenarios from './utils/RoutesCenarios'
 
 import ScrollToTop from './components/HOC/ScrollToTop/ScrollToTop'
 
-import GIFS from './components/docs/PosRastreabilidade/GIFS'
+import GIFSComponent from './components/docs/PosRastreabilidade/GIFS'
+import GIFS from './components/docs/PosRastreabilidade/GIFS.json'
 
 const RouteRollUp = props => <Route {...props} onUpdate={() => window.scrollTo(0, 0)}/>
 
@@ -38,26 +39,30 @@ const App = () => {
             <RouteRollUp exact path="/Argumentacoes" component={ Argumentacao } />
             <RouteRollUp exact path="/Pos-Rastreabilidade" />
             <RouteRollUp exact path="/Elicitacao" component={ Elicitacao }/>
-            <RouteRollUp exact path="/Modelagem" component={ Modelagem } />
-            <RouteRollUp exact path="/Analise" />
-            <RouteRollUp exact path="/Sobre" />
-            <RouteRollUp exact path="/GIFS" component={ GIFS } />
+            <RouteRollUp path="/Modelagem" component={ Modelagem } />
+            <RouteRollUp path="/Analise" />
+            <RouteRollUp path="/Sobre" />
+            <RouteRollUp path="/GIFS" component={ GIFS } />
           
             {/* Modelagem */}
             <RouteRollUp path="/Lexicos" component={ Lexico }/>
             <RouteRollUp path="/Cenarios" component={ Cenario }/>
 
             {Object.keys(lexicos).map(group => 
-              Object.keys(lexicos[group].lexic).map(term => <Route  key={ term } exact 
+              Object.keys(lexicos[group].lexic).map(term => <Route  key={ term } 
                                                                     path={`/${term}`}
                                                                     component={ lexicos[group].lexic[term] }
                                                                     onUpdate={() => window.scrollTo(0, 0)}/>))}
 
             {Object.keys(RoutesCenarios).map(group => 
-              Object.keys(RoutesCenarios[group].lexic).map(term => <Route key={ term } exact 
+              Object.keys(RoutesCenarios[group].lexic).map(term => <Route key={ term } 
                                                                           path={`/${term}`}
                                                                           component={ RoutesCenarios[group].lexic[term] }
                                                                           onUpdate={() => window.scrollTo(0, 0)}/>))}
+
+            {GIFS.map( gif => <Route path = {`/gif/${gif.id}`}
+                                     render={() => <GIFSComponent id={gif.id} description={gif.description} />}/>)}
+
           </Switch>
         </NavBar>
       </ScrollToTop>
