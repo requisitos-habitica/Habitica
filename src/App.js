@@ -22,6 +22,13 @@ import ScrollToTop from './components/HOC/ScrollToTop/ScrollToTop'
 import GIFSComponent from './components/docs/PosRastreabilidade/GIFS'
 import GIFS from './components/docs/PosRastreabilidade/GIFS.json'
 
+import Priorizacao from './components/docs/Elicitacao/Priorizacao'
+import Requisitos from './components/docs/Elicitacao/Requisitos'
+
+import Analise from './components/docs/Analise/Analise'
+import Verificacao from './components/docs/Analise/Verificacao'
+
+
 const RouteRollUp = props => <Route {...props} onUpdate={() => window.scrollTo(0, 0)}/>
 
 const App = () => {
@@ -39,14 +46,49 @@ const App = () => {
             <RouteRollUp exact path="/Argumentacoes" component={ Argumentacao } />
             <RouteRollUp exact path="/Pos-Rastreabilidade" />
             <RouteRollUp exact path="/Elicitacao" component={ Elicitacao }/>
-            <RouteRollUp path="/Modelagem" component={ Modelagem } />
-            <RouteRollUp path="/Analise" />
-            <RouteRollUp path="/Sobre" />
-            <RouteRollUp path="/GIFS" component={ GIFS } />
+            <RouteRollUp exact path="/Modelagem" component={ Modelagem } />
+            <RouteRollUp exact path="/Analise" component={ Analise } />
+            <RouteRollUp exact path="/Sobre" />
+            <RouteRollUp exact path="/GIFS" component={ GIFS } />
+
+            {/* Elicitação */}
+            <RouteRollUp exact path="/RequisitosElicitacao" component={ Requisitos } />
+
+            <RouteRollUp exact path="/AnaliseProtocolo01" component={ Requisitos } />
+            <RouteRollUp exact path="/AnaliseProtocolo02" component={ Requisitos } />
+            <RouteRollUp exact path="/BrainstormV1" component={ Requisitos } />
+            <RouteRollUp exact path="/Brainstorm" component={ Requisitos } />
+            <RouteRollUp exact path="/Entrevista" component={ Requisitos } />
+            <RouteRollUp exact path="/Etnografia" component={ Requisitos } />
+            <RouteRollUp exact path="/Introspeccao" component={ Requisitos } />
+            <RouteRollUp exact path="/Persona" component={ Requisitos } />
+            <RouteRollUp exact path="/Storytelling01V1" component={ Requisitos } />
+            <RouteRollUp exact path="/Storytelling01" component={ Requisitos } />
+            <RouteRollUp exact path="/Storytelling02" component={ Requisitos } />
+            <RouteRollUp exact path="/Questionario" component={ Requisitos } />
+            <RouteRollUp exact path="/5W2H" component={ Requisitos } />
+
+
+            <RouteRollUp exact path="/Priorizacao" component={ Priorizacao } />
+
+            <RouteRollUp exact path="/HOQ" component={ Priorizacao } />
+            <RouteRollUp exact path="/FirstThingsFirst" component={ Priorizacao } />
+            <RouteRollUp exact path="/MoSCoW" component={ Priorizacao } />
           
             {/* Modelagem */}
             <RouteRollUp path="/Lexicos" component={ Lexico }/>
             <RouteRollUp path="/Cenarios" component={ Cenario }/>
+            <RouteRollUp path="/CasosDeUso" component={ Cenario }/>
+            <RouteRollUp path="/CasosDeUso/Loja" component={ Lexico }/>
+            <RouteRollUp path="/EspecificacaoSuplementar" component={ Lexico }/>
+            <RouteRollUp path="/Agil" component={ Lexico }/>
+            <RouteRollUp path="/NFR" component={ Lexico }/>
+            <RouteRollUp path="/IStar" component={ Lexico }/>
+
+
+            {/* Analise */}
+            <RouteRollUp path="/Verificacao" component={ Verificacao }/>
+            <RouteRollUp path="/Validacao" component={ Cenario }/>
 
             {Object.keys(lexicos).map(group => 
               Object.keys(lexicos[group].lexic).map(term => <Route  key={ term } 
