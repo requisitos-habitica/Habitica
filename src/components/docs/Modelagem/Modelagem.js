@@ -7,6 +7,7 @@ import IStar from '../../../assets/IStar.svg'
 import Agile from '../../../assets/Agile.svg'
 import CasosDeUso from '../../../assets/CasosDeUso.svg'
 import Suplementar from '../../../assets/Suplementar.svg'
+import Referencias from '../../UI/reference/reference'
 
 const items = [
   {
@@ -47,9 +48,12 @@ const items = [
 ]
 
 const Modelagem = (props) => (
-  <div className="content artefact">
-    <h1>Modelagem</h1>
-    <NCardsLayout items={ items }/>
+  <div>
+    <div className="content artefact">
+      <h1>Modelagem</h1>
+      <NCardsLayout items={items} />
+    </div>
+    <Referencias reference="modelagem" />
   </div>
 )
 

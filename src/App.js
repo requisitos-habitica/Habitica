@@ -35,7 +35,6 @@ import Etnografia from './components/docs/Elicitacao/Etnografia'
 import Analise from './components/docs/Analise/Analise'
 import Verificacao from './components/docs/Analise/Verificacao'
 
-
 const RouteRollUp = props => <Route {...props} onUpdate={() => window.scrollTo(0, 0)}/>
 
 const App = () => {

@@ -1,0 +1,25 @@
+.references-conteiner {
+  display: block;
+  margin: 4rem 0 0;
+  padding: 2rem 5rem;
+  background-color: var(--color-purple-light);
+  color: #f7f7f7;
+  h1 {
+    margin: 2rem 0;
+    font-size: 3rem;
+    text-align: center;
+    color: #f7f7f7;
+    &::after {
+      border-color: #f7f7f7;
+    }
+  }
+  ul {
+    padding: 0;
+    li {
+      text-decoration: none;
+      color: inherit;
+      font-size: 1.8rem;
+      line-height: 1.5;
+    }
+  }
+}
