@@ -17,8 +17,6 @@ import Elicitacao from './components/docs/Elicitacao/Elicitacao'
 import lexicos from './utils/lexicos'
 import RoutesCenarios from './utils/RoutesCenarios'
 
-import ScrollToTop from './components/HOC/ScrollToTop/ScrollToTop'
-
 import GIFSComponent from './components/docs/PosRastreabilidade/GIFS'
 import GIFS from './components/docs/PosRastreabilidade/GIFS.json'
 
