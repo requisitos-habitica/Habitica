@@ -2,6 +2,7 @@ import React from 'react'
 import './App.scss'
 import { configureFirebase } from './utils/firebaseUtils'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import ScrollToTop from './components/HOC/ScrollToTop/ScrollToTop'
 
 import NavBar from './components/HOC/NavBar/NavBar'
 import LandingPage from './components/LandingPage/LandingPage'
@@ -42,6 +43,8 @@ const App = () => {
   console.log(process.env.PUBLIC_URL)
   return (
     <Router basename={process.env.PUBLIC_URL}>
+      <ScrollToTop>
+        
         <NavBar>
           <Switch>
             
@@ -115,6 +118,7 @@ const App = () => {
 
           </Switch>
         </NavBar>
+      </ScrollToTop>
     </Router>
   )
 }
