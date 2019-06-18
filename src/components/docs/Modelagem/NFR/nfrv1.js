@@ -11,18 +11,18 @@ const NFRV1 = () => (
     <HeadArtefact versions={ null } rastreability={ null }
                   title="NFR V1" author="Rogério Júnior e Youssef Muhamad"/>
 
-    <Card>
+    <Card style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
         <ReactImageMagnify {...{
                         smallImage: {
                             alt: 'NFR V1',
                             src: img,
-                            width: 800,
-                            height: 450
+                            width: 1000,
+                            height: 750
                         },
                         largeImage: {
                             src: img,
-                            width: 2500,
-                            height: 1800
+                            width: 3000,
+                            height: 2500
                         },
                         isHintEnabled: true,
                         enlargedImagePosition: "over",

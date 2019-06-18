@@ -120,6 +120,8 @@ const App = () => {
             <RouteRollUp path="/Verificacao" component={ Verificacao }/>
             <RouteRollUp path="/Validacao" component={ Cenario }/>
 
+
+            {/* Automatizando várias rótas */}
             {Object.keys(lexicos).map(group => 
               Object.keys(lexicos[group].lexic).map(term => <Route  key={ term } 
                                                                     path={`/${term}`}

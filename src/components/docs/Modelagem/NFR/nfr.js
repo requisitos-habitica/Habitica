@@ -18,18 +18,18 @@ const NFR = () => (
       <p><Link to='/NFR V3'>V3</Link></p>
     </Card>
 
-    <Card>
+    <Card style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
         <ReactImageMagnify {...{
                         smallImage: {
                             alt: 'NFR',
                             src: img,
-                            width: 800,
-                            height: 450
+                            width: 1000,
+                            height: 750
                         },
                         largeImage: {
                             src: img,
-                            width: 2500,
-                            height: 1800
+                            width: 3000,
+                            height: 2500
                         },
                         isHintEnabled: true,
                         enlargedImagePosition: "over",

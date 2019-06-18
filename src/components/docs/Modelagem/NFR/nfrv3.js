@@ -12,17 +12,23 @@ const NFRV3 = () => (
                   title="NFR V3" author="Rogério Júnior e Youssef Muhamad"/>
 
     <Card>
+      <h2>Versionamento</h2>
+      <p><Link to='/NFR V1'>V1</Link></p>
+      <p><Link to='/NFR V2'>V2</Link></p>
+    </Card>
+
+    <Card style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
         <ReactImageMagnify {...{
                         smallImage: {
                             alt: 'NFR V1',
                             src: img,
-                            width: 800,
-                            height: 450
+                            width: 1000,
+                            height: 750
                         },
                         largeImage: {
                             src: img,
-                            width: 2500,
-                            height: 1800
+                            width: 3000,
+                            height: 2500
                         },
                         isHintEnabled: true,
                         enlargedImagePosition: "over",
