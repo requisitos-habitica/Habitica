@@ -29,6 +29,11 @@ import Entrevistas from './components/docs/Elicitacao/Entrevistas/Entrevistas'
 import Entrevista01 from './components/docs/Elicitacao/Entrevistas/Entrevista01'
 import Entrevista02 from './components/docs/Elicitacao/Entrevistas/Entrevista02'
 import Etnografia from './components/docs/Elicitacao/Etnografia'
+import Introspeccao from './components/docs/Elicitacao/Introspeccao'
+import i5W2H from './components/docs/Elicitacao/5W2H'
+import Analise01 from './components/docs/Elicitacao/AnaliseProtocolo/Analise01'
+import Analise02V1 from './components/docs/Elicitacao/AnaliseProtocolo/Analise02V1'
+import Analise02 from './components/docs/Elicitacao/AnaliseProtocolo/Analise02'
 
 
 import Analise from './components/docs/Analise/Analise'
@@ -63,21 +68,22 @@ const App = () => {
             {/* Elicitação */}
             <RouteRollUp exact path="/RequisitosElicitacao" component={ Requisitos } />
 
-            <RouteRollUp exact path="/AnaliseProtocolo01" component={ Requisitos } />
-            <RouteRollUp exact path="/AnaliseProtocolo02" component={ Requisitos } />
+            <RouteRollUp exact path="/AnaliseProtocolo01" component={ Analise01 } />
+            <RouteRollUp exact path="/AnaliseProtocolo02V1" component={ Analise02V1 } />
+            <RouteRollUp exact path="/AnaliseProtocolo02" component={ Analise02 } />
             <RouteRollUp exact path="/BrainstormV1" component={ BrainstormV1 } />
             <RouteRollUp exact path="/Brainstorm" component={ BrainstormV2 } />
             <RouteRollUp exact path="/Entrevista" component={ Entrevistas } />
             <RouteRollUp exact path="/Entrevista/01" component={ Entrevista01 } />
             <RouteRollUp exact path="/Entrevista/02" component={ Entrevista02 } />
             <RouteRollUp exact path="/Etnografia" component={ Etnografia } />
-            <RouteRollUp exact path="/Introspeccao" component={ Requisitos } />
+            <RouteRollUp exact path="/Introspeccao" component={ Introspeccao } />
             <RouteRollUp exact path="/Persona" component={ Requisitos } />
             <RouteRollUp exact path="/Storytelling01V1" component={ Requisitos } />
             <RouteRollUp exact path="/Storytelling01" component={ Requisitos } />
             <RouteRollUp exact path="/Storytelling02" component={ Requisitos } />
             <RouteRollUp exact path="/Questionario" component={ Requisitos } />
-            <RouteRollUp exact path="/5W2H" component={ Requisitos } />
+            <RouteRollUp exact path="/5W2H" component={ i5W2H } />
 
 
             <RouteRollUp exact path="/Priorizacao" component={ Priorizacao } />
