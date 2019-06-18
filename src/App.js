@@ -17,6 +17,10 @@ import Argumentacao from './components/docs/PreRastreabilidade/Argumentacao'
 import Elicitacao from './components/docs/Elicitacao/Elicitacao'
 import lexicos from './utils/lexicos'
 import RoutesCenarios from './utils/RoutesCenarios'
+import NFR from './components/docs/Modelagem/NFR/nfr'
+import NFRV1 from'./components/docs/Modelagem/NFR/nfrv1'
+import NFRV2 from'./components/docs/Modelagem/NFR/nfrv2'
+import NFRV3 from'./components/docs/Modelagem/NFR/nfrv3'
 
 import GIFSComponent from './components/docs/PosRastreabilidade/GIFS'
 import GIFS from './components/docs/PosRastreabilidade/GIFS.json'
@@ -105,7 +109,10 @@ const App = () => {
             <RouteRollUp path="/CasosDeUso/Loja" component={ Lexico }/>
             <RouteRollUp path="/EspecificacaoSuplementar" component={ Lexico }/>
             <RouteRollUp path="/Agil" component={ Lexico }/>
-            <RouteRollUp path="/NFR" component={ Lexico }/>
+            <RouteRollUp path="/NFR" component={ NFR }/>
+            <RouteRollUp path="/NFR V1" component={ NFRV1 }/>
+            <RouteRollUp path="/NFR V2" component={ NFRV2 }/>
+            <RouteRollUp path="/NFR V3" component={ NFRV3 }/>
             <RouteRollUp path="/IStar" component={ Lexico }/>
 
 
