@@ -2,7 +2,7 @@ import React from 'react'
 import NCardsLayout from '../../UI/NCardsLayout/NCardsLayout'
 import richpictureIcon from '../../../assets/rich-picture.svg'
 import argumentacaoIcon from '../../../assets/argumentacao.svg'
-import Args from '../../UI/reference/reference'
+import Referencias from '../../UI/reference/reference'
 
 const items = [
   {
@@ -23,7 +23,7 @@ const PreRastreabilidade = () => (
       <h1>Pré-Rastreabilidade</h1>
       <NCardsLayout items={items} />
     </div>
-    <Args reference="preRastrabilidade"/>
+    <Referencias reference="preRastrabilidade"/>
   </div>
 )
 

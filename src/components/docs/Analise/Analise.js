@@ -4,6 +4,7 @@ import dictionary from '../../../assets/dictionary.svg'
 import route from '../../../assets/destination.svg'
 import checklist from '../../../assets/checklist.svg'
 import correct from '../../../assets/correct.svg'
+import Referencias from '../../UI/reference/reference'
 
 const items = [
   {
@@ -19,9 +20,12 @@ const items = [
 ]
 
 const Modelagem = (props) => (
-  <div className="content artefact">
-    <h1>Análise</h1>
-    <NCardsLayout items={ items }/>
+  <div>
+    <div className="content artefact">
+      <h1>Análise</h1>
+      <NCardsLayout items={items} />
+    </div>
+    <Referencias reference="analise" />
   </div>
 )
 
