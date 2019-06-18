@@ -9,6 +9,7 @@ import Introspeccao from '../../../assets/Introspeccao.svg'
 import Persona from '../../../assets/Persona.svg'
 import Storytelling from '../../../assets/Storytelling.svg'
 import Questionario from '../../../assets/Questionario.svg'
+import i5w2h from '../../../assets/5w2h.svg' 
 
 
 const items = [
@@ -64,7 +65,7 @@ const items = [
   },
   {
     link: '/5W2H',
-    img: Questionario,
+    img: i5w2h,
     title: '5W2H'
   },
 ]
