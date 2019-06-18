@@ -1,6 +1,9 @@
-{
+const casos = {
     "Configuração": {
         "author": "Ésio Freitas",
+        "images": [
+            "Configuracao.png"
+        ],
         "UCs": [
             {
                 "id": "20",
@@ -110,6 +113,9 @@
     },
     "Desafios": {
         "author": "Kaique Borges",
+        "images": [
+            "Desafios.png"
+        ],
         "UCs": [
             {
                 "id": "01",
@@ -161,7 +167,7 @@
                         "flux": [
                             "Usuário não é o criador do desafio",
                             "Mensagem de alerta",
-                            "Vencedor não declarado",                                              
+                            "Vencedor não declarado"                                          
                         ]
                     }
                 ],
@@ -190,7 +196,7 @@
                 "alternative-flux": [
                     {
                         "name": "Usuário busca desafio por nome",
-                        "flux": ["(UC06)"],
+                        "flux": ["(UC06)"]
                     },
                     {
                         "name": "Usuário busca desafio por categoria",
@@ -321,6 +327,10 @@
     },
     "Gamificação": {
         "author": "Pedro Féo",
+        "images": [
+            "GamificacaoV1.png",
+            "GamificacaoV2.png"
+        ],
         "UCs": [
             {
                 "id": "01",
@@ -606,8 +616,6 @@
                 ]
             }
         ]
-    },
-    "Guia de Contribuição":,
-    "Inventário":,
-    "Loja":
+    }
 }
+export default casos
