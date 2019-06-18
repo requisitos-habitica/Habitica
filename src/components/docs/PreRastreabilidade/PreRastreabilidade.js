@@ -23,7 +23,7 @@ const PreRastreabilidade = () => (
       <h1>Pré-Rastreabilidade</h1>
       <NCardsLayout items={items} />
     </div>
-    <Args />
+    <Args reference="preRastrabilidade"/>
   </div>
 )
 
