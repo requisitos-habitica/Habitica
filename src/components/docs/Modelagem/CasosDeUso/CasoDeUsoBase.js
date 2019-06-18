@@ -20,7 +20,9 @@ const CasoDeUsoBase = (props) => {
       <HeadArtefact versions={ null } rastreability={ null }
                     title={props.title} author={props.info.author} />
 
-    <Card>
+    { props.info.images.length > 0 ?
+      <Card>
+      <div>
         <h2>Diagramas</h2>
         {
           props.info.images.map((image, i) => {
@@ -54,7 +56,8 @@ const CasoDeUsoBase = (props) => {
             }
           })
         }
-    </Card>
+        </div> </Card>: null
+      }
 
     {props.info.UCs.map((UC) => {
       return(

@@ -1049,9 +1049,6 @@ const casos = {
     "Loja": {
         "author": "Lucas Dutra",
         "images": [
-            "InventarioV1.png",
-            "InventarioV2.png",
-            "InventarioV3.png"
         ],
         "x" : 1000,
         "y" : 1000,

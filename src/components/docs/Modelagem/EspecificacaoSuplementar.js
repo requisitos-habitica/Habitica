@@ -6,7 +6,7 @@ import HeadArtefact from '../../HOC/HeadArtefact/HeadArtefact'
 const EspecificacaoSuplementar = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="Especificação Suplementar" author="Rogério Júnior e Lucas Dutra"/>
+                  title="Especificação Suplementar" author="Saleh Kader e Lucas Dutra"/>
     <Card>
       <h2>Finalidade</h2>
       <p>Esta especificação suplementar busca tratar os requisitos não-funcionais não capturados pelos casos de uso.</p>
