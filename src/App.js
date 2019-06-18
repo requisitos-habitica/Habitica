@@ -34,6 +34,9 @@ import i5W2H from './components/docs/Elicitacao/5W2H'
 import Analise01 from './components/docs/Elicitacao/AnaliseProtocolo/Analise01'
 import Analise02V1 from './components/docs/Elicitacao/AnaliseProtocolo/Analise02V1'
 import Analise02 from './components/docs/Elicitacao/AnaliseProtocolo/Analise02'
+import MoSCoW from './components/docs/Elicitacao/MoSCoW'
+import FirstThingsFirst from './components/docs/Elicitacao/FirstThingsFirst'
+import HOQ from './components/docs/Elicitacao/HOQ'
 
 
 import Analise from './components/docs/Analise/Analise'
@@ -88,9 +91,9 @@ const App = () => {
 
             <RouteRollUp exact path="/Priorizacao" component={ Priorizacao } />
 
-            <RouteRollUp exact path="/HOQ" component={ Priorizacao } />
-            <RouteRollUp exact path="/FirstThingsFirst" component={ Priorizacao } />
-            <RouteRollUp exact path="/MoSCoW" component={ Priorizacao } />
+            <RouteRollUp exact path="/HOQ" component={ HOQ } />
+            <RouteRollUp exact path="/FirstThingsFirst" component={ FirstThingsFirst } />
+            <RouteRollUp exact path="/MoSCoW" component={ MoSCoW } />
           
             {/* Modelagem */}
             <RouteRollUp path="/Lexicos" component={ Lexico }/>

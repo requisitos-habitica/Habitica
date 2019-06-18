@@ -19,7 +19,7 @@ const items = [
     title: 'First Things First'
   },
   {
-    link: '/MosCoW',
+    link: '/MoSCoW',
     img: cow,
     title: 'MoSCoW'
   },

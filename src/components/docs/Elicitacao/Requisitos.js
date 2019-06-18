@@ -71,7 +71,7 @@ const items = [
 
 const Elicitacao = () => (
   <div className="content artefact">
-    <h1>Elicitação de Requisitos</h1>
+    <h1>Elicitação</h1>
     <NCardsLayout items={ items }/>
   </div>
 )
