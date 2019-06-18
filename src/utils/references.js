@@ -23,7 +23,21 @@ const modelagem = [
     "iStar Wiki. Acessado em 27/05/2019. Em <http://istarwiki.org/tiki-view_articles.php>",
     "iStar Quick Guide - Trello. Em <http://istarwiki.org/tiki-index.php?page=iStarQuickGuide>"
 ]
-const analise  = []
+const analise  = [
+    "Fagan Inspection: The Silver Bullet No-one Wants to Fire",
+    "José Eduardo Zindel Deboni  , Rosângela Gregolin : inspeção de Qualidade em Descrições de Casos de Uso: Uma Proposta de Modelo e Artefatos",
+    "Analysis of Multi-Party Agreement in Requirements Validation",
+    "ACE-CAST: Uma Ferramenta de Apoio à Argumentação Colaborativa.",
+    "Argumentação Um Estudo Preliminar Orientado à Transparência de Software",
+    "Desenvolvimento Intencional de Software Transparente Baseado em Argumentação. Maurício Serrano",
+    "Aula 4. Argumentação e Rich Picture. Milene Serrano e Maurício Serrano",
+    "A arte de fazer o dobro na metade do tempo. Scrum.",
+    "Inspenção de qualidade em descrições de caso de uso: Uma proposta de modelo e artefaatos. Jose Eduardo e Rosângela",
+    "Inspeção de software. Silvana Melo",
+    "A strategy for conceptual model acquisition. Julio Cesar e Ana Paula Franco",
+    "The Rich Picture: A tool for reasoning about work context. Andre Monk e Steve Howard",
+    "The NFR framework in action"
+]
 
 export default {
     preRastrabilidade, prosRastrabilidade, elicitacao, modelagem, analise
