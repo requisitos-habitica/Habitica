@@ -23,8 +23,7 @@ const NFR = () => (
                         smallImage: {
                             alt: 'NFR',
                             src: img,
-                            width: 1000,
-                            height: 750
+                            isFluidWidth: true,
                         },
                         largeImage: {
                             src: img,

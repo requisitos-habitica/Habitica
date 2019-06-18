@@ -16,8 +16,7 @@ const NFRV1 = () => (
                         smallImage: {
                             alt: 'NFR V1',
                             src: img,
-                            width: 1000,
-                            height: 750
+                            isFluidWidth: true,
                         },
                         largeImage: {
                             src: img,
