@@ -34,8 +34,9 @@ import i5W2H from './components/docs/Elicitacao/5W2H'
 import Analise01 from './components/docs/Elicitacao/AnaliseProtocolo/Analise01'
 import Analise02V1 from './components/docs/Elicitacao/AnaliseProtocolo/Analise02V1'
 import Analise02 from './components/docs/Elicitacao/AnaliseProtocolo/Analise02'
-
-
+import StoryTelling01 from './components/docs/Elicitacao/StoryTelling01'
+import StoryTelling01V1 from './components/docs/Elicitacao/StoryTelling01V1'
+import StoryTelling02 from './components/docs/Elicitacao/StoryTelling02'
 import Analise from './components/docs/Analise/Analise'
 import Verificacao from './components/docs/Analise/Verificacao'
 
@@ -79,9 +80,9 @@ const App = () => {
             <RouteRollUp exact path="/Etnografia" component={ Etnografia } />
             <RouteRollUp exact path="/Introspeccao" component={ Introspeccao } />
             <RouteRollUp exact path="/Persona" component={ Requisitos } />
-            <RouteRollUp exact path="/Storytelling01V1" component={ Requisitos } />
-            <RouteRollUp exact path="/Storytelling01" component={ Requisitos } />
-            <RouteRollUp exact path="/Storytelling02" component={ Requisitos } />
+            <RouteRollUp exact path="/Storytelling01V1" component={ StoryTelling01V1 } />
+            <RouteRollUp exact path="/Storytelling01" component={ StoryTelling01 } />
+            <RouteRollUp exact path="/Storytelling02" component={ StoryTelling02 } />
             <RouteRollUp exact path="/Questionario" component={ Requisitos } />
             <RouteRollUp exact path="/5W2H" component={ i5W2H } />
 
