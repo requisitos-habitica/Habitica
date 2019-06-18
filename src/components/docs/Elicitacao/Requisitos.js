@@ -30,7 +30,7 @@ const items = [
   {
     link: '/Entrevista',
     img: Interview,
-    title: 'Entrevista'
+    title: 'Entrevistas'
   },
   {
     link: '/Etnografia',
@@ -62,11 +62,16 @@ const items = [
     img: Questionario,
     title: 'Questionário'
   },
+  {
+    link: '/5W2H',
+    img: Questionario,
+    title: '5W2H'
+  },
 ]
 
 const Elicitacao = () => (
   <div className="content artefact">
-    <h1>Requisitos</h1>
+    <h1>Elicitação de Requisitos</h1>
     <NCardsLayout items={ items }/>
   </div>
 )

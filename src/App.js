@@ -24,10 +24,16 @@ import GIFS from './components/docs/PosRastreabilidade/GIFS.json'
 
 import Priorizacao from './components/docs/Elicitacao/Priorizacao'
 import Requisitos from './components/docs/Elicitacao/Requisitos'
+import BrainstormV1 from './components/docs/Elicitacao/Brainstorm/BrainstormV1'
+import BrainstormV2 from './components/docs/Elicitacao/Brainstorm/BrainstormV2'
+import Entrevistas from './components/docs/Elicitacao/Entrevistas/Entrevistas'
+import Entrevista01 from './components/docs/Elicitacao/Entrevistas/Entrevista01'
+import Entrevista02 from './components/docs/Elicitacao/Entrevistas/Entrevista02'
+import Etnografia from './components/docs/Elicitacao/Etnografia'
+
 
 import Analise from './components/docs/Analise/Analise'
 import Verificacao from './components/docs/Analise/Verificacao'
-
 
 const RouteRollUp = props => <Route {...props} onUpdate={() => window.scrollTo(0, 0)}/>
 
@@ -56,10 +62,12 @@ const App = () => {
 
             <RouteRollUp exact path="/AnaliseProtocolo01" component={ Requisitos } />
             <RouteRollUp exact path="/AnaliseProtocolo02" component={ Requisitos } />
-            <RouteRollUp exact path="/BrainstormV1" component={ Requisitos } />
-            <RouteRollUp exact path="/Brainstorm" component={ Requisitos } />
-            <RouteRollUp exact path="/Entrevista" component={ Requisitos } />
-            <RouteRollUp exact path="/Etnografia" component={ Requisitos } />
+            <RouteRollUp exact path="/BrainstormV1" component={ BrainstormV1 } />
+            <RouteRollUp exact path="/Brainstorm" component={ BrainstormV2 } />
+            <RouteRollUp exact path="/Entrevista" component={ Entrevistas } />
+            <RouteRollUp exact path="/Entrevista/01" component={ Entrevista01 } />
+            <RouteRollUp exact path="/Entrevista/02" component={ Entrevista02 } />
+            <RouteRollUp exact path="/Etnografia" component={ Etnografia } />
             <RouteRollUp exact path="/Introspeccao" component={ Requisitos } />
             <RouteRollUp exact path="/Persona" component={ Requisitos } />
             <RouteRollUp exact path="/Storytelling01V1" component={ Requisitos } />
