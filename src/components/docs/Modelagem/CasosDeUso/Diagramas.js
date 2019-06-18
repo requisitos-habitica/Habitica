@@ -4,10 +4,14 @@ import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 import { Link } from 'react-router-dom'
 import CasosObj from './CasosDeUsoObj.js'
+import ReactImageMagnify from 'react-image-magnify'
 import './CasosDeUso.scss'
 
 
 const Diagramas = (props) => {
+
+    let x = props.x * 1.5
+    let y = props.y * 1.5
 
   return (
     <div className='content artefact'>
@@ -17,8 +21,21 @@ const Diagramas = (props) => {
     <Card>
         <h2>Diagrama</h2>
         <div className='img-cont'>
-            <img src={require(`../../../../assets/CasosDeUso/${props.image}`)} ></img>
-        </div>
+        <ReactImageMagnify {...{
+          smallImage: {
+              alt: 'NFR V1',
+              src: require(`../../../../assets/CasosDeUso/${props.image}`),
+              isFluidWidth: true,
+          },
+          largeImage: {
+              src: require(`../../../../assets/CasosDeUso/${props.image}`),
+              width: x,
+              height: y
+          },
+          isHintEnabled: true,
+          enlargedImagePosition: "over",
+      }} />
+    </div>
     </Card>
 
     </div>

@@ -45,7 +45,7 @@ import HOQ from './components/docs/Elicitacao/HOQ'
 import CasosDeUso from './components/docs/Modelagem/CasosDeUso/CasosDeUso'
 import Diagramas from './components/docs/Modelagem/CasosDeUso/Diagramas'
 import CasosObj from './components/docs/Modelagem/CasosDeUso/CasosDeUsoObj'
-import CasoDeUsoConfiguracao from './components/docs/Modelagem/CasosDeUso/CasoDeUsoConfiguracao'
+import CasoDeUsoBase from './components/docs/Modelagem/CasosDeUso/CasoDeUsoBase'
 
 
 import StoryTelling01 from './components/docs/Elicitacao/StoryTelling01'
@@ -111,12 +111,6 @@ const App = () => {
             <RouteRollUp path="/Lexicos" component={ Lexico }/>
             <RouteRollUp path="/Cenarios" component={ Cenario }/>
             <RouteRollUp path="/CasosDeUso" component={ CasosDeUso }/>
-            <RouteRollUp path="/CasosDeUsoConfiguracao" component={ CasoDeUsoConfiguracao }/>
-            <RouteRollUp path="/CasosDeUsoDesafios" component={ Lexico }/>
-            <RouteRollUp path="/CasosDeUsoGamificacao" component={ Lexico }/>
-            <RouteRollUp path="/CasosDeUsoGuiaContribuicao" component={ Lexico }/>
-            <RouteRollUp path="/CasosDeUsoInventario" component={ Lexico }/>
-            <RouteRollUp path="/CasosDeUsoLoja" component={ Lexico }/>
             <RouteRollUp path="/EspecificacaoSuplementar" component={ Lexico }/>
             <RouteRollUp path="/Agil" component={ Lexico }/>
             <RouteRollUp path="/NFR" component={ NFR }/>
@@ -148,9 +142,14 @@ const App = () => {
                                     render={() => <GIFSComponent id={gif.id} description={gif.description} />}/>)}
 
 
+            {
+              Object.keys(CasosObj).map(casos => <Route path={`/CasosDeUso${casos}`}
+                                                       render={() => <CasoDeUsoBase info={CasosObj[casos]} title={casos} />}/>)
+                                                      }
+
             {Object.keys(CasosObj).map(casos => 
               CasosObj[casos].images.map((image, i) => <Route path={`/DiagramasCasoUso/${casos}/V${i+1}`}
-                                                              render={() => <Diagramas title={`${casos} V${i+1}`}  author={CasosObj[casos].author} image={image} />} />)
+                                                              render={() => <Diagramas title={`${casos} V${i+1}`}  author={CasosObj[casos].author} image={image} x={CasosObj[casos].x} y={CasosObj[casos].y}/>} />)
             )}
 
           </Switch>

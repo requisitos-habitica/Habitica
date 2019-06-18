@@ -5,7 +5,7 @@ import Interview from '../../../../assets/Interview.svg'
 
 const items = [
   {
-    link: '/CasosDeUsoConfiguracao',
+    link: '/CasosDeUsoConfiguração',
     img: Interview,
     title: 'Configuração'
   },
@@ -15,17 +15,17 @@ const items = [
     title: 'Desafios'
   },
   {
-    link: '/CasosDeUsoGamificacao',
+    link: '/CasosDeUsoGamificação',
     img: Interview,
     title: 'Gamificação'
   },
   {
-    link: '/CasosDeUsoGuiaContribuicao',
+    link: '/CasosDeUsoGuia de Contribuição',
     img: Interview,
     title: 'Guia de Contribuição'
   },
   {
-    link: '/CasosDeUsoInventario',
+    link: '/CasosDeUsoInventário',
     img: Interview,
     title: 'Inventário'
   },
