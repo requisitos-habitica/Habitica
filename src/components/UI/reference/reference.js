@@ -1,5 +1,4 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import './reference.scss'
 import References from '../../../utils/references'
 
@@ -10,11 +9,9 @@ const reference = props => {
             <h1>Referências</h1>
             <ul>
                 {
-                    References[props.reference].map(ref => (
-                        <li>
-                            <Link to={ref['link']} >
-                                {ref['content']}
-                            </Link>
+                    References[props.reference].map((ref, idx) => (
+                        <li key={idx} >
+                            {ref}
                         </li>
                     ))
                 }
