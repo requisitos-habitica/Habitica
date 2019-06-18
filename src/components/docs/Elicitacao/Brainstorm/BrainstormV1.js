@@ -64,6 +64,7 @@ const BrainstormV1 = () => {
       </Card>
     </div>
   )
+
 }
 
 export default BrainstormV1

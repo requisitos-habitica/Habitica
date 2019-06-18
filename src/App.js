@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.scss'
-
+import { configureFirebase } from './utils/firebaseUtils'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import NavBar from './components/HOC/NavBar/NavBar'
@@ -16,8 +16,6 @@ import Argumentacao from './components/docs/PreRastreabilidade/Argumentacao'
 import Elicitacao from './components/docs/Elicitacao/Elicitacao'
 import lexicos from './utils/lexicos'
 import RoutesCenarios from './utils/RoutesCenarios'
-
-import ScrollToTop from './components/HOC/ScrollToTop/ScrollToTop'
 
 import GIFSComponent from './components/docs/PosRastreabilidade/GIFS'
 import GIFS from './components/docs/PosRastreabilidade/GIFS.json'
@@ -38,10 +36,12 @@ import Verificacao from './components/docs/Analise/Verificacao'
 const RouteRollUp = props => <Route {...props} onUpdate={() => window.scrollTo(0, 0)}/>
 
 const App = () => {
+
+  configureFirebase()
+  
   console.log(process.env.PUBLIC_URL)
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <ScrollToTop>
         <NavBar>
           <Switch>
             
@@ -111,11 +111,10 @@ const App = () => {
                                                                           onUpdate={() => window.scrollTo(0, 0)}/>))}
 
             {GIFS.map( gif => <Route path = {`/gif/${gif.id}`}
-                                     render={() => <GIFSComponent id={gif.id} description={gif.description} />}/>)}
+                                    render={() => <GIFSComponent id={gif.id} description={gif.description} />}/>)}
 
           </Switch>
         </NavBar>
-      </ScrollToTop>
     </Router>
   )
 }
