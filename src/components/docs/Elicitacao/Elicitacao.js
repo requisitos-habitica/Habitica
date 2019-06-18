@@ -26,8 +26,7 @@ const Elicitacao = () => (
       <h1>Elicitação</h1>
       <NCardsLayout items={ items }/>
     </div>
-    <
-  reference="elicitacao"/>
+    <Referencias reference="elicitacao"/>
   </div>
 )
 
