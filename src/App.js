@@ -38,6 +38,11 @@ import MoSCoW from './components/docs/Elicitacao/MoSCoW'
 import FirstThingsFirst from './components/docs/Elicitacao/FirstThingsFirst'
 import HOQ from './components/docs/Elicitacao/HOQ'
 
+import CasosDeUso from './components/docs/Modelagem/CasosDeUso/CasosDeUso'
+import Diagramas from './components/docs/Modelagem/CasosDeUso/Diagramas'
+import CasosObj from './components/docs/Modelagem/CasosDeUso/CasosDeUsoObj'
+import CasoDeUsoConfiguracao from './components/docs/Modelagem/CasosDeUso/CasoDeUsoConfiguracao'
+
 
 import StoryTelling01 from './components/docs/Elicitacao/StoryTelling01'
 import StoryTelling01V1 from './components/docs/Elicitacao/StoryTelling01V1'
@@ -101,8 +106,13 @@ const App = () => {
             {/* Modelagem */}
             <RouteRollUp path="/Lexicos" component={ Lexico }/>
             <RouteRollUp path="/Cenarios" component={ Cenario }/>
-            <RouteRollUp path="/CasosDeUso" component={ Cenario }/>
-            <RouteRollUp path="/CasosDeUso/Loja" component={ Lexico }/>
+            <RouteRollUp path="/CasosDeUso" component={ CasosDeUso }/>
+            <RouteRollUp path="/CasosDeUsoConfiguracao" component={ CasoDeUsoConfiguracao }/>
+            <RouteRollUp path="/CasosDeUsoDesafios" component={ Lexico }/>
+            <RouteRollUp path="/CasosDeUsoGamificacao" component={ Lexico }/>
+            <RouteRollUp path="/CasosDeUsoGuiaContribuicao" component={ Lexico }/>
+            <RouteRollUp path="/CasosDeUsoInventario" component={ Lexico }/>
+            <RouteRollUp path="/CasosDeUsoLoja" component={ Lexico }/>
             <RouteRollUp path="/EspecificacaoSuplementar" component={ Lexico }/>
             <RouteRollUp path="/Agil" component={ Lexico }/>
             <RouteRollUp path="/NFR" component={ Lexico }/>
@@ -127,6 +137,12 @@ const App = () => {
 
             {GIFS.map( gif => <Route path = {`/gif/${gif.id}`}
                                     render={() => <GIFSComponent id={gif.id} description={gif.description} />}/>)}
+
+
+            {Object.keys(CasosObj).map(casos => 
+              CasosObj[casos].images.map((image, i) => <Route path={`/DiagramasCasoUso/${casos}/V${i+1}`}
+                                                              render={() => <Diagramas title={`${casos} V${i+1}`}  author={CasosObj[casos].author} image={image} />} />)
+            )}
 
           </Switch>
         </NavBar>
