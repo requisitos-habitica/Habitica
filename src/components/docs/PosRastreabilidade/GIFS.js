@@ -19,7 +19,7 @@ const GIFS = (props) => {
             <Card >
                 <h2>GIF</h2>
                 <div className='card-content'>
-                    <img className='card-content_image' style={{width: '20rem'}} src={require(`../../../assets/Gifs/${props.id}.gif`)} />
+                    <img className='card-content_image' style={{width: '75rem'}} src={require(`../../../assets/Gifs/${props.id}.gif`)} />
                 </div>
             </Card>
         </div>
