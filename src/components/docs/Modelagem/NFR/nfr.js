@@ -5,11 +5,12 @@ import ReactImageMagnify from 'react-image-magnify'
 import Card from '../../../UI/Card/Card'
 import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
 import img from '../../../../assets/NFRHabiticav4.png'
+import NFRV4 from '../../../../assets/NFRV4.png'
 
 const NFR = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
-                  title="NFR V4" author="Rogério Júnior e Youssef Muhamad"/>
+                  title="NFR V4" author="Pedro Féo, Rogério Júnior e Youssef Muhamad"/>
 
     <Card>
       <h2>Versionamento</h2>
@@ -19,12 +20,30 @@ const NFR = () => (
     </Card>
 
     <Card style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
+      <h2>NFR</h2>
+      <ReactImageMagnify {...{
+                      smallImage: {
+                          alt: 'NFR',
+                          src: NFRV4,
+                          isFluidWidth: true
+                      },
+                      largeImage: {
+                          src: NFRV4,
+                          width: 3000,
+                          height: 2500
+                      },
+                      isHintEnabled: true,
+                      enlargedImagePosition: "over",
+                  }} />
+  </Card>
+
+    <Card style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
+        <h2>Propagação</h2>
         <ReactImageMagnify {...{
                         smallImage: {
                             alt: 'NFR',
                             src: img,
-                            width: 1000,
-                            height: 750
+                            isFluidWidth: true
                         },
                         largeImage: {
                             src: img,
