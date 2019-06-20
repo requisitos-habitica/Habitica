@@ -1,6 +1,8 @@
 import React from 'react'
-import '../../Disciplina/Disciplina.scss'
-import HeadArtefact from '../../../HOC/HeadArtefact/HeadArtefact'
+import '../../../Disciplina/Disciplina.scss'
+import HeadArtefact from '../../../../HOC/HeadArtefact/HeadArtefact'
+import Card from '../../../../UI/Card/Card'
+import { Link } from 'react-router-dom'
 import FE01 from './FE01'
 import FE02 from './FE02'
 import FE03 from './FE03'
@@ -8,11 +10,16 @@ import FE04 from './FE04'
 import FE05 from './FE05'
 import FE06 from './FE06'
 
-const Backlog = () => (
+const BacklogV2 = () => (
     <div className="content artefact disciplina">
 
         <HeadArtefact versions={ null } rastreability={ null }
-        title="Product Backlog" author="Lucas Dutra"/>
+        title="Product Backlog V2" author="Lucas Dutra, Gabriel Albino e Youssef Muhamad"/>
+
+        <Card>
+            <h2>Versionamento</h2>
+            <p><Link to='/BacklogV1' >V1</Link></p>
+        </Card>
 
         <table cellSpacing="8">
             <thead>
@@ -26,10 +33,10 @@ const Backlog = () => (
 
             <tbody>
                 <tr>
-                    <td rowspan = "18" >E01 - Gerenciamento de tarefas</td>
-                    <td rowspan = "13" >FE01 - Tarefas</td>
+                    <td rowspan = "20" >E01 - Gerenciamento de tarefas</td>
+                    <td rowspan = "15" >FE01 - Tarefas</td>
                     <td>US01</td>
-                    <td>Eu, como usuário do sistema, desejo poder separar minhas atividades por hábitos, diárias e afazeres para poder me organizar melhor.</td>
+                    <td>Eu, como usuário do sistema, desejo poder adicionar uma nova diária, para que eu possa ter controle sobre minhas metas diárias													</td>
                 </tr>
 
                 {
@@ -42,7 +49,7 @@ const Backlog = () => (
 
                 <tr>
                     <td rowspan = "5" >FE02 - Etiquetas</td>
-                    <td>US14</td>
+                    <td>US16</td>
                     <td>Eu, como usuário do sistema, desejo criar uma etiqueta para que eu possa organizar atividades.</td>
                 </tr>
 
@@ -57,7 +64,7 @@ const Backlog = () => (
                 <tr>
                     <td rowspan = "28" >E02 - Gamificação</td>
                     <td rowspan = "14" >FE03 - Inventário</td>
-                    <td>US19</td>
+                    <td>US21</td>
                     <td>Eu, como usuário do sistema, gostaria de ter todos os itens que eu comprar ou ganhar separados em um local.</td>
                 </tr>
 
@@ -71,7 +78,7 @@ const Backlog = () => (
 
                 <tr>
                     <td rowspan = "7" >FE04 - Loja</td>
-                    <td>US33</td>
+                    <td>US35</td>
                     <td>Eu, como usuário do sistema, desejo comprar equipamento com gemas ou moedas para meu avatar para que eu possa customizar meu avatar</td>
                 </tr>
 
@@ -85,7 +92,7 @@ const Backlog = () => (
 
                 <tr>
                     <td rowspan = "7" >FE05 - Desafios</td>
-                    <td>US40</td>
+                    <td>US42</td>
                     <td>Eu, como usuário do sistema, desejo criar desafios para motivar outros usuários através de uma competição</td>
                 </tr>
 
@@ -100,7 +107,7 @@ const Backlog = () => (
                 <tr>
                     <td rowspan = "28" >E03 - Interação entre Usuários</td>
                     <td rowspan = "10" >FE06 - Grupo</td>
-                    <td>US47</td>
+                    <td>US49</td>
                     <td>Eu, como usuário do sistema, desejo acessar os grupos pela sidebar para acessar suas funcionalidades.</td>
                 </tr>
 
@@ -117,4 +124,4 @@ const Backlog = () => (
     </div>
 )
 
-export default Backlog
+export default BacklogV2
