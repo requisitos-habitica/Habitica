@@ -47,6 +47,7 @@ import Diagramas from './components/docs/Modelagem/CasosDeUso/Diagramas'
 import CasosObj from './components/docs/Modelagem/CasosDeUso/CasosDeUsoObj'
 import CasoDeUsoBase from './components/docs/Modelagem/CasosDeUso/CasoDeUsoBase'
 import EspecificacaoSuplementar from './components/docs/Modelagem/EspecificacaoSuplementar'
+import Backlog from './components/docs/Modelagem/Agil/Backlog'
 
 
 import StoryTelling01 from './components/docs/Elicitacao/StoryTelling01'
@@ -114,6 +115,7 @@ const App = () => {
             <RouteRollUp path="/CasosDeUso" component={ CasosDeUso }/>
             <RouteRollUp path="/EspecificacaoSuplementar" component={ EspecificacaoSuplementar }/>
             <RouteRollUp path="/Agil" component={ Lexico }/>
+            <RouteRollUp path="/Backlog" component={ Backlog }/>
             <RouteRollUp path="/NFR" component={ NFR }/>
             <RouteRollUp path="/NFR V1" component={ NFRV1 }/>
             <RouteRollUp path="/NFR V2" component={ NFRV2 }/>
