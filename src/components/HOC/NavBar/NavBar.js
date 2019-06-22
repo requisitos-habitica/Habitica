@@ -10,12 +10,12 @@ const NavBar = props => (
       <NavLink to="/"><img src={ logo } alt="Habitica"/></NavLink>
       <ul>
         <NavLink to="/Disciplina">Disciplina</NavLink>
+        <NavLink to="/Sobre">Sobre</NavLink>
         <NavLink to="/Pre-Rastreabilidade">Pré-Rastreabilidade</NavLink>
-        <NavLink to="/Pos-Rastreabilidade">Pós-Rastreabilidade</NavLink>
         <NavLink to="/Elicitacao">Elicitação</NavLink>
         <NavLink to="/Modelagem">Modelagem</NavLink>
         <NavLink to="/Analise">Análise</NavLink>
-        <NavLink to="/Sobre">Sobre</NavLink>
+        <NavLink to="/Pos-Rastreabilidade">Pós-Rastreabilidade</NavLink>
       </ul>
     </nav>
 
