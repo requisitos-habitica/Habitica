@@ -15,7 +15,7 @@ const items = [
     title: 'Ágil'
   },
   {
-    link: '/Validacao',
+    link: '/VerificacaoCasoUso',
     img: CasosDeUso,
     title: 'Casos de Uso'
   },
@@ -25,7 +25,7 @@ const items = [
     title: 'Cenários'
   },
   {
-    link: '/Validacao',
+    link: '/VerificacaoSuplementarV2',
     img: Suplementar,
     title: 'Especificação Suplementar'
   },
@@ -35,22 +35,22 @@ const items = [
     title: 'Léxicos'
   },
   {
-    link: '/Validacao',
+    link: '/VerificacaoNFR',
     img: NFR,
     title: 'NFR'
   },
   {
-    link: '/Verificacao',
+    link: '/VerificacaoRP',
     img: richpictureIcon,
     title: 'Rich Pictures'
   }
 ]
 
-const Modelagem = (props) => (
+const Verificacao = (props) => (
   <div className="content artefact">
-    <h1>Modelagem</h1>
+    <h1>Verificação</h1>
     <NCardsLayout items={ items }/>
   </div>
 )
 
-export default Modelagem
+export default Verificacao
