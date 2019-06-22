@@ -41,6 +41,7 @@ import Analise02 from './components/docs/Elicitacao/AnaliseProtocolo/Analise02'
 import MoSCoW from './components/docs/Elicitacao/MoSCoW'
 import FirstThingsFirst from './components/docs/Elicitacao/FirstThingsFirst'
 import HOQ from './components/docs/Elicitacao/HOQ'
+import Questionario from './components/docs/Elicitacao/Questionario'
 
 import CasosDeUso from './components/docs/Modelagem/CasosDeUso/CasosDeUso'
 import Diagramas from './components/docs/Modelagem/CasosDeUso/Diagramas'
@@ -101,7 +102,7 @@ const App = () => {
             <RouteRollUp exact path="/Storytelling01V1" component={ StoryTelling01V1 } />
             <RouteRollUp exact path="/Storytelling01" component={ StoryTelling01 } />
             <RouteRollUp exact path="/Storytelling02" component={ StoryTelling02 } />
-            <RouteRollUp exact path="/Questionario" component={ Requisitos } />
+            <RouteRollUp exact path="/Questionario" component={ Questionario   } />
             <RouteRollUp exact path="/5W2H" component={ i5W2H } />
 
 
