@@ -44,11 +44,6 @@ const items = [
     title: 'Introspecção'
   },
   {
-    link: '/Persona',
-    img: Persona,
-    title: 'Persona'
-  },
-  {
     link: '/Storytelling01',
     img: Storytelling,
     title: 'Storytelling 01'
