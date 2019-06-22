@@ -50,6 +50,7 @@ import CasoDeUsoBase from './components/docs/Modelagem/CasosDeUso/CasoDeUsoBase'
 import EspecificacaoSuplementar from './components/docs/Modelagem/EspecificacaoSuplementar'
 import BacklogV1 from './components/docs/Modelagem/Agil/BacklogV1/BacklogV1'
 import BacklogV2 from './components/docs/Modelagem/Agil/BacklogV2/BacklogV2'
+import BacklogV3 from './components/docs/Modelagem/Agil/BacklogV3/BacklogV3'
 
 
 
@@ -120,6 +121,7 @@ const App = () => {
             <RouteRollUp path="/Agil" component={ Lexico }/>
             <RouteRollUp path="/BacklogV1" component={ BacklogV1 }/>
             <RouteRollUp path="/BacklogV2" component={ BacklogV2 }/>
+            <RouteRollUp path="/BacklogV3" component={ BacklogV3 }/>
             <RouteRollUp path="/NFR" component={ NFR }/>
             <RouteRollUp path="/NFR V1" component={ NFRV1 }/>
             <RouteRollUp path="/NFR V2" component={ NFRV2 }/>
