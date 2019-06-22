@@ -17,6 +17,10 @@ import Argumentacao from './components/docs/PreRastreabilidade/Argumentacao'
 import Elicitacao from './components/docs/Elicitacao/Elicitacao'
 import lexicos from './utils/lexicos'
 import RoutesCenarios from './utils/RoutesCenarios'
+import NFR from './components/docs/Modelagem/NFR/nfr'
+import NFRV1 from'./components/docs/Modelagem/NFR/nfrv1'
+import NFRV2 from'./components/docs/Modelagem/NFR/nfrv2'
+import NFRV3 from'./components/docs/Modelagem/NFR/nfrv3'
 
 import GIFSComponent from './components/docs/PosRastreabilidade/GIFS'
 import GIFS from './components/docs/PosRastreabilidade/GIFS.json'
@@ -34,6 +38,20 @@ import i5W2H from './components/docs/Elicitacao/5W2H'
 import Analise01 from './components/docs/Elicitacao/AnaliseProtocolo/Analise01'
 import Analise02V1 from './components/docs/Elicitacao/AnaliseProtocolo/Analise02V1'
 import Analise02 from './components/docs/Elicitacao/AnaliseProtocolo/Analise02'
+import MoSCoW from './components/docs/Elicitacao/MoSCoW'
+import FirstThingsFirst from './components/docs/Elicitacao/FirstThingsFirst'
+import HOQ from './components/docs/Elicitacao/HOQ'
+
+import CasosDeUso from './components/docs/Modelagem/CasosDeUso/CasosDeUso'
+import Diagramas from './components/docs/Modelagem/CasosDeUso/Diagramas'
+import CasosObj from './components/docs/Modelagem/CasosDeUso/CasosDeUsoObj'
+import CasoDeUsoBase from './components/docs/Modelagem/CasosDeUso/CasoDeUsoBase'
+import EspecificacaoSuplementar from './components/docs/Modelagem/EspecificacaoSuplementar'
+import BacklogV1 from './components/docs/Modelagem/Agil/BacklogV1/BacklogV1'
+import BacklogV2 from './components/docs/Modelagem/Agil/BacklogV2/BacklogV2'
+
+
+
 import StoryTelling01 from './components/docs/Elicitacao/StoryTelling01'
 import StoryTelling01V1 from './components/docs/Elicitacao/StoryTelling01V1'
 import StoryTelling02 from './components/docs/Elicitacao/StoryTelling02'
@@ -89,18 +107,22 @@ const App = () => {
 
             <RouteRollUp exact path="/Priorizacao" component={ Priorizacao } />
 
-            <RouteRollUp exact path="/HOQ" component={ Priorizacao } />
-            <RouteRollUp exact path="/FirstThingsFirst" component={ Priorizacao } />
-            <RouteRollUp exact path="/MoSCoW" component={ Priorizacao } />
+            <RouteRollUp exact path="/HOQ" component={ HOQ } />
+            <RouteRollUp exact path="/FirstThingsFirst" component={ FirstThingsFirst } />
+            <RouteRollUp exact path="/MoSCoW" component={ MoSCoW } />
           
             {/* Modelagem */}
             <RouteRollUp path="/Lexicos" component={ Lexico }/>
             <RouteRollUp path="/Cenarios" component={ Cenario }/>
-            <RouteRollUp path="/CasosDeUso" component={ Cenario }/>
-            <RouteRollUp path="/CasosDeUso/Loja" component={ Lexico }/>
-            <RouteRollUp path="/EspecificacaoSuplementar" component={ Lexico }/>
+            <RouteRollUp path="/CasosDeUso" component={ CasosDeUso }/>
+            <RouteRollUp path="/EspecificacaoSuplementar" component={ EspecificacaoSuplementar }/>
             <RouteRollUp path="/Agil" component={ Lexico }/>
-            <RouteRollUp path="/NFR" component={ Lexico }/>
+            <RouteRollUp path="/BacklogV1" component={ BacklogV1 }/>
+            <RouteRollUp path="/BacklogV2" component={ BacklogV2 }/>
+            <RouteRollUp path="/NFR" component={ NFR }/>
+            <RouteRollUp path="/NFR V1" component={ NFRV1 }/>
+            <RouteRollUp path="/NFR V2" component={ NFRV2 }/>
+            <RouteRollUp path="/NFR V3" component={ NFRV3 }/>
             <RouteRollUp path="/IStar" component={ Lexico }/>
 
 
@@ -108,6 +130,8 @@ const App = () => {
             <RouteRollUp path="/Verificacao" component={ Verificacao }/>
             <RouteRollUp path="/Validacao" component={ Cenario }/>
 
+
+            {/* Automatizando várias rótas */}
             {Object.keys(lexicos).map(group => 
               Object.keys(lexicos[group].lexic).map(term => <Route  key={ term } 
                                                                     path={`/${term}`}
@@ -122,6 +146,17 @@ const App = () => {
 
             {GIFS.map( gif => <Route path = {`/gif/${gif.id}`}
                                     render={() => <GIFSComponent id={gif.id} description={gif.description} />}/>)}
+
+
+            {
+              Object.keys(CasosObj).map(casos => <Route path={`/CasosDeUso${casos}`}
+                                                       render={() => <CasoDeUsoBase info={CasosObj[casos]} title={casos} />}/>)
+                                                      }
+
+            {Object.keys(CasosObj).map(casos => 
+              CasosObj[casos].images.map((image, i) => <Route path={`/DiagramasCasoUso/${casos}/V${i+1}`}
+                                                              render={() => <Diagramas title={`${casos} V${i+1}`}  author={CasosObj[casos].author} image={image} x={CasosObj[casos].x} y={CasosObj[casos].y}/>} />)
+            )}
 
           </Switch>
         </NavBar>
