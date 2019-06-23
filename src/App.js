@@ -50,6 +50,7 @@ import CasoDeUsoBase from './components/docs/Modelagem/CasosDeUso/CasoDeUsoBase'
 import EspecificacaoSuplementar from './components/docs/Modelagem/EspecificacaoSuplementar'
 import BacklogV1 from './components/docs/Modelagem/Agil/BacklogV1/BacklogV1'
 import BacklogV2 from './components/docs/Modelagem/Agil/BacklogV2/BacklogV2'
+import BacklogV3 from './components/docs/Modelagem/Agil/BacklogV3/BacklogV3'
 
 
 
@@ -58,6 +59,12 @@ import StoryTelling01V1 from './components/docs/Elicitacao/StoryTelling01V1'
 import StoryTelling02 from './components/docs/Elicitacao/StoryTelling02'
 import Analise from './components/docs/Analise/Analise'
 import Verificacao from './components/docs/Analise/Verificacao'
+
+import VerificacaoCasoUso from './components/docs/Analise/VerificacaoCasoUso'
+import VerificacaoSuplementarV1 from './components/docs/Analise/VerificacaoSuplementarV1'
+import VerificacaoSuplementarV2 from './components/docs/Analise/VerificacaoSuplementarV2'
+import VerificacaoNFR from './components/docs/Analise/VerificacaoNFR'
+import VerificacaoRP from './components/docs/Analise/VerificacaoRP'
 
 const RouteRollUp = props => <Route {...props} onUpdate={() => window.scrollTo(0, 0)}/>
 
@@ -120,6 +127,7 @@ const App = () => {
             <RouteRollUp path="/Agil" component={ Lexico }/>
             <RouteRollUp path="/BacklogV1" component={ BacklogV1 }/>
             <RouteRollUp path="/BacklogV2" component={ BacklogV2 }/>
+            <RouteRollUp path="/BacklogV3" component={ BacklogV3 }/>
             <RouteRollUp path="/NFR" component={ NFR }/>
             <RouteRollUp path="/NFR V1" component={ NFRV1 }/>
             <RouteRollUp path="/NFR V2" component={ NFRV2 }/>
@@ -129,6 +137,11 @@ const App = () => {
 
             {/* Analise */}
             <RouteRollUp path="/Verificacao" component={ Verificacao }/>
+            <RouteRollUp path="/VerificacaoCasoUso" component={ VerificacaoCasoUso }/>
+            <RouteRollUp path="/VerificacaoSuplementarV1" component={ VerificacaoSuplementarV1 }/>
+            <RouteRollUp path="/VerificacaoSuplementarV2" component={ VerificacaoSuplementarV2 }/>
+            <RouteRollUp path="/VerificacaoNFR" component={ VerificacaoNFR }/>
+            <RouteRollUp path="/VerificacaoRP" component={ VerificacaoRP }/>
             <RouteRollUp path="/Validacao" component={ Cenario }/>
 
 
