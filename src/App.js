@@ -53,6 +53,16 @@ import EspecificacaoSuplementarV2 from './components/docs/Modelagem/Especificaca
 import BacklogV1 from './components/docs/Modelagem/Agil/BacklogV1/BacklogV1'
 import BacklogV2 from './components/docs/Modelagem/Agil/BacklogV2/BacklogV2'
 import BacklogV3 from './components/docs/Modelagem/Agil/BacklogV3/BacklogV3'
+import iStar from './components/docs/Modelagem/iStar/iStar'
+import iStarDesafios from './components/docs/Modelagem/iStar/Desafios'
+import RascunhoLoja from './components/docs/Modelagem/iStar/Loja/Rascunhos'
+import iStarLojaV1 from './components/docs/Modelagem/iStar/Loja/V1'
+import iStarLojaV2 from './components/docs/Modelagem/iStar/Loja/V2'
+import iStarLojaV3 from './components/docs/Modelagem/iStar/Loja/V3'
+import iStarGruposV1 from './components/docs/Modelagem/iStar/Grupos/V1'
+import iStarTarefasV1 from './components/docs/Modelagem/iStar/Tarefas/V1'
+import iStarTarefasV2 from './components/docs/Modelagem/iStar/Tarefas/V2'
+import iStarMascoteV1 from './components/docs/Modelagem/iStar/Mascote/V1'
 
 
 
@@ -61,6 +71,9 @@ import StoryTelling01V1 from './components/docs/Elicitacao/StoryTelling01V1'
 import StoryTelling02 from './components/docs/Elicitacao/StoryTelling02'
 import Analise from './components/docs/Analise/Analise'
 import Verificacao from './components/docs/Analise/Verificacao'
+
+
+import Validacao from './components/docs/Analise/Validacao'
 
 import VerificacaoCasoUso from './components/docs/Analise/VerificacaoCasoUso'
 import VerificacaoSuplementarV1 from './components/docs/Analise/VerificacaoSuplementarV1'
@@ -135,17 +148,26 @@ const App = () => {
             <RouteRollUp path="/NFR V1" component={ NFRV1 }/>
             <RouteRollUp path="/NFR V2" component={ NFRV2 }/>
             <RouteRollUp path="/NFR V3" component={ NFRV3 }/>
-            <RouteRollUp path="/IStar" component={ Lexico }/>
+            <RouteRollUp path="/iStar" component={ iStar }/>
+            <RouteRollUp path="/iStarDesafios" component={ iStarDesafios }/>
+            <RouteRollUp path="/RascunhoLoja" component={ RascunhoLoja }/>
+            <RouteRollUp path="/iStarLojaV1" component={ iStarLojaV1 }/>
+            <RouteRollUp path="/iStarLojaV2" component={ iStarLojaV2 }/>
+            <RouteRollUp path="/iStarLojaV3" component={ iStarLojaV3 }/>
+            <RouteRollUp path="/iStarGruposV1" component={ iStarGruposV1 }/>
+            <RouteRollUp path="/iStarTarefasV1" component={ iStarTarefasV1 }/>
+            <RouteRollUp path="/iStarTarefasV2" component={ iStarTarefasV2 }/>
+            <RouteRollUp path="/iStarMascoteV1" component={ iStarMascoteV1 }/>
 
 
             {/* Analise */}
-            <RouteRollUp path="/Verificacao" component={Verificacao} />
-            <RouteRollUp path="/VerificacaoCasoUso" component={VerificacaoCasoUso} />
-            <RouteRollUp path="/VerificacaoSuplementarV1" component={VerificacaoSuplementarV1} />
-            <RouteRollUp path="/VerificacaoSuplementarV2" component={VerificacaoSuplementarV2} />
-            <RouteRollUp path="/VerificacaoNFR" component={VerificacaoNFR} />
-            <RouteRollUp path="/VerificacaoRP" component={VerificacaoRP} />
-            <RouteRollUp path="/Validacao" component={Cenario} />
+            <RouteRollUp path="/Verificacao" component={ Verificacao }/>
+            <RouteRollUp path="/VerificacaoCasoUso" component={ VerificacaoCasoUso }/>
+            <RouteRollUp path="/VerificacaoSuplementarV1" component={ VerificacaoSuplementarV1 }/>
+            <RouteRollUp path="/VerificacaoSuplementarV2" component={ VerificacaoSuplementarV2 }/>
+            <RouteRollUp path="/VerificacaoNFR" component={ VerificacaoNFR }/>
+            <RouteRollUp path="/VerificacaoRP" component={ VerificacaoRP }/>
+            <RouteRollUp path="/Validacao" component={ Validacao }/>
 
 
             {/* Automatizando várias rótas */}

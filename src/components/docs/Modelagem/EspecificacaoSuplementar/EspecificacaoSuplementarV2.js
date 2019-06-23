@@ -11,7 +11,6 @@ const EspecificacaoSuplementarV2 = () => (
     <Card>
       <h2>Versionamento</h2>
       <p><Link to='/EspecificacaoSuplementarV1'>V1</Link></p>
-      <p>V2</p>
     </Card>
 
     <Card>

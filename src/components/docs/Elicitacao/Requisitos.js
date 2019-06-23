@@ -46,7 +46,7 @@ const items = [
   {
     link: '/Storytelling01',
     img: Storytelling,
-    title: 'Storytelling 01'
+    title: 'Storytelling com Personas'
   },
   {
     link: '/Storytelling02',
