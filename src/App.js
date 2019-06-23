@@ -59,6 +59,9 @@ import StoryTelling02 from './components/docs/Elicitacao/StoryTelling02'
 import Analise from './components/docs/Analise/Analise'
 import Verificacao from './components/docs/Analise/Verificacao'
 
+import PosRastreabilidade from './components/docs/PosRastreabilidade/PosRastreabilidade'
+import ForwardFrom from './components/docs/PosRastreabilidade/ForwardFrom'
+
 const RouteRollUp = props => <Route {...props} onUpdate={() => window.scrollTo(0, 0)}/>
 
 const App = () => {
@@ -78,7 +81,7 @@ const App = () => {
             <RouteRollUp exact path="/Pre-Rastreabilidade" component={ PreRastreabilidade } />
             <RouteRollUp exact path="/RichPictures" component={ RichPicture } />
             <RouteRollUp exact path="/Argumentacoes" component={ Argumentacao } />
-            <RouteRollUp exact path="/Pos-Rastreabilidade" />
+            <RouteRollUp exact path="/Pos-Rastreabilidade" component = { PosRastreabilidade } />
             <RouteRollUp exact path="/Elicitacao" component={ Elicitacao }/>
             <RouteRollUp exact path="/Modelagem" component={ Modelagem } />
             <RouteRollUp exact path="/Analise" component={ Analise } />
@@ -130,6 +133,12 @@ const App = () => {
             {/* Analise */}
             <RouteRollUp path="/Verificacao" component={ Verificacao }/>
             <RouteRollUp path="/Validacao" component={ Cenario }/>
+
+
+            {/* Pos Rastreabilidade */}
+            <RouteRollUp path="/ForwardFrom" component={ ForwardFrom }/>
+            <RouteRollUp path="/BackwardFrom" component={ PosRastreabilidade }/>
+            <RouteRollUp path="/FactBox" component={ PosRastreabilidade }/>
 
 
             {/* Automatizando várias rótas */}
