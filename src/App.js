@@ -80,6 +80,7 @@ import VerificacaoSuplementarV1 from './components/docs/Analise/VerificacaoSuple
 import VerificacaoSuplementarV2 from './components/docs/Analise/VerificacaoSuplementarV2'
 import VerificacaoNFR from './components/docs/Analise/VerificacaoNFR'
 import VerificacaoRP from './components/docs/Analise/VerificacaoRP'
+import VerificacaoAgil from './components/docs/Analise/VerificacaoAgil'
 
 const RouteRollUp = props => <Route {...props} onUpdate={() => window.scrollTo(0, 0)} />
 
@@ -167,6 +168,7 @@ const App = () => {
             <RouteRollUp path="/VerificacaoSuplementarV2" component={ VerificacaoSuplementarV2 }/>
             <RouteRollUp path="/VerificacaoNFR" component={ VerificacaoNFR }/>
             <RouteRollUp path="/VerificacaoRP" component={ VerificacaoRP }/>
+            <RouteRollUp path="/VerificacaoAgil" component={ VerificacaoAgil }/>
             <RouteRollUp path="/Validacao" component={ Validacao }/>
 
 

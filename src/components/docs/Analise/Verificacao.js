@@ -10,7 +10,7 @@ import richpictureIcon from '../../../assets/rich-picture.svg'
 
 const items = [
   {
-    link: '/Verificacao',
+    link: '/VerificacaoAgil',
     img: Agile,
     title: 'Ágil'
   },
