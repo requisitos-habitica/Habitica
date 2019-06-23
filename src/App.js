@@ -61,6 +61,9 @@ import StoryTelling02 from './components/docs/Elicitacao/StoryTelling02'
 import Analise from './components/docs/Analise/Analise'
 import Verificacao from './components/docs/Analise/Verificacao'
 
+
+import Validacao from './components/docs/Analise/Validacao'
+
 import VerificacaoCasoUso from './components/docs/Analise/VerificacaoCasoUso'
 import VerificacaoSuplementarV1 from './components/docs/Analise/VerificacaoSuplementarV1'
 import VerificacaoSuplementarV2 from './components/docs/Analise/VerificacaoSuplementarV2'
@@ -144,7 +147,7 @@ const App = () => {
             <RouteRollUp path="/VerificacaoSuplementarV2" component={ VerificacaoSuplementarV2 }/>
             <RouteRollUp path="/VerificacaoNFR" component={ VerificacaoNFR }/>
             <RouteRollUp path="/VerificacaoRP" component={ VerificacaoRP }/>
-            <RouteRollUp path="/Validacao" component={ Cenario }/>
+            <RouteRollUp path="/Validacao" component={ Validacao }/>
 
 
             {/* Automatizando várias rótas */}
