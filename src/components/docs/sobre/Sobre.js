@@ -8,7 +8,7 @@ import DriveIMG from '../assets/sobre/s5.png'
 import labelsIMG from '../assets/sobre/s6.png'
 
 const Sobre = () => (
-    <div className="sobre-page content">
+    <div className="content artefact">
         <h1>Metodologia</h1>
         <div>
             <div className="topico-container">
