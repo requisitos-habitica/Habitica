@@ -16,6 +16,12 @@ const VerificacaoNFR = () => {
       <HeadArtefact versions={ null } rastreability={ null }
                     title="Verificação NFR" author="Youssef Muhamad"/>
 
+
+        <Card>  
+            <h2>Rastreabilidade</h2>
+            <p><Link to='/NFR V3' >NFR v3</Link></p>
+        </Card>
+
         <Card >
             <h2>Checklist</h2>
             <ul>

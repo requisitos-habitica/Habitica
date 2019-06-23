@@ -16,10 +16,16 @@ const VerificacaoSuplementarV1 = () => {
       <HeadArtefact versions={ null } rastreability={ null }
                     title="Verificação Especificação Suplementar" author="Saleh Kader"/>
 
-          <Card >
+        <Card >
             <h2>Versionamento</h2>
             <Link to='/VerificacaoSuplementarV1' >V1</Link>
         </Card>
+
+        <Card>
+            <h2>Rastreabilidade</h2>
+            <Link to='/EspecificacaoSuplementar' >Especificação Suplementar </Link>
+        </Card>
+
 
         <Card >
             <h2>Quantidade de Erros</h2>
