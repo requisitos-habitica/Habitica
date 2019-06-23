@@ -7,6 +7,12 @@ const EspecificacaoSuplementarV1 = () => (
   <div className="content artefact">
     <HeadArtefact versions={ null } rastreability={ null }
                   title="Especificação Suplementar" author="Saleh Kader e Lucas Dutra"/>
+
+    <Card>
+      <h2>Versionamento</h2>
+      <p>V1</p>
+    </Card>
+
     <Card>
       <h2>Finalidade</h2>
       <p>Esta especificação suplementar busca tratar os requisitos não-funcionais não capturados pelos casos de uso.</p>
