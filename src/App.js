@@ -71,6 +71,7 @@ import Analise from './components/docs/Analise/Analise'
 import Verificacao from './components/docs/Analise/Verificacao'
 
 import Validacao from './components/docs/Analise/Validacao'
+import Prototipo from './components/docs/Analise/Prototipo'
 
 import VerificacaoCasoUso from './components/docs/Analise/VerificacaoCasoUso'
 import VerificacaoSuplementarV1 from './components/docs/Analise/VerificacaoSuplementarV1'
@@ -208,7 +209,7 @@ const App = () => {
             <RouteRollUp path="/VerificacaoLexico" component={VerificacaoLexico} />
             <RouteRollUp path="/VerificacaoCenarios" component={VerificacaoCenarios} />
             <RouteRollUp path="/Validacao" component={Validacao} />
-
+            <RouteRollUp path="/Prototipo" component={ Prototipo }/>
 
             {/* Automatizando várias rótas */}
             {Object.keys(lexicos).map(group =>
