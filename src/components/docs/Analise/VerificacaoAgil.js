@@ -398,6 +398,10 @@ const VerificacaoAgil = () => (
         </tbody>
       </table>
     </Card>
+
+    <Card>
+      <h2>Resultados</h2>
+    <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRUxiMoJJ0R7m5Suldz8UH0nCMk0ktmp7XpCRIHtcpJyePGdVbyL3i4CNmZczHNaOAJNjIEoZODmSH7/pubhtml?gid=1645142788&amp;single=true&amp;widget=true&amp;headers=true" height="500" width="650"></iframe>    </Card>
   </div>
 );
 
