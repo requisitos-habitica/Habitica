@@ -9,10 +9,30 @@ const GIFS = (props) => {
     return(
         <div className="content artefact">
             <HeadArtefact versions={ null } rastreability={ null }
-            title={props.id} author="Pedro Féo e Saleh Kader"/>
+            title={props.id} author="Kaique Borges, Lucas Dutra, Pedro Féo e Saleh Kader"/>
 
             <Card >
                 <h2>Descrição</h2>
+                <p>{props.description}</p>
+            </Card>
+
+            <Card >
+                <h2>Critérios de aceitação</h2>
+                <p>{props.description}</p>
+            </Card>
+
+            <Card >
+                <h2>Critérios de pronto</h2>
+                <p>{props.description}</p>
+            </Card>
+
+            <Card >
+                <h2>Caminho do arquivo Front-end</h2>
+                <p>{props.description}</p>
+            </Card>
+
+            <Card >
+                <h2>Caminho do arquivo Back-end</h2>
                 <p>{props.description}</p>
             </Card>
 
