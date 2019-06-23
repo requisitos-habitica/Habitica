@@ -48,7 +48,8 @@ import CasosDeUso from './components/docs/Modelagem/CasosDeUso/CasosDeUso'
 import Diagramas from './components/docs/Modelagem/CasosDeUso/Diagramas'
 import CasosObj from './components/docs/Modelagem/CasosDeUso/CasosDeUsoObj'
 import CasoDeUsoBase from './components/docs/Modelagem/CasosDeUso/CasoDeUsoBase'
-import EspecificacaoSuplementar from './components/docs/Modelagem/EspecificacaoSuplementar'
+import EspecificacaoSuplementarV1 from './components/docs/Modelagem/EspecificacaoSuplementar/EspecificacaoSuplementarV1'
+import EspecificacaoSuplementarV2 from './components/docs/Modelagem/EspecificacaoSuplementar/EspecificacaoSuplementarV2'
 import BacklogV1 from './components/docs/Modelagem/Agil/BacklogV1/BacklogV1'
 import BacklogV2 from './components/docs/Modelagem/Agil/BacklogV2/BacklogV2'
 import BacklogV3 from './components/docs/Modelagem/Agil/BacklogV3/BacklogV3'
@@ -121,6 +122,7 @@ const App = () => {
             <RouteRollUp exact path="/MoSCoW" component={MoSCoW} />
 
             {/* Modelagem */}
+<<<<<<< HEAD
             <RouteRollUp path="/Lexicos" component={Lexico} />
             <RouteRollUp path="/Cenarios" component={Cenario} />
             <RouteRollUp path="/CasosDeUso" component={CasosDeUso} />
@@ -134,6 +136,22 @@ const App = () => {
             <RouteRollUp path="/NFR V2" component={NFRV2} />
             <RouteRollUp path="/NFR V3" component={NFRV3} />
             <RouteRollUp path="/IStar" component={Lexico} />
+=======
+            <RouteRollUp path="/Lexicos" component={ Lexico }/>
+            <RouteRollUp path="/Cenarios" component={ Cenario }/>
+            <RouteRollUp path="/CasosDeUso" component={ CasosDeUso }/>
+            <RouteRollUp path="/EspecificacaoSuplementarV1" component={ EspecificacaoSuplementarV1 }/>
+            <RouteRollUp path="/EspecificacaoSuplementar" component={ EspecificacaoSuplementarV2 }/>
+            <RouteRollUp path="/Agil" component={ Lexico }/>
+            <RouteRollUp path="/BacklogV1" component={ BacklogV1 }/>
+            <RouteRollUp path="/BacklogV2" component={ BacklogV2 }/>
+            <RouteRollUp path="/BacklogV3" component={ BacklogV3 }/>
+            <RouteRollUp path="/NFR" component={ NFR }/>
+            <RouteRollUp path="/NFR V1" component={ NFRV1 }/>
+            <RouteRollUp path="/NFR V2" component={ NFRV2 }/>
+            <RouteRollUp path="/NFR V3" component={ NFRV3 }/>
+            <RouteRollUp path="/IStar" component={ Lexico }/>
+>>>>>>> 27d750bc3a78413c17a367d8299fa36a59b1a5ff
 
 
             {/* Analise */}
