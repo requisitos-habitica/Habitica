@@ -3,7 +3,8 @@
         "id": "US01",
         "description": "Eu, como usuário do sistema, desejo poder adicionar uma nova diária, para que eu possa ter controle sobre minhas metas diárias.",
         "frontEnd": "website/client/components/tasks/taskModal.vue",
-        "backEnd": ""
+        "backEnd": "",
+        "acceptanceCriteria": []
     },
     {
         "id": "US02",

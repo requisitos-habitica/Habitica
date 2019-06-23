@@ -242,7 +242,7 @@ const App = () => {
                 <Route
                   path={`/gif/${gif.id}`}
                   render={() => (
-                    <GIFSComponent id={gif.id} description={gif.description} />
+                    <GIFSComponent id={gif.id} description={gif.description}  frontEnd={gif.frontEnd} backEnd={gif.backEnd}/>
                   )}
                 />
               ))}
