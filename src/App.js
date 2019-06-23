@@ -47,7 +47,8 @@ import CasosDeUso from './components/docs/Modelagem/CasosDeUso/CasosDeUso'
 import Diagramas from './components/docs/Modelagem/CasosDeUso/Diagramas'
 import CasosObj from './components/docs/Modelagem/CasosDeUso/CasosDeUsoObj'
 import CasoDeUsoBase from './components/docs/Modelagem/CasosDeUso/CasoDeUsoBase'
-import EspecificacaoSuplementar from './components/docs/Modelagem/EspecificacaoSuplementar'
+import EspecificacaoSuplementarV1 from './components/docs/Modelagem/EspecificacaoSuplementar/EspecificacaoSuplementarV1'
+import EspecificacaoSuplementarV2 from './components/docs/Modelagem/EspecificacaoSuplementar/EspecificacaoSuplementarV2'
 import BacklogV1 from './components/docs/Modelagem/Agil/BacklogV1/BacklogV1'
 import BacklogV2 from './components/docs/Modelagem/Agil/BacklogV2/BacklogV2'
 import BacklogV3 from './components/docs/Modelagem/Agil/BacklogV3/BacklogV3'
@@ -123,7 +124,8 @@ const App = () => {
             <RouteRollUp path="/Lexicos" component={ Lexico }/>
             <RouteRollUp path="/Cenarios" component={ Cenario }/>
             <RouteRollUp path="/CasosDeUso" component={ CasosDeUso }/>
-            <RouteRollUp path="/EspecificacaoSuplementar" component={ EspecificacaoSuplementar }/>
+            <RouteRollUp path="/EspecificacaoSuplementarV1" component={ EspecificacaoSuplementarV1 }/>
+            <RouteRollUp path="/EspecificacaoSuplementar" component={ EspecificacaoSuplementarV2 }/>
             <RouteRollUp path="/Agil" component={ Lexico }/>
             <RouteRollUp path="/BacklogV1" component={ BacklogV1 }/>
             <RouteRollUp path="/BacklogV2" component={ BacklogV2 }/>
