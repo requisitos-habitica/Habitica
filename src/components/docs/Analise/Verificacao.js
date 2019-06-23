@@ -30,7 +30,7 @@ const items = [
     title: 'Especificação Suplementar'
   },
   {
-    link: '/Verificacao',
+    link: '/VerificacaoLexico',
     img: dictionary,
     title: 'Léxicos'
   },
