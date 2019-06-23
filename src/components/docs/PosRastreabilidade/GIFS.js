@@ -23,17 +23,23 @@ const GIFS = (props) => {
 
             <Card >
                 <h2>Critérios de pronto</h2>
-                <p>{props.description}</p>
+                <ul>
+                    <li>Independente</li>
+                    <li>Valiosa</li>
+                    <li>Sucinta</li>
+                    <li>Testável</li>
+                    <li>Negociável</li>
+                </ul>
             </Card>
 
             <Card >
                 <h2>Caminho do arquivo Front-end</h2>
-                <p>{props.description}</p>
+                <p>{props.frontEnd}</p>
             </Card>
 
             <Card >
                 <h2>Caminho do arquivo Back-end</h2>
-                <p>{props.description}</p>
+                <p>{props.backEnd}</p>
             </Card>
 
             <Card >

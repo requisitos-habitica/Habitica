@@ -1,222 +1,344 @@
 [
     {
         "id": "US01",
-        "description": "Eu, como usuário do sistema, desejo poder adicionar uma nova diária, para que eu possa ter controle sobre minhas metas diárias."
+        "description": "Eu, como usuário do sistema, desejo poder adicionar uma nova diária, para que eu possa ter controle sobre minhas metas diárias.",
+        "frontEnd": "website/client/components/tasks/taskModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US02",
-        "description": "Eu, como usuário do sistema, desejo poder adicionar um novo hábito para que eu possa controlá-los."
+        "description": "Eu, como usuário do sistema, desejo poder adicionar um novo hábito para que eu possa controlá-los.",
+        "frontEnd": "website/client/components/tasks/taskModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US03",
-        "description": "Eu, como usuário do sistema, desejo poder adicionar um novo afazer para que eu possa controlar o que falta para eu cumprir minhas obrigações."
+        "description": "Eu, como usuário do sistema, desejo poder adicionar um novo afazer para que eu possa controlar o que falta para eu cumprir minhas obrigações.",
+        "frontEnd": "website/client/components/tasks/taskModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US04",
-        "description": "Eu, como usuário do sistema, desejo deletar tarefa para não ter atividades que não fazem mais sentido fazer."
+        "description": "Eu, como usuário do sistema, desejo deletar tarefa para não ter atividades que não fazem mais sentido fazer.",
+        "frontEnd": "website/client/components/tasks/task.vue",
+        "backEnd": ""
     },
     {
         "id": "US05",
-        "description": "Eu, como usuário do sistema, desejo editar uma tarefa para arrumar dados que estão incorretos ou que mudaram."
+        "description": "Eu, como usuário do sistema, desejo editar uma tarefa para arrumar dados que estão incorretos ou que mudaram.",
+        "frontEnd": "website/client/components/tasks/taskModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US06",
-        "description": "Eu, como usuário do sistema, desejo finalizar uma tarefa para poder salvar que eu a terminei."
+        "description": "Eu, como usuário do sistema, desejo finalizar uma tarefa para poder salvar que eu a terminei.",
+        "frontEnd": "website/client/components/tasks/task.vue",
+        "backEnd": ""
     },
     {
         "id": "US07",
-        "description": "Eu, como usuário do sistema, desejo reorganizar a ordem das tarefas para que eu consiga personalizar como eu quero minha atividades."
+        "description": "Eu, como usuário do sistema, desejo reorganizar a ordem das tarefas para que eu consiga personalizar como eu quero minha atividades.",
+        "frontEnd": "website/client/components/tasks/task.vue",
+        "backEnd": ""
     },
     {
         "id": "US08",
-        "description": "Eu, como usuário do sistema, desejo botar observações nas tarefas para que eu não me esqueça de nenhum detalhe importante sobre ela."
+        "description": "Eu, como usuário do sistema, desejo botar observações nas tarefas para que eu não me esqueça de nenhum detalhe importante sobre ela.",
+        "frontEnd": "website/client/components/tasks/column.vue",
+        "backEnd": ""
     },
     {
         "id": "US09",
-        "description": "Eu, como usuário do sistema, desejo adicionar uma data da tarefa para me lembrar no dia dela."
+        "description": "Eu, como usuário do sistema, desejo adicionar uma data da tarefa para me lembrar no dia dela.",
+        "frontEnd": "website/client/components/tasks/taskModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US10",
-        "description": "Eu, como usuário do sistema, desejo determinar uma dificuldade na atividade para que eu possa determinar prioridades."
+        "description": "Eu, como usuário do sistema, desejo determinar uma dificuldade na atividade para que eu possa determinar prioridades.",
+        "frontEnd": "website/client/components/tasks/taskModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US11",
-        "description": "Eu, como usuário do sistema, desejo adicionar uma etiqueta na atividade para poder agrupá-las como eu quiser."
+        "description": "Eu, como usuário do sistema, desejo adicionar uma etiqueta na atividade para poder agrupá-las como eu quiser.",
+        "frontEnd": "website/client/components/tasks/taskModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US12",
-        "description": "Eu, como usuário do sistema, desejo determinar que a tarefa repita para não precisar adicioná-la sempre."
+        "description": "Eu, como usuário do sistema, desejo determinar que a tarefa repita para não precisar adicioná-la sempre.",
+        "frontEnd": "website/client/components/tasks/taskModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US13",
-        "description": "Eu, como usuário do sistema, desejo poder pesquisar por uma tarefa para eu ter acesso rápido a ela."
+        "description": "Eu, como usuário do sistema, desejo poder pesquisar por uma tarefa para eu ter acesso rápido a ela.",
+        "frontEnd": "website/client/components/tasks/taskModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US14",
-        "description": "Eu, como usuário do sistema, desejo filtrar atividades por etiquetas para ter um acesso rápido a ela."
+        "description": "Eu, como usuário do sistema, desejo filtrar atividades por etiquetas para ter um acesso rápido a ela.",
+        "frontEnd": "website/client/components/tasks/user.vue",
+        "backEnd": ""
     },
     {
         "id": "US15",
-        "description": "Eu, como usuário do sistema, desejo, ao completar tarefas, ganhar recompensas."
+        "description": "Eu, como usuário do sistema, desejo, ao completar tarefas, ganhar recompensas.",
+        "frontEnd": "website/client/components/tasks/taskModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US16",
-        "description": "Eu, como usuário do sistema, desejo criar uma etiqueta para que eu possa organizar atividades."
+        "description": "Eu, como usuário do sistema, desejo criar uma etiqueta para que eu possa organizar atividades.",
+        "frontEnd": "website/client/components/tasks/user.vue",
+        "backEnd": ""
     },
     {
         "id": "US17",
-        "description": "Eu, como usuário do sistema, desejo deletar uma etiqueta para não bagunçar minha organização."
+        "description": "Eu, como usuário do sistema, desejo deletar uma etiqueta para não bagunçar minha organização.",
+        "frontEnd": "website/client/components/tasks/user.vue",
+        "backEnd": ""
     },
     {
         "id": "US18",
-        "description": "Eu, como usuário do sistema, desejo atualizar uma etiqueta para arrumar dados incorretos ou desatualizados."
+        "description": "Eu, como usuário do sistema, desejo atualizar uma etiqueta para arrumar dados incorretos ou desatualizados.",
+        "frontEnd": "website/client/components/tasks/user.vue",
+        "backEnd": ""
     },
     {
         "id": "US19",
-        "description": "Eu, como usuário do sistema, desejo reorganizar a ordem das etiquetas para eu poder organizar da forma que eu quiser."
+        "description": "Eu, como usuário do sistema, desejo reorganizar a ordem das etiquetas para eu poder organizar da forma que eu quiser.",
+        "frontEnd": "website/client/components/tasks/user.vue",
+        "backEnd": ""
     },
     {
         "id": "US20",
-        "description": "Eu, como usuário do sistema, desejo ver atividades completadas para eu saber o que ja foi finalizado."
+        "description": "Eu, como usuário do sistema, desejo ver atividades completadas para eu saber o que ja foi finalizado.",
+        "frontEnd": "website/client/components/tasks/column.vue",
+        "backEnd": ""
     },
     {
         "id": "US21",
-        "description": "Eu, como usuário do sistema, gostaria de ter todos os itens que eu comprar ou ganhar separados em um local."
+        "description": "Eu, como usuário do sistema, gostaria de ter todos os itens que eu comprar ou ganhar separados em um local.",
+        "frontEnd": "website/client/components/tasks/column.vue",
+        "backEnd": ""
     },
     {
         "id": "US22",
-        "description": "Eu, como usuário do sistema, gostaria que meus itens fossem categorizados na aba equipamentos, que podem personalizar o avatar, aba estábulo, para ficar os mascotes e montarias, e aba itens em geral."
+        "description": "Eu, como usuário do sistema, gostaria que meus itens fossem categorizados na aba equipamentos, que podem personalizar o avatar, aba estábulo, para ficar os mascotes e montarias, e aba itens em geral.",
+        "frontEnd": "website/client/components/inventory/index.vue",
+        "backEnd": ""
     },
     {
         "id": "US23",
-        "description": "Eu, como usuário do sistema, gostaria de ter a seguinte divisão na aba de categoria para os itens: ovos, poções, comidas e selas, especial e missões."
+        "description": "Eu, como usuário do sistema, gostaria de ter a seguinte divisão na aba de categoria para os itens: ovos, poções, comidas e selas, especial e missões.",
+        "frontEnd": "website/client/components/inventory/index.vue",
+        "backEnd": ""
     },
     {
         "id": "US24",
-        "description": "Eu, como usuário do sistema, gostaria de ter a seguinte divisão na aba de categoria para os equipamentos: cabeça, tiaras, óculos, armaduras, costas, corpo, arma e escudo."
+        "description": "Eu, como usuário do sistema, gostaria de ter a seguinte divisão na aba de categoria para os equipamentos: cabeça, tiaras, óculos, armaduras, costas, corpo, arma e escudo.",
+        "frontEnd": "website/client/components/inventory/index.vue",
+        "backEnd": ""
     },
     {
         "id": "US25",
-        "description": "Eu, como usuário do sistema, gostaria de ter a seguinte divisão na abas de categoria para o estábulo: montaria e mascotes."
+        "description": "Eu, como usuário do sistema, gostaria de ter a seguinte divisão na abas de categoria para o estábulo: montaria e mascotes.",
+        "frontEnd": "website/client/components/inventory/index.vue",
+        "backEnd": ""
     },
     {
         "id": "US26",
-        "description": "Eu, como usuário do sistema, gostaria de poder filtrar meus itens para acessa-los de maneira mais rápida."
+        "description": "Eu, como usuário do sistema, gostaria de poder filtrar meus itens para acessa-los de maneira mais rápida.",
+        "frontEnd": "website/client/components/inventory/index.vue",
+        "backEnd": ""
     },
     {
         "id": "US27",
-        "description": "Eu, como usuário do sistema, gostaria de poder buscar meus itens por nome."
+        "description": "Eu, como usuário do sistema, gostaria de poder buscar meus itens por nome.",
+        "frontEnd": "website/client/components/inventory/index.vue",
+        "backEnd": ""
     },
     {
         "id": "US28",
-        "description": "Eu, como usuário do sistema, gostaria de usar as poções para eclodir nos meus ovos de pets."
+        "description": "Eu, como usuário do sistema, gostaria de usar as poções para eclodir nos meus ovos de pets.",
+        "frontEnd": "website/client/components/inventory/index.vue",
+        "backEnd": ""
     },
     {
         "id": "US29",
-        "description": "Eu, como usuário do sistema, gostaria de poder alimentar os meus mascotes."
+        "description": "Eu, como usuário do sistema, gostaria de poder alimentar os meus mascotes.",
+        "frontEnd": "website/client/components/inventory/index.vue",
+        "backEnd": ""
     },
     {
         "id": "US30",
-        "description": "Eu, como usuário do sistema, gostaria que os mascotes pudessem evoluir para algo que o avatar pudesse montar."
+        "description": "Eu, como usuário do sistema, gostaria que os mascotes pudessem evoluir para algo que o avatar pudesse montar.",
+        "frontEnd": "website/client/components/inventory/index.vue",
+        "backEnd": ""
     },
     {
         "id": "US31",
-        "description": "Eu, como usuário do sistema, gostaria poder propor as missões que eu tenho para o grupo o qual participo."
+        "description": "Eu, como usuário do sistema, gostaria poder propor as missões que eu tenho para o grupo o qual participo.",
+        "frontEnd": "website/client/components/groups/questDetailModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US32",
-        "description": "Eu, como usuário do sistema, gostaria de poder equipar meu avatar com os equipamentos que tenho disponíveis ou desequipá-lo."
+        "description": "Eu, como usuário do sistema, gostaria de poder equipar meu avatar com os equipamentos que tenho disponíveis ou desequipá-lo.",
+        "frontEnd": "website/client/components/inventory/equipment/equipGearModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US33",
-        "description": "Eu, como usuário do sistema, gostaria de ser capaz de colocar e retirar os mascotes junto ao meu avatar."
+        "description": "Eu, como usuário do sistema, gostaria de ser capaz de colocar e retirar os mascotes junto ao meu avatar.",
+        "frontEnd": "website/client/components/inventory/stable/mountItem.vue",
+        "backEnd": ""
     },
     {
         "id": "US34",
-        "description": "Eu, como usuário do sistema, gostaria de adicionar uma montaria ao meu avatar, de forma que o avatar esteja montado nele, ou retirá-la."
+        "description": "Eu, como usuário do sistema, gostaria de adicionar uma montaria ao meu avatar, de forma que o avatar esteja montado nele, ou retirá-la.",
+        "frontEnd": "website/client/components/inventory/stable/petItem.vue",
+        "backEnd": ""
     },
     {
         "id": "US35",
-        "description": "Eu, como usuário do sistema, desejo comprar equipamento com gemas ou moedas para meu avatar para que eu possa customizar meu avatar."
+        "description": "Eu, como usuário do sistema, desejo comprar equipamento com gemas ou moedas para meu avatar para que eu possa customizar meu avatar.",
+        "frontEnd": "website/client/components/shops/market/equipmentSection.vue",
+        "backEnd": ""
     },
     {
         "id": "US36",
-        "description": "Eu, como usuário do sistema, desejo ver o valor dos itens da loja para que eu possa avaliar se posso comprar e decidir qual item comprar."
+        "description": "Eu, como usuário do sistema, desejo ver o valor dos itens da loja para que eu possa avaliar se posso comprar e decidir qual item comprar.",
+        "frontEnd": "website/client/components/shops/buyModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US37",
-        "description": "Eu, como usuário do sistema, desejo adquirir moedas para que eu possa comprar itens da loja."
+        "description": "Eu, como usuário do sistema, desejo adquirir moedas para que eu possa comprar itens da loja.",
+        "frontEnd": "website/client/components/tasks/taskModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US38",
-        "description": "Eu, como usuário do sistema, desejo comprar itens com gemas ou moedas para que eu possa usá-los e melhorar meu rendimento em missões."
+        "description": "Eu, como usuário do sistema, desejo comprar itens com gemas ou moedas para que eu possa usá-los e melhorar meu rendimento em missões.",
+        "frontEnd": "website/client/components/shops/shopItem.vue",
+        "backEnd": ""
     },
     {
         "id": "US39",
-        "description": "Eu, como usuário do sistema, desejo comprar missões com gemas ou moedas para que eu possa me divertir e ganhar pontos de experiência."
+        "description": "Eu, como usuário do sistema, desejo comprar missões com gemas ou moedas para que eu possa me divertir e ganhar pontos de experiência.",
+        "frontEnd": "website/client/components/shops/quests/buyQuestModal.vue",
+        "backEnd": ""
+    },
+    {
+        "id": "US40",
+        "description": "Eu, como usuário do sistema, desejo comprar itens limitados com gemas ou moedas para que eu customizar meu avatar",
+        "frontEnd": "website/client/components/shops/shopItem.vue + website/client/components/shops/seasonal/index.vue",
+        "backEnd": ""
+    },
+    {
+        "id": "US41",
+        "description": "Eu, como usuário do sistema, desejo comprar missões limitadas com gemas ou moedas para que eu possa me divertir e ganhar pontos de experiência",
+        "frontEnd": "website/client/components/shops/quests/buyQuestModal.vue + website/client/components/shops/seasonal/index.vue",
+        "backEnd": ""
     },
     {
         "id": "US42",
-        "description": "Eu, como usuário do sistema, desejo criar desafios para motivar outros usuários através de uma competição."
+        "description": "Eu, como usuário do sistema, desejo criar desafios para motivar outros usuários através de uma competição.",
+        "frontEnd": "website/client/components/challenges/challengeModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US43",
-        "description": "Eu, como usuário do sistema, desejo participar de um desafio para competir com outros usuários, me divertir sendo mais produtivo e ganhar um prêmio."
+        "description": "Eu, como usuário do sistema, desejo participar de um desafio para competir com outros usuários, me divertir sendo mais produtivo e ganhar um prêmio.",
+        "frontEnd": "website/client/components/challenges/challengeDetail.vue",
+        "backEnd": ""
     },
     {
         "id": "US44",
-        "description": "Eu, como usuário do sistema, desejo ver o progresso de outros participantes de um desafio para que eu possa comparar meu desempenho com o deles."
+        "description": "Eu, como usuário do sistema, desejo ver o progresso de outros participantes de um desafio para que eu possa comparar meu desempenho com o deles.",
+        "frontEnd": "website/client/components/challenges/challengeMemberProgressModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US45",
-        "description": "Eu, como usuário criador de um desafio, desejo declarar o vencedor de tal desafio para que a pessoa receba o prêmio."
+        "description": "Eu, como usuário criador de um desafio, desejo declarar o vencedor de tal desafio para que a pessoa receba o prêmio.",
+        "frontEnd": "website/client/components/challenges/challengeItem.vue",
+        "backEnd": ""
     },
     {
         "id": "US46",
-        "description": "Eu, como usuário do sistema, desejo filtrar desafios por categoria para que eu veja somente desafios de uma área que eu me interesso."
+        "description": "Eu, como usuário do sistema, desejo filtrar desafios por categoria para que eu veja somente desafios de uma área que eu me interesso.",
+        "frontEnd": "website/client/components/challenges/findChallenges.vue",
+        "backEnd": ""
     },
     {
         "id": "US47",
-        "description": "Eu, como usuário do sistema, desejo buscar desafios por nome para que eu encontre mais rapidamente desafios com aquela característica."
+        "description": "Eu, como usuário do sistema, desejo buscar desafios por nome para que eu encontre mais rapidamente desafios com aquela característica.",
+        "frontEnd": "website/client/components/challenges/findChallenges.vue",
+        "backEnd": ""
     },
     {
         "id": "US48",
-        "description": "Eu, como usuário do sistema, desejo ver destacados os desafios que criei e participo para que não precise buscá-los por categoria, nome ou manualmente."
+        "description": "Eu, como usuário do sistema, desejo ver destacados os desafios que criei e participo para que não precise buscá-los por categoria, nome ou manualmente.",
+        "frontEnd": "website/client/components/challenges/myChallenges.vue",
+        "backEnd": ""
     },
     {
         "id": "US49",
-        "description": "Eu, como usuário do sistema, desejo acessar os grupos pela sidebar para acessar suas funcionalidades."
+        "description": "Eu, como usuário do sistema, desejo acessar os grupos pela sidebar para acessar suas funcionalidades.",
+        "frontEnd": "website/client/components/groups/sidebar.vue",
+        "backEnd": ""
     },
     {
         "id": "US50",
-        "description": "Eu, como usuário do sistema, desejo ser capaz de me retirar do grupo para poder participar de outros grupos."
+        "description": "Eu, como usuário do sistema, desejo ser capaz de me retirar do grupo para poder participar de outros grupos.",
+        "frontEnd": "website/client/components/groups/group.vue",
+        "backEnd": ""
     },
     {
         "id": "US51",
-        "description": "Eu, como usuário do sistema, desejo ser capaz de acessar o chat para poder interagir com outros usuários."
+        "description": "Eu, como usuário do sistema, desejo ser capaz de acessar o chat para poder interagir com outros usuários.",
+        "frontEnd": "website/client/components/groups/chat.vue",
+        "backEnd": ""
     },
     {
         "id": "US52",
-        "description": "Eu, como usuário do sistema, desejo ser capaz de convidar o grupo para uma missão para trabalharmos em equipe."
+        "description": "Eu, como usuário do sistema, desejo ser capaz de convidar o grupo para uma missão para trabalharmos em equipe.",
+        "frontEnd": "website/client/components/groups/startQuestModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US53",
-        "description": "Eu, como usuário do sistema, desejo vizualizar o perfil de outros usuários do grupo para conhecê-los."
+        "description": "Eu, como usuário do sistema, desejo vizualizar o perfil de outros usuários do grupo para conhecê-los.",
+        "frontEnd": "website/client/components/groups/participantListModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US54",
-        "description": "Eu, como usuário do sistema, desejo acessar o perfil individual dos outros usuários do grupo para identificar os seus atributos."
+        "description": "Eu, como usuário do sistema, desejo acessar o perfil individual dos outros usuários do grupo para identificar os seus atributos.",
+        "frontEnd": "website/client/components/groups/membersModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US55",
-        "description": "Eu, como usuário do sistema, desejo cancelar uma missão para poder participar de outras missões."
+        "description": "Eu, como usuário do sistema, desejo cancelar uma missão para poder participar de outras missões.",
+        "frontEnd": "website/client/components/groups/questDetailsModal.vue",
+        "backEnd": ""
     },
     {
         "id": "US56",
-        "description": "Eu, como usuário do sistema, desejo criar um grupo para chamar meus amigos."
+        "description": "Eu, como usuário do sistema, desejo criar um grupo para chamar meus amigos.",
+        "frontEnd": "website/client/components/groups/newPartyModal.pug",
+        "backEnd": ""
     },
     {
         "id": "US57",
-        "description": "Eu, como usuário do sistema, desejo chamar meus amigos para o meu grupo."
+        "description": "Eu, como usuário do sistema, desejo chamar meus amigos para o meu grupo.",
+        "frontEnd": "website/client/components/groups/inviteModal.vue",
+        "backEnd": ""
     }
 ]
