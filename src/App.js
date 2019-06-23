@@ -122,21 +122,6 @@ const App = () => {
             <RouteRollUp exact path="/MoSCoW" component={MoSCoW} />
 
             {/* Modelagem */}
-<<<<<<< HEAD
-            <RouteRollUp path="/Lexicos" component={Lexico} />
-            <RouteRollUp path="/Cenarios" component={Cenario} />
-            <RouteRollUp path="/CasosDeUso" component={CasosDeUso} />
-            <RouteRollUp path="/EspecificacaoSuplementar" component={EspecificacaoSuplementar} />
-            <RouteRollUp path="/Agil" component={Lexico} />
-            <RouteRollUp path="/BacklogV1" component={BacklogV1} />
-            <RouteRollUp path="/BacklogV2" component={BacklogV2} />
-            <RouteRollUp path="/BacklogV3" component={BacklogV3} />
-            <RouteRollUp path="/NFR" component={NFR} />
-            <RouteRollUp path="/NFR V1" component={NFRV1} />
-            <RouteRollUp path="/NFR V2" component={NFRV2} />
-            <RouteRollUp path="/NFR V3" component={NFRV3} />
-            <RouteRollUp path="/IStar" component={Lexico} />
-=======
             <RouteRollUp path="/Lexicos" component={ Lexico }/>
             <RouteRollUp path="/Cenarios" component={ Cenario }/>
             <RouteRollUp path="/CasosDeUso" component={ CasosDeUso }/>
@@ -151,7 +136,6 @@ const App = () => {
             <RouteRollUp path="/NFR V2" component={ NFRV2 }/>
             <RouteRollUp path="/NFR V3" component={ NFRV3 }/>
             <RouteRollUp path="/IStar" component={ Lexico }/>
->>>>>>> 27d750bc3a78413c17a367d8299fa36a59b1a5ff
 
 
             {/* Analise */}
