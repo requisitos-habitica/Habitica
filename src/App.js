@@ -240,9 +240,9 @@ const App = () => {
 
               {GIFS.map(gif => (
                 <Route
-                  path={`/gif/${gif.id}`}
+                  path={`/US/${gif.id}`}
                   render={() => (
-                    <GIFSComponent id={gif.id} description={gif.description} />
+                    <GIFSComponent id={gif.id} description={gif.description}  frontEnd={gif.frontEnd} backEnd={gif.backEnd} frontReference={gif.frontReference} backReference={gif.backReference} acceptanceCriteria={gif.acceptanceCriteria}/>
                   )}
                 />
               ))}
