@@ -43,7 +43,7 @@ const EspecificacaoSuplementarV2 = () => (
 
     <Card>
       <h2>Funcionalidades</h2>
-      <p>Todas as funcionalidades do Habitica, podem ser visualizadas no <Link to='/BacklogV2'>Product Backlog</Link> levantado da Aplicação e nos <Link to='/CasosDeUso'>Casos de Uso</Link> levantados.</p>
+      <p>Todas as funcionalidades do Habitica, podem ser visualizadas no <Link to='/BacklogV3'>Product Backlog</Link> levantado da Aplicação e nos <Link to='/CasosDeUso'>Casos de Uso</Link> levantados.</p>
     </Card>
 
     <Card>
