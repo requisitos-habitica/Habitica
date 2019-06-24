@@ -1,6 +1,5 @@
 import React from 'react'
 import './App.scss'
-import { configureFirebase } from './utils/firebaseUtils'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import ScrollToTop from './components/HOC/ScrollToTop/ScrollToTop'
 
@@ -76,6 +75,7 @@ import BackwardFrom from './components/docs/PosRastreabilidade/BackwardFrom'
 import Validacao from './components/docs/Analise/Validacao'
 import Prototipo from './components/docs/Analise/Prototipo'
 import WikiOficial from './components/docs/Analise/WikiOficial'
+import FactBox from './components/docs/PosRastreabilidade/FactBox'
 
 import VerificacaoCasoUso from './components/docs/Analise/VerificacaoCasoUso'
 import VerificacaoSuplementarV1 from './components/docs/Analise/VerificacaoSuplementarV1'
@@ -92,9 +92,7 @@ import EmailAlys from './components/docs/Analise/EmailAlys'
 const RouteRollUp = props => <Route {...props} onUpdate={() => window.scrollTo(0, 0)} />
 
 const App = () => {
-  configureFirebase();
 
-  console.log(process.env.PUBLIC_URL);
   return (
     <>
       <Router basename={process.env.PUBLIC_URL}>
@@ -225,7 +223,7 @@ const App = () => {
               {/* Pos Rastreabilidade */}
               <RouteRollUp path="/ForwardFrom" component={ ForwardFrom }/>
               <RouteRollUp path="/BackwardFrom" component={ BackwardFrom }/>
-              <RouteRollUp path="/FactBox" component={ PosRastreabilidade }/>
+              <RouteRollUp path="/FactBox" component={ FactBox }/>
 
 
               {/* Automatizando várias rótas */}
@@ -287,10 +285,6 @@ const App = () => {
               )}
             </Switch>
           </NavBar>
-
-          <footer className="footer">
-            <p style={{ fontSize: "1.5rem" }}>UnB FGA  |  Requisitos 2019.1  |  Grupo Habitica</p>
-          </footer>
         </ScrollToTop>
       </Router>
     </>

@@ -1,37 +1,42 @@
 import React from 'react'
 import NCardsLayout from '../../../UI/NCardsLayout/NCardsLayout'
-import Interview from '../../../../assets/Interview.svg'
+import Configuracao from '../../../../assets/configuracao (1).svg'
+import Inventario from '../../../../assets/inventario (1).svg'
+import Desafio from '../../../../assets/desafios.svg'
+import Gamificacao from '../../../../assets/gamificacao (1).svg'
+import Contribuicao from '../../../../assets/contribuicao (1).svg'
+import Loja from '../../../../assets/loja.svg'
 
 
 const items = [
   {
     link: '/CasosDeUsoConfiguração',
-    img: Interview,
+    img: Configuracao,
     title: 'Configuração'
   },
   {
     link: '/CasosDeUsoDesafios',
-    img: Interview,
+    img: Desafio,
     title: 'Desafios'
   },
   {
     link: '/CasosDeUsoGamificação',
-    img: Interview,
+    img: Gamificacao,
     title: 'Gamificação'
   },
   {
     link: '/CasosDeUsoGuia de Contribuição',
-    img: Interview,
+    img: Contribuicao,
     title: 'Guia de Contribuição'
   },
   {
     link: '/CasosDeUsoInventário',
-    img: Interview,
+    img: Inventario,
     title: 'Inventário'
   },
   {
     link: '/CasosDeUsoLoja',
-    img: Interview,
+    img: Loja,
     title: 'Loja'
   }
 ]
