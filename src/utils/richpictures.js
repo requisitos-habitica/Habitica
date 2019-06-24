@@ -20,6 +20,9 @@ import RPInventarioV2 from '../components/docs/assets/RP/RPInventarioV2.png'
 import RPLojasV1 from '../components/docs/assets/RP/RPLojasV1.jpg'
 import RPTarefasV1 from '../components/docs/assets/RP/RPTarefasV1.png'
 
+import RPInventarioEnUS from '../components/docs/assets/RP/enUSRPInventario.png'
+import RPGeralEnUS from '../components/docs/assets/RP/enUSRPGeral.jpg'
+
 import members from './members'
 
 const richpictures = {
@@ -123,6 +126,14 @@ const richpictures = {
             descricao: 'Rich Picture que descreve o funcionamento geral do Habitica, na forma digital.'
         },
         {
+            id: 'enUS-RP10',
+            name: 'General Rich Picture',
+            img: RPGeralEnUS,
+            autor: 'Pedro Féo, Rogério Júnior e Youssef Muhamad',
+            versao: 3,
+            descricao: 'Rich Picture that describes the general flow of Habitica'
+        },
+        {
             id: 'RP11V1',
             name: 'Rich Picture do Inventário',
             img: RPInventarioV1,
@@ -137,6 +148,14 @@ const richpictures = {
             autor: 'Pedro Féo e Rogério Júnior',
             versao: 2,
             descricao: 'Rich Picture que descreve o funcionamento do inventário de itens do Habitica.'
+        },
+        {
+            id: 'enUS-RP11',
+            name: 'Inventory Rich Picture',
+            img: RPInventarioEnUS,
+            autor: 'Pedro Féo, Rogério Júnior e Youssef Muhamad',
+            versao: 3,
+            descricao: "Rich Picture that describes how Habitica's inventory works"
         },
         {
             id: 'RP12',

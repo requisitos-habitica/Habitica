@@ -9,49 +9,50 @@ import NFR from '../../../../assets/NFRV3.png'
 
 const NFRV3 = () => (
   <div className="content artefact">
-    <HeadArtefact versions={ null } rastreability={ null }
-                  title="NFR V3" author="Pedro Féo, Rogério Júnior e Youssef Muhamad"/>
+    <HeadArtefact versions={null} rastreability={null}
+      title="NFR V3" author="Pedro Féo, Rogério Júnior e Youssef Muhamad" />
 
     <Card>
       <h2>Versionamento</h2>
       <p><Link to='/NFR V1'>V1</Link></p>
       <p><Link to='/NFR V2'>V2</Link></p>
+      <p><Link to='/NFR V3 enUS'>enUS-V3</Link></p>
     </Card>
 
-    <Card style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
-        <h2>NFR</h2>
-        <ReactImageMagnify {...{
-                        smallImage: {
-                            alt: 'NFR V1',
-                            src: NFR,
-                            isFluidWidth: true
-                        },
-                        largeImage: {
-                            src: NFR,
-                            width: 3000,
-                            height: 2500
-                        },
-                        isHintEnabled: true,
-                        enlargedImagePosition: "over",
-                    }} />
+    <Card style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+      <h2>NFR</h2>
+      <ReactImageMagnify {...{
+        smallImage: {
+          alt: 'NFR V1',
+          src: NFR,
+          isFluidWidth: true
+        },
+        largeImage: {
+          src: NFR,
+          width: 3000,
+          height: 2500
+        },
+        isHintEnabled: true,
+        enlargedImagePosition: "over",
+      }} />
     </Card>
 
-    <Card style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
-        <h2>Propagação</h2>
-        <ReactImageMagnify {...{
-                        smallImage: {
-                            alt: 'NFR V1',
-                            src: img,
-                            isFluidWidth: true
-                        },
-                        largeImage: {
-                            src: img,
-                            width: 3000,
-                            height: 2500
-                        },
-                        isHintEnabled: true,
-                        enlargedImagePosition: "over",
-                    }} />
+    <Card style={{ display: "flex", justifyContent: "center", alignItems: "center" }}>
+      <h2>Propagação</h2>
+      <ReactImageMagnify {...{
+        smallImage: {
+          alt: 'NFR V1',
+          src: img,
+          isFluidWidth: true
+        },
+        largeImage: {
+          src: img,
+          width: 3000,
+          height: 2500
+        },
+        isHintEnabled: true,
+        enlargedImagePosition: "over",
+      }} />
     </Card>
 
   </div>

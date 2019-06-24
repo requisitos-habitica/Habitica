@@ -64,6 +64,13 @@ const ValidacaoEmail = () => {
                 <br></br>
                 <p>Best regards,</p>
                 <p>Rogério Júnior.</p>
+
+                <h2>Rastreabilidade</h2>
+                <ul>
+                    <li><Link to="/RichPictures">RPGeral em inglês</Link></li>
+                    <li><Link to="/RichPictures">RPInventario em inglês</Link></li>
+                    <li><Link to="/NFR V3 enUS">NFRv3 em inglês</Link></li>
+                </ul>
             </Card>
 
             <Card>
