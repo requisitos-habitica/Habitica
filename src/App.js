@@ -1,6 +1,5 @@
 import React from 'react'
 import './App.scss'
-import { configureFirebase } from './utils/firebaseUtils'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import ScrollToTop from './components/HOC/ScrollToTop/ScrollToTop'
 
@@ -89,9 +88,7 @@ import EmailAlys from './components/docs/Analise/EmailAlys'
 const RouteRollUp = props => <Route {...props} onUpdate={() => window.scrollTo(0, 0)} />
 
 const App = () => {
-  configureFirebase();
 
-  console.log(process.env.PUBLIC_URL);
   return (
     <>
       <Router basename={process.env.PUBLIC_URL}>
