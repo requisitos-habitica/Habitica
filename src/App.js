@@ -21,6 +21,7 @@ import NFR from './components/docs/Modelagem/NFR/nfr'
 import NFRV1 from './components/docs/Modelagem/NFR/nfrv1'
 import NFRV2 from './components/docs/Modelagem/NFR/nfrv2'
 import NFRV3 from './components/docs/Modelagem/NFR/nfrv3'
+import enUSNFRV3 from './components/docs/Modelagem/NFR/enUSnfrv3'
 
 import GIFSComponent from './components/docs/PosRastreabilidade/GIFS'
 import GIFS from './components/docs/PosRastreabilidade/GIFS.json'
@@ -194,6 +195,7 @@ const App = () => {
               <RouteRollUp path="/NFR V1" component={NFRV1} />
               <RouteRollUp path="/NFR V2" component={NFRV2} />
               <RouteRollUp path="/NFR V3" component={NFRV3} />
+              <RouteRollUp path="/NFR V3 enUS" component={enUSNFRV3} />
               <RouteRollUp path="/iStar" component={iStar} />
               <RouteRollUp path="/iStarDesafios" component={iStarDesafios} />
               <RouteRollUp path="/RascunhoLoja" component={RascunhoLoja} />
@@ -222,10 +224,10 @@ const App = () => {
               <RouteRollUp path="/emailAlys" component={EmailAlys} />
 
               {/* Pos Rastreabilidade */}
-              <RouteRollUp path="/ForwardFrom" component={ ForwardFrom }/>
-              <RouteRollUp path="/BackwardFrom" component={ BackwardFrom }/>
-              <RouteRollUp path="/BackwardFromv1" component={ BackwardFromv1 }/>
-              <RouteRollUp path="/FactBox" component={ FactBox }/>
+              <RouteRollUp path="/ForwardFrom" component={ForwardFrom} />
+              <RouteRollUp path="/BackwardFrom" component={BackwardFrom} />
+              <RouteRollUp path="/BackwardFromv1" component={BackwardFromv1} />
+              <RouteRollUp path="/FactBox" component={FactBox} />
 
 
               {/* Automatizando várias rótas */}
