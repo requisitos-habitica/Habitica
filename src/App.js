@@ -76,6 +76,7 @@ import BackwardFrom from './components/docs/PosRastreabilidade/BackwardFrom'
 import Validacao from './components/docs/Analise/Validacao'
 import Prototipo from './components/docs/Analise/Prototipo'
 import WikiOficial from './components/docs/Analise/WikiOficial'
+import FactBox from './components/docs/PosRastreabilidade/FactBox'
 
 import VerificacaoCasoUso from './components/docs/Analise/VerificacaoCasoUso'
 import VerificacaoSuplementarV1 from './components/docs/Analise/VerificacaoSuplementarV1'
@@ -225,7 +226,7 @@ const App = () => {
               {/* Pos Rastreabilidade */}
               <RouteRollUp path="/ForwardFrom" component={ ForwardFrom }/>
               <RouteRollUp path="/BackwardFrom" component={ BackwardFrom }/>
-              <RouteRollUp path="/FactBox" component={ PosRastreabilidade }/>
+              <RouteRollUp path="/FactBox" component={ FactBox }/>
 
 
               {/* Automatizando várias rótas */}
