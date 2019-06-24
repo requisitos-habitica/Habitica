@@ -36,7 +36,7 @@ const BackwardFrom = () => {
           <td><Link to="/Adicionar Tarefa Diária">CN34</Link></td>
           <td><Link to="/Criar tarefa diária">LX51</Link></td>
           <td>-</td>
-          <td>I* Tarefa</td>
+          <td><Link to="/iStarTarefasV2">I* Tarefa</Link></td>
           <td>-</td>
           <td><Link to='/US/US01'>US01</Link></td>
         </tr>
@@ -48,7 +48,7 @@ const BackwardFrom = () => {
             <td><Link to="/Adicionar um Afazer">CN35</Link></td>
             <td><Link to="/Criar hábito">LX56</Link></td>
             <td>-</td>
-            <td>I* Tarefa</td>
+            <td><Link to="/iStarTarefasV2">I* Tarefa</Link></td>
             <td>-</td>
             <td><Link to='/US/US02'>US02</Link></td>
           </tr>
@@ -60,7 +60,7 @@ const BackwardFrom = () => {
             <td><Link to="/Adicionar um Hábito">CN33</Link></td>
             <td><Link to="/Criar afazer">LX61</Link></td>
             <td>-</td>
-            <td>I* Tarefa</td>
+            <td><Link to="/iStarTarefasV2">I* Tarefa</Link></td>
             <td>-</td>
             <td><Link to='/US/US03'>US03</Link></td>
           </tr>
@@ -132,7 +132,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td>I* Tarefa</td>
+            <td><Link to="/iStarTarefasV2">I* Tarefa</Link></td>
             <td>-</td>
             <td><Link to='/US/US09'>US09</Link></td>
           </tr>
@@ -144,7 +144,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td>I* Tarefa</td>
+            <td><Link to="/iStarTarefasV2">I* Tarefa</Link></td>
             <td>-</td>
             <td><Link to='/US/US10'>US10</Link></td>
           </tr>
@@ -168,7 +168,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td>I* Tarefa</td>
+            <td><Link to="/iStarTarefasV2">I* Tarefa</Link></td>
             <td>-</td>
             <td><Link to='/US/US12'>US12</Link></td>
           </tr>
@@ -192,7 +192,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td>I* Tarefa</td>
+            <td><Link to="/iStarTarefasV2">I* Tarefa</Link></td>
             <td>-</td>
             <td><Link to='/US/US14'>US14</Link></td>
           </tr>
@@ -204,7 +204,7 @@ const BackwardFrom = () => {
             <td><Link to="Completa Missão">CN26</Link></td>
             <td><Link to="/Receber recompensa">LX65</Link></td>
             <td>UC13</td>
-            <td>I* Tarefa</td>
+            <td><Link to="/iStarTarefasV2">I* Tarefa</Link></td>
             <td>-</td>
             <td><Link to='/US/US15'>US15</Link></td>
           </tr>
@@ -654,7 +654,7 @@ const BackwardFrom = () => {
             <td><Link smooth to='/Brainstorm'>BS1</Link><br /><Link smooth to='/Etnografia' >ETN1</Link><br />ST1<br /><Link smooth to='/Storytelling01#ST2' >ST2</Link></td>
             <td><Link to="/Faz Missão">CN21</Link></td>
             <td><Link to="/Convidar para Missão">LX28</Link></td>
-            <td>UC02</td>
+            <td><Link smooth to='/CasosDeUsoGamificação#UC02'>UC02</Link></td>
             <td> </td>
             <td>-</td>
             <td><Link to='/US/US52'>US52</Link></td>
