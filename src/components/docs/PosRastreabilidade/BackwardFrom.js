@@ -213,61 +213,61 @@ const BackwardFrom = () => {
             <td>RQ16</td>
             <td>O usuário deve poder criar etiqueta(s)</td>
             <td> </td>
-            <td>AP2</td>
+            <td><Link to="/AnaliseProtocolo02">AP2</Link></td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td>I* Tarefa</td>
+            <td><Link to="/iStarTarefasV2">I* Tarefa</Link></td>
             <td>-</td>
-            <td>US16</td>
+            <td><Link to="/US/US16">US16</Link></td>
           </tr>
           <tr>
             <td>RQ17</td>
             <td>O usuário deve poder deletar etiqueta(s)</td>
             <td> </td>
-            <td>AP2</td>
+            <td><Link to="/AnaliseProtocolo02">AP2</Link></td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td>I* Tarefa</td>
+            <td><Link to="/iStarTarefasV2">I* Tarefa</Link></td>
             <td>-</td>
-            <td>US17</td>
+            <td><Link to="/US/US17">US17</Link></td>
           </tr>
           <tr>
             <td>RQ18</td>
             <td>O usuário deve poder editar etiqueta(s)</td>
             <td> </td>
-            <td>AP2</td>
+            <td><Link to="/AnaliseProtocolo02">AP2</Link></td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td>I* Tarefa</td>
+            <td><Link to="/iStarTarefasV2">I* Tarefa</Link></td>
             <td>-</td>
-            <td>US18</td>
+            <td><Link to="/US/US18">US18</Link></td>
           </tr>
           <tr>
             <td>RQ19</td>
             <td>O usuário deve poder reorganizar a ordem das etiquetas</td>
             <td> </td>
-            <td>AP2</td>
+            <td><Link to="/AnaliseProtocolo02">AP2</Link></td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td>I* Tarefa</td>
+            <td><Link to="/iStarTarefasV2">I* Tarefa</Link></td>
             <td>-</td>
-            <td>US19</td>
+            <td><Link to="/US/US19">US19</Link></td>
           </tr>
           <tr>
             <td>RQ20</td>
             <td>O usuário deve poder visualizar as atividades finalizadas</td>
             <td> </td>
-            <td>AP2</td>
+            <td><Link to="/AnaliseProtocolo02">AP2</Link></td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
             <td> </td>
             <td>-</td>
-            <td>US20</td>
+            <td><Link to="/US/US20">US20</Link></td>
           </tr>
           <tr>
             <td rowSpan='28' >E02 - Gamificação</td>
