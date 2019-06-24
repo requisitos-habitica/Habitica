@@ -6,9 +6,11 @@ import { Link } from 'react-router-dom'
 const BackwardFrom = () => {
 
   return (
-    <div className='content artefact'>
-      <HeadArtefact versions={null} rastreability={null}
-        title="Forward From" author="Rogério Júnior" />
+    <div className='artefact'>
+      <div className="content">
+        <HeadArtefact style versions={null} rastreability={null}
+          title="Forward From" author="Rogério Júnior" />
+      </div>
 
       <table class="table table-bordered table-hover table-condensed">
         <thead><tr><th title="Field #1">Épico</th>
