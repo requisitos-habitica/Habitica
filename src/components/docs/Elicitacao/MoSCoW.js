@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from '../../UI/Card/Card'
 import HeadArtefact from '../../HOC/HeadArtefact/HeadArtefact'
+import { HashLink as Link } from 'react-router-hash-link'
 
 const MoSCoW = () => {
 
@@ -9,6 +10,14 @@ const MoSCoW = () => {
       <HeadArtefact versions={ null } rastreability={ null }
                     title="MoSCoW" author="Gabriel Albino"/>
     
+
+    <Card>
+        <h2>Rastreabilidade</h2>
+        <ul>
+            <li><Link smooth to='/Questionario'>Questionario</Link></li>
+        </ul>
+    </Card>
+
       <Card>
       <table>
         <thead><tr><th >ID</th>

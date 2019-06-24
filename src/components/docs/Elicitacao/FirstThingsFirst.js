@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from '../../UI/Card/Card'
 import HeadArtefact from '../../HOC/HeadArtefact/HeadArtefact'
+import { HashLink as Link } from 'react-router-hash-link'
 
 const FirstThingsFirst = () => {
 
@@ -9,6 +10,14 @@ const FirstThingsFirst = () => {
       <HeadArtefact versions={ null } rastreability={ null }
                     title="First Things First" author="Gabriel Albino"/>
     
+
+    <Card>
+        <h2>Rastreabilidade</h2>
+        <ul>
+            <li><Link smooth to='/Questionario'>Questionario</Link></li>
+        </ul>
+    </Card>
+
       <Card style = { {padding: "1rem"} }>
         <table class="table table-bordered table-hover table-condensed">
             <thead><tr><th title="Field #1">Funcionalidade</th>
