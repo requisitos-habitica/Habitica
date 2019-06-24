@@ -27,8 +27,8 @@ const BackwardFrom = () => {
           <th title="Field #13">História de usuário</th>
         </tr></thead>
         <tbody><tr>
-          <td>E01 - Gerenciamento de tarefas</td>
-          <td>FE01 - Tarefas</td>
+          <td rowSpan='20'>E01 - Gerenciamento de tarefas</td>
+          <td rowSpan='15'>FE01 - Tarefas</td>
           <td>RQ01</td>
           <td>O usuário deve poder adicionar nova(s) diária(s)</td>
           <td>v3-geral-todos<br />v2-geral-albino<br />v1-tarefas-albino<br />v2-geral-feo<br />v1-geral-youseff</td>
@@ -41,8 +41,6 @@ const BackwardFrom = () => {
           <td>US01</td>
         </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ02</td>
             <td>O usuário deve poder  adicionar novo(s) hábito(s)</td>
             <td>v3-geral-todos<br />v2-geral-albino<br />v1-tarefas-albino<br />v2-geral-feo<br />v1-geral-youseff</td>
@@ -55,8 +53,6 @@ const BackwardFrom = () => {
             <td>US02</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ03</td>
             <td>O usuário deve poder adicionar novo(s) afazer(es)</td>
             <td>v3-geral-todos<br />v2-geral-albino<br />v1-tarefas-albino<br />v2-geral-feo<br />v1-geral-youseff</td>
@@ -69,8 +65,6 @@ const BackwardFrom = () => {
             <td>US03</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ04</td>
             <td>O usuário deve poder deletar afazer(es)</td>
             <td>v3-geral-todos<br />v2-geral-albino<br />v1-tarefas-albino</td>
@@ -83,8 +77,6 @@ const BackwardFrom = () => {
             <td>US04</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ05</td>
             <td>O usuário deve poder editar afazer(es)</td>
             <td>v3-geral-todos<br />v2-geral-albino<br />v1-tarefas-albino</td>
@@ -97,8 +89,6 @@ const BackwardFrom = () => {
             <td>US05</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ06</td>
             <td>O usuário deve poder finalizar uma afazer(es)</td>
             <td>v3-geral-todos<br />v2-geral-albino<br />v1-tarefas-albino</td>
@@ -111,8 +101,6 @@ const BackwardFrom = () => {
             <td>US06</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ07</td>
             <td>O usuário deve poder reorganizar a ordem das suas tarefas</td>
             <td> </td>
@@ -125,8 +113,6 @@ const BackwardFrom = () => {
             <td>US07</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ08</td>
             <td>O usuário deve poder adicionar observação(ões) a(s) sua(s) tarefa(s) </td>
             <td>v2-geral-feo</td>
@@ -139,8 +125,6 @@ const BackwardFrom = () => {
             <td>US08</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ09</td>
             <td>O usuário deve poder adicionar uma data limite para afazer(es)</td>
             <td>v1-tarefas-albino</td>
@@ -153,8 +137,6 @@ const BackwardFrom = () => {
             <td>US09</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ10</td>
             <td>O usuário deve poder categorizar a dificuldade da(s) atividade(s)</td>
             <td>v1-tarefas-albino</td>
@@ -167,8 +149,6 @@ const BackwardFrom = () => {
             <td>US10</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ11</td>
             <td>O usuário deve poder adicionar etiquetas na(s) atividade(s) para poder agrupar</td>
             <td> </td>
@@ -181,8 +161,6 @@ const BackwardFrom = () => {
             <td>US11</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ12</td>
             <td>O usuário deve poder determinar a repetição de uma diária</td>
             <td>v1-tarefas-albino</td>
@@ -195,8 +173,6 @@ const BackwardFrom = () => {
             <td>US12</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ13</td>
             <td>O usuário deve poder pesquisar atividade(s)</td>
             <td> </td>
@@ -209,8 +185,6 @@ const BackwardFrom = () => {
             <td>US13</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ14</td>
             <td>O usuário deve poder filtrar as atividades pelas etiquetas</td>
             <td> </td>
@@ -223,8 +197,6 @@ const BackwardFrom = () => {
             <td>US14</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ15</td>
             <td>O usuário deve poder ao completar tarefas, ganhar recompensas</td>
             <td>v3-geral-todos<br />v2-geral-albino<br />v1-tarefas-albino<br />v2-geral-feo<br />v1-geral-youseff</td>
@@ -237,8 +209,7 @@ const BackwardFrom = () => {
             <td>US15</td>
           </tr>
           <tr>
-            <td> </td>
-            <td>FE02 - Etiquetas</td>
+            <td rowSpan='5'>FE02 - Etiquetas</td>
             <td>RQ16</td>
             <td>O usuário deve poder criar etiqueta(s)</td>
             <td> </td>
@@ -251,8 +222,6 @@ const BackwardFrom = () => {
             <td>US16</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ17</td>
             <td>O usuário deve poder deletar etiqueta(s)</td>
             <td> </td>
@@ -265,8 +234,6 @@ const BackwardFrom = () => {
             <td>US17</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ18</td>
             <td>O usuário deve poder editar etiqueta(s)</td>
             <td> </td>
@@ -279,8 +246,6 @@ const BackwardFrom = () => {
             <td>US18</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ19</td>
             <td>O usuário deve poder reorganizar a ordem das etiquetas</td>
             <td> </td>
@@ -293,8 +258,6 @@ const BackwardFrom = () => {
             <td>US19</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ20</td>
             <td>O usuário deve poder visualizar as atividades finalizadas</td>
             <td> </td>
@@ -307,8 +270,8 @@ const BackwardFrom = () => {
             <td>US20</td>
           </tr>
           <tr>
-            <td>E02 - Gamificação</td>
-            <td>FE03 - Inventário</td>
+            <td rowSpan='28' >E02 - Gamificação</td>
+            <td rowSpan='14'>FE03 - Inventário</td>
             <td>RQ21</td>
             <td>O usuário deve de ter todos os itens que eu comprar ou ganhar separados em um local.</td>
             <td>v2-inventario-feo</td>
@@ -321,8 +284,6 @@ const BackwardFrom = () => {
             <td>US21</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ22</td>
             <td>O usuário deve poder ter seus itens fossem categorizados em equipamentos, estábulo e aba itens em geral.</td>
             <td>v2-inventario-feo</td>
@@ -335,8 +296,6 @@ const BackwardFrom = () => {
             <td>US22</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ23</td>
             <td>O usuário deve ter a seguinte divisão na aba de categoria para os itens: ovos, poções, comidas e selas, especial e missões</td>
             <td>v2-inventario-feo</td>
@@ -349,8 +308,6 @@ const BackwardFrom = () => {
             <td>US23</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ24</td>
             <td>O usuário deve poder ter a seguinte divisão na aba de categoria para os equipamentos: cabeça, tiaras, óculos, armaduras, costas, corpo, arma e escudo</td>
             <td>v2-inventario-feo</td>
@@ -363,8 +320,6 @@ const BackwardFrom = () => {
             <td>US24</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ25</td>
             <td>O usuário deve ter a seguinte divisão na abas de categoria para o estábulo: montaria e mascotes</td>
             <td>v2-inventario-feo</td>
@@ -377,8 +332,6 @@ const BackwardFrom = () => {
             <td>US25</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ26</td>
             <td>O usuário deve poder filtrar itens</td>
             <td> </td>
@@ -391,8 +344,6 @@ const BackwardFrom = () => {
             <td>US26</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ27</td>
             <td>O usuário deve poder buscar itens por nome.</td>
             <td> </td>
@@ -405,8 +356,6 @@ const BackwardFrom = () => {
             <td>US27</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ28</td>
             <td>O usuário deve poder usar as poções para eclodir ovos de pets</td>
             <td>v2-loja-dutra<br />v2-inventario-feo</td>
@@ -419,8 +368,6 @@ const BackwardFrom = () => {
             <td>US28</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ29</td>
             <td>O usuário deve poder alimentar mascotes.</td>
             <td>v2-inventario-feo</td>
@@ -433,8 +380,6 @@ const BackwardFrom = () => {
             <td>US29</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ30</td>
             <td>Os mascotes devem poder evoluir para montarias</td>
             <td>v2-loja-dutra</td>
@@ -447,8 +392,6 @@ const BackwardFrom = () => {
             <td>US30</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ31</td>
             <td>O usuário deve poder propor missões para o grupo</td>
             <td>v3-geral-todos<br />v2-geral-feo<br />v2-loja-dutra<br />v1-inventario-roger<br />v1-grupo-saleh</td>
@@ -461,8 +404,6 @@ const BackwardFrom = () => {
             <td>US31</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ32</td>
             <td>O usuário deve poder equipar e desequipar o avatar com itens</td>
             <td>v3-geral-todos<br />v2-inventario-feo<br />v2-loja-dutra</td>
@@ -475,8 +416,6 @@ const BackwardFrom = () => {
             <td>US32</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ33</td>
             <td>O usuário deve poder adicionar e remover os mascotes do avatar</td>
             <td> </td>
@@ -489,8 +428,6 @@ const BackwardFrom = () => {
             <td>US33</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ34</td>
             <td>O usuário deve poder adicionar e remover uma montaria do avatar,</td>
             <td> </td>
@@ -503,8 +440,7 @@ const BackwardFrom = () => {
             <td>US34</td>
           </tr>
           <tr>
-            <td> </td>
-            <td>FE04 - <br />Loja</td>
+            <td rowSpan='7'>FE04 - <br />Loja</td>
             <td>RQ35</td>
             <td>O usuário deve poder comprar equipamento com gemas ou moedas</td>
             <td>v3-geral-todos<br />v2-inventario-feo<br />v2-loja-dutra</td>
@@ -517,8 +453,6 @@ const BackwardFrom = () => {
             <td>US35</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ36</td>
             <td>O usuário deve poder ver o valor dos itens da loja</td>
             <td>v2-loja-dutra</td>
@@ -531,8 +465,6 @@ const BackwardFrom = () => {
             <td>US36</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ37</td>
             <td>O usuário deve poder adquirir moedas para comprar itens</td>
             <td>v2-loja-dutra</td>
@@ -545,8 +477,6 @@ const BackwardFrom = () => {
             <td>US37</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ38</td>
             <td>O usuário deve poder comprar itens com gemas ou moedas</td>
             <td>v3-geral-todos</td>
@@ -559,8 +489,6 @@ const BackwardFrom = () => {
             <td>US38</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ39</td>
             <td>O usuário deve poder comprar missões com gemas ou moedas</td>
             <td>v2-loja-dutra</td>
@@ -573,8 +501,6 @@ const BackwardFrom = () => {
             <td>US39</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ40</td>
             <td>O usuário deve poder comprar itens limitados com gemas ou moedas</td>
             <td>v2-loja-dutra</td>
@@ -587,8 +513,6 @@ const BackwardFrom = () => {
             <td>US40</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ41</td>
             <td>O usuário deve poder comprar missões limitadas com gemas ou moedas</td>
             <td>v2-loja-dutra</td>
@@ -601,8 +525,7 @@ const BackwardFrom = () => {
             <td>US41</td>
           </tr>
           <tr>
-            <td> </td>
-            <td>FE05 - Desafios</td>
+            <td rowSpan='7'>FE05 - Desafios</td>
             <td>RQ42</td>
             <td>O usuário deve poder criar desafios</td>
             <td>v3-geral-todos</td>
@@ -615,8 +538,6 @@ const BackwardFrom = () => {
             <td>US42</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ43</td>
             <td>O usuário deve poder participar de um desafio</td>
             <td>v3-geral-todos<br />v1-geral-esio</td>
@@ -629,8 +550,6 @@ const BackwardFrom = () => {
             <td>US43</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ44</td>
             <td>O usuário deve poder ver o progresso de outros participantes de um desafio</td>
             <td> </td>
@@ -643,8 +562,6 @@ const BackwardFrom = () => {
             <td>US44</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ45</td>
             <td>O usuário criador de um desafio deve poder declarar o vencedor do desafio</td>
             <td> </td>
@@ -657,8 +574,6 @@ const BackwardFrom = () => {
             <td>US45</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ46</td>
             <td>O usuário deve poder filtrar desafios por categoria</td>
             <td> </td>
@@ -671,8 +586,6 @@ const BackwardFrom = () => {
             <td>US46</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ47</td>
             <td>O usuário deve poder buscar desafios por nome</td>
             <td> </td>
@@ -685,8 +598,6 @@ const BackwardFrom = () => {
             <td>US47</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ48</td>
             <td>O usuário deve poder ver destacados os desafios que criou e participa</td>
             <td> </td>
@@ -699,8 +610,8 @@ const BackwardFrom = () => {
             <td>US48</td>
           </tr>
           <tr>
-            <td>E03 - Interação entre usuários</td>
-            <td>FE06 - Grupo</td>
+            <td rowSpan='9' >E03 - Interação entre usuários</td>
+            <td rowSpan='9'>FE06 - Grupo</td>
             <td>RQ49</td>
             <td>O usuário deve poder acessar os grupos pela sidebar</td>
             <td> </td>
@@ -713,8 +624,6 @@ const BackwardFrom = () => {
             <td>US49</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ50</td>
             <td>O usuário deve poder se retirar de um grupo</td>
             <td>v1-grupo-saleh</td>
@@ -727,8 +636,6 @@ const BackwardFrom = () => {
             <td>US50</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ51</td>
             <td>O usuário deve ser capaz de acessar o chat</td>
             <td>v1-grupo-saleh<br />v2-geral-feo</td>
@@ -741,8 +648,6 @@ const BackwardFrom = () => {
             <td>US51</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ52</td>
             <td>O usuário deve ser capaz de convidar o grupo para uma missão</td>
             <td>v3-geral-todos<br />v2-geral-feo<br />v2-loja-dutra<br />v1-inventario-roger<br />v1-grupo-saleh</td>
@@ -755,8 +660,6 @@ const BackwardFrom = () => {
             <td>US52</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ53</td>
             <td>O usuário deve poder vizualizar o perfil de outros usuários do grupo</td>
             <td>v1-grupo-saleh</td>
@@ -769,8 +672,6 @@ const BackwardFrom = () => {
             <td>US53</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ54</td>
             <td>O usuário deve poder acessar o perfil individual dos outros usuários do grupo</td>
             <td>v1-grupo-saleh</td>
@@ -783,8 +684,6 @@ const BackwardFrom = () => {
             <td>US54</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ55</td>
             <td>O usuário deve poder cancelar uma missão</td>
             <td>v1-grupo-saleh</td>
@@ -797,8 +696,6 @@ const BackwardFrom = () => {
             <td>US55</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ56</td>
             <td>O usuário deve poder criar um grupo</td>
             <td>v3-geral-todos</td>
@@ -811,8 +708,6 @@ const BackwardFrom = () => {
             <td>US56</td>
           </tr>
           <tr>
-            <td> </td>
-            <td> </td>
             <td>RQ57</td>
             <td>O usuário deve poder chamar meus amigos para o grupo</td>
             <td>v3-geral-todos<br />v2-geral-feo</td>
