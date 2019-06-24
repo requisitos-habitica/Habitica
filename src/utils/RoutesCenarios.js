@@ -79,6 +79,17 @@ import ComprarMissaoLojaSazonal from '../components/docs/Modelagem/Cenario/Compr
 import ComprarItensViajantesTempo from '../components/docs/Modelagem/Cenario/ComprarItensViajantesTempo'
 import AdquirirMoedas from '../components/docs/Modelagem/Cenario/AdquirirMoedas'
 import AdquirirAmpulhetas from '../components/docs/Modelagem/Cenario/AdquirirAmpulhetas'
+import AdicionarTarefasDiarias from '../components/docs/Modelagem/Cenario/AdicionarTarefasDiarias'
+import AdicionarUmAfazer from '../components/docs/Modelagem/Cenario/AdicionarUmAfazer'
+import AdicionarUmHabito from '../components/docs/Modelagem/Cenario/AdicionarUmHabito'
+import CompletarTarefas from '../components/docs/Modelagem/Cenario/CompletarTarefas'
+import CompletarAfazeres from '../components/docs/Modelagem/Cenario/CompletarAfazeres'
+import PreencherHabitos from '../components/docs/Modelagem/Cenario/PreencherHabitos'
+import CadastrarRecompensasCustomizadas from '../components/docs/Modelagem/Cenario/CadastrarRecompensasCustomizadas'
+import ComprarRecompensasCustomizadas from '../components/docs/Modelagem/Cenario/ComprarRecompensasCustomizadas'
+import EditarHabito from '../components/docs/Modelagem/Cenario/EditarHabito'
+import EditarTarefaDiaria from '../components/docs/Modelagem/Cenario/EditarTarefaDiaria'
+import EditarAfazeres from '../components/docs/Modelagem/Cenario/EditarAfazeres'
 
 const cenarios = {
   "Configurações": {
@@ -172,7 +183,17 @@ const cenarios = {
   "Tarefas": {
     color: "Gold",
     lexic: {
-      "Tarefa": null,
+      "Adicionar Tarefa Diaria": AdicionarTarefasDiarias ,
+      "Adicionar um Afazer": AdicionarUmAfazer,
+      "Adicionar um Hábito": AdicionarUmHabito,
+      "Completar Tarefas": CompletarTarefas,
+      "Completar Afazeres": CompletarAfazeres,
+      "Preencher Hábitos": PreencherHabitos,
+      "Cadastrar Recompensas Customizadas": CadastrarRecompensasCustomizadas,
+      "Comprar Recompensas Customizadas": ComprarRecompensasCustomizadas,
+      "Editar Hábito": EditarHabito,
+      "Editar Tarefa Diária": EditarTarefaDiaria,
+      "Editar Afazeres": EditarAfazeres,
     }
   },
 
