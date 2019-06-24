@@ -75,6 +75,7 @@ import Verificacao from './components/docs/Analise/Verificacao'
 
 import Validacao from './components/docs/Analise/Validacao'
 import Prototipo from './components/docs/Analise/Prototipo'
+import WikiOficial from './components/docs/Analise/WikiOficial'
 
 import VerificacaoCasoUso from './components/docs/Analise/VerificacaoCasoUso'
 import VerificacaoSuplementarV1 from './components/docs/Analise/VerificacaoSuplementarV1'
@@ -172,6 +173,7 @@ const App = () => {
             <RouteRollUp path="/VerificacaoAgil" component={ VerificacaoAgil }/>
             <RouteRollUp path="/Validacao" component={ Validacao }/>
             <RouteRollUp path="/Prototipo" component={ Prototipo }/>
+            <RouteRollUp path="/WikiOficial" component={ WikiOficial }/>
 
 
             {/* Automatizando várias rótas */}
