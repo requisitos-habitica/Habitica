@@ -8,7 +8,7 @@ const casos = {
         "y" : 800,
         "UCs": [
             {
-                "id": "20",
+                "id": "36",
                 "name": "Comprar e enviar gemas",
                 "description":"O usuário navega até comprar gemas e compra gemas e depois as envia",
                 "actors": ["Usuário", "sistema bancário"],
@@ -122,7 +122,7 @@ const casos = {
         "y" : 700,
         "UCs": [
             {
-                "id": "01",
+                "id": "24",
                 "name": "Criar Desafio",
                 "description":"Criar um novo desafio público na comunidade do Habitica",
                 "actors": ["Usuário{Criador do Desafio)", "Sistema"],
@@ -150,7 +150,7 @@ const casos = {
                 ]
             },
             {
-                "id": "02",
+                "id": "25",
                 "name": "Declarar vencedor do Desafio",
                 "description":"Declarar o vencedor de um desafio e encerrá_lo",
                 "actors": [
@@ -186,7 +186,7 @@ const casos = {
                 ]
             },
             {
-                "id": "03",
+                "id": "26",
                 "name": "Buscar desafio",
                 "description":"Buscar desafio",
                 "actors": [
@@ -217,7 +217,7 @@ const casos = {
                 ]
             },
             {
-                "id": "04",
+                "id": "27",
                 "name": "Ver progresso de um participante do desafio",
                 "description":"Ver progresso de um participante de um desafio público",
                 "actors": [
@@ -249,7 +249,7 @@ const casos = {
                 ]
             },
             {
-                "id": "05",
+                "id": "28",
                 "name": "Entrar em um desafio",
                 "description":"Entrar em um desafio público",
                 "actors": [
@@ -282,7 +282,7 @@ const casos = {
                 ]
             },
             {
-                "id": "06",
+                "id": "29",
                 "name": "Buscar desafio por nome",
                 "description":"Buscar desafios por nome do desafio",
                 "actors": [
@@ -305,7 +305,7 @@ const casos = {
                 ]
             },
             {
-                "id": "07",
+                "id": "30",
                 "name": "Buscar desafio por categorias",
                 "description":"Buscar desafio por categorias cadastradas",
                 "actors": [
@@ -633,7 +633,7 @@ const casos = {
         "y" : 800,
         "UCs": [
             {
-                "id": "01",
+                "id": "31",
                 "name": "Contribuir para o código do Habitica",
                 "description":"Algum contribuidor busca hotfix ou implementa novas funcionalidades dentro do Habitica.",
                 "actors": ["Contribuidor", "Mantenedor"],
@@ -681,7 +681,7 @@ const casos = {
                 ]
             },
             {
-                "id": "02",
+                "id": "32",
                 "name": "Contribuir para a Wiki do Habitica",
                 "description":"Contribuir para os textos da Wiki do Habitica, aumentando a quantidade de informações sobre a aplicação",
                 "actors": ["Contribuidor"],
@@ -715,7 +715,7 @@ const casos = {
                 ]
             },
             {
-                "id": "03",
+                "id": "33",
                 "name": "Contribuindo para os Textos",
                 "description":"Contribuindo para a construção de novas narrativas para o Habitica",
                 "actors": ["Contribuidor"],
@@ -750,7 +750,7 @@ const casos = {
                 ]
             },
             {
-                "id": "04",
+                "id": "34",
                 "name": "Contribuindo para as Artes",
                 "description":"Contribuindo para a construção de novas artes para o Habitica",
                 "actors": ["Contribuidor"],
@@ -786,7 +786,7 @@ const casos = {
                 ]
             },
             {
-                "id": "05",
+                "id": "35",
                 "name": "Contribuindo para a Tradução",
                 "description":"Contribuindo para a tradução das funcionalidades do Habitica",
                 "actors": [

@@ -61,7 +61,7 @@ const CasoDeUsoBase = (props) => {
 
     {props.info.UCs.map((UC) => {
       return(
-        <div>
+        <div id={`UC${UC.id}`}>
           <Card>
             <h1>UC{UC.id} - {UC.name}</h1>
             <br></br>

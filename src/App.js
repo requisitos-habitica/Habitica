@@ -69,9 +69,13 @@ import StoryTelling02 from './components/docs/Elicitacao/StoryTelling02'
 import Analise from './components/docs/Analise/Analise'
 import Verificacao from './components/docs/Analise/Verificacao'
 
+import PosRastreabilidade from './components/docs/PosRastreabilidade/PosRastreabilidade'
+import ForwardFrom from './components/docs/PosRastreabilidade/ForwardFrom'
+import BackwardFrom from './components/docs/PosRastreabilidade/BackwardFrom'
 import Validacao from './components/docs/Analise/Validacao'
 import Prototipo from './components/docs/Analise/Prototipo'
 import WikiOficial from './components/docs/Analise/WikiOficial'
+import FactBox from './components/docs/PosRastreabilidade/FactBox'
 
 import VerificacaoCasoUso from './components/docs/Analise/VerificacaoCasoUso'
 import VerificacaoSuplementarV1 from './components/docs/Analise/VerificacaoSuplementarV1'
@@ -104,7 +108,7 @@ const App = () => {
               />
               <RouteRollUp exact path="/RichPictures" component={RichPicture} />
               <RouteRollUp exact path="/Argumentacoes" component={Argumentacao} />
-              <RouteRollUp exact path="/Pos-Rastreabilidade" />
+              <RouteRollUp exact path="/Pos-Rastreabilidade" component={PosRastreabilidade} />
               <RouteRollUp exact path="/Elicitacao" component={Elicitacao} />
               <RouteRollUp exact path="/Modelagem" component={Modelagem} />
               <RouteRollUp exact path="/Analise" component={Analise} />
@@ -215,6 +219,11 @@ const App = () => {
               <RouteRollUp path="/WikiOficial" component={WikiOficial} />
               <RouteRollUp path="/emailMatteo" component={EmailMatteo} />
               <RouteRollUp path="/emailAlys" component={EmailAlys} />
+
+              {/* Pos Rastreabilidade */}
+              <RouteRollUp path="/ForwardFrom" component={ ForwardFrom }/>
+              <RouteRollUp path="/BackwardFrom" component={ BackwardFrom }/>
+              <RouteRollUp path="/FactBox" component={ FactBox }/>
 
 
               {/* Automatizando várias rótas */}
