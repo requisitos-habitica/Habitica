@@ -34,12 +34,12 @@ const GIFS = (props) => {
 
             <Card >
                 <h2>Caminho do arquivo Front-end</h2>
-                <a href={props.frontReference}>{props.frontReference}</a>
+                <p>{props.frontEnd}</p>
             </Card>
 
             <Card >
                 <h2>Referência GitHub Front-end</h2>
-                <p>{props.frontReference}</p>
+                <a href={props.frontReference}>{props.frontReference}</a>
             </Card>
 
             <Card >
