@@ -13,14 +13,9 @@ const items = [
     title: 'Protótipo'
   },
   {
-    link: '/emailMatteo',
+    link: '/Emails',
     img: correct,
-    title: 'Validação Informal Matteo'
-  },
-  {
-    link: '/emailAlys',
-    img: correct,
-    title: 'Validação Informal Alys'
+    title: 'E-mails'
   },
   {
     link: '/WikiOficial',
