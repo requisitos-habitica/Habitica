@@ -8,7 +8,7 @@ const casos = {
         "y" : 800,
         "UCs": [
             {
-                "id": "20",
+                "id": "36",
                 "name": "Comprar e enviar gemas",
                 "description":"O usuário navega até comprar gemas e compra gemas e depois as envia",
                 "actors": ["Usuário", "sistema bancário"],
