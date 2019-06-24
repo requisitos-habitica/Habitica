@@ -11,7 +11,8 @@ const ForwardFrom = () => {
                     title="Forward From" author="Rogério Júnior"/>
     
       <Card style = { {padding: "1rem"} }>
-        <table class="table table-bordered table-hover table-condensed">
+        <div className="table-fixed">
+          <table class="table table-bordered table-hover table-condensed">
             <thead><tr><th title="Field #1">Épico</th>
             <th title="Field #2">Feature</th>
             <th title="Field #3">ID</th>
@@ -553,6 +554,7 @@ const ForwardFrom = () => {
             <td><Link to='/US/US57'>US57</Link></td>
             </tr>
       </tbody></table>
+        </div>
       </Card>
     </div>
   )

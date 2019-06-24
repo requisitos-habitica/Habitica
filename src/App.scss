@@ -1,13 +1,13 @@
 :root {
   --color-purple: #500077;
-  --color-purple-light: #7300B5;
-  --color-purple-dark: #41005E;
+  --color-purple-light: #7300b5;
+  --color-purple-dark: #41005e;
 
-  --shadow: 0 1rem 2rem rgba(0 ,0, 0, .35);
-  --shadow-close: 0 .5rem 1rem rgba(0, 0, 0, 0.45);
+  --shadow: 0 1rem 2rem rgba(0, 0, 0, 0.35);
+  --shadow-close: 0 0.5rem 1rem rgba(0, 0, 0, 0.45);
   --shadow-far: 0 1.2rem 1.2rem rgba(0, 0, 0, 0.45);
-  --transition-fast: all .4s;
-  --transition-slow: all .8s;
+  --transition-fast: all 0.4s;
+  --transition-slow: all 0.8s;
 
   --font-size-base-text: 1.3rem;
 }
@@ -19,8 +19,8 @@
 
 html {
   box-sizing: border-box;
-  font-size: calc(.71vw + 1px);
-} 
+  font-size: calc(0.71vw + 1px);
+}
 
 *,
 *::before,
@@ -28,8 +28,9 @@ html {
   box-sizing: inherit;
 }
 
-h1, h2 {
-  font-family: 'Varela Round', sans-serif;
+h1,
+h2 {
+  font-family: "Varela Round", sans-serif;
 }
 
 h1 {
@@ -43,21 +44,22 @@ h1 {
   align-items: center;
 
   &::after {
-    content: '';
+    content: "";
     width: 6rem;
-    border-bottom: .18rem solid var(--color-purple);
+    border-bottom: 0.18rem solid var(--color-purple);
   }
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-p, li {
+p,
+li {
   font-size: var(--font-size-base-text);
 }
 
@@ -66,9 +68,11 @@ p, li {
   margin: 0 auto;
 }
 
-.artefact { 
+.artefact {
   padding-top: 10rem;
-  h1 { margin: 0; }
+  h1 {
+    margin: 0;
+  }
   a {
     color: var(--color-purple);
     font-weight: bold;
@@ -78,23 +82,23 @@ p, li {
 table {
   margin: 2.5rem 0;
   width: 100%;
-  font-family: 'Varella';
+  font-family: "Varella";
   font-size: 1.1rem;
   tr:first-child {
-      border: none;
-      th {
-          background-color: var(--color-purple-light);
-          color: white;
-      }
+    border: none;
+    th {
+      background-color: var(--color-purple-light);
+      color: white;
+    }
   }
-  
-  th, td {
-      font-family: 'Varela Round', sans-serif;
-      box-shadow: 0 0 .5rem rgba(0,0,0,.3);
-      border-radius: .3rem;
-      padding: 1.2rem;
+
+  th,
+  td {
+    font-family: "Varela Round", sans-serif;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.3);
+    border-radius: 0.3rem;
+    padding: 1.2rem;
   }
-  
 }
 
 ::-webkit-scrollbar {
@@ -107,4 +111,18 @@ table {
 
 ::-webkit-scrollbar-thumb {
   background: var(--color-purple-light);
+}
+.table-fixed {
+  overflow-y: scroll;
+  height: 50rem;
+  width: 100%;
+  table {
+    width: 100%;
+    text-align: center;
+  }
+
+  th {
+    position: sticky;
+    top: 0;
+  }
 }

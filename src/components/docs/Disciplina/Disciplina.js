@@ -17,10 +17,10 @@ const Disciplina = () => (
       A disciplina da UnB possui como objetivo capacitar o estudante a compreender conceitos, técnicas, procedimentos e ferramentas para o levantamento de requisitos.
     </p>
 
-    <h2>Grupo 1 - Habitica</h2>
+    <h2>Grupo 2 - Habitica</h2>
     <p>
       Ao decorrer da disciplina, a equipe utilizou-se dos conhecimentos adquiridos durante as aulas de Requisitos de Software para consolidar o conhecimento dos casos estudados e serem avaliados pelos professores responsáveis pela matéria.
-      O Grupo 1, Habitia, é composto pelos seguintes integrante:
+      O Grupo 2 é composto pelos seguintes integrantes:
     </p>
 
     <table cellSpacing="8">
