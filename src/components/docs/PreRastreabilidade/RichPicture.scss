@@ -1,0 +1,13 @@
+.align-itens{
+    margin-left: 4em;
+}
+
+.style-header{
+    &::after {
+        content: "";
+        display: block;
+        width: 2rem;
+        height: .1rem;
+        background-color: var(--color-purple-light);
+    }
+}
