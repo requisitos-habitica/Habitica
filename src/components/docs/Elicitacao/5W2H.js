@@ -13,6 +13,13 @@ const i5W2H = () => {
                     title="5W2H" author="Rogério Júnior"/>
 
     <Card>
+        <h2>Rastreabilidade</h2>
+        <ul>
+            <li><Link smooth to='/Questionario'>Questionario</Link></li>
+        </ul>
+    </Card>
+
+    <Card>
         <h2>What</h2>
         <p>Uma aplicação de gerenciamento de tarefas que auxilie seus usuários a realizar sua organização pessoal de forma eficiente e lúdica com o uso de ferramentas gamificadas.</p>
     </Card>
