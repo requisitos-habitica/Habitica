@@ -1,16 +1,11 @@
 import React from 'react'
-import ReactMarkdown from 'react-markdown'
 import Card from '../../UI/Card/Card'
 import HeadArtefact from '../../HOC/HeadArtefact/HeadArtefact'
 import { Link } from 'react-router-dom'
 import './Verificacao.scss'
 import defeitos from '../../../assets/Analise/Defeito.png'
-import geral from '../../../assets/Analise/NFR/geral.png'
-
-
 
 const VerificacaoNFR = () => {
-
   return (
     <div className='content artefact'>
       <HeadArtefact versions={ null } rastreability={ null }
@@ -53,16 +48,10 @@ const VerificacaoNFR = () => {
         </Card>
 
         <Card>
-            <h2>Resultado Geral</h2>
-            <div className='center-card' >
-                <img src={geral} ></img>
-            </div>
-        </Card>
-
-        <Card>
             <h2>Resultado</h2>
             <div className='center-card' >
-                <img src={geral} ></img>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQg2zEnvIZ5wCQmuOg5B8AF9lw1NWCWuuxTBMVPKqNg1abkMoRjGFl9odOobKCPjwszkyAwVZSTo1kH/pubhtml?gid=0&single=true" height="500" width="750"></iframe>
+                
             </div>
         </Card>
 

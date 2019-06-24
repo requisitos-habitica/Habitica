@@ -53,6 +53,16 @@ import EspecificacaoSuplementarV2 from './components/docs/Modelagem/Especificaca
 import BacklogV1 from './components/docs/Modelagem/Agil/BacklogV1/BacklogV1'
 import BacklogV2 from './components/docs/Modelagem/Agil/BacklogV2/BacklogV2'
 import BacklogV3 from './components/docs/Modelagem/Agil/BacklogV3/BacklogV3'
+import iStar from './components/docs/Modelagem/iStar/iStar'
+import iStarDesafios from './components/docs/Modelagem/iStar/Desafios'
+import RascunhoLoja from './components/docs/Modelagem/iStar/Loja/Rascunhos'
+import iStarLojaV1 from './components/docs/Modelagem/iStar/Loja/V1'
+import iStarLojaV2 from './components/docs/Modelagem/iStar/Loja/V2'
+import iStarLojaV3 from './components/docs/Modelagem/iStar/Loja/V3'
+import iStarGruposV1 from './components/docs/Modelagem/iStar/Grupos/V1'
+import iStarTarefasV1 from './components/docs/Modelagem/iStar/Tarefas/V1'
+import iStarTarefasV2 from './components/docs/Modelagem/iStar/Tarefas/V2'
+import iStarMascoteV1 from './components/docs/Modelagem/iStar/Mascote/V1'
 
 import StoryTelling01 from './components/docs/Elicitacao/StoryTelling01'
 import StoryTelling01V1 from './components/docs/Elicitacao/StoryTelling01V1'
@@ -63,130 +73,228 @@ import Verificacao from './components/docs/Analise/Verificacao'
 import PosRastreabilidade from './components/docs/PosRastreabilidade/PosRastreabilidade'
 import ForwardFrom from './components/docs/PosRastreabilidade/ForwardFrom'
 import BackwardFrom from './components/docs/PosRastreabilidade/BackwardFrom'
+import Validacao from './components/docs/Analise/Validacao'
+import Prototipo from './components/docs/Analise/Prototipo'
+import WikiOficial from './components/docs/Analise/WikiOficial'
 
 import VerificacaoCasoUso from './components/docs/Analise/VerificacaoCasoUso'
 import VerificacaoSuplementarV1 from './components/docs/Analise/VerificacaoSuplementarV1'
 import VerificacaoSuplementarV2 from './components/docs/Analise/VerificacaoSuplementarV2'
 import VerificacaoNFR from './components/docs/Analise/VerificacaoNFR'
 import VerificacaoRP from './components/docs/Analise/VerificacaoRP'
+import VerificacaoAgil from './components/docs/Analise/VerificacaoAgil'
+import VerificacaoLexico from './components/docs/Analise/VerificacaoLexico'
+import VerificacaoCenarios from './components/docs/Analise/VerificacaoCenarios'
+
+import EmailMatteo from './components/docs/Analise/ValidacaoEmail'
+import EmailAlys from './components/docs/Analise/EmailAlys'
 
 const RouteRollUp = props => <Route {...props} onUpdate={() => window.scrollTo(0, 0)} />
 
 const App = () => {
+  configureFirebase();
 
-  configureFirebase()
-
-  console.log(process.env.PUBLIC_URL)
+  console.log(process.env.PUBLIC_URL);
   return (
-    <Router basename={process.env.PUBLIC_URL}>
-      <ScrollToTop>
+    <>
+      <Router basename={process.env.PUBLIC_URL}>
+        <ScrollToTop>
+          <NavBar>
+            <Switch>
+              <RouteRollUp exact path="/" component={LandingPage} />
+              <RouteRollUp exact path="/Disciplina" component={Disciplina} />
+              <RouteRollUp
+                exact
+                path="/Pre-Rastreabilidade"
+                component={PreRastreabilidade}
+              />
+              <RouteRollUp exact path="/RichPictures" component={RichPicture} />
+              <RouteRollUp exact path="/Argumentacoes" component={Argumentacao} />
+              <RouteRollUp exact path="/Pos-Rastreabilidade" component={PosRastreabilidade} />
+              <RouteRollUp exact path="/Elicitacao" component={Elicitacao} />
+              <RouteRollUp exact path="/Modelagem" component={Modelagem} />
+              <RouteRollUp exact path="/Analise" component={Analise} />
+              <RouteRollUp exact path="/Sobre" component={Sobre} />
+              <RouteRollUp exact path="/GIFS" component={GIFS} />
 
-        <NavBar>
-          <Switch>
-            <RouteRollUp exact path="/" component={ LandingPage } />
-            <RouteRollUp exact path="/Disciplina" component={ Disciplina } />
-            <RouteRollUp exact path="/Pre-Rastreabilidade" component={ PreRastreabilidade } />
-            <RouteRollUp exact path="/RichPictures" component={ RichPicture } />
-            <RouteRollUp exact path="/Argumentacoes" component={ Argumentacao } />
-            <RouteRollUp exact path="/Pos-Rastreabilidade" component = { PosRastreabilidade } />
-            <RouteRollUp exact path="/Elicitacao" component={ Elicitacao }/>
-            <RouteRollUp exact path="/Modelagem" component={ Modelagem } />
-            <RouteRollUp exact path="/Analise" component={ Analise } />
-            <RouteRollUp exact path="/Sobre" component={ Sobre } />
-            <RouteRollUp exact path="/GIFS" component={ GIFS } />
+              {/* Elicitação */}
+              <RouteRollUp
+                exact
+                path="/RequisitosElicitacao"
+                component={Requisitos}
+              />
 
-            {/* Elicitação */}
-            <RouteRollUp exact path="/RequisitosElicitacao" component={Requisitos} />
+              <RouteRollUp
+                exact
+                path="/AnaliseProtocolo01"
+                component={Analise01}
+              />
+              <RouteRollUp
+                exact
+                path="/AnaliseProtocolo02V1"
+                component={Analise02V1}
+              />
+              <RouteRollUp
+                exact
+                path="/AnaliseProtocolo02"
+                component={Analise02}
+              />
+              <RouteRollUp exact path="/BrainstormV1" component={BrainstormV1} />
+              <RouteRollUp exact path="/Brainstorm" component={BrainstormV2} />
+              <RouteRollUp exact path="/Entrevista" component={Entrevistas} />
+              <RouteRollUp exact path="/Entrevista/01" component={Entrevista01} />
+              <RouteRollUp exact path="/Entrevista/02" component={Entrevista02} />
+              <RouteRollUp exact path="/Etnografia" component={Etnografia} />
+              <RouteRollUp exact path="/Introspeccao" component={Introspeccao} />
+              <RouteRollUp exact path="/Persona" component={Requisitos} />
+              <RouteRollUp
+                exact
+                path="/Storytelling01V1"
+                component={StoryTelling01V1}
+              />
+              <RouteRollUp
+                exact
+                path="/Storytelling01"
+                component={StoryTelling01}
+              />
+              <RouteRollUp
+                exact
+                path="/Storytelling02"
+                component={StoryTelling02}
+              />
+              <RouteRollUp exact path="/Questionario" component={Questionario} />
+              <RouteRollUp exact path="/5W2H" component={i5W2H} />
 
-            <RouteRollUp exact path="/AnaliseProtocolo01" component={Analise01} />
-            <RouteRollUp exact path="/AnaliseProtocolo02V1" component={Analise02V1} />
-            <RouteRollUp exact path="/AnaliseProtocolo02" component={Analise02} />
-            <RouteRollUp exact path="/BrainstormV1" component={BrainstormV1} />
-            <RouteRollUp exact path="/Brainstorm" component={BrainstormV2} />
-            <RouteRollUp exact path="/Entrevista" component={Entrevistas} />
-            <RouteRollUp exact path="/Entrevista/01" component={Entrevista01} />
-            <RouteRollUp exact path="/Entrevista/02" component={Entrevista02} />
-            <RouteRollUp exact path="/Etnografia" component={Etnografia} />
-            <RouteRollUp exact path="/Introspeccao" component={Introspeccao} />
-            <RouteRollUp exact path="/Persona" component={Requisitos} />
-            <RouteRollUp exact path="/Storytelling01V1" component={StoryTelling01V1} />
-            <RouteRollUp exact path="/Storytelling01" component={StoryTelling01} />
-            <RouteRollUp exact path="/Storytelling02" component={StoryTelling02} />
-            <RouteRollUp exact path="/Questionario" component={Questionario} />
-            <RouteRollUp exact path="/5W2H" component={i5W2H} />
+              <RouteRollUp exact path="/Priorizacao" component={Priorizacao} />
+
+              <RouteRollUp exact path="/HOQ" component={HOQ} />
+              <RouteRollUp
+                exact
+                path="/FirstThingsFirst"
+                component={FirstThingsFirst}
+              />
+              <RouteRollUp exact path="/MoSCoW" component={MoSCoW} />
+
+              {/* Modelagem */}
+              <RouteRollUp path="/Lexicos" component={Lexico} />
+              <RouteRollUp path="/Cenarios" component={Cenario} />
+              <RouteRollUp path="/CasosDeUso" component={CasosDeUso} />
+              <RouteRollUp
+                path="/EspecificacaoSuplementarV1"
+                component={EspecificacaoSuplementarV1}
+              />
+              <RouteRollUp
+                path="/EspecificacaoSuplementar"
+                component={EspecificacaoSuplementarV2}
+              />
+              <RouteRollUp path="/Agil" component={Lexico} />
+              <RouteRollUp path="/BacklogV1" component={BacklogV1} />
+              <RouteRollUp path="/BacklogV2" component={BacklogV2} />
+              <RouteRollUp path="/BacklogV3" component={BacklogV3} />
+              <RouteRollUp path="/NFR" component={NFR} />
+              <RouteRollUp path="/NFR V1" component={NFRV1} />
+              <RouteRollUp path="/NFR V2" component={NFRV2} />
+              <RouteRollUp path="/NFR V3" component={NFRV3} />
+              <RouteRollUp path="/iStar" component={iStar} />
+              <RouteRollUp path="/iStarDesafios" component={iStarDesafios} />
+              <RouteRollUp path="/RascunhoLoja" component={RascunhoLoja} />
+              <RouteRollUp path="/iStarLojaV1" component={iStarLojaV1} />
+              <RouteRollUp path="/iStarLojaV2" component={iStarLojaV2} />
+              <RouteRollUp path="/iStarLojaV3" component={iStarLojaV3} />
+              <RouteRollUp path="/iStarGruposV1" component={iStarGruposV1} />
+              <RouteRollUp path="/iStarTarefasV1" component={iStarTarefasV1} />
+              <RouteRollUp path="/iStarTarefasV2" component={iStarTarefasV2} />
+              <RouteRollUp path="/iStarMascoteV1" component={iStarMascoteV1} />
+
+              {/* Analise */}
+              <RouteRollUp path="/Verificacao" component={Verificacao} />
+              <RouteRollUp path="/VerificacaoCasoUso" component={VerificacaoCasoUso} />
+              <RouteRollUp path="/VerificacaoSuplementarV1" component={VerificacaoSuplementarV1} />
+              <RouteRollUp path="/VerificacaoSuplementarV2" component={VerificacaoSuplementarV2} />
+              <RouteRollUp path="/VerificacaoNFR" component={VerificacaoNFR} />
+              <RouteRollUp path="/VerificacaoRP" component={VerificacaoRP} />
+              <RouteRollUp path="/VerificacaoAgil" component={VerificacaoAgil} />
+              <RouteRollUp path="/Validacao" component={Validacao} />
+              <RouteRollUp path="/VerificacaoLexico" component={VerificacaoLexico} />
+              <RouteRollUp path="/VerificacaoCenarios" component={VerificacaoCenarios} />
+              <RouteRollUp path="/Prototipo" component={Prototipo} />
+              <RouteRollUp path="/WikiOficial" component={WikiOficial} />
+              <RouteRollUp path="/emailMatteo" component={EmailMatteo} />
+              <RouteRollUp path="/emailAlys" component={EmailAlys} />
+
+              {/* Pos Rastreabilidade */}
+              <RouteRollUp path="/ForwardFrom" component={ ForwardFrom }/>
+              <RouteRollUp path="/BackwardFrom" component={ BackwardFrom }/>
+              <RouteRollUp path="/FactBox" component={ PosRastreabilidade }/>
 
 
-            <RouteRollUp exact path="/Priorizacao" component={Priorizacao} />
+              {/* Automatizando várias rótas */}
+              {Object.keys(lexicos).map(group =>
+                Object.keys(lexicos[group].lexic).map(term => (
+                  <Route
+                    key={term}
+                    path={`/${term}`}
+                    component={lexicos[group].lexic[term]}
+                    onUpdate={() => window.scrollTo(0, 0)}
+                  />
+                ))
+              )}
 
-            <RouteRollUp exact path="/HOQ" component={HOQ} />
-            <RouteRollUp exact path="/FirstThingsFirst" component={FirstThingsFirst} />
-            <RouteRollUp exact path="/MoSCoW" component={MoSCoW} />
+              {Object.keys(RoutesCenarios).map(group =>
+                Object.keys(RoutesCenarios[group].lexic).map(term => (
+                  <Route
+                    key={term}
+                    path={`/${term}`}
+                    component={RoutesCenarios[group].lexic[term]}
+                    onUpdate={() => window.scrollTo(0, 0)}
+                  />
+                ))
+              )}
 
-            {/* Modelagem */}
-            <RouteRollUp path="/Lexicos" component={ Lexico }/>
-            <RouteRollUp path="/Cenarios" component={ Cenario }/>
-            <RouteRollUp path="/CasosDeUso" component={ CasosDeUso }/>
-            <RouteRollUp path="/EspecificacaoSuplementarV1" component={ EspecificacaoSuplementarV1 }/>
-            <RouteRollUp path="/EspecificacaoSuplementar" component={ EspecificacaoSuplementarV2 }/>
-            <RouteRollUp path="/Agil" component={ Lexico }/>
-            <RouteRollUp path="/BacklogV1" component={ BacklogV1 }/>
-            <RouteRollUp path="/BacklogV2" component={ BacklogV2 }/>
-            <RouteRollUp path="/BacklogV3" component={ BacklogV3 }/>
-            <RouteRollUp path="/NFR" component={ NFR }/>
-            <RouteRollUp path="/NFR V1" component={ NFRV1 }/>
-            <RouteRollUp path="/NFR V2" component={ NFRV2 }/>
-            <RouteRollUp path="/NFR V3" component={ NFRV3 }/>
-            <RouteRollUp path="/IStar" component={ Lexico }/>
+              {GIFS.map(gif => (
+                <Route
+                  path={`/US/${gif.id}`}
+                  render={() => (
+                    <GIFSComponent id={gif.id} description={gif.description} frontEnd={gif.frontEnd} backEnd={gif.backEnd} frontReference={gif.frontReference} backReference={gif.backReference} acceptanceCriteria={gif.acceptanceCriteria} />
+                  )}
+                />
+              ))}
 
+              {Object.keys(CasosObj).map(casos => (
+                <Route
+                  path={`/CasosDeUso${casos}`}
+                  render={() => (
+                    <CasoDeUsoBase info={CasosObj[casos]} title={casos} />
+                  )}
+                />
+              ))}
 
-            {/* Analise */}
-            <RouteRollUp path="/Verificacao" component={Verificacao} />
-            <RouteRollUp path="/VerificacaoCasoUso" component={VerificacaoCasoUso} />
-            <RouteRollUp path="/VerificacaoSuplementarV1" component={VerificacaoSuplementarV1} />
-            <RouteRollUp path="/VerificacaoSuplementarV2" component={VerificacaoSuplementarV2} />
-            <RouteRollUp path="/VerificacaoNFR" component={VerificacaoNFR} />
-            <RouteRollUp path="/VerificacaoRP" component={VerificacaoRP} />
-            <RouteRollUp path="/Validacao" component={Cenario} />
+              {Object.keys(CasosObj).map(casos =>
+                CasosObj[casos].images.map((image, i) => (
+                  <Route
+                    path={`/DiagramasCasoUso/${casos}/V${i + 1}`}
+                    render={() => (
+                      <Diagramas
+                        title={`${casos} V${i + 1}`}
+                        author={CasosObj[casos].author}
+                        image={image}
+                        x={CasosObj[casos].x}
+                        y={CasosObj[casos].y}
+                      />
+                    )}
+                  />
+                ))
+              )}
+            </Switch>
+          </NavBar>
 
+          <footer className="footer">
+            <p style={{ fontSize: "1.5rem" }}>UnB FGA  |  Requisitos 2019.1  |  Grupo Habitica</p>
+          </footer>
+        </ScrollToTop>
+      </Router>
+    </>
+  );
+};
 
-            {/* Pos Rastreabilidade */}
-            <RouteRollUp path="/ForwardFrom" component={ ForwardFrom }/>
-            <RouteRollUp path="/BackwardFrom" component={ BackwardFrom }/>
-            <RouteRollUp path="/FactBox" component={ PosRastreabilidade }/>
-
-
-            {/* Automatizando várias rótas */}
-            {Object.keys(lexicos).map(group =>
-              Object.keys(lexicos[group].lexic).map(term => <Route key={term}
-                path={`/${term}`}
-                component={lexicos[group].lexic[term]}
-                onUpdate={() => window.scrollTo(0, 0)} />))}
-
-            {Object.keys(RoutesCenarios).map(group =>
-              Object.keys(RoutesCenarios[group].lexic).map(term => <Route key={term}
-                path={`/${term}`}
-                component={RoutesCenarios[group].lexic[term]}
-                onUpdate={() => window.scrollTo(0, 0)} />))}
-
-            {GIFS.map(gif => <Route path={`/gif/${gif.id}`}
-              render={() => <GIFSComponent id={gif.id} description={gif.description} />} />)}
-
-
-            {
-              Object.keys(CasosObj).map(casos => <Route path={`/CasosDeUso${casos}`}
-                render={() => <CasoDeUsoBase info={CasosObj[casos]} title={casos} />} />)
-            }
-
-            {Object.keys(CasosObj).map(casos =>
-              CasosObj[casos].images.map((image, i) => <Route path={`/DiagramasCasoUso/${casos}/V${i + 1}`}
-                render={() => <Diagramas title={`${casos} V${i + 1}`} author={CasosObj[casos].author} image={image} x={CasosObj[casos].x} y={CasosObj[casos].y} />} />)
-            )}
-
-          </Switch>
-        </NavBar>
-      </ScrollToTop>
-    </Router>
-  )
-}
-
-export default App
+export default App;

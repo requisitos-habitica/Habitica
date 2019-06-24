@@ -26,205 +26,165 @@ const richpictures = {
     'Individuais': [
         {
             id: 'RP1',
-            name: 'RPEsioV1',
+            name: 'Rich Picture Geral, Esio Gustavo',
             img: RPEsioV1,
             autor: members.Esio,
             versao: 1,
-            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.'
         },
         {
             id: 'RP2',
-            name: 'RPDutraV1',
+            name: 'Rich Picture Geral, Lucas Dutra',
             img: RPDutraV1,
             autor: members.Lucas,
             versao: 1,
-            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.'
         },
         {
             id: 'RP3V1',
-            name: 'RPYoussefV1',
+            name: 'Rich Picture Geral, Youssef Muhamad',
             img: RPYoussefV1,
             autor: members.Youssef,
             versao: 1,
-            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.'
         },
         {
             id: 'RP3',
-            name: 'RPYoussefV2',
+            name: 'Rich Picture Geral, Youssef Muhamad',
             img: RPYoussefV2,
             autor: members.Youssef,
             versao: 2,
-            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.'
         },
         {
             id: 'RP4',
-            name: 'RPPheoV1',
+            name: 'Rich Picture Geral, Pedro Féo',
             img: RPPheoV1,
             autor: members.Pheo,
             versao: 1,
-            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.'
         },
         {
             id: 'RP5V1',
-            name: 'RPAlbinoV1',
+            name: 'Rich Picture Geral, Gabriel Albino',
             img: RPAlbinoV1,
             autor: members.Gabriel,
             versao: 1,
-            descricao: 'Funcionamento geral das tarefas e recompensas, breve funcionamento da loja',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.'
         },
         {
             id: 'RP5',
-            name: 'RPAlbinoV2',
+            name: 'Rich Picture Geral, Gabriel Albino',
             img: RPAlbinoV2,
             autor: members.Gabriel,
             versao: 2,
-            descricao: 'Funcionamento geral das tarefas e recompensas, breve funcionamento da loja.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.'
         },
         {
             id: 'RP6',
-            name: 'RPSalehV1',
+            name: 'Rich Picture Geral, Saleh Kader',
             img: RPSalehV1,
             autor: members.Saleh,
             versao: 1,
-            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.'
         },
         {
             id: 'RP7',
-            name: 'RPRogerV1',
+            name: 'Rich Picture Geral, Rogério Júnior',
             img: RPRogerV1,
             autor: members.Rogerio,
             versao: 1,
-            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que mostra o fluxo geral do funcionamento do Habitica.'
         },
     ],
     'Grupo': [
         {
             id: 'RP8',
-            name: 'RPGeral1_de_2V1',
+            name: 'Rich Picture Geral, parte 1',
             img: RPGeral1_2V1,
             autor: 'Grupo',
             versao: 1,
-            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que descreve o funcionamento geral do Habitica, na forma desenhada.'
         },
         {
             id: 'RP9',
-            name: 'RPGeral2_de_2V1',
+            name: 'Rich Picture Geral, parte 2',
             img: RPGeral2_2V1,
             autor: 'Grupo',
             versao: 1,
-            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que descreve o funcionamento geral do Habitica, na forma desenhada.'
         },
         {
             id: 'RP10',
-            name: 'RPGeralV2',
+            name: 'Rich Picture Geral',
             img: RPGeralV2,
             autor: 'Pedro Féo',
             versao: 2,
-            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que descreve o funcionamento geral do Habitica, na forma digital.'
         },
         {
             id: 'RP11V1',
-            name: 'RPInventarioV1',
+            name: 'Rich Picture do Inventário',
             img: RPInventarioV1,
             autor: 'Rogério Júnior',
             versao: 1,
-            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que descreve o funcionamento do inventário de itens do Habitica.'
         },
         {
             id: 'RP11',
-            name: 'RPInventarioV2',
+            name: 'Rich Picture do Inventário',
             img: RPInventarioV2,
             autor: 'Pedro Féo',
             versao: 2,
-            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que descreve o funcionamento do inventário de itens do Habitica.'
         },
         {
             id: 'RP12',
-            name: 'RPGruposV1',
+            name: 'Rich Picture dos Grupos',
             img: RPGruposV1,
             autor: 'Saleh Kader',
             versao: 1,
-            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que descreve o funcionamento do sistema de grupos do Habitica.'
         },
         {
             id: 'RP13',
-            name: 'RPLojasV1',
+            name: 'Rich Picture da Loja',
             img: RPLojasV1,
             autor: 'Lucas Dutra',
             versao: 1,
-            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que descreve o funcionamento da Loja de itens do Habitica.'
         },
         {
             id: 'RP14',
-            name: 'RPDesafiosV1',
+            name: 'Rich Picture dos Desafios',
             img: RPDesafiosV1,
             autor: 'Kaique Borges',
             versao: 1,
-            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que descreve o funcionamento dos Desafios do Habitica.'
         },
         {
             id: 'RP15',
-            name: 'RPTarefasV1',
+            name: 'Rich Picture de Tarefas',
             img: RPTarefasV1,
             autor: 'Gabriel Albino',
             versao: 1,
-            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que descreve o fluxo de tarefas dentro do Habitica.'
         },
         {
             id: 'RP16',
-            name: 'RPContribuicaoV1',
+            name: 'Rich Picture do Guia de Contribuição',
             img: RPContribuicaoV1,
-            autor: '??',
+            autor: 'Lucas Dutra',
             versao: 1,
-            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que descreve o fluxo de contribuição dentro do Habitica.'
         },
         {
             id: 'RP17',
-            name: 'RPGamificacaoV1',
+            name: 'Rich Picture da Gamificação',
             img: RPGamificacaoV1,
             autor: 'Saleh Kader',
             versao: 1,
-            descricao: 'Ipsum id ut anim in amet magna commodo elit.',
-            data: '31/03/2019',
-            fontes: [{nome: 'Google', link:'https://www.google.com/'}]
+            descricao: 'Rich Picture que descreve a Gamificação do Habitica, com base na Octalysis.'
         },
     ]
 }

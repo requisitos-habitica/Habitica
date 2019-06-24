@@ -67,7 +67,7 @@ p, li {
 }
 
 .artefact { 
-  padding-top: 11rem;
+  padding-top: 10rem;
   h1 { margin: 0; }
   a {
     color: var(--color-purple);
@@ -107,4 +107,12 @@ table {
 
 ::-webkit-scrollbar-thumb {
   background: var(--color-purple-light);
+}
+
+.footer {
+  background-color: #500077;
+  color: white;
+  letter-spacing: 1px;
+  padding: 4.9rem;
+  text-align: center;
 }
