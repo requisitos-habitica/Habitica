@@ -38,7 +38,7 @@ const BackwardFrom = () => {
           <td>-</td>
           <td>I* Tarefa</td>
           <td>-</td>
-          <td>US01</td>
+          <td><Link to='/US/US01'>US01</Link></td>
         </tr>
           <tr>
             <td>RQ02</td>
@@ -50,7 +50,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>I* Tarefa</td>
             <td>-</td>
-            <td>US02</td>
+            <td><Link to='/US/US02'>US02</Link></td>
           </tr>
           <tr>
             <td>RQ03</td>
@@ -62,7 +62,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>I* Tarefa</td>
             <td>-</td>
-            <td>US03</td>
+            <td><Link to='/US/US03'>US03</Link></td>
           </tr>
           <tr>
             <td>RQ04</td>
@@ -74,7 +74,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td> </td>
             <td>-</td>
-            <td>US04</td>
+            <td><Link to='/US/US04'>US04</Link></td>
           </tr>
           <tr>
             <td>RQ05</td>
@@ -86,7 +86,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td> </td>
             <td>-</td>
-            <td>US05</td>
+            <td><Link to='/US/US05'>US05</Link></td>
           </tr>
           <tr>
             <td>RQ06</td>
@@ -98,7 +98,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td> </td>
             <td>-</td>
-            <td>US06</td>
+            <td><Link to='/US/US06'>US06</Link></td>
           </tr>
           <tr>
             <td>RQ07</td>
@@ -110,7 +110,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td> </td>
             <td>-</td>
-            <td>US07</td>
+            <td><Link to='/US/US07'>US07</Link></td>
           </tr>
           <tr>
             <td>RQ08</td>
@@ -122,7 +122,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td> </td>
             <td>-</td>
-            <td>US08</td>
+            <td><Link to='/US/US08'>US08</Link></td>
           </tr>
           <tr>
             <td>RQ09</td>
@@ -134,7 +134,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>I* Tarefa</td>
             <td>-</td>
-            <td>US09</td>
+            <td><Link to='/US/US09'>US09</Link></td>
           </tr>
           <tr>
             <td>RQ10</td>
@@ -146,7 +146,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>I* Tarefa</td>
             <td>-</td>
-            <td>US10</td>
+            <td><Link to='/US/US10'>US10</Link></td>
           </tr>
           <tr>
             <td>RQ11</td>
@@ -158,7 +158,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td> </td>
             <td>-</td>
-            <td>US11</td>
+            <td><Link to='/US/US11'>US11</Link></td>
           </tr>
           <tr>
             <td>RQ12</td>
@@ -170,7 +170,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>I* Tarefa</td>
             <td>-</td>
-            <td>US12</td>
+            <td><Link to='/US/US12'>US12</Link></td>
           </tr>
           <tr>
             <td>RQ13</td>
@@ -182,7 +182,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td> </td>
             <td>-</td>
-            <td>US13</td>
+            <td><Link to='/US/US13'>US13</Link></td>
           </tr>
           <tr>
             <td>RQ14</td>
@@ -194,7 +194,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>I* Tarefa</td>
             <td>-</td>
-            <td>US14</td>
+            <td><Link to='/US/US14'>US14</Link></td>
           </tr>
           <tr>
             <td>RQ15</td>
@@ -206,7 +206,7 @@ const BackwardFrom = () => {
             <td>UC13</td>
             <td>I* Tarefa</td>
             <td>-</td>
-            <td>US15</td>
+            <td><Link to='/US/US15'>US15</Link></td>
           </tr>
           <tr>
             <td rowSpan='5'>FE02 - Etiquetas</td>
@@ -281,7 +281,7 @@ const BackwardFrom = () => {
             <td> </td>
             <td>RationaleUsuarioLoja-v2</td>
             <td>-</td>
-            <td>US21</td>
+            <td><Link to='/US/US21'>US21</Link></td>
           </tr>
           <tr>
             <td>RQ22</td>
@@ -293,7 +293,7 @@ const BackwardFrom = () => {
             <td> </td>
             <td>Loja-v2</td>
             <td>-</td>
-            <td>US22</td>
+            <td><Link to='/US/US22'>US22</Link></td>
           </tr>
           <tr>
             <td>RQ23</td>
@@ -305,7 +305,7 @@ const BackwardFrom = () => {
             <td> </td>
             <td>Loja-v2</td>
             <td>-</td>
-            <td>US23</td>
+            <td><Link to='/US/US23'>US23</Link></td>
           </tr>
           <tr>
             <td>RQ24</td>
@@ -317,7 +317,7 @@ const BackwardFrom = () => {
             <td> </td>
             <td>Loja-v2</td>
             <td>-</td>
-            <td>US24</td>
+            <td><Link to='/US/US24'>US24</Link></td>
           </tr>
           <tr>
             <td>RQ25</td>
@@ -329,7 +329,7 @@ const BackwardFrom = () => {
             <td> </td>
             <td>Loja-v2</td>
             <td>-</td>
-            <td>US25</td>
+            <td><Link to='/US/US25'>US25</Link></td>
           </tr>
           <tr>
             <td>RQ26</td>
@@ -341,7 +341,7 @@ const BackwardFrom = () => {
             <td> </td>
             <td>Loja-v2</td>
             <td>-</td>
-            <td>US26</td>
+            <td><Link to='/US/US26'>US26</Link></td>
           </tr>
           <tr>
             <td>RQ27</td>
@@ -353,7 +353,7 @@ const BackwardFrom = () => {
             <td> </td>
             <td>Loja-v2</td>
             <td>-</td>
-            <td>US27</td>
+            <td><Link to='/US/US27'>US27</Link></td>
           </tr>
           <tr>
             <td>RQ28</td>
@@ -365,7 +365,7 @@ const BackwardFrom = () => {
             <td>UC20</td>
             <td> </td>
             <td>-</td>
-            <td>US28</td>
+            <td><Link to='/US/US28'>US28</Link></td>
           </tr>
           <tr>
             <td>RQ29</td>
@@ -377,7 +377,7 @@ const BackwardFrom = () => {
             <td>UC21</td>
             <td> </td>
             <td>-</td>
-            <td>US29</td>
+            <td><Link to='/US/US29'>US29</Link></td>
           </tr>
           <tr>
             <td>RQ30</td>
@@ -389,7 +389,7 @@ const BackwardFrom = () => {
             <td>UC21</td>
             <td> </td>
             <td>-</td>
-            <td>US30</td>
+            <td><Link to='/US/US30'>US30</Link></td>
           </tr>
           <tr>
             <td>RQ31</td>
@@ -401,7 +401,7 @@ const BackwardFrom = () => {
             <td>UC22</td>
             <td> </td>
             <td><Link to = '/NFR'>Interação com outros usuários</Link></td>
-            <td>US31</td>
+            <td><Link to='/US/US31'>US31</Link></td>
           </tr>
           <tr>
             <td>RQ32</td>
@@ -413,7 +413,7 @@ const BackwardFrom = () => {
             <td>UC23</td>
             <td> </td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
-            <td>US32</td>
+            <td><Link to='/US/US32'>US32</Link></td>
           </tr>
           <tr>
             <td>RQ33</td>
@@ -425,7 +425,7 @@ const BackwardFrom = () => {
             <td>UC23</td>
             <td> </td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
-            <td>US33</td>
+            <td><Link to='/US/US33'>US33</Link></td>
           </tr>
           <tr>
             <td>RQ34</td>
@@ -437,7 +437,7 @@ const BackwardFrom = () => {
             <td>UC23</td>
             <td> </td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
-            <td>US34</td>
+            <td><Link to='/US/US34'>US34</Link></td>
           </tr>
           <tr>
             <td rowSpan='7'>FE04 - <br />Loja</td>
@@ -509,7 +509,6 @@ const BackwardFrom = () => {
             <td><Link to="/Loja Sazonal">LX13</Link>, <Link to="/Viajantes do Tempo">LX14</Link></td>
             <td><Link smooth to='/CasosDeUsoLoja#UC16'>UC16</Link></td> 
             <td>UC16</td>
-            <td> </td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td><Link to='/US/US40'>US40</Link></td>
           </tr>
@@ -622,7 +621,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td> </td>
             <td><Link to='/NFR' >Menor esforço ao usuário</Link></td>
-            <td>US49</td>
+            <td><Link to='/US/US49'>US49</Link></td>
           </tr>
           <tr>
             <td>RQ50</td>
@@ -634,7 +633,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td> </td>
             <td>-</td>
-            <td>US50</td>
+            <td><Link to='/US/US50'>US50</Link></td>
           </tr>
           <tr>
             <td>RQ51</td>
@@ -646,7 +645,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td> </td>
             <td><Link to = '/NFR'>Interação com outros usuários</Link></td>
-            <td>US51</td>
+            <td><Link to='/US/US51'>US51</Link></td>
           </tr>
           <tr>
             <td>RQ52</td>
@@ -658,7 +657,7 @@ const BackwardFrom = () => {
             <td>UC02</td>
             <td> </td>
             <td>-</td>
-            <td>US52</td>
+            <td><Link to='/US/US52'>US52</Link></td>
           </tr>
           <tr>
             <td>RQ53</td>
@@ -670,7 +669,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td> </td>
             <td>-</td>
-            <td>US53</td>
+            <td><Link to='/US/US53'>US53</Link></td>
           </tr>
           <tr>
             <td>RQ54</td>
@@ -682,7 +681,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td> </td>
             <td>-</td>
-            <td>US54</td>
+            <td><Link to='/US/US54'>US54</Link></td>
           </tr>
           <tr>
             <td>RQ55</td>
@@ -694,7 +693,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td> </td>
             <td>-</td>
-            <td>US55</td>
+            <td><Link to='/US/US55'>US55</Link></td>
           </tr>
           <tr>
             <td>RQ56</td>
@@ -706,7 +705,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td> </td>
             <td>Significado Épico e Chamado</td>
-            <td>US56</td>
+            <td><Link to='/US/US56'>US56</Link></td>
           </tr>
           <tr>
             <td>RQ57</td>
@@ -718,7 +717,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td> </td>
             <td>-</td>
-            <td>US57</td>
+            <td><Link to='/US/US57'>US57</Link></td>
           </tr>
         </tbody></table>
     </div>
