@@ -2,7 +2,7 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   margin-top: 10rem;
   div { color: var(--color-purple-light); }
@@ -15,8 +15,7 @@
   justify-content: space-around;
   height: 26rem;
   width: 26rem;
-  margin-bottom: 5rem;
-  margin-left: 5rem;
+  margin: 1.5rem;
   text-align: center;
 
   padding: 5rem 5rem;
