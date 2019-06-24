@@ -1,21 +1,23 @@
 import React from 'react'
 import NCardsLayout from '../../UI/NCardsLayout/NCardsLayout'
-import dictionary from '../../../assets/dictionary.svg'
+import fact from '../../../assets/network.svg'
+import back from '../../../assets/right-arrow.svg'
+import forw from '../../../assets/back-drawn-arrow.svg'
 
 const items = [
   {
-    link: '/ForwardFrom',
-    img: dictionary,
-    title: 'Forward From'
-  },
-  {
     link: '/BackwardFrom',
-    img: dictionary,
+    img: forw,
     title: 'BackwardFrom'
   },
   {
+    link: '/ForwardFrom',
+    img: back,
+    title: 'Forward From'
+  },
+  {
     link: '/FactBox',
-    img: dictionary,
+    img: fact,
     title: 'FactBox'
   }
 ]
