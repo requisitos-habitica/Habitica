@@ -210,7 +210,7 @@ const BackwardFrom = () => {
               <td><Link smooth to='/Brainstorm'>BS1</Link><br /><Link smooth to='/Etnografia' >ETN1</Link><br /><Link smooth to='/Etnografia' >ETN1</Link><br /><Link smooth to='/Storytelling01#ST2' >ST2</Link><br /><Link smooth to='/Storytelling02#ST11'>ST11</Link></td>
               <td><Link to="Completa Missão">CN26</Link></td>
               <td><Link to="/Receber recompensa">LX65</Link></td>
-              <td>UC13</td>
+              <td>-</td>
               <td><Link to="/iStarTarefasV1">I* Tarefa</Link></td>
               <td>-</td>
               <td><Link to='/US/US15'>US15</Link></td>
