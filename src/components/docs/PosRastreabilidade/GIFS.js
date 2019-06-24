@@ -18,7 +18,7 @@ const GIFS = (props) => {
 
             <Card >
                 <h2>Critérios de aceitação</h2>
-                <p>{props.description}</p>
+                {props.acceptanceCriteria.map(criteria=><p>{criteria}</p>)}
             </Card>
 
             <Card >
@@ -34,12 +34,22 @@ const GIFS = (props) => {
 
             <Card >
                 <h2>Caminho do arquivo Front-end</h2>
-                <p>{props.frontEnd}</p>
+                <a href={props.frontReference}>{props.frontReference}</a>
+            </Card>
+
+            <Card >
+                <h2>Referência GitHub Front-end</h2>
+                <p>{props.frontReference}</p>
             </Card>
 
             <Card >
                 <h2>Caminho do arquivo Back-end</h2>
                 <p>{props.backEnd}</p>
+            </Card>
+
+            <Card >
+                <h2>Referência GitHub Back-end</h2>
+                <a href={props.backReference}>{props.backReference}</a>
             </Card>
 
             <Card >

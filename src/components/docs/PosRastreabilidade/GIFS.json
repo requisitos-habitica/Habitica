@@ -3,343 +3,684 @@
         "id": "US01",
         "description": "Eu, como usuário do sistema, desejo poder adicionar uma nova diária, para que eu possa ter controle sobre minhas metas diárias.",
         "frontEnd": "website/client/components/tasks/taskModal.vue",
-        "backEnd": "",
-        "acceptanceCriteria": []
+        "backEnd": "website/server/controllers/api-v3/tasks.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/taskModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tasks.js",
+        "acceptanceCriteria": [
+            "Deve haver um botão de adicionar tarefa",
+            "O usuário deve ser capaz de decidir qual tipo de tarefa ele quer criar"
+        ]
     },
     {
         "id": "US02",
         "description": "Eu, como usuário do sistema, desejo poder adicionar um novo hábito para que eu possa controlá-los.",
         "frontEnd": "website/client/components/tasks/taskModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tasks.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/taskModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tasks.js",
+        "acceptanceCriteria": [
+            "Deve haver um botão de adicionar tarefa",
+            "O usuário deve ser capaz de decidir qual tipo de tarefa ele quer criar"
+        ]
     },
     {
         "id": "US03",
         "description": "Eu, como usuário do sistema, desejo poder adicionar um novo afazer para que eu possa controlar o que falta para eu cumprir minhas obrigações.",
         "frontEnd": "website/client/components/tasks/taskModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tasks.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/taskModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tasks.js",
+        "acceptanceCriteria": [
+            "Deve haver um botão de adicionar tarefa",
+            "O usuário deve ser capaz de decidir qual tipo de tarefa ele quer criar"
+        ]
     },
     {
         "id": "US04",
         "description": "Eu, como usuário do sistema, desejo deletar tarefa para não ter atividades que não fazem mais sentido fazer.",
         "frontEnd": "website/client/components/tasks/task.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tasks.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/task.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/task.vue",
+        "acceptanceCriteria": [
+            "Deve existir um botão de excluir tarefa",
+            "Deve haver uma caixa de confirmação antes de deletar a tarefa"
+        ]
     },
     {
         "id": "US05",
         "description": "Eu, como usuário do sistema, desejo editar uma tarefa para arrumar dados que estão incorretos ou que mudaram.",
         "frontEnd": "website/client/components/tasks/taskModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tasks.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/taskModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tasks.js",
+        "acceptanceCriteria": [
+            "O botão de edição deve ser de fácil acesso ao usuário"
+        ]
     },
     {
         "id": "US06",
         "description": "Eu, como usuário do sistema, desejo finalizar uma tarefa para poder salvar que eu a terminei.",
         "frontEnd": "website/client/components/tasks/task.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tasks.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/task.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tasks.js",
+        "acceptanceCriteria": [
+            "Deve haver um botão para marcar uma tarefa como concluída",
+            "A tarefa concluída deve ter um estilo visual diferente da tarefa a ser concluída"
+        ]
     },
     {
         "id": "US07",
         "description": "Eu, como usuário do sistema, desejo reorganizar a ordem das tarefas para que eu consiga personalizar como eu quero minha atividades.",
         "frontEnd": "website/client/components/tasks/task.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tasks.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/task.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tasks.js",
+        "acceptanceCriteria": [
+            "O sistema deverá armazenar a posição da tarefa e exibi-la na posição correta",
+            "O usuário deverá ser capaz de reordenar tarefas arrastando-as"
+        ]
     },
     {
         "id": "US08",
         "description": "Eu, como usuário do sistema, desejo botar observações nas tarefas para que eu não me esqueça de nenhum detalhe importante sobre ela.",
         "frontEnd": "website/client/components/tasks/column.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tasks.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/column.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tasks.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de digitar um texto de observação na criação da tarefa",
+            "O texto de observação deverá ser facilmente acessado"
+        ]
     },
     {
         "id": "US09",
         "description": "Eu, como usuário do sistema, desejo adicionar uma data da tarefa para me lembrar no dia dela.",
         "frontEnd": "website/client/components/tasks/taskModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tasks.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/taskModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tasks.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de escolher uma data limite na criação da tarefa",
+            "A data limite deve ser facilmente acessado"
+        ]
     },
     {
         "id": "US10",
         "description": "Eu, como usuário do sistema, desejo determinar uma dificuldade na atividade para que eu possa determinar prioridades.",
         "frontEnd": "website/client/components/tasks/taskModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tasks.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/taskModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tasks.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de escolher uma dificuldade para a tarefa em sua criação"
+        ]
     },
     {
         "id": "US11",
         "description": "Eu, como usuário do sistema, desejo adicionar uma etiqueta na atividade para poder agrupá-las como eu quiser.",
         "frontEnd": "website/client/components/tasks/taskModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tasks.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/taskModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tasks.js",
+        "acceptanceCriteria": [
+            "O usuário deverá ser capaz de atribuir etiquetas já criadas às tarefas",
+            "O sistema deverá guardar as etiquetas de cada tarefa"
+        ]
     },
     {
         "id": "US12",
         "description": "Eu, como usuário do sistema, desejo determinar que a tarefa repita para não precisar adicioná-la sempre.",
         "frontEnd": "website/client/components/tasks/taskModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tasks.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/taskModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tasks.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de definir o intervalo de repetição da tarefa",
+            "O usuário deve ser capaz de definir uma data limite para a tarefa"
+        ]
     },
     {
         "id": "US13",
         "description": "Eu, como usuário do sistema, desejo poder pesquisar por uma tarefa para eu ter acesso rápido a ela.",
         "frontEnd": "website/client/components/tasks/taskModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tasks.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/taskModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tasks.js",
+        "acceptanceCriteria": [
+            "Deverá existir um campo de texto para o usuário digitar o título da tarefa",
+            "Apenas as tarefas correspondentes ao texto devem aparecer filtradas"
+        ]
     },
     {
         "id": "US14",
         "description": "Eu, como usuário do sistema, desejo filtrar atividades por etiquetas para ter um acesso rápido a ela.",
         "frontEnd": "website/client/components/tasks/user.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tasks.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/user.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tasks.js",
+        "acceptanceCriteria": [
+            "Deverá existir um campo para selecionar a etiqueta a ser exibida",
+            "Somente deverão aparecer resultados que pertençam a etiqueta escolhida"
+        ]
     },
     {
         "id": "US15",
         "description": "Eu, como usuário do sistema, desejo, ao completar tarefas, ganhar recompensas.",
         "frontEnd": "website/client/components/tasks/taskModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tasks.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/taskModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tasks.js",
+        "acceptanceCriteria": [
+            "A recompensa deve ser mostrada imediatamente após completar a tarefa",
+            "A o valor da recompensa deve ser mostrado"
+        ]
     },
     {
         "id": "US16",
         "description": "Eu, como usuário do sistema, desejo criar uma etiqueta para que eu possa organizar atividades.",
         "frontEnd": "website/client/components/tasks/user.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tags.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/user.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tags.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de cadastrar etiquetas com nome e cor",
+            "As etiquetas devem ser de fácil visualização"
+        ]
     },
     {
         "id": "US17",
         "description": "Eu, como usuário do sistema, desejo deletar uma etiqueta para não bagunçar minha organização.",
         "frontEnd": "website/client/components/tasks/user.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tags.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/user.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tags.js",
+        "acceptanceCriteria": [
+            "Deverá existir um botão para excluir etiquetas existentes",
+            "Após a exclusão a etiqueta deve ser desacoplada de todos as tarefas que ela classificava",
+            "A etiqueta excluída não deverá ser exibida na seleção de etiquetas"
+        ]
     },
     {
         "id": "US18",
         "description": "Eu, como usuário do sistema, desejo atualizar uma etiqueta para arrumar dados incorretos ou desatualizados.",
         "frontEnd": "website/client/components/tasks/user.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tags.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/user.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tags.js",
+        "acceptanceCriteria": [
+            "Deverá existir um botão para editar a etiqueta",
+            "O sistema deverá salvar as informações atualizadas da etiqueta e aplicá-las à todas as tarefas que a possuía"
+        ]
     },
     {
         "id": "US19",
         "description": "Eu, como usuário do sistema, desejo reorganizar a ordem das etiquetas para eu poder organizar da forma que eu quiser.",
         "frontEnd": "website/client/components/tasks/user.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tags.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/user.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tags.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de definir a ordem de uma etiqueta arrastando-a",
+            "O sistema deverá guardar a posição da etiqueta e exibi-la no lugar correto"
+        ]
     },
     {
         "id": "US20",
         "description": "Eu, como usuário do sistema, desejo ver atividades completadas para eu saber o que ja foi finalizado.",
         "frontEnd": "website/client/components/tasks/column.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/tags.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/tasks/column.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/tags.js",
+        "acceptanceCriteria": [
+            "Deverá ter um botão para exibir as tarefas já concluídas",
+            "As tarefas concluídas devem ter um visual diferente das tarefas não concluídas para fácil reconhecimento"
+        ]
     },
     {
         "id": "US21",
         "description": "Eu, como usuário do sistema, gostaria de ter todos os itens que eu comprar ou ganhar separados em um local.",
         "frontEnd": "website/client/components/tasks/column.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/user.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/inventory/items/index.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/user.js",
+        "acceptanceCriteria": [
+            "Esse local deve poder ser acessado diretamente do menu principal da aplicação"
+        ]
     },
     {
         "id": "US22",
         "description": "Eu, como usuário do sistema, gostaria que meus itens fossem categorizados na aba equipamentos, que podem personalizar o avatar, aba estábulo, para ficar os mascotes e montarias, e aba itens em geral.",
         "frontEnd": "website/client/components/inventory/index.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/user.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/inventory/index.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/user.js",
+        "acceptanceCriteria": [
+            "Essas categorias devem estar bem visíveis aos usuários"
+        ]
     },
     {
         "id": "US23",
         "description": "Eu, como usuário do sistema, gostaria de ter a seguinte divisão na aba de categoria para os itens: ovos, poções, comidas e selas, especial e missões.",
         "frontEnd": "website/client/components/inventory/index.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/user.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/inventory/items/index.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/user.js",
+        "acceptanceCriteria": [
+            "Em cada categoria, deve ter uma indicação que quantos itens daquela categoria tenho",
+            "Em item, deve ter uma indicação de quantos itens daquele tenho"
+        ]
     },
     {
         "id": "US24",
         "description": "Eu, como usuário do sistema, gostaria de ter a seguinte divisão na aba de categoria para os equipamentos: cabeça, tiaras, óculos, armaduras, costas, corpo, arma e escudo.",
         "frontEnd": "website/client/components/inventory/index.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/user.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/inventory/equipment/index.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/user.js",
+        "acceptanceCriteria": [
+            " Em cada categoria, deve ter uma indicação que quantos itens daquela categoria tenho",
+            "Em item, deve ter uma indicação de quantos equipamentos daquele tipo tenho"
+        ]
     },
     {
         "id": "US25",
         "description": "Eu, como usuário do sistema, gostaria de ter a seguinte divisão na abas de categoria para o estábulo: montaria e mascotes.",
         "frontEnd": "website/client/components/inventory/index.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/user.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/inventory/stable/index.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/user.js",
+        "acceptanceCriteria": [
+            "Deve existir uma indicação que quantos pets tenho vs quantos pets existem no total"
+        ]
     },
     {
         "id": "US26",
         "description": "Eu, como usuário do sistema, gostaria de poder filtrar meus itens para acessa-los de maneira mais rápida.",
         "frontEnd": "website/client/components/inventory/index.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/user.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/inventory/items/index.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/user.js",
+        "acceptanceCriteria": [
+            "Deverá ser possível selecionar mais de uma categoria por vez"
+        ]
     },
     {
         "id": "US27",
         "description": "Eu, como usuário do sistema, gostaria de poder buscar meus itens por nome.",
         "frontEnd": "website/client/components/inventory/index.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/user.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/inventory/items/index.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/user.js",
+        "acceptanceCriteria": [
+            "Deverá existir um campo de texto para o usuário digitar o título da tarefa",
+            "Apenas os itens correspondentes ao texto devem aparecer filtradas"
+        ]
     },
     {
         "id": "US28",
         "description": "Eu, como usuário do sistema, gostaria de usar as poções para eclodir nos meus ovos de pets.",
         "frontEnd": "website/client/components/inventory/index.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/user.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/inventory/items/index.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/user.js",
+        "acceptanceCriteria": [
+            "O usuário deve clicar na poção para selecioná-la e depois clicar no ovo que deseja eclodir"
+        ]
     },
     {
         "id": "US29",
         "description": "Eu, como usuário do sistema, gostaria de poder alimentar os meus mascotes.",
         "frontEnd": "website/client/components/inventory/index.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/user.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/inventory/items/index.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/user.js",
+        "acceptanceCriteria": [
+            "O usuário deve clicar na comida para selecioná-la e depois clicar no mascote que deseja alimentar"
+        ]
     },
     {
         "id": "US30",
         "description": "Eu, como usuário do sistema, gostaria que os mascotes pudessem evoluir para algo que o avatar pudesse montar.",
         "frontEnd": "website/client/components/inventory/index.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/user.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/inventory/items/index.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/user.js",
+        "acceptanceCriteria": [
+            "Sempre que o mascote evoluir, deve haver uma indicação visual"
+        ]
     },
     {
         "id": "US31",
         "description": "Eu, como usuário do sistema, gostaria poder propor as missões que eu tenho para o grupo o qual participo.",
         "frontEnd": "website/client/components/groups/questDetailModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/user.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/groups/questDetailsModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/user.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de ao acessar seu inventário poder visualizar suas missões disponíveis",
+            "O usuário deve ser capaz de ao clicar em uma missão possuída, receber a opção de propor para seu grupo"
+        ]
     },
     {
         "id": "US32",
         "description": "Eu, como usuário do sistema, gostaria de poder equipar meu avatar com os equipamentos que tenho disponíveis ou desequipá-lo.",
         "frontEnd": "website/client/components/inventory/equipment/equipGearModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/user.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/inventory/equipment/equipGearModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/user.js",
+        "acceptanceCriteria": [
+            "Deverá existir um indicador de qual equipamento o usuário está usando para facilitar a identificação"
+        ]
     },
     {
         "id": "US33",
         "description": "Eu, como usuário do sistema, gostaria de ser capaz de colocar e retirar os mascotes junto ao meu avatar.",
         "frontEnd": "website/client/components/inventory/stable/mountItem.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/user.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/inventory/stable/mountItem.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/user.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de colocar os mascotes com apenas um clique",
+            "O usuário deve ser capaz de retirar os mascotes com apenas um clique"
+        ]
     },
     {
         "id": "US34",
         "description": "Eu, como usuário do sistema, gostaria de adicionar uma montaria ao meu avatar, de forma que o avatar esteja montado nele, ou retirá-la.",
         "frontEnd": "website/client/components/inventory/stable/petItem.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/user.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/inventory/stable/petItem.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/user.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de colocar os montarias com apenas um clique",
+            "O usuário deve ser capaz de retirar os montarias com apenas um clique"
+        ]
     },
     {
         "id": "US35",
         "description": "Eu, como usuário do sistema, desejo comprar equipamento com gemas ou moedas para meu avatar para que eu possa customizar meu avatar.",
         "frontEnd": "website/client/components/shops/market/equipmentSection.vue",
-        "backEnd": ""
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/shops/market/equipmentSection.vue",
+        "backEnd": "Referências não encontradas",
+        "backReference": "Referências não encontradas",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de visualizar os equipamentos disponíveis para a compra",
+            "O usuário deve ser capaz de ao clicar no equipamento, escolher de qual forma ele irá adquiri-lo"
+        ]
     },
     {
         "id": "US36",
         "description": "Eu, como usuário do sistema, desejo ver o valor dos itens da loja para que eu possa avaliar se posso comprar e decidir qual item comprar.",
         "frontEnd": "website/client/components/shops/buyModal.vue",
-        "backEnd": ""
+        "backEnd": "Referências não encontradas",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/shops/buyModal.vue",
+        "backReference": "Referências não encontradas",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de visualizar os itens disponíveis para a compra na loja",
+            "O usuário deve ser capaz de visualizar a quantia de moedas e gemas que cada item custa"
+        ]
     },
     {
         "id": "US37",
         "description": "Eu, como usuário do sistema, desejo adquirir moedas para que eu possa comprar itens da loja.",
-        "frontEnd": "website/client/components/tasks/taskModal.vue",
-        "backEnd": ""
+        "frontEnd": "Referências não encontradas",
+        "backEnd": "Referências não encontradas",
+        "frontReference": "Referências não encontradas",
+        "backReference": "Referências não encontradas",
+        "acceptanceCriteria": [
+            "O sistema deve, automaticamente, ao o usuário completar uma tarefa ou missão fornecer moedas ao usuário"
+        ]
     },
     {
         "id": "US38",
         "description": "Eu, como usuário do sistema, desejo comprar itens com gemas ou moedas para que eu possa usá-los e melhorar meu rendimento em missões.",
         "frontEnd": "website/client/components/shops/shopItem.vue",
-        "backEnd": ""
+        "backEnd": "Referências não encontradas",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/shops/shopItem.vue",
+        "backReference": "Referências não encontradas",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de visualizar os itens disponíveis para a compra",
+            "O usuário deve ser capaz de ao clicar no item, escolher de qual forma ele irá adquiri-lo"
+        ]
     },
     {
         "id": "US39",
         "description": "Eu, como usuário do sistema, desejo comprar missões com gemas ou moedas para que eu possa me divertir e ganhar pontos de experiência.",
         "frontEnd": "website/client/components/shops/quests/buyQuestModal.vue",
-        "backEnd": ""
+        "backEnd": "Referências não encontradas",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/shops/quests/buyQuestModal.vue + https://github.com/HabitRPG/habitica/blob/develop/website/client/components/shops/quests/buyQuestModal.vue",
+        "backReference": "Referências não encontradas",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de visualizar as missões disponíveis para a compra",
+            "O usuário deve ser capaz de ao clicar a missão, escolher de qual forma ele irá adquiri-lo"
+        ]
     },
     {
         "id": "US40",
         "description": "Eu, como usuário do sistema, desejo comprar itens limitados com gemas ou moedas para que eu customizar meu avatar",
         "frontEnd": "website/client/components/shops/shopItem.vue + website/client/components/shops/seasonal/index.vue",
-        "backEnd": ""
+        "backEnd": "Referências não encontradas",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/shops/shopItem.vue + https://github.com/HabitRPG/habitica/blob/develop/website/client/components/shops/seasonal/index.vue",
+        "backReference": "Referências não encontradas",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de trocar moedas por itens na loja",
+            "O usuário deve ser capaz de trocar gemas por itens na loja",
+            "Ao trocar moedas ou gemas na loja o usuário deve obter itens"
+        ]
     },
     {
         "id": "US41",
         "description": "Eu, como usuário do sistema, desejo comprar missões limitadas com gemas ou moedas para que eu possa me divertir e ganhar pontos de experiência",
         "frontEnd": "website/client/components/shops/quests/buyQuestModal.vue + website/client/components/shops/seasonal/index.vue",
-        "backEnd": ""
+        "backEnd": "Referências não encontradas",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/shops/seasonal/index.vue",
+        "backReference": "Referências não encontradas",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de trocar moedas por missões na loja",
+            "O usuário deve ser capaz de trocar gemas por missões na loja",
+            "Ao trocar moedas ou gemas na loja o usuário deve obter missões"
+        ]
     },
     {
         "id": "US42",
         "description": "Eu, como usuário do sistema, desejo criar desafios para motivar outros usuários através de uma competição.",
         "frontEnd": "website/client/components/challenges/challengeModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/challenges.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/challenges/challengeModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/challenges.js",
+        "acceptanceCriteria": [
+            "O usuário deve poder selecionar se quer um desafio público ou privado",
+            "O usuário deve poder selecionar um prêmio para o desafio"
+        ]
     },
     {
         "id": "US43",
         "description": "Eu, como usuário do sistema, desejo participar de um desafio para competir com outros usuários, me divertir sendo mais produtivo e ganhar um prêmio.",
         "frontEnd": "website/client/components/challenges/challengeDetail.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/challenges.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/challenges/challengeDetail.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/challenges.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de participar em desafios ",
+            "Os desafios podem conter diversos usuários",
+            "Ao ganhar um desafio o usuário deve ganhar uma premiação"
+        ]
     },
     {
         "id": "US44",
         "description": "Eu, como usuário do sistema, desejo ver o progresso de outros participantes de um desafio para que eu possa comparar meu desempenho com o deles.",
         "frontEnd": "website/client/components/challenges/challengeMemberProgressModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/challenges.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/challenges/challengeMemberProgressModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/challenges.js",
+        "acceptanceCriteria": [
+            "O usuário deve possuir um progresso em relação ao desafio",
+            "O usuário deve ser capaz de visualizar seu progresso",
+            "O usuário deve ser capaz de visualizar o progresso de outros usuários no mesmo desafio"
+        ]
     },
     {
         "id": "US45",
         "description": "Eu, como usuário criador de um desafio, desejo declarar o vencedor de tal desafio para que a pessoa receba o prêmio.",
         "frontEnd": "website/client/components/challenges/challengeItem.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/challenges.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/challenges/challengeItem.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/challenges.js",
+        "acceptanceCriteria": [
+            "O usuário criador do desafio deve poder encerrar o desafio",
+            "Ao encerrar o desafio o usuário criador deve escolher um usuário vencedor"
+        ]
     },
     {
         "id": "US46",
         "description": "Eu, como usuário do sistema, desejo filtrar desafios por categoria para que eu veja somente desafios de uma área que eu me interesso.",
         "frontEnd": "website/client/components/challenges/findChallenges.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/challenges.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/challenges/findChallenges.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/challenges.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de visualizar uma lista de desafios",
+            "O usuário deve ser capaz de filtrar os desafios com base em categorias",
+            "O sistema deve possuir categorias para filtrar os desafios"
+        ]
     },
     {
         "id": "US47",
         "description": "Eu, como usuário do sistema, desejo buscar desafios por nome para que eu encontre mais rapidamente desafios com aquela característica.",
         "frontEnd": "website/client/components/challenges/findChallenges.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/challenges.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/challenges/findChallenges.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/challenges.js",
+        "acceptanceCriteria": [
+            "Deverá existir um campo de texto para o usuário digitar o título da tarefa",
+            "Apenas os desafios correspondentes ao texto devem aparecer filtradas"
+        ]
     },
     {
         "id": "US48",
         "description": "Eu, como usuário do sistema, desejo ver destacados os desafios que criei e participo para que não precise buscá-los por categoria, nome ou manualmente.",
         "frontEnd": "website/client/components/challenges/myChallenges.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/challenges.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/challenges/myChallenges.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/challenges.js",
+        "acceptanceCriteria": [
+            "O usuário deve ter acesso a uma tela que mostra os desafios que criou",
+            "Deverá existir um botão na tela principal de desafios para que o usuário possa acessar os desafios criados por ele"
+        ]
     },
     {
         "id": "US49",
         "description": "Eu, como usuário do sistema, desejo acessar os grupos pela sidebar para acessar suas funcionalidades.",
         "frontEnd": "website/client/components/groups/sidebar.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/groups.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/groups/sidebar.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/groups.js",
+        "acceptanceCriteria": [
+            "O sistema deve conter uma sidebar que disponibilize algumas funcionalidades",
+            "O usuário deve ser capaz de acessar a aba de grupos pela sidebar disponível no sistema"
+        ]
     },
     {
         "id": "US50",
         "description": "Eu, como usuário do sistema, desejo ser capaz de me retirar do grupo para poder participar de outros grupos.",
         "frontEnd": "website/client/components/groups/group.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/groups.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/groups/group.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/groups.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de ter acesso a um botão que possibilite a saída dele do grupo atual",
+            "O sistema deve oferecer ao usuário dupla verificação de opção do usuário, ao ser clicada a opção de sair do grupo",
+            "O sistema deve desvincular o usuário do grupo atual quando a opção de saída for confirmada"
+        ]
     },
     {
         "id": "US51",
         "description": "Eu, como usuário do sistema, desejo ser capaz de acessar o chat para poder interagir com outros usuários.",
         "frontEnd": "website/client/components/groups/chat.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/groups.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/groups/chat.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/groups.js",
+        "acceptanceCriteria": [
+            "O sistema deverá possuir um chat que exiba as mensagens instantaneamente, ao serem enviadas, de cada usuário",
+            "O usuário deve ser capaz de digitar uma mensagem de seu gosto no campo determinado",
+            "O usuário deve poder enviar a mensagem digitada ao seu grupo",
+            "O usuário deve ser capaz de visualizar as mensagens enviadas por outros memebros do grupo"
+        ]
     },
     {
         "id": "US52",
         "description": "Eu, como usuário do sistema, desejo ser capaz de convidar o grupo para uma missão para trabalharmos em equipe.",
         "frontEnd": "website/client/components/groups/startQuestModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/groups.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/groups/startQuestModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/groups.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de ao acessar seu inventário poder visualizar suas missões disponíveis",
+            "O usuário deve ser capaz de ao clicar em uma missão possuída, receber a opção de propor para seu grupo"
+        ]
     },
     {
         "id": "US53",
         "description": "Eu, como usuário do sistema, desejo vizualizar o perfil de outros usuários do grupo para conhecê-los.",
         "frontEnd": "website/client/components/groups/participantListModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/groups.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/groups/participantListModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/groups.js",
+        "acceptanceCriteria": [
+            "O usuário deve ter acesso a uma sessão que exibe todos os participantes de seu grupo",
+            "O usuário deve ser capaz de, ao escolher um membro do grupo, ao clicar em seu avatar poder ter acesso ao seu perfil"
+        ]
     },
     {
         "id": "US54",
         "description": "Eu, como usuário do sistema, desejo acessar o perfil individual dos outros usuários do grupo para identificar os seus atributos.",
         "frontEnd": "website/client/components/groups/membersModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/groups.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/groups/membersModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/groups.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de, ao escolher um membro do grupo, ao clicar em seu avatar poder ter acesso ao seu perfil"
+        ]
     },
     {
         "id": "US55",
         "description": "Eu, como usuário do sistema, desejo cancelar uma missão para poder participar de outras missões.",
         "frontEnd": "website/client/components/groups/questDetailsModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/groups.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/groups/questDetailsModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/groups.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de, na aba de grupos, visualizar a missão em andamento de seu grupo",
+            "O usuário deve ser capaz de cancelar a missão que está em vigor",
+            "O sistema deve precaver ações indesejadas do usuário com dupla verificação de resposta, caso a intenção seja abandonar a missão"
+        ]
     },
     {
         "id": "US56",
         "description": "Eu, como usuário do sistema, desejo criar um grupo para chamar meus amigos.",
         "frontEnd": "website/client/components/groups/newPartyModal.pug",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/groups.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/groups/newPartyModal.pug",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/groups.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de na aba grupos, possuir uma opção de criar um novo",
+            "O usuário deve ser capaz de dar um nome ao seu novo grupo",
+            "O sistema deve vincular o novo grupo ao usuário criador"
+        ]
     },
     {
         "id": "US57",
         "description": "Eu, como usuário do sistema, desejo chamar meus amigos para o meu grupo.",
         "frontEnd": "website/client/components/groups/inviteModal.vue",
-        "backEnd": ""
+        "backEnd": "website/server/controllers/api-v3/groups.js",
+        "frontReference": "https://github.com/HabitRPG/habitica/blob/develop/website/client/components/groups/inviteModal.vue",
+        "backReference": "https://github.com/HabitRPG/habitica/blob/develop/website/server/controllers/api-v3/groups.js",
+        "acceptanceCriteria": [
+            "O usuário deve ser capaz de pesquisar por outros usuários",
+            "O usuário deve ser capaz de convidar o terceiro usuário escolhido para seu grupo",
+            "O sistema deverá ser capaz de notificar o usuário escolhido para ingressar no grupo criado"
+        ]
     }
 ]
