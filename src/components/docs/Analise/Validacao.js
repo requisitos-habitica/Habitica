@@ -16,6 +16,11 @@ const items = [
     link: '/Emails',
     img: correct,
     title: 'E-mails'
+  },
+  {
+    link: '/WikiOficial',
+    img: correct,
+    title: 'Wiki Oficial'
   }
 ]
 
