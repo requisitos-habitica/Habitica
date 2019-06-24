@@ -447,9 +447,9 @@ const BackwardFrom = () => {
             <td><Link to='/Brainstorm'>BS1</Link><br /><Link to='/Etnografia'>ETN1</Link><br /><Link to='/Introspeccao'>INT1</Link></td>
             <td><Link to="/Comprar Missões na Loja">CN06</Link>, <Link to="/Comprar Equipamentos na Loja Sazonal">CN09</Link></td>
             <td>LX10,  LX11, LX76</td>
-            <td>UC16</td>
-            <td>RationaleUsuarioLoja-v2</td>
-            <td>Posse de itens e riquezas</td>
+            <td><Link smooth to='/CasosDeUsoLoja#UC16'>UC16</Link></td>
+            <td><Link to='/iStarLojaV3'>RationaleUsuarioLoja-v3</Link></td>
+            <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td><Link to='/US/US35'>US35</Link></td>
           </tr>
           <tr>
@@ -459,9 +459,9 @@ const BackwardFrom = () => {
             <td><Link to='/Etnografia'>ETN1</Link></td>
             <td><Link to="/Comprar Missões na Loja">CN06</Link>, <Link to="/Comprar Equipamentos na Loja Sazonal">CN09</Link></td>
             <td>LX16</td>
-            <td>UC16</td>
+            <td><Link smooth to='/CasosDeUsoLoja#UC16'>UC16</Link></td>
             <td> </td>
-            <td>Feedback ao usuário</td>
+            <td><Link to = '/NFR'>Feedback ao usuário</Link></td>
             <td><Link to='/US/US36'>US36</Link></td>
           </tr>
           <tr>
@@ -471,9 +471,9 @@ const BackwardFrom = () => {
             <td> </td>
             <td><Link to="/Adquirir Moedas">CN13</Link></td>
             <td>LX11</td>
-            <td>UC18</td>
+            <td><Link smooth to='/CasosDeUsoLoja#UC18'>UC18</Link></td>
             <td> </td>
-            <td>Posse de itens e riquezas</td>
+            <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td><Link to='/US/US37'>US37</Link></td>
           </tr>
           <tr>
@@ -485,7 +485,7 @@ const BackwardFrom = () => {
             <td>LX10,  LX11</td>
             <td>-</td>
             <td> </td>
-            <td>Posse de itens e riquezas</td>
+            <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td><Link to='/US/US38'>US38</Link></td>
           </tr>
           <tr>
@@ -495,9 +495,9 @@ const BackwardFrom = () => {
             <td><Link to='/Brainstorm'>BS1</Link></td>
             <td><Link to="/Comprar Missões na Loja">CN06</Link>, <Link to="/Comprar Missões na Loja Utilizando Moedas">CN07</Link>, <Link to="/Comprar Missões na Loja Utilizando Gemas">CN08</Link></td>
             <td>LX10, LX11, LX26</td>
-            <td>UC15</td>
+            <td><Link smooth to='/CasosDeUsoLoja#UC15'>UC15</Link></td>
             <td> </td>
-            <td>Posse de itens e riquezas</td>
+            <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td><Link to='/US/US39'>US39</Link></td>
           </tr>
           <tr>
@@ -507,9 +507,9 @@ const BackwardFrom = () => {
             <td>-</td>
             <td><Link to="/Comprar Itens na Loja Sazonal">CN10</Link>, <Link to="/Comprar Equipamentos na Loja Sazonal">CN09</Link></td>
             <td>LX13, LX14</td>
-            <td>UC16</td>
+            <td><Link smooth to='/CasosDeUsoLoja#UC16'>UC16</Link></td>
             <td> </td>
-            <td>Posse de itens e riquezas</td>
+            <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td><Link to='/US/US40'>US40</Link></td>
           </tr>
           <tr>
@@ -519,9 +519,9 @@ const BackwardFrom = () => {
             <td>-</td>
             <td><Link to="/Comprar Missões na Loja Sazonal">CN11</Link></td>
             <td>LX13, LX14</td>
-            <td>UC15</td>
+            <td><Link smooth to='/CasosDeUsoLoja#UC15'>UC15</Link></td>
             <td> </td>
-            <td>Posse de itens e riquezas</td>
+            <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td><Link to='/US/US41'>US41</Link></td>
           </tr>
           <tr>
