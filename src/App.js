@@ -279,10 +279,6 @@ const App = () => {
               )}
             </Switch>
           </NavBar>
-
-          <footer className="footer">
-            <p style={{ fontSize: "1.5rem" }}>UnB FGA  |  Requisitos 2019.1  |  Grupo Habitica</p>
-          </footer>
         </ScrollToTop>
       </Router>
     </>
