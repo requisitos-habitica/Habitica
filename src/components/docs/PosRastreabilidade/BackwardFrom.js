@@ -704,7 +704,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td> </td>
-            <td>Significado Épico e Chamado</td>
+            <td><Link to='/NFR'>Significado Épico e Chamado</Link></td>
             <td><Link to='/US/US56'>US56</Link></td>
           </tr>
           <tr>
