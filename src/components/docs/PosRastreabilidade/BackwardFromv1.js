@@ -3,19 +3,14 @@ import Card from '../../UI/Card/Card'
 import HeadArtefact from '../../HOC/HeadArtefact/HeadArtefact'
 import { HashLink as Link } from 'react-router-hash-link';
 
-const BackwardFrom = () => {
+const BackwardFromv1 = () => {
 
   return (
     <div className='artefact'>
       <div className="content">
         <HeadArtefact style versions={null} rastreability={null}
-          title="Backward From V2" author="Gabriel Albino, Pedro Féo, Rogério Júnior, Saleh Kader e Youssef Muhamad" />
+          title="Backward From" author="Gabriel Albino, Pedro Féo, Rogério Júnior, Saleh Kader e Youssef Muhamad" />
       </div>
-
-      <Card >
-        <h2>Versionamento</h2>
-        <Link to='/BackwardFromv1' >V1</Link>
-      </Card>
 
       <table class="table table-bordered table-hover table-condensed">
         <thead><tr><th title="Field #1">Épico</th>
@@ -77,7 +72,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td><Link to="/Excluir o afazer">LX63</Link></td>
             <td>-</td>
-            <td><Link to="/iStarTarefasV2">I* Tarefa V2</Link></td>
+            <td> </td>
             <td>-</td>
             <td><Link to='/US/US04'>US04</Link></td>
           </tr>
@@ -89,7 +84,7 @@ const BackwardFrom = () => {
             <td><Link to="/Editar Afazeres">CN41</Link></td>
             <td><Link to="/Editar afazer">LX62</Link></td>
             <td>-</td>
-            <td><Link to="/iStarTarefasV2">I* Tarefa V2</Link></td>
+            <td> </td>
             <td>-</td>
             <td><Link to='/US/US05'>US05</Link></td>
           </tr>
@@ -101,7 +96,7 @@ const BackwardFrom = () => {
             <td><Link to="Completar Afazeres">CN37</Link></td>
             <td><Link to="/Concluir o afazer">LX64</Link></td>
             <td>-</td>
-            <td><Link to="/iStarTarefasV2">I* Tarefa V2</Link></td>
+            <td> </td>
             <td>-</td>
             <td><Link to='/US/US06'>US06</Link></td>
           </tr>
@@ -113,7 +108,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td><Link to="/iStarTarefasV2">I* Tarefa V2</Link></td>
+            <td> </td>
             <td>-</td>
             <td><Link to='/US/US07'>US07</Link></td>
           </tr>
@@ -125,7 +120,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td><Link to="/iStarTarefasV2">I* Tarefa V2</Link></td>
+            <td> </td>
             <td>-</td>
             <td><Link to='/US/US08'>US08</Link></td>
           </tr>
@@ -270,7 +265,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td><Link to="/iStarTarefasV1">I* Tarefa</Link></td>
+            <td> </td>
             <td>-</td>
             <td><Link to="/US/US20">US20</Link></td>
           </tr>
@@ -368,7 +363,7 @@ const BackwardFrom = () => {
             <td><Link to="/Chocar Ovo de Mascote">CN44</Link></td>
             <td><Link to="/Chocar Ovo">LX66</Link>, <Link to="/Ovo de Mascote">LX67</Link>, <Link to="/Poção de Eclosão">LX68</Link></td>
             <td><Link smooth to = '/CasosDeUsoInventário#UC20'>UC20</Link></td>
-            <td><Link smooth to = '/iStarMascoteV1'>Rationale Usuario-Mascote</Link></td>
+            <td> </td>
             <td>-</td>
             <td><Link to='/US/US28'>US28</Link></td>
           </tr>
@@ -380,7 +375,7 @@ const BackwardFrom = () => {
             <td><Link to="/Alimentar Mascote">CN45</Link></td>
             <td><Link to="/Comida">LX73</Link></td>
             <td><Link smooth to ='/CasosDeUsoInventário#UC21'>UC21</Link></td>
-            <td><Link smooth to = '/iStarMascoteV1'>Rationale Usuario-Mascote</Link></td>
+            <td> </td>
             <td>-</td>
             <td><Link to='/US/US29'>US29</Link></td>
           </tr>
@@ -392,7 +387,7 @@ const BackwardFrom = () => {
             <td><Link to="/Alimentar Mascote">CN45</Link></td>
             <td><Link to="/Montaria">LX70</Link></td>
             <td><Link smooth to ='/CasosDeUsoInventário#UC21'>UC21</Link></td>
-            <td><Link smooth to = '/iStarMascoteV1'>Rationale Usuario-Mascote</Link></td>
+            <td> </td>
             <td>-</td>
             <td><Link to='/US/US30'>US30</Link></td>
           </tr>
@@ -404,7 +399,7 @@ const BackwardFrom = () => {
             <td><Link to="/Propor Missões">CN46</Link></td>
             <td><Link to="/Criar tarefa diária">LX74</Link>, <Link to="/Convidar para Missão">LX28</Link></td>
             <td><Link smooth to='/CasosDeUsoInventário#UC22'>UC22</Link></td>
-            <td><Link smooth to = '/iStarMascoteV1'>Rationale Usuario-Mascote</Link></td>
+            <td> </td>
             <td><Link to = '/NFR'>Interação com outros usuários</Link></td>
             <td><Link smooth to = '/US/US31'>US31</Link></td>
           </tr>
@@ -416,7 +411,7 @@ const BackwardFrom = () => {
             <td><Link to="/Equipar Avatar com Item de Mão">CN47</Link>, <Link to="/Equipar Avatar com Capacete">CN48</Link>, <Link to="/Equipar Avatar com Armadura">CN49</Link>, <Link to="/Equipar Avatar com Acessório de Cabeça">CN50</Link>, <Link to="/Equipar Avatar com Óculos">CN51</Link>, <Link to="/Equipar Avatar com Item de Corpo">CN52</Link>, <Link to="/Equipar Avatar com Fundo">CN53</Link></td>
             <td><Link to="/Item de Mão">LX75</Link>, <Link to="/Equipamentos"><Link to="/Equipamento">LX76</Link></Link></td>
             <td><Link smooth to ='/CasosDeUsoInventário#UC23' >UC23</Link></td>
-            <td><Link smooth to = '/iStarMascoteV1'>Rationale Usuario-Mascote</Link></td>
+            <td> </td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td><Link to='/US/US32'>US32</Link></td>
           </tr>
@@ -428,7 +423,7 @@ const BackwardFrom = () => {
             <td><Link to="/Equipar Avatar com Mascote">CN54</Link></td>
             <td><Link to="/Mascote">LX69</Link></td>
             <td><Link smooth to ='/CasosDeUsoInventário#UC23' >UC23</Link></td>
-            <td><Link smooth to = '/iStarMascoteV1'>Rationale Usuario-Mascote</Link></td>
+            <td> </td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td><Link to='/US/US33'>US33</Link></td>
           </tr>
@@ -440,7 +435,7 @@ const BackwardFrom = () => {
             <td><Link to="/Equipar Avatar com Montaria">CN55</Link></td>
             <td><Link to="/Montaria">LX70</Link></td>
             <td><Link smooth to ='/CasosDeUsoInventário#UC23' >UC23</Link></td>
-            <td><Link smooth to = '/iStarMascoteV1'>Rationale Usuario-Mascote</Link></td>
+            <td> </td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td><Link to='/US/US34'>US34</Link></td>
           </tr>
@@ -465,7 +460,7 @@ const BackwardFrom = () => {
             <td><Link to="/Comprar Missões na Loja">CN06</Link>, <Link to="/Comprar Equipamentos na Loja Sazonal">CN09</Link></td>
             <td><Link to="/Loja">LX16</Link></td>
             <td><Link smooth to='/CasosDeUsoLoja#UC16'>UC16</Link></td>
-            <td><Link smooth to='/iStarLojaV3'>iStar Loja V3</Link></td>
+            <td> </td>
             <td><Link to = '/NFR'>Feedback ao usuário</Link></td>
             <td><Link to='/US/US36'>US36</Link></td>
           </tr>
@@ -477,7 +472,7 @@ const BackwardFrom = () => {
             <td><Link to="/Adquirir Moedas">CN13</Link></td>
             <td><Link to="/Moeda">LX11</Link></td>
             <td><Link smooth to='/CasosDeUsoLoja#UC18'>UC18</Link></td>
-            <td><Link smooth to='/iStarLojaV3'>iStar Loja V3</Link></td>
+            <td> </td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td><Link to='/US/US37'>US37</Link></td>
           </tr>
@@ -489,7 +484,7 @@ const BackwardFrom = () => {
             <td><Link to="/Comprar Itens na Loja">CN01</Link>, <Link to="/Comprar Itens com Moedas na Loja">CN02</Link>, <Link to="/Comprar Itens com Gemas na Loja">CN03</Link></td>
             <td><Link to="/Gema">LX10</Link>,  <Link to="/Moeda">LX11</Link></td>
             <td>-</td>
-            <td><Link smooth to='/iStarLojaV3'>iStar Loja V3</Link></td>
+            <td> </td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td><Link to='/US/US38'>US38</Link></td>
           </tr>
@@ -501,7 +496,7 @@ const BackwardFrom = () => {
             <td><Link to="/Comprar Missões na Loja">CN06</Link>, <Link to="/Comprar Missões na Loja Utilizando Moedas">CN07</Link>, <Link to="/Comprar Missões na Loja Utilizando Gemas">CN08</Link></td>
             <td><Link to="/Gema">LX10</Link>, <Link to="/Moeda">LX11</Link>, <Link to="/Tomo de Missão">LX26</Link></td>
             <td><Link smooth to='/CasosDeUsoLoja#UC15'>UC15</Link></td>
-            <td><Link smooth to='/iStarLojaV3'>iStar Loja V3</Link></td>
+            <td> </td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td><Link to='/US/US39'>US39</Link></td>
           </tr>
@@ -513,7 +508,7 @@ const BackwardFrom = () => {
             <td><Link to="/Comprar Itens na Loja Sazonal">CN10</Link>, <Link to="/Comprar Equipamentos na Loja Sazonal">CN09</Link></td>
             <td><Link to="/Loja Sazonal">LX13</Link>, <Link to="/Viajantes do Tempo">LX14</Link></td>
             <td><Link smooth to='/CasosDeUsoLoja#UC16'>UC16</Link></td> 
-            <td><Link smooth to='/iStarLojaV3'>iStar Loja V3</Link></td>
+            <td>UC16</td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td><Link to='/US/US40'>US40</Link></td>
           </tr>
@@ -525,7 +520,7 @@ const BackwardFrom = () => {
             <td><Link to="/Comprar Missões na Loja Sazonal">CN11</Link></td>
             <td><Link to="/Loja Sazonal">LX13</Link>, <Link to="/Viajantes do Tempo">LX14</Link></td>
             <td><Link smooth to='/CasosDeUsoLoja#UC15'>UC15</Link></td>
-            <td><Link smooth to='/iStarLojaV3'>iStar Loja V3</Link></td>
+            <td> </td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td><Link to='/US/US41'>US41</Link></td>
           </tr>
@@ -610,7 +605,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td><Link smooth to ='/iStarDesafios' >v1-Rationale Criador Desafio</Link></td>
+            <td> </td>
             <td>-</td>
             <td><Link to = '/US/US48' >US48</Link></td>
           </tr>
@@ -624,7 +619,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td><Link smooth to='/iStarGruposV1'>iStar Grupos</Link></td>
+            <td> </td>
             <td><Link to='/NFR' >Menor esforço ao usuário</Link></td>
             <td><Link to='/US/US49'>US49</Link></td>
           </tr>
@@ -636,7 +631,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td><Link smooth to='/iStarGruposV1'>iStar Grupos</Link></td>
+            <td> </td>
             <td>-</td>
             <td><Link to='/US/US50'>US50</Link></td>
           </tr>
@@ -648,7 +643,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td><Link smooth to='/iStarGruposV1'>iStar Grupos</Link></td>
+            <td> </td>
             <td><Link to = '/NFR'>Interação com outros usuários</Link></td>
             <td><Link to='/US/US51'>US51</Link></td>
           </tr>
@@ -660,7 +655,7 @@ const BackwardFrom = () => {
             <td><Link to="/Faz Missão">CN21</Link></td>
             <td><Link to="/Convidar para Missão">LX28</Link></td>
             <td><Link smooth to='/CasosDeUsoGamificação#UC02'>UC02</Link></td>
-            <td><Link smooth to='/iStarGruposV1'>iStar Grupos</Link></td>
+            <td> </td>
             <td>-</td>
             <td><Link to='/US/US52'>US52</Link></td>
           </tr>
@@ -672,7 +667,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td><Link smooth to='/iStarGruposV1'>iStar Grupos</Link></td>
+            <td> </td>
             <td>-</td>
             <td><Link to='/US/US53'>US53</Link></td>
           </tr>
@@ -684,7 +679,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td><Link smooth to='/iStarGruposV1'>iStar Grupos</Link></td>
+            <td> </td>
             <td>-</td>
             <td><Link to='/US/US54'>US54</Link></td>
           </tr>
@@ -696,7 +691,7 @@ const BackwardFrom = () => {
             <td><Link to="/Cancela Missão">CN24</Link></td>
             <td>-</td>
             <td>-</td>
-            <td><Link smooth to='/iStarGruposV1'>iStar Grupos</Link></td>
+            <td> </td>
             <td>-</td>
             <td><Link to='/US/US55'>US55</Link></td>
           </tr>
@@ -708,7 +703,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td><Link smooth to='/iStarGruposV1'>iStar Grupos</Link></td>
+            <td> </td>
             <td><Link to='/NFR'>Significado Épico e Chamado</Link></td>
             <td><Link to='/US/US56'>US56</Link></td>
           </tr>
@@ -720,7 +715,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td><Link smooth to='/iStarGruposV1'>iStar Grupos</Link></td>
+            <td> </td>
             <td>-</td>
             <td><Link to='/US/US57'>US57</Link></td>
           </tr>
@@ -729,4 +724,4 @@ const BackwardFrom = () => {
   )
 }
 
-export default BackwardFrom
+export default BackwardFromv1
