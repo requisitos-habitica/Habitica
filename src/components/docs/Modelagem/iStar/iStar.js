@@ -1,38 +1,36 @@
 import React from 'react'
 import NCardsLayout from '../../../UI/NCardsLayout/NCardsLayout'
-import dictionary from '../../../../assets/dictionary.svg'
-import route from '../../../../assets/destination.svg'
-import NFR from '../../../../assets/NFR.svg'
-import IStar from '../../../../assets/IStar.svg'
-import Agile from '../../../../assets/Agile.svg'
-import CasosDeUso from '../../../../assets/CasosDeUso.svg'
-import Suplementar from '../../../../assets/Suplementar.svg'
 import Referencias from '../../../UI/reference/reference'
+import Desafio from '../../../../assets/desafios.svg'
+import Loja from '../../../../assets/loja.svg'
+import Grupos from '../../../../assets/grupos (2).svg'
+import Mascotes from '../../../../assets/mascotes (1).svg'
+import Tarefas from '../../../../assets/tarefas (1).svg'
 
 const items = [
   {
     link: '/iStarDesafios',
-    img: dictionary,
+    img: Desafio,
     title: 'Desafios'
   },
   {
     link: '/iStarLojaV3',
-    img: route,
+    img: Loja,
     title: 'Lojas'
   },
   {
     link: '/iStarGruposV1',
-    img: CasosDeUso,
+    img: Grupos,
     title: 'Grupos'
   },
   {
     link: '/iStarTarefasV2',
-    img: Suplementar,
+    img: Tarefas,
     title: 'Tarefas'
   },
   {
     link: '/iStarMascoteV1',
-    img: Agile,
+    img: Mascotes,
     title: 'Mascotes'
   }
 ]
