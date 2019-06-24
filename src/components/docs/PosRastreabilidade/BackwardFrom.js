@@ -443,86 +443,86 @@ const BackwardFrom = () => {
             <td rowSpan='7'>FE04 - <br />Loja</td>
             <td>RQ35</td>
             <td>O usuário deve poder comprar equipamento com gemas ou moedas</td>
-            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link><br />v2-inventario-feo<br />v2-loja-dutra</td>
-            <td>BS1<br /><Link smooth to='/Etnografia' >ETN1</Link><br />INT1</td>
+            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link><br /><Link smooth to='/RichPictures#RP11'>v2-inventario-feo</Link><br /><Link smooth to='/RichPictures#RP13'>v1-loja-dutra</Link></td>
+            <td><Link to='/Brainstorm'>BS1</Link><br /><Link to='/Etnografia'>ETN1</Link><br /><Link to='/Introspeccao'>INT1</Link></td>
             <td><Link to="/Comprar Missões na Loja">CN06</Link>, <Link to="/Comprar Equipamentos na Loja Sazonal">CN09</Link></td>
             <td>LX10,  LX11, LX76</td>
-            <td>UC16</td>
-            <td>RationaleUsuarioLoja-v2</td>
+            <td><Link smooth to='/CasosDeUsoLoja#UC16'>UC16</Link></td>
+            <td><Link to='/iStarLojaV3'>RationaleUsuarioLoja-v3</Link></td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
-            <td>US35</td>
+            <td><Link to='/US/US35'>US35</Link></td>
           </tr>
           <tr>
             <td>RQ36</td>
             <td>O usuário deve poder ver o valor dos itens da loja</td>
-            <td>v2-loja-dutra</td>
-            <td><Link smooth to='/Etnografia' >ETN1</Link></td>
+            <td><Link smooth to='/RichPictures#RP13'>v1-loja-dutra</Link></td>
+            <td><Link to='/Etnografia'>ETN1</Link></td>
             <td><Link to="/Comprar Missões na Loja">CN06</Link>, <Link to="/Comprar Equipamentos na Loja Sazonal">CN09</Link></td>
             <td>LX16</td>
-            <td>UC16</td>
+            <td><Link smooth to='/CasosDeUsoLoja#UC16'>UC16</Link></td>
             <td> </td>
             <td><Link to = '/NFR'>Feedback ao usuário</Link></td>
-            <td>US36</td>
+            <td><Link to='/US/US36'>US36</Link></td>
           </tr>
           <tr>
             <td>RQ37</td>
             <td>O usuário deve poder adquirir moedas para comprar itens</td>
-            <td>v2-loja-dutra</td>
+            <td><Link smooth to='/RichPictures#RP13'>v1-loja-dutra</Link></td>
             <td> </td>
             <td><Link to="/Adquirir Moedas">CN13</Link></td>
             <td>LX11</td>
-            <td>UC18</td>
+            <td><Link smooth to='/CasosDeUsoLoja#UC18'>UC18</Link></td>
             <td> </td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
-            <td>US37</td>
+            <td><Link to='/US/US37'>US37</Link></td>
           </tr>
           <tr>
             <td>RQ38</td>
             <td>O usuário deve poder comprar itens com gemas ou moedas</td>
             <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link></td>
-            <td>BS1</td>
+            <td><Link to='/Brainstorm'>BS1</Link></td>
             <td><Link to="/Comprar Itens na Loja">CN01</Link>, <Link to="/Comprar Itens com Moedas na Loja">CN02</Link>, <Link to="/Comprar Itens com Gemas na Loja">CN03</Link></td>
             <td>LX10,  LX11</td>
             <td>-</td>
             <td> </td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
-            <td>US38</td>
+            <td><Link to='/US/US38'>US38</Link></td>
           </tr>
           <tr>
             <td>RQ39</td>
             <td>O usuário deve poder comprar missões com gemas ou moedas</td>
-            <td>v2-loja-dutra</td>
-            <td>BS1</td>
+            <td><Link smooth to='/RichPictures#RP13'>v1-loja-dutra</Link></td>
+            <td><Link to='/Brainstorm'>BS1</Link></td>
             <td><Link to="/Comprar Missões na Loja">CN06</Link>, <Link to="/Comprar Missões na Loja Utilizando Moedas">CN07</Link>, <Link to="/Comprar Missões na Loja Utilizando Gemas">CN08</Link></td>
             <td>LX10, LX11, LX26</td>
-            <td>UC15</td>
+            <td><Link smooth to='/CasosDeUsoLoja#UC15'>UC15</Link></td>
             <td> </td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
-            <td>US39</td>
+            <td><Link to='/US/US39'>US39</Link></td>
           </tr>
           <tr>
             <td>RQ40</td>
             <td>O usuário deve poder comprar itens limitados com gemas ou moedas</td>
-            <td>v2-loja-dutra</td>
+            <td><Link smooth to='/RichPictures#RP13'>v1-loja-dutra</Link></td>
             <td>-</td>
             <td><Link to="/Comprar Itens na Loja Sazonal">CN10</Link>, <Link to="/Comprar Equipamentos na Loja Sazonal">CN09</Link></td>
             <td>LX13, LX14</td>
-            <td>UC16</td>
+            <td><Link smooth to='/CasosDeUsoLoja#UC16'>UC16</Link></td>
             <td> </td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
-            <td>US40</td>
+            <td><Link to='/US/US40'>US40</Link></td>
           </tr>
           <tr>
             <td>RQ41</td>
             <td>O usuário deve poder comprar missões limitadas com gemas ou moedas</td>
-            <td>v2-loja-dutra</td>
+            <td><Link smooth to='/RichPictures#RP13'>v1-loja-dutra</Link></td>
             <td>-</td>
             <td><Link to="/Comprar Missões na Loja Sazonal">CN11</Link></td>
             <td>LX13, LX14</td>
-            <td>UC15</td>
+            <td><Link smooth to='/CasosDeUsoLoja#UC15'>UC15</Link></td>
             <td> </td>
             <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
-            <td>US41</td>
+            <td><Link to='/US/US41'>US41</Link></td>
           </tr>
           <tr>
             <td rowSpan='7'>FE05 - Desafios</td>
