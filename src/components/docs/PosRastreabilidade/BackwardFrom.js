@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from '../../UI/Card/Card'
 import HeadArtefact from '../../HOC/HeadArtefact/HeadArtefact'
-import { Link } from 'react-router-dom'
+import { HashLink as Link } from 'react-router-hash-link';
 
 const BackwardFrom = () => {
 
@@ -31,8 +31,8 @@ const BackwardFrom = () => {
           <td rowSpan='15'>FE01 - Tarefas</td>
           <td>RQ01</td>
           <td>O usuário deve poder adicionar nova(s) diária(s)</td>
-          <td>v3-geral-todos<br />v2-geral-albino<br />v1-tarefas-albino<br />v2-geral-feo<br />v1-geral-youseff</td>
-          <td>AP1<br />AP2<br />AP3<br />BS1<br />ETN1<br />ST3</td>
+          <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link><br />v2-geral-albino<br />v1-tarefas-albino<br />v2-geral-feo<br />v1-geral-youseff</td>
+          <td>AP1<br />AP2<br />AP3<br />BS1<br /><Link smooth to='/Etnografia' >ETN1</Link><br />ST3</td>
           <td>CN34</td>
           <td>LX51</td>
           <td>-</td>
@@ -43,8 +43,8 @@ const BackwardFrom = () => {
           <tr>
             <td>RQ02</td>
             <td>O usuário deve poder  adicionar novo(s) hábito(s)</td>
-            <td>v3-geral-todos<br />v2-geral-albino<br />v1-tarefas-albino<br />v2-geral-feo<br />v1-geral-youseff</td>
-            <td>AP1<br />AP2<br />AP3<br />BS1<br />ETN1<br />ST3<br />ST7</td>
+            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link><br />v2-geral-albino<br />v1-tarefas-albino<br />v2-geral-feo<br />v1-geral-youseff</td>
+            <td>AP1<br />AP2<br />AP3<br />BS1<br /><Link smooth to='/Etnografia' >ETN1</Link><br />ST3<br />ST7</td>
             <td>CN35</td>
             <td>LX56</td>
             <td>-</td>
@@ -55,8 +55,8 @@ const BackwardFrom = () => {
           <tr>
             <td>RQ03</td>
             <td>O usuário deve poder adicionar novo(s) afazer(es)</td>
-            <td>v3-geral-todos<br />v2-geral-albino<br />v1-tarefas-albino<br />v2-geral-feo<br />v1-geral-youseff</td>
-            <td>AP1<br />AP2<br />BS1<br />ETN1<br />ST8</td>
+            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link><br />v2-geral-albino<br />v1-tarefas-albino<br />v2-geral-feo<br />v1-geral-youseff</td>
+            <td>AP1<br />AP2<br />BS1<br /><Link smooth to='/Etnografia' >ETN1</Link><br /><Link smooth to ='/Storytelling02#ST8' >ST8</Link></td>
             <td>CN33</td>
             <td>LX61</td>
             <td>-</td>
@@ -67,7 +67,7 @@ const BackwardFrom = () => {
           <tr>
             <td>RQ04</td>
             <td>O usuário deve poder deletar afazer(es)</td>
-            <td>v3-geral-todos<br />v2-geral-albino<br />v1-tarefas-albino</td>
+            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link><br />v2-geral-albino<br />v1-tarefas-albino</td>
             <td>ST7</td>
             <td>-</td>
             <td>LX63</td>
@@ -79,7 +79,7 @@ const BackwardFrom = () => {
           <tr>
             <td>RQ05</td>
             <td>O usuário deve poder editar afazer(es)</td>
-            <td>v3-geral-todos<br />v2-geral-albino<br />v1-tarefas-albino</td>
+            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link><br />v2-geral-albino<br />v1-tarefas-albino</td>
             <td> ST3<br /></td>
             <td>CN41</td>
             <td>LX62</td>
@@ -91,7 +91,7 @@ const BackwardFrom = () => {
           <tr>
             <td>RQ06</td>
             <td>O usuário deve poder finalizar uma afazer(es)</td>
-            <td>v3-geral-todos<br />v2-geral-albino<br />v1-tarefas-albino</td>
+            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link><br />v2-geral-albino<br />v1-tarefas-albino</td>
             <td>AP2<br />INT1<br />ST6</td>
             <td>CN37</td>
             <td>LX64</td>
@@ -164,7 +164,7 @@ const BackwardFrom = () => {
             <td>RQ12</td>
             <td>O usuário deve poder determinar a repetição de uma diária</td>
             <td>v1-tarefas-albino</td>
-            <td>AP2<br />ETN1<br />INT1<br />ST6</td>
+            <td>AP2<br /><Link smooth to='/Etnografia' >ETN1</Link><br />INT1<br />ST6</td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
@@ -199,8 +199,8 @@ const BackwardFrom = () => {
           <tr>
             <td>RQ15</td>
             <td>O usuário deve poder ao completar tarefas, ganhar recompensas</td>
-            <td>v3-geral-todos<br />v2-geral-albino<br />v1-tarefas-albino<br />v2-geral-feo<br />v1-geral-youseff</td>
-            <td>BS1<br />ETN1<br />ETN1<br />ST2<br />ST11</td>
+            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link><br />v2-geral-albino<br />v1-tarefas-albino<br />v2-geral-feo<br />v1-geral-youseff</td>
+            <td>BS1<br /><Link smooth to='/Etnografia' >ETN1</Link><br /><Link smooth to='/Etnografia' >ETN1</Link><br />ST2<br />ST11</td>
             <td>CN26</td>
             <td>LX65</td>
             <td>UC13</td>
@@ -275,7 +275,7 @@ const BackwardFrom = () => {
             <td>RQ21</td>
             <td>O usuário deve de ter todos os itens que eu comprar ou ganhar separados em um local.</td>
             <td>v2-inventario-feo</td>
-            <td>BS1<br />ETN1</td>
+            <td>BS1<br /><Link smooth to='/Etnografia' >ETN1</Link></td>
             <td>-</td>
             <td>-</td>
             <td> </td>
@@ -394,74 +394,74 @@ const BackwardFrom = () => {
           <tr>
             <td>RQ31</td>
             <td>O usuário deve poder propor missões para o grupo</td>
-            <td>v3-geral-todos<br />v2-geral-feo<br />v2-loja-dutra<br />v1-inventario-roger<br />v1-grupo-saleh</td>
+            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link><br />v2-geral-feo<br />v2-loja-dutra<br />v1-inventario-roger<br />v1-grupo-saleh</td>
             <td>BS1<br />ST2</td>
             <td>CN46</td>
             <td>LX74, LX28</td>
             <td>UC22</td>
             <td> </td>
-            <td>Interação com outros usuários</td>
+            <td><Link to = '/NFR'>Interação com outros usuários</Link></td>
             <td>US31</td>
           </tr>
           <tr>
             <td>RQ32</td>
             <td>O usuário deve poder equipar e desequipar o avatar com itens</td>
-            <td>v3-geral-todos<br />v2-inventario-feo<br />v2-loja-dutra</td>
-            <td>ETN1</td>
+            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link><br />v2-inventario-feo<br />v2-loja-dutra</td>
+            <td><Link smooth to='/Etnografia' >ETN1</Link></td>
             <td>CN47, CN48, CN49, CN50, CN51, CN52, CN53</td>
             <td>LX 75, LX76</td>
             <td>UC23</td>
             <td> </td>
-            <td>Posse de itens e riquezas</td>
+            <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td>US32</td>
           </tr>
           <tr>
             <td>RQ33</td>
             <td>O usuário deve poder adicionar e remover os mascotes do avatar</td>
             <td> </td>
-            <td>ETN1</td>
+            <td><Link smooth to='/Etnografia' >ETN1</Link></td>
             <td>CN54</td>
             <td>LX69</td>
             <td>UC23</td>
             <td> </td>
-            <td>Posse de itens e riquezas</td>
+            <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td>US33</td>
           </tr>
           <tr>
             <td>RQ34</td>
             <td>O usuário deve poder adicionar e remover uma montaria do avatar,</td>
             <td> </td>
-            <td>ETN1</td>
+            <td><Link smooth to='/Etnografia' >ETN1</Link></td>
             <td>CN55</td>
             <td>LX70</td>
             <td>UC23</td>
             <td> </td>
-            <td>Posse de itens e riquezas</td>
+            <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td>US34</td>
           </tr>
           <tr>
             <td rowSpan='7'>FE04 - <br />Loja</td>
             <td>RQ35</td>
             <td>O usuário deve poder comprar equipamento com gemas ou moedas</td>
-            <td>v3-geral-todos<br />v2-inventario-feo<br />v2-loja-dutra</td>
-            <td>BS1<br />ETN1<br />INT1</td>
+            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link><br />v2-inventario-feo<br />v2-loja-dutra</td>
+            <td>BS1<br /><Link smooth to='/Etnografia' >ETN1</Link><br />INT1</td>
             <td>CN06, CN09</td>
             <td>LX10,  LX11, LX76</td>
             <td>UC16</td>
             <td>RationaleUsuarioLoja-v2</td>
-            <td>Posse de itens e riquezas</td>
+            <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td>US35</td>
           </tr>
           <tr>
             <td>RQ36</td>
             <td>O usuário deve poder ver o valor dos itens da loja</td>
             <td>v2-loja-dutra</td>
-            <td>ETN1</td>
+            <td><Link smooth to='/Etnografia' >ETN1</Link></td>
             <td>CN06, CN09</td>
             <td>LX16</td>
             <td>UC16</td>
             <td> </td>
-            <td>Feedback ao usuário</td>
+            <td><Link to = '/NFR'>Feedback ao usuário</Link></td>
             <td>US36</td>
           </tr>
           <tr>
@@ -473,19 +473,19 @@ const BackwardFrom = () => {
             <td>LX11</td>
             <td>UC18</td>
             <td> </td>
-            <td>Posse de itens e riquezas</td>
+            <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td>US37</td>
           </tr>
           <tr>
             <td>RQ38</td>
             <td>O usuário deve poder comprar itens com gemas ou moedas</td>
-            <td>v3-geral-todos</td>
+            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link></td>
             <td>BS1</td>
             <td>CN01, CN02, CN03</td>
             <td>LX10,  LX11</td>
             <td>-</td>
             <td> </td>
-            <td>Posse de itens e riquezas</td>
+            <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td>US38</td>
           </tr>
           <tr>
@@ -497,7 +497,7 @@ const BackwardFrom = () => {
             <td>LX10, LX11, LX26</td>
             <td>UC15</td>
             <td> </td>
-            <td>Posse de itens e riquezas</td>
+            <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td>US39</td>
           </tr>
           <tr>
@@ -509,7 +509,7 @@ const BackwardFrom = () => {
             <td>LX13, LX14</td>
             <td>UC16</td>
             <td> </td>
-            <td>Posse de itens e riquezas</td>
+            <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td>US40</td>
           </tr>
           <tr>
@@ -521,33 +521,33 @@ const BackwardFrom = () => {
             <td>LX13, LX14</td>
             <td>UC15</td>
             <td> </td>
-            <td>Posse de itens e riquezas</td>
+            <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
             <td>US41</td>
           </tr>
           <tr>
             <td rowSpan='7'>FE05 - Desafios</td>
             <td>RQ42</td>
             <td>O usuário deve poder criar desafios</td>
-            <td>v3-geral-todos</td>
-            <td>ETN1</td>
+            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link></td>
+            <td><Link smooth to='/Etnografia' >ETN1</Link></td>
             <td>CN56</td>
             <td>LX80</td>
-            <td>UC24</td>
-            <td>v1-Rationale Criador Desafio</td>
-            <td>Posse de itens e riquezas</td>
-            <td>US42</td>
+            <td><Link smooth to ='/CasosDeUsoDesafios#UC24'>UC24</Link></td>
+            <td><Link smooth to ='/iStarDesafios' >v1-Rationale Criador Desafio</Link></td>
+            <td><Link to = '/NFR'>Posse de itens e riquezas</Link></td>
+            <td><Link to = '/US/US42' >US42</Link></td>
           </tr>
           <tr>
             <td>RQ43</td>
             <td>O usuário deve poder participar de um desafio</td>
-            <td>v3-geral-todos<br />v1-geral-esio</td>
-            <td>ETN1<br />ST8</td>
+            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link><br /><Link smooth to='/RichPictures#RP11' >v1-geral-esio</Link></td>
+            <td><Link smooth to='/Etnografia' >ETN1</Link><br /><Link smooth to ='/Storytelling02#ST8' >ST8</Link></td>
             <td>CN57</td>
             <td>LX82</td>
-            <td>UC28</td>
-            <td>v1-Rationale Participante Desafio</td>
+            <td><Link smooth to ='/CasosDeUsoDesafios#UC28' >UC28</Link></td>
+            <td><Link smooth to ='/iStarDesafios' >v1-Rationale Participante Desafio</Link></td>
             <td>-</td>
-            <td>US43</td>
+            <td><Link to = '/US/US43' >US43</Link></td>
           </tr>
           <tr>
             <td>RQ44</td>
@@ -556,10 +556,10 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>CN58</td>
             <td>-</td>
-            <td>UC27</td>
-            <td>v1-Rationale Criador Desafio</td>
-            <td>Feedback ao usuário</td>
-            <td>US44</td>
+            <td><Link smooth to ='/CasosDeUsoDesafios#UC27' >UC27</Link></td>
+            <td><Link smooth to ='/iStarDesafios' >v1-Rationale Criador Desafio</Link></td>
+            <td><Link to = '/NFR'>Feedback ao usuário</Link></td>
+            <td><Link to = '/US/US44' >US44</Link></td>
           </tr>
           <tr>
             <td>RQ45</td>
@@ -568,10 +568,10 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>CN59</td>
             <td>LX84</td>
-            <td>UC25</td>
-            <td>v1-Rationale Criador Desafio</td>
+            <td><Link smooth to ='/CasosDeUsoDesafios#UC25' >UC25</Link></td>
+            <td><Link smooth to ='/iStarDesafios' >v1-Rationale Criador Desafio</Link></td>
             <td>-</td>
-            <td>US45</td>
+            <td><Link to = '/US/US45' >US45</Link></td>
           </tr>
           <tr>
             <td>RQ46</td>
@@ -580,10 +580,10 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>LX78</td>
-            <td>UC26, UC30</td>
-            <td>v1-Rationale Participante Desafio</td>
+            <td><Link smooth to = '/CasosDeUsoDesafios#UC26' >UC26</Link>, <Link smooth to = '/CasosDeUsoDesafios#UC30' >UC30</Link></td>
+            <td><Link smooth to ='/iStarDesafios' >v1-Rationale Participante Desafio</Link></td>
             <td>-</td>
-            <td>US46</td>
+            <td><Link to = '/US/US46' >US46</Link></td>
           </tr>
           <tr>
             <td>RQ47</td>
@@ -592,10 +592,10 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td>-</td>
-            <td>UC26, UC29</td>
-            <td>v1-Rationale Participante Desafio</td>
+            <td><Link smooth to = '/CasosDeUsoDesafios#UC26' >UC26</Link>, <Link smooth to = '/CasosDeUsoDesafios#UC29' >UC29</Link></td>
+            <td><Link smooth to ='/iStarDesafios' >v1-Rationale Participante Desafio</Link></td>
             <td>-</td>
-            <td>US47</td>
+            <td><Link to = '/US/US47' >US47</Link></td>
           </tr>
           <tr>
             <td>RQ48</td>
@@ -607,7 +607,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td> </td>
             <td>-</td>
-            <td>US48</td>
+            <td><Link to = '/US/US48' >US48</Link></td>
           </tr>
           <tr>
             <td rowSpan='9' >E03 - Interação entre usuários</td>
@@ -620,7 +620,7 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td> </td>
-            <td>Menor esforço ao usuário</td>
+            <td><Link to='/NFR' >Menor esforço ao usuário</Link></td>
             <td>US49</td>
           </tr>
           <tr>
@@ -644,14 +644,14 @@ const BackwardFrom = () => {
             <td>-</td>
             <td>-</td>
             <td> </td>
-            <td>Interação com outros usuários</td>
+            <td><Link to = '/NFR'>Interação com outros usuários</Link></td>
             <td>US51</td>
           </tr>
           <tr>
             <td>RQ52</td>
             <td>O usuário deve ser capaz de convidar o grupo para uma missão</td>
-            <td>v3-geral-todos<br />v2-geral-feo<br />v2-loja-dutra<br />v1-inventario-roger<br />v1-grupo-saleh</td>
-            <td>BS1<br />ETN1<br />ST1<br />ST2</td>
+            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link><br />v2-geral-feo<br />v2-loja-dutra<br />v1-inventario-roger<br />v1-grupo-saleh</td>
+            <td>BS1<br /><Link smooth to='/Etnografia' >ETN1</Link><br />ST1<br />ST2</td>
             <td>CN21</td>
             <td>LX28</td>
             <td>UC02</td>
@@ -698,8 +698,8 @@ const BackwardFrom = () => {
           <tr>
             <td>RQ56</td>
             <td>O usuário deve poder criar um grupo</td>
-            <td>v3-geral-todos</td>
-            <td>BS1<br />ETN1<br />INT1<br />ST1</td>
+            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link></td>
+            <td>BS1<br /><Link smooth to='/Etnografia' >ETN1</Link><br />INT1<br />ST1</td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
@@ -710,8 +710,8 @@ const BackwardFrom = () => {
           <tr>
             <td>RQ57</td>
             <td>O usuário deve poder chamar meus amigos para o grupo</td>
-            <td>v3-geral-todos<br />v2-geral-feo</td>
-            <td>BS1<br />ETN1<br />INT1<br />ST1<br />ST10<br />ST12</td>
+            <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link><br />v2-geral-feo</td>
+            <td>BS1<br /><Link smooth to='/Etnografia' >ETN1</Link><br />INT1<br />ST1<br />ST10<br />ST12</td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
