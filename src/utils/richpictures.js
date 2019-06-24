@@ -134,7 +134,7 @@ const richpictures = {
             id: 'RP11',
             name: 'Rich Picture do Inventário',
             img: RPInventarioV2,
-            autor: 'Pedro Féo',
+            autor: 'Pedro Féo e Rogério Júnior',
             versao: 2,
             descricao: 'Rich Picture que descreve o funcionamento do inventário de itens do Habitica.'
         },

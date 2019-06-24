@@ -17,7 +17,7 @@ const ValidacaoEmail = () => {
         <div className='content artefact'>
 
             <HeadArtefact versions={null} rastreability={null}
-                title="Validação via e-mail" author="Rogério Júnior" />
+                title="Validação via e-mail" author="Rogério Júnior, Lucas Dutra e Youssef Muhamad" />
 
             <Card>
                 <p>Dear Sir,</p>

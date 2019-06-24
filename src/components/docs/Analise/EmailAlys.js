@@ -11,6 +11,7 @@ import I4 from '../../../assets/Email/09.png'
 import I5 from '../../../assets/Email/10.png'
 import I6 from '../../../assets/Email/11.png'
 import I7 from '../../../assets/Email/12.png'
+import I8 from '../../../assets/Email/13.png'
 
 
 const ValidacaoEmail = () => {
@@ -19,7 +20,7 @@ const ValidacaoEmail = () => {
     <div className='content artefact'>
 
     <HeadArtefact versions={ null } rastreability={ null }
-                    title="Validação via e-mail" author="Rogério Júnior"/>
+                    title="Validação via e-mail" author="Rogério Júnior e Youssef Muhamad"/>
 
         <Card>
             <p>Hi Alys,</p>
@@ -122,6 +123,8 @@ const ValidacaoEmail = () => {
             <br></br>
             <p>I definitely want to send you more artifacts to put on the Wiki, I'll just need some extra time to translate them and I'll contact you.</p>
             <br></br>
+            <p>I'm sending you the corrections you've proposed, and I really got a little confused because I knew that tame was not a noun, but know I think it's much accurate.</p>
+            <br></br>
             <p>Thank you again for making the artifacts available</p>
             <br></br>
             <p> in such short period of time!</p>
@@ -131,6 +134,24 @@ const ValidacaoEmail = () => {
 
         <Card>
             <img src={I7} ></img>
+        </Card>
+
+        <Card>
+            <p>Hey Alys.</p>
+            <br></br>
+            <br></br>
+            <p>Thank you so much for everything you have done for me and my group. Everything is perfect, there're no changes.</p>
+            <br></br>
+            <p>The pictures have no license, but thank you for asking! And sorry for the delay on the response, my group and I have been running all day to finish everything for our presentation tomorrow.</p>
+            <br></br>
+            <p>I'll be forever glad for what you've done, anytime you need anything I can help, please let me know.</p>
+            <br></br>
+            <br></br>
+            <p>Thank you for all your time and consideration.</p>
+        </Card>
+
+        <Card>
+            <img src={I8} ></img>
         </Card>
 
     </div>
