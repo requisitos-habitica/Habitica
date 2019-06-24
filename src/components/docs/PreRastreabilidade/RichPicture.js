@@ -2,7 +2,7 @@ import React from 'react'
 import richpictures from '../../../utils/richpictures'
 import CardsGridLayout from '../../UI/CardsGridLayout/CardsGridLayout'
 import Modal from '../../HOC/Modal/Modal'
-import './RichPicture.scss'
+import './PreRastreabilidade.scss'
 
 const RichPicture = () => {
 
