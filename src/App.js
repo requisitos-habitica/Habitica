@@ -83,6 +83,9 @@ import VerificacaoAgil from './components/docs/Analise/VerificacaoAgil'
 import VerificacaoLexico from './components/docs/Analise/VerificacaoLexico'
 import VerificacaoCenarios from './components/docs/Analise/VerificacaoCenarios'
 
+import EmailMatteo from './components/docs/Analise/ValidacaoEmail'
+import EmailAlys from './components/docs/Analise/EmailAlys'
+
 const RouteRollUp = props => <Route {...props} onUpdate={() => window.scrollTo(0, 0)} />
 
 const App = () => {
@@ -213,6 +216,8 @@ const App = () => {
               <RouteRollUp path="/VerificacaoCenarios" component={VerificacaoCenarios} />
               <RouteRollUp path="/Prototipo" component={Prototipo} />
               <RouteRollUp path="/WikiOficial" component={WikiOficial} />
+              <RouteRollUp path="/emailMatteo" component={EmailMatteo} />
+              <RouteRollUp path="/emailAlys" component={EmailAlys} />
 
 
               {/* Automatizando várias rótas */}
@@ -242,7 +247,7 @@ const App = () => {
                 <Route
                   path={`/US/${gif.id}`}
                   render={() => (
-                    <GIFSComponent id={gif.id} description={gif.description}  frontEnd={gif.frontEnd} backEnd={gif.backEnd} frontReference={gif.frontReference} backReference={gif.backReference} acceptanceCriteria={gif.acceptanceCriteria}/>
+                    <GIFSComponent id={gif.id} description={gif.description} frontEnd={gif.frontEnd} backEnd={gif.backEnd} frontReference={gif.frontReference} backReference={gif.backReference} acceptanceCriteria={gif.acceptanceCriteria} />
                   )}
                 />
               ))}
