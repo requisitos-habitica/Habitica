@@ -40,7 +40,7 @@ const BackwardFrom = () => {
             <td>O usuário deve poder adicionar nova(s) diária(s)</td>
             <td><Link smooth to='/RichPictures#RP10'>v3-geral-todos</Link><br /><Link smooth to='/RichPictures#RP5' >v2-geral-albino</Link><br /><Link smooth to='/RichPictures#RP15'>v1-tarefas-albino</Link><br /><Link smooth to='/RichPictures#RP10'></Link><Link smooth to='/RichPictures#RP10'>v2-geral-feo</Link><br /><Link smooth to='/RichPictures#RP3'>v1-geral-youssef</Link></td>
             <td><Link smooth to='/AnaliseProtocolo01'>AP1</Link><br /><Link smooth to='/AnaliseProtocolo02'>AP2</Link><br /><Link smooth to='/Brainstorm'>BS1</Link><br /><Link smooth to='/Etnografia' >ETN1</Link><br /><Link smooth to='/Storytelling02#ST3'>ST3</Link></td>
-            <td><Link to="/Adicionar Tarefa Diária">CN34</Link></td>
+            <td><Link to="/Adicionar Tarefa Diaria">CN34</Link></td>
             <td><Link to="/Criar tarefa diária">LX51</Link></td>
             <td>-</td>
             <td><Link to="/iStarTarefasV1">I* Tarefa</Link></td>
