@@ -1,20 +1,9 @@
 import React from 'react'
-import ReactMarkdown from 'react-markdown'
 import Card from '../../UI/Card/Card'
 import HeadArtefact from '../../HOC/HeadArtefact/HeadArtefact'
 import { HashLink as Link } from 'react-router-hash-link';
 import './Verificacao.scss'
 import defeitos from '../../../assets/Analise/Defeito.png'
-import geral from '../../../assets/Analise/RP/geral.png'
-import Aplicacao from '../../../assets/Analise/RP/Aplicacao.png'
-import Contribuindo from '../../../assets/Analise/RP/Contribuindo.png'
-import erro1 from '../../../assets/Analise/RP/erro1.png'
-import erro2 from '../../../assets/Analise/RP/erro2.png'
-import Gamificacao from '../../../assets/Analise/RP/Gamificacao.png'
-import Grupo from '../../../assets/Analise/RP/Grupo.png'
-import Inventario from '../../../assets/Analise/RP/Inventario.png'
-import Loja from '../../../assets/Analise/RP/Loja.png'
-import Tarefas from '../../../assets/Analise/RP/Tarefas.png'
 
 
 const VerificacaoRP = () => {
@@ -53,27 +42,23 @@ const VerificacaoRP = () => {
         </Card>
 
         <Card>
-            <h2>Resultado Geral</h2>
-            <div className='center-card' >
-                <img src={geral} ></img>
-            </div>
-        </Card>
-
-        <Card>
             <h2>Resultado</h2>
             <div className='center-card' >
-                <img src={geral} ></img>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV63gwFtBInfxsBerWvYImfWvaykWQBCVK842nRGCj8IyYm3xmwKlsPPp9udse8X7mB65y7uCKNjmW/pubhtml?gid=0&single=true" height="500" width="750"></iframe>
+
             </div>
         </Card>
 
         <Card>
             <h2>Principais Erros (%)</h2>
             <div className='center-card' >
-                <img src={erro1} ></img>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV63gwFtBInfxsBerWvYImfWvaykWQBCVK842nRGCj8IyYm3xmwKlsPPp9udse8X7mB65y7uCKNjmW/pubchart?oid=2039285466&format=interactive" height="500" width="750"></iframe>
+
             </div>
             <br></br>
             <div className='center-card' >
-                <img src={erro2} ></img>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV63gwFtBInfxsBerWvYImfWvaykWQBCVK842nRGCj8IyYm3xmwKlsPPp9udse8X7mB65y7uCKNjmW/pubchart?oid=1769097861&format=interactive" height="500" width="750"></iframe>
+
             </div>
         </Card>
 
@@ -82,7 +67,8 @@ const VerificacaoRP = () => {
             <p><Link smooth to='/RichPictures#RP10'>RP</Link></p>
             <br></br>
             <div className='center-card' >
-                <img src={Aplicacao} ></img>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV63gwFtBInfxsBerWvYImfWvaykWQBCVK842nRGCj8IyYm3xmwKlsPPp9udse8X7mB65y7uCKNjmW/pubhtml?gid=1504202403&single=true" height="500" width="750"></iframe>
+
             </div>
         </Card>
 
@@ -91,7 +77,8 @@ const VerificacaoRP = () => {
             <p><Link smooth to='/RichPictures#RP16'>RP</Link></p>
             <br></br>
             <div className='center-card' >
-                <img src={Contribuindo} ></img>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV63gwFtBInfxsBerWvYImfWvaykWQBCVK842nRGCj8IyYm3xmwKlsPPp9udse8X7mB65y7uCKNjmW/pubhtml?gid=1251163789&single=true" height="500" width="750"></iframe>
+
             </div>
         </Card>
 
@@ -100,7 +87,8 @@ const VerificacaoRP = () => {
             <p><Link smooth to='/RichPictures#RP17'>RP</Link></p>
             <br></br>
             <div className='center-card' >
-                <img src={Gamificacao} ></img>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV63gwFtBInfxsBerWvYImfWvaykWQBCVK842nRGCj8IyYm3xmwKlsPPp9udse8X7mB65y7uCKNjmW/pubhtml?gid=1134690243&single=true" height="500" width="750"></iframe>
+
             </div>
         </Card>
 
@@ -109,7 +97,8 @@ const VerificacaoRP = () => {
             <p><Link smooth to='/RichPictures#RP12'>RP</Link></p>
             <br></br>
             <div className='center-card' >
-                <img src={Grupo} ></img>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV63gwFtBInfxsBerWvYImfWvaykWQBCVK842nRGCj8IyYm3xmwKlsPPp9udse8X7mB65y7uCKNjmW/pubhtml?gid=1903047315&single=true" height="500" width="750"></iframe>
+
             </div>
         </Card>
 
@@ -118,7 +107,8 @@ const VerificacaoRP = () => {
             <p><Link smooth to='/RichPictures#RP11'>RP</Link></p>
             <br></br>
             <div className='center-card' >
-                <img src={Inventario} ></img>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV63gwFtBInfxsBerWvYImfWvaykWQBCVK842nRGCj8IyYm3xmwKlsPPp9udse8X7mB65y7uCKNjmW/pubhtml?gid=333803703&single=true" height="500" width="750"></iframe>
+
             </div>
         </Card>
 
@@ -127,7 +117,8 @@ const VerificacaoRP = () => {
             <p><Link smooth to='/RichPictures#RP13'>RP</Link></p>
             <br></br>
             <div className='center-card' >
-                <img src={Loja} ></img>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV63gwFtBInfxsBerWvYImfWvaykWQBCVK842nRGCj8IyYm3xmwKlsPPp9udse8X7mB65y7uCKNjmW/pubhtml?gid=1265386893&single=true" height="500" width="750"></iframe>
+
             </div>
         </Card>
 
@@ -136,7 +127,8 @@ const VerificacaoRP = () => {
             <p><Link smooth to='/RichPictures#RP15'>RP</Link></p>
             <br></br>
             <div className='center-card' >
-                <img src={Tarefas} ></img>
+            <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQV63gwFtBInfxsBerWvYImfWvaykWQBCVK842nRGCj8IyYm3xmwKlsPPp9udse8X7mB65y7uCKNjmW/pubhtml?gid=101157232&single=true" height="500" width="750"></iframe>
+
             </div>
         </Card>
 
