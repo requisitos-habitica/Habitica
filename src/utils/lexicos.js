@@ -105,7 +105,7 @@ const lexicos = {
       "Moeda": Moeda,
     }
   },
-  
+
   "Loja": {
     color: "aqua",
     lexic: {
@@ -114,15 +114,6 @@ const lexicos = {
       "Viajantes do Tempo": ViajanteDoTempoV1,
       "Ampulheta Mística": AmpulhetaMisticaV1,
       "Loja": LojaV1,
-    }
-  },
-
-  "Grupos": {
-    color: "SpringGreen",
-    lexic: {
-      "Grupo": null,
-      "Chat": null,
-      "Membros": null,
     }
   },
 

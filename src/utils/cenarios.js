@@ -115,13 +115,6 @@ const cenarios = {
     }
   },
 
-  "Grupos": {
-    color: "SpringGreen",
-    lexic: {
-      "Grupo": null,
-    }
-  },
-
   "Gamificação": {
     color: "Turquoise",
     lexic: {
@@ -156,7 +149,7 @@ const cenarios = {
   "Tarefas": {
     color: "Gold",
     lexic: {
-      "Adicionar Tarefa Diaria": AdicionarTarefasDiarias ,
+      "Adicionar Tarefa Diaria": AdicionarTarefasDiarias,
       "Adicionar um Afazer": AdicionarUmAfazer,
       "Adicionar um Hábito": AdicionarUmHabito,
       "Completar Tarefas": CompletarTarefas,
