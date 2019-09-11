@@ -90,15 +90,10 @@ import VerificacaoCenarios from './components/docs/Analise/VerificacaoCenarios'
 
 import EmailMatteo from './components/docs/Analise/ValidacaoEmail'
 import EmailAlys from './components/docs/Analise/EmailAlys'
-import ReactGA from 'react-ga'
-import {googleAnalytics} from './ga'
 
 const RouteRollUp = props => <Route {...props} onUpdate={() => window.scrollTo(0, 0)} />
 
 const App = () => {
-
-  ReactGA.initialize(googleAnalytics)
-  ReactGA.pageview('/')
 
   return (
     <>
