@@ -4,9 +4,13 @@
   "private": true,
   "dependencies": {
     "caniuse-lite": "^1.0.30000974",
+    "i18next": "^19.0.0",
+    "i18next-browser-languagedetector": "^4.0.1",
+    "i18next-xhr-backend": "^3.2.2",
     "node-sass": "^4.11.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-i18next": "^11.2.1",
     "react-image-magnify": "^2.7.4",
     "react-markdown": "^4.0.8",
     "react-router-dom": "^5.0.1",
