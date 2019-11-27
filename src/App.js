@@ -346,33 +346,35 @@ const App = () => {
           </NavBar>
         </ScrollToTop>
       </Router>
-      <Footer />
     </>
   );
 };
 
-const Footer = () => {
-  const { t, i18n } = useTranslation("", { useSuspense: false });
+const AppWithTranslationFooter = () => {
+  const { i18n } = useTranslation("", { useSuspense: false });
 
   const changeLanguage = lng => {
     i18n.changeLanguage(lng);
   };
 
   return (
-    <footer>
-      <h1>
-        <span>
-          <button key="pt-br" onClick={() => changeLanguage("pt-br")}>
-            pt-br
-          </button>
-          <button key="en" onClick={() => changeLanguage("en")}>
-            en
-          </button>
-        </span>
-        Want to read in a different language?
-      </h1>
-    </footer>
+    <>
+      <App />
+      <footer>
+        <h1>
+          <span>
+            <button key="pt-br" onClick={() => changeLanguage("pt-br")}>
+              pt-br
+            </button>
+            <button key="en" onClick={() => changeLanguage("en")}>
+              en
+            </button>
+          </span>
+          Want to read in a different language?
+        </h1>
+      </footer>
+    </>
   );
 };
 
-export default App;
+export default AppWithTranslationFooter;
