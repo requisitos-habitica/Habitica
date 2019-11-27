@@ -1,26 +1,43 @@
-import React from 'react'
-import './Disciplina.scss'
+import React from "react";
+import "./Disciplina.scss";
+import { Trans } from "react-i18next";
 
 const Disciplina = () => (
   <div className="content artefact disciplina">
-    <h1>Sobre a Disciplina</h1>
+    <h1>
+      <Trans i18nKey="disciplina.h1">Sobre a Disciplina</Trans>
+    </h1>
 
     <h2>Engenharia de Software</h2>
     <p>
-      A Engenharia de Software é uma disciplina da engenharia dedicada aos aspectos da produção de software. Assim como em toda engenharia, os engenheiros de software adotam abordagens sistemáticas e organizadas, através de diversos conhecimentos específicos, visando criar a melhor solução para um problema, levando em consideração as restrições e recursos disponíveis.
-      O curso de Engenharia de Software da Universidade de Brasília contempla diversas áreas, onde se encontra a disciplina Requisitos de Software.
+      A Engenharia de Software é uma disciplina da engenharia dedicada aos
+      aspectos da produção de software. Assim como em toda engenharia, os
+      engenheiros de software adotam abordagens sistemáticas e organizadas,
+      através de diversos conhecimentos específicos, visando criar a melhor
+      solução para um problema, levando em consideração as restrições e recursos
+      disponíveis. O curso de Engenharia de Software da Universidade de Brasília
+      contempla diversas áreas, onde se encontra a disciplina Requisitos de
+      Software.
     </p>
 
     <h2>Requisitos de Software</h2>
     <p>
-      Engenharia de Requisitos é o ramo da engenharia de Software responsável por elicitar, modelar, validar e rastrear toda a vida útil de um requisito ao decorrer de um projeto. A área se mostra muito importante tendo em vista que a maior parte dos fracassos de produtos de software ocorrem devido à má elicitação de seus requisitos.
-      A disciplina da UnB possui como objetivo capacitar o estudante a compreender conceitos, técnicas, procedimentos e ferramentas para o levantamento de requisitos.
+      Engenharia de Requisitos é o ramo da engenharia de Software responsável
+      por elicitar, modelar, validar e rastrear toda a vida útil de um requisito
+      ao decorrer de um projeto. A área se mostra muito importante tendo em
+      vista que a maior parte dos fracassos de produtos de software ocorrem
+      devido à má elicitação de seus requisitos. A disciplina da UnB possui como
+      objetivo capacitar o estudante a compreender conceitos, técnicas,
+      procedimentos e ferramentas para o levantamento de requisitos.
     </p>
 
     <h2>Grupo 2 - Habitica</h2>
     <p>
-      Ao decorrer da disciplina, a equipe utilizou-se dos conhecimentos adquiridos durante as aulas de Requisitos de Software para consolidar o conhecimento dos casos estudados e serem avaliados pelos professores responsáveis pela matéria.
-      O Grupo 2 é composto pelos seguintes integrantes:
+      Ao decorrer da disciplina, a equipe utilizou-se dos conhecimentos
+      adquiridos durante as aulas de Requisitos de Software para consolidar o
+      conhecimento dos casos estudados e serem avaliados pelos professores
+      responsáveis pela matéria. O Grupo 2 é composto pelos seguintes
+      integrantes:
     </p>
 
     <table cellSpacing="8">
@@ -94,13 +111,16 @@ const Disciplina = () => (
 
     <h2>Professores</h2>
     <p>
-      Os professores responsáveis por ministrar a matéria de Requisitos de Software forneceram os materiais de estudo a respeito do conteúdo dado em sala de aula e avaliaram os grupos pelo seus trabalhos entregues. Os professores responsáveis são:
+      Os professores responsáveis por ministrar a matéria de Requisitos de
+      Software forneceram os materiais de estudo a respeito do conteúdo dado em
+      sala de aula e avaliaram os grupos pelo seus trabalhos entregues. Os
+      professores responsáveis são:
     </p>
     <ul>
       <li>Maurício Serrano</li>
       <li>Milene Serrano</li>
     </ul>
   </div>
-)
+);
 
-export default Disciplina
+export default Disciplina;
