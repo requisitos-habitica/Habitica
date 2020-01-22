@@ -1,5 +1,7 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom";
+import AppWithTranslationFooter from "./App";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import "./i18n";
+
+ReactDOM.render(<AppWithTranslationFooter />, document.getElementById("root"));
